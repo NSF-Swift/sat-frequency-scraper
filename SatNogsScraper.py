@@ -19,6 +19,10 @@ def Scraper():
             strName = strID[strID.index('-') + 1:].strip()
             strNum = strID[:strID.index('-')].strip()
             strFreq = str(each.contents[11].contents[0])
+            try:
+                strFreq = str(float(strFreq)/1000000)
+            except:
+                pass
             strDesc = str(each.contents[9].contents[0])
             strStatus = str(each.contents[27].contents[0])
             myDict['ID'] = myDict['ID'] + [strNum]
