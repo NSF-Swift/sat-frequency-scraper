@@ -11,7 +11,7 @@ def Scraper():
     browser.open(url)
     myRes = browser.get_current_page().find_all("tr")
 
-    myDict = {'ID':[], 'Name':[], 'Frequency':[], 'Status':[], 'Description':[],}
+    myDict = {'ID':[], 'Name':[], 'Frequency':[], 'Status':[], 'Description':[]}
 
     for each in myRes[1:]:
         satName = str(each.contents[1].contents[0])
