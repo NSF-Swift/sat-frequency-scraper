@@ -30,21 +30,31 @@ descs = list(np.array(descs)[nameInds])
 
 compDict = {'ID':IDs, 'Name':names, 'Frequency [MHz]':freqs, 'Status':stats, 'Description':descs}
 
-"""
+
+clones = []
 index = 0
 for each in names:
-    if (freqs[index] in freqs[index + 1:]):
-        print(each)
+    eachInd = index + 1
+    for rest in names[eachInd:]:
+        if (rest == each):
+            if ((freqs[index] == freqs[eachInd]) and (stats[index] == stats[eachInd]) and (descs[index] == descs[eachInd])):
+                clones += [eachInd]
+        eachInd += 1
     index += 1
 
-"""
+clones = sorted(list(set(clones)), reverse=True)
 
 
-
+for popInd in clones:
+    compDict['ID'].pop(popInd)
+    compDict['Name'].pop(popInd)
+    compDict['Frequency [MHz]'].pop(popInd)
+    compDict['Status'].pop(popInd)
+    compDict['Description'].pop(popInd)
 
 
 
 
 myFrame = pd.DataFrame.from_dict(compDict)
 #print(sorted(names))
-myFrame.to_csv('SatList.csv', index=False)
+myFrame.to_csv('SatList.csv', index=True)
