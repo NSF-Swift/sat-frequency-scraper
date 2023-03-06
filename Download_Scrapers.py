@@ -44,8 +44,7 @@ def Fcc_Scraper():
     #drop footer
     fcc = fcc.iloc[:-23]
 
-    pd.set_option('display.max_columns', 100)
-    print(fcc)
+    return fcc
 
 def Amsat_Scraper():
     """
@@ -78,6 +77,5 @@ def Amsat_Scraper():
     #drop footer
     amsat = amsat.iloc[:-48]
 
-    pd.set_option('display.max_columns', 100)
-    print(amsat)
+    return amsat
 
