@@ -9,21 +9,8 @@ def Scraper():
 
     fcc_url = "https://transition.fcc.gov/ib/sd/se/ssal.xlsx"
 
-    #request access to the url.
-    r = requests.get(fcc_url, allow_redirects=True)
-
-    if (r.status_code == 200):
-        print('Request successful, scraping database...')
-    elif (r.status_code == 404):
-        print('Error 404: Unsuccessful request, using preexisting database...')
-    
-    #download and write contents onto the directory where script is saved.
-    #XXX need to find way to read contents without having to download spreadsheet and waste storage.
-    #Otherwise, need to create a directory for storing spreadsheets.
-    open('fcc_data.xlsx', 'wb').write(r.content)
-    
     #read spreadsheet and convert into dataframe
-    fcc_xl = pd.read_excel('fcc_data.xlsx')
+    fcc_xl = pd.read_excel(fcc_url)
     fcc_df = pd.DataFrame(fcc_xl)
 
     #drop irrelevant columns

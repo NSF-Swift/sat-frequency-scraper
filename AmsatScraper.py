@@ -9,21 +9,8 @@ def Scraper():
 
     amsat_url = "http://www.ne.jp/asahi/hamradio/je9pel/satslist.xls"
     
-    #request access to the url.
-    r = requests.get(amsat_url, allow_redirects=True)
-
-    if (r.status_code == 200):
-        print('Request successful, converting to dataframe...')
-    elif (r.status_code == 404):
-        print('Error 404: Unsuccessful request, using prexisting dataframe...')
-
-    #download and write contents onto the directory where script is saved.
-    #XXX need to find way to read contents without having to download spreadsheet and waste storage.
-    #Otherwise, need to create a directory for storing spreadsheets.
-    open('amsat_data.xlsx', 'wb').write(r.content)
-    
     #read spreadsheet and drop header
-    amsat_xl = pd.read_excel('amsat_data.xlsx', skiprows=10)
+    amsat_xl = pd.read_excel(amsat_url, skiprows=10)
     
     #convert to dataframe, drop irrelevant columns.
     amsat_df = pd.DataFrame(amsat_xl)
