@@ -28,12 +28,10 @@ def Scraper():
         axis=1
     )
 
-    #drop footer
-    fcc = fcc.iloc[:-23]
 
     #convert to dictionary
     fcc_dict = fcc.to_dict('list')
-    myDict = fcc_dict
+
 
     myDict = {'ID':[str(x) for x in fcc_dict.pop('Call Sign')], 'Name':[str(x) for x in fcc_dict.pop('Satellite Name')],
              'Frequency':[str(x) for x in fcc_dict.pop('Frequency Range')], 'Description':[str(x) for x in fcc_dict.pop('Notes')]}
@@ -46,7 +44,7 @@ def Scraper():
     nulls = []
     index = 0
     for each in myDict['Name']:
-        if (each == 'nan'):
+        if ((each == 'nan') or (myDict['Frequency'][index] == 'nan')):
             nulls += [index]
         index += 1
 
