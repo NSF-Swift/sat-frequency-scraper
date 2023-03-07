@@ -9,7 +9,6 @@ def Scraper():
 
     fcc_url = "https://transition.fcc.gov/ib/sd/se/ssal.xlsx"
 
-
     #read spreadsheet and convert into dataframe
     fcc_xl = pd.read_excel(fcc_url)
     fcc_df = pd.DataFrame(fcc_xl)
