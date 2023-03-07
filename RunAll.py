@@ -9,6 +9,10 @@ from SatNogsScraper import Scraper as sns
 
 myDicts = [sns(), rgs()]
 
+
+
+
+
 IDs, names, freqs, stats, descs = [], [], [], [], []
 for each in myDicts:
     IDs += each['ID']
@@ -51,7 +55,6 @@ for popInd in clones:
     compDict['Frequency [MHz]'].pop(popInd)
     compDict['Status'].pop(popInd)
     compDict['Description'].pop(popInd)
-
 
 
 
