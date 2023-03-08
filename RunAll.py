@@ -6,8 +6,9 @@ import numpy as np
 ### Import Scrapers
 from RadioGuyScraper import Scraper as rgs
 from SatNogsScraper import Scraper as sns
+from FccScraper import Scraper as fccs
 
-myDicts = [sns(), rgs()]
+myDicts = [sns(), rgs(), fccs()]
 
 
 
