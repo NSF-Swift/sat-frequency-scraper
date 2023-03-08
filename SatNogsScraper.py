@@ -12,7 +12,7 @@ def Scraper():
     browser.open(url)
     myRes = browser.get_current_page().find_all("tr")
     rowTag = myRes[1].contents[1]
-    myDict = {'ID':[], 'Name':[], 'Frequency':[], 'Status':[], 'Description':[],}
+    myDict = {'ID':[], 'Name':[], 'Frequency':[], 'Status':[], 'Description':[]}
     for each in myRes[1:]:
         if (each.contents[1] == rowTag):
             strID = str(each.contents[5].contents[1].contents[0]).strip()
