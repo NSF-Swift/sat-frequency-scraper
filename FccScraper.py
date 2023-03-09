@@ -33,9 +33,10 @@ def Scraper():
     fcc_dict = fcc.to_dict('list')
 
 
-    myDict = {'ID':[str(x) for x in fcc_dict.pop('Call Sign')], 'Name':[str(x) for x in fcc_dict.pop('Satellite Name')],
+    myDict = {'Name':[str(x) for x in fcc_dict.pop('Satellite Name')],
              'Frequency':[str(x) for x in fcc_dict.pop('Frequency Range')], 'Description':[str(x) for x in fcc_dict.pop('Notes')]}
-    myDict['Status'] = ['None' for x in myDict['ID']]
+    myDict['Status'] = ['None' for x in myDict['Name']]
+    myDict['ID'] = ['None' for x in myDict['Name']]
 
     #Remove null entries
 

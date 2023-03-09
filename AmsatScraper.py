@@ -14,7 +14,7 @@ def Scraper():
 
     #convert to dataframe, drop irrelevant columns.
     amsat_df = pd.DataFrame(amsat_xl)
-    amsat = amsat_df.drop(['Mode'], axis=1)
+    amsat = amsat_df
 
     #drop footer
     #amsat = amsat.iloc[:-48]
@@ -23,10 +23,10 @@ def Scraper():
     amsat_dict = amsat.to_dict('list')
 
     actDict = {'*':'Active', 'd':'Deep Space', 'f':'Failure', 'i':'Inactive', 'n':'Non-amateur',
-              'r':'Re-entered', 't':'To be launched', 'u':'Unknown', 'w':'Weather sat', 'nan':'None'}
+              'r':'Re-entered', 't':'To be launched', 'u':'Unknown', 'w':'Weather sat', 'nan':'None', 'c':'Canceled'}
     myDict = {'ID':[str(x) for x in amsat_dict.pop('Number')], 'Name':[str(x) for x in amsat_dict.pop('Satellite')],
-             'Frequency':[str(x) for x in amsat_dict.pop('Downlink')], 'Status':[actDict[str(x)] for x in amsat_dict.pop('Unnamed: 7')]}
-    myDict['Description'] = ['None' for x in myDict['ID']]
+             'Frequency':[str(x) for x in amsat_dict.pop('Downlink')], 'Status':[actDict[str(x)] for x in amsat_dict.pop('Unnamed: 7')],
+             'Description':[str(x) for x in amsat_dict.pop('Mode')]}
 
     #Remove null entries
 
@@ -37,6 +37,10 @@ def Scraper():
     for each in myDict['Name']:
         if ((each == 'nan') or (myDict['Frequency'][index] == 'nan')):
             nulls += [index]
+        if (myDict['Description'][index].strip() in actDict.keys()):
+            myDict['Status'][index] = actDict[myDict['Description'][index].strip()]
+            myDict['Description'][index] = 'None'
+
         index += 1
 
     nulls = sorted(nulls, reverse=True)
