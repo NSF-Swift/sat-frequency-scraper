@@ -39,17 +39,38 @@ def Scraper():
     myDict['ID'] = ['None' for x in myDict['Name']]
 
     #Remove null entries
-
-
-
     nulls = []
-    index = 0
-    for each in myDict['Name']:
-        if ((each == 'nan') or (myDict['Frequency'][index] == 'nan')):
-            nulls += [index]
-        index += 1
 
-    nulls = sorted(nulls, reverse=True)
+    for index in range(len(myDict['Frequency'])):
+        nf = []
+
+        if ((myDict['Name'][index] == 'nan') or (myDict['Frequency'][index] == 'nan')):
+            nulls += [index]
+
+        elif ('\n' in myDict['Frequency'][index]):
+            nulls += [index]
+            spl = myDict['Frequency'][index].split('\n')
+            for each in spl:
+                indLine = each.strip().split(' ')
+                indFreq = indLine[0].split('-')
+                print(indLine[1])
+                if (indLine[1] == 'GHz'):
+                    indFreq = [str(1000*float(x)) for x in indFreq]
+                if ((indLine[1] != 'GHz') and (indLine[1] != 'MHz')):
+                    pass
+                if (len(indFreq) == 2):
+                    nf += [indFreq[0] + '-' + indFreq[1]]
+                else:
+                    nf += [indFreq[0]]
+            for newF in nf:
+                myDict['ID'] += [myDict['ID'][index]]
+                myDict['Name'] += [myDict['Name'][index]]
+                myDict['Frequency'] += [newF]
+                myDict['Status'] += [myDict['Status'][index]]
+                myDict['Description'] += [myDict['Description'][index]]
+
+
+    nulls = sorted(list(set(nulls)), reverse=True)
 
     for popInd in nulls:
         myDict['ID'].pop(popInd)
@@ -57,6 +78,7 @@ def Scraper():
         myDict['Frequency'].pop(popInd)
         myDict['Status'].pop(popInd)
         myDict['Description'].pop(popInd)
+
 
     return myDict
 
