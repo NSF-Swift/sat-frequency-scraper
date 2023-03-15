@@ -1,5 +1,31 @@
 import pandas as pd
 import requests
+import re
+
+def entry_parser(Freq):
+    spl = [x.replace(" ", "") for x in Freq.split('\n')]
+    #print(spl)
+    nf = []
+    for each in spl:
+        indFreqs = re.findall(r"[-+]?(?:\d*\.*\d+)", each)
+        if ('GHz' in each):
+            indFreqs = [str(1000*float(x)) for x in indFreqs]
+        if (('GHz' not in each) and ('MHz' not in each)):
+            continue
+        if (len(indFreqs) == 2):
+            if ('-' not in indFreqs[1]):
+                continue
+            nf += [indFreqs[0] + indFreqs[1]]
+        elif (len(indFreqs) == 4):
+            nf += [indFreqs[0] + indFreqs[1], indFreqs[2] + indFreqs[3]]
+        else:
+            nf += [indFreqs[0]]
+    return nf
+
+
+
+
+
 
 def Scraper():
     """
@@ -47,22 +73,13 @@ def Scraper():
         if ((myDict['Name'][index] == 'nan') or (myDict['Frequency'][index] == 'nan')):
             nulls += [index]
 
-        elif ('\n' in myDict['Frequency'][index]):
+        #elif ('\n' in myDict['Frequency'][index]):
+        else:
             nulls += [index]
-            spl = myDict['Frequency'][index].split('\n')
-            for each in spl:
-                indLine = each.strip().split(' ')
-                indFreq = indLine[0].split('-')
-                print(indLine[1])
-                if (indLine[1] == 'GHz'):
-                    indFreq = [str(1000*float(x)) for x in indFreq]
-                if ((indLine[1] != 'GHz') and (indLine[1] != 'MHz')):
-                    pass
-                if (len(indFreq) == 2):
-                    nf += [indFreq[0] + '-' + indFreq[1]]
-                else:
-                    nf += [indFreq[0]]
+            #nf = [x.replace(" ", "") for x in spl] #I will change this eventually
+            nf = entry_parser(myDict['Frequency'][index])
             for newF in nf:
+                #print(newF)
                 myDict['ID'] += [myDict['ID'][index]]
                 myDict['Name'] += [myDict['Name'][index]]
                 myDict['Frequency'] += [newF]

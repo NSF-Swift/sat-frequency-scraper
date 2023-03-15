@@ -7,6 +7,7 @@ import numpy as np
 from RadioGuyScraper import Scraper as rgs
 from SatNogsScraper import Scraper as sns
 from FccScraper import Scraper as fccs
+from AmsatScraper import Scraper as ams
 
 myDicts = [sns(), rgs(), fccs()]
 
