@@ -24,6 +24,7 @@ def Scraper():
 
     actDict = {'*':'Active', 'd':'Deep Space', 'f':'Failure', 'i':'Inactive', 'n':'Non-amateur',
               'r':'Re-entered', 't':'To be launched', 'u':'Unknown', 'w':'Weather sat', 'nan':'None', 'c':'Canceled'}
+              
     myDict = {'ID':[str(x) for x in amsat_dict.pop('Number')], 'Name':[str(x) for x in amsat_dict.pop('Satellite')],
              'Frequency':[str(x) for x in amsat_dict.pop('Downlink')], 'Status':[actDict[str(x)] for x in amsat_dict.pop('Unnamed: 7')],
              'Description':[str(x) for x in amsat_dict.pop('Mode')]}
