@@ -79,10 +79,19 @@ def Scraper():
             #nf = [x.replace(" ", "") for x in spl] #I will change this eventually
             nf = entry_parser(myDict['Frequency'][index])
             for newF in nf:
-                #print(newF)
+                twoF = [float(x) for x in newF.split('-')]
+                print(twoF)
+                if (len(twoF) == 2):
+                    bw = (max(twoF) - min(twoF))
+                    centerF = min(twoF) + (bw/2.)
+                    bw = bw*1000
+                else:
+                    bw = 'None'
+                    centerF = twoF[0]
                 myDict['ID'] += [myDict['ID'][index]]
                 myDict['Name'] += [myDict['Name'][index]]
-                myDict['Frequency'] += [newF]
+                myDict['Frequency'] += [str(centerF)]
+                myDict['Bandwidth/Baud'] += [str(bw) + ' kHz']
                 myDict['Status'] += [myDict['Status'][index]]
                 myDict['Description'] += [myDict['Description'][index]]
 
