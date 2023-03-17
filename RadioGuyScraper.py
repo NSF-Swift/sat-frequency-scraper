@@ -11,11 +11,13 @@ def Scraper():
     browser.open(url)
     myRes = browser.get_current_page().find_all("tr")
 
-    myDict = {'ID':[], 'Name':[], 'Frequency':[], 'Status':[], 'Description':[]}
+    myDict = {'ID':[], 'Name':[], 'Frequency':[], 'Status':[],
+             'Bandwidth/Baud':[], 'Description':[]}
 
     for each in myRes[1:]:
         satName = str(each.contents[1].contents[0])
         ID = 'None'
+        bw = str(each.contents[8].contents[0]).strip()
         FreqRaw = str(each.contents[7].contents[0]).strip()
         mInd = FreqRaw.index("M")
         Freq = FreqRaw[:mInd].strip()
@@ -29,6 +31,7 @@ def Scraper():
         myDict['Name'] = myDict['Name'] + [satName]
         myDict['Frequency'] = myDict['Frequency'] + [Freq]
         myDict['Status'] = myDict['Status'] + [stat]
+        myDict['Bandwidth/Baud'] = myDict['Bandwidth/Baud'] + [bw]
         myDict['Description'] = myDict['Description'] + [Desc]
     return myDict
 
