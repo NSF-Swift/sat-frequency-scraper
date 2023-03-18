@@ -1,6 +1,7 @@
 import pandas as pd
 import requests
 import re
+import numpy as np
 
 def entry_parser(Freq):
     spl = [x.replace(" ", "") for x in Freq.split('\n')]
@@ -80,10 +81,9 @@ def Scraper():
             nf = entry_parser(myDict['Frequency'][index])
             for newF in nf:
                 twoF = [float(x) for x in newF.split('-')]
-                print(twoF)
                 if (len(twoF) == 2):
-                    bw = (max(twoF) - min(twoF))
-                    centerF = min(twoF) + (bw/2.)
+                    bw = np.around((max(twoF) - min(twoF)), 4)
+                    centerF = np.around(min(twoF) + (bw/2.), 4)
                     bw = bw*1000
                 else:
                     bw = 'None'

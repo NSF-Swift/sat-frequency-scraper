@@ -15,11 +15,12 @@ myDicts = [sns(), rgs(), fccs()]
 
 
 
-IDs, names, freqs, stats, descs = [], [], [], [], []
+IDs, names, freqs, bandW, stats, descs = [], [], [], [], [], []
 for each in myDicts:
     IDs += each['ID']
     names += each['Name']
     freqs += each['Frequency']
+    bandW += each['Bandwidth/Baud']
     stats += each['Status']
     descs += each['Description']
 
@@ -31,10 +32,11 @@ nameInds = np.argsort(np.array(names))
 names = list(np.array(names)[nameInds])
 IDs = list(np.array(IDs)[nameInds])
 freqs = list(np.array(freqs)[nameInds])
+bandW = list(np.array(bandW)[nameInds])
 stats = list(np.array(stats)[nameInds])
 descs = list(np.array(descs)[nameInds])
 
-compDict = {'ID':IDs, 'Name':names, 'Frequency [MHz]':freqs, 'Status':stats, 'Description':descs}
+compDict = {'ID':IDs, 'Name':names, 'Frequency [MHz]':freqs, 'Bandwidth [kHz]/Baud':bandW, 'Status':stats, 'Description':descs}
 
 
 clones = []
@@ -55,6 +57,7 @@ for popInd in clones:
     compDict['ID'].pop(popInd)
     compDict['Name'].pop(popInd)
     compDict['Frequency [MHz]'].pop(popInd)
+    compDict['Bandwidth [kHz]/Baud'].pop(popInd)
     compDict['Status'].pop(popInd)
     compDict['Description'].pop(popInd)
 
