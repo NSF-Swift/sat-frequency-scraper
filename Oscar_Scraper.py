@@ -27,32 +27,29 @@ def Scraper():
 
     # pass the defined options and service objects to initialize the web driver
     driver = webdriver.Chrome(options=options, service=chrome_service)
-    driver.implicitly_wait(5)
 
     url = "https://space.oscar.wmo.int/satellitefrequencies"
 
     driver.get(url)
-    time.sleep(1) # time delay ensures that the webpage is fully loaded
+    driver.implicitly_wait(5)
 
     # close pop up tab
-    nr_button = driver.find_element(By.XPATH, '/html/body/div[7]/div[1]/button')
-    nr_button.click()
+    driver.find_element(By.XPATH, '/html/body/div[7]/div[1]/button').click()
 
-    # expand table and click export button
-    driver.execute_script('toggleBox(1);')  # expand the menu
-    ex_button = driver.find_element(By.XPATH, '/html/body/div[1]/div[2]/div[2]/div/form/button')
-    ex_button.click()
+    for i in range(1,4):
+        driver.execute_script(f'toggleBox({i});')
+        driver.find_element(By.XPATH, f'/html/body/div[1]/div[2]/div[{i+1}]/div/form/button').click()
+        time.sleep(2)
 
-    # allow time for download to occur
-    time.sleep(5)
-
-    # generate OSCAR DataFrame
+    # generate OSCAR DataFrames
     oscarXL = []
     for file in os.listdir():
         if (file[:7] == 'Oscar -'):
             oscarXL += [file]
 
-    oscar_df = pd.DataFrame(pd.read_excel(oscarXL[0])).drop([
+    mw_df = pd.DataFrame(pd.read_excel(oscarXL[0]))
+    gs_df = pd.DataFrame(pd.read_excel(oscarXL[1]))
+    sat_df = pd.DataFrame(pd.read_excel(oscarXL[2])).drop([
         'Space Agency',
         'Launch ',
         'Eol',
@@ -66,15 +63,17 @@ def Scraper():
         axis=1
     )
 
-    # generate OSCAR dictionary
-    oscar_dict = oscar_df.to_dict('list')
+    # generate OSCAR dictionaries
+    mw_dict = mw_df.to_dict('list')
+    gs_dict = gs_df.to_dict('list')
+    sat_dict = sat_df.to_dict('list')
 
     myDict = {
-        'ID':[str(x) for x in oscar_dict.pop('Id')],
-        'Name':[str(x) for x in oscar_dict.pop('Satellite')],
-        'Frequency':[str(x) for x in oscar_dict.pop('Frequency (MHz)')],
-        'Bandwidth/Baud':[str(x) for x in oscar_dict.pop('Bandwidth (kHz)')],
-        'Description':[str(x) for x in oscar_dict.pop('Comment')]
+        'ID':[str(x) for x in sat_dict.pop('Id')],
+        'Name':[str(x) for x in sat_dict.pop('Satellite')],
+        'Frequency':[str(x) for x in sat_dict.pop('Frequency (MHz)')],
+        'Bandwidth/Baud':[str(x) for x in sat_dict.pop('Bandwidth (kHz)')],
+        'Description':[str(x) for x in sat_dict.pop('Comment')]
         }
 
     myDict['Status'] = ['None' for x in myDict['Name']]
@@ -84,8 +83,9 @@ def Scraper():
             newF += [each.replace('MHz','').strip()]
             myDict['Frequency'] = newF
 
-    # delete downloaded file
-    os.remove(oscarXL[0])
+    # delete downloaded files
+    for i in range(0,3):
+        os.remove(oscarXL[i])
 
     return myDict
 
