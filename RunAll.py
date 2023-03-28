@@ -17,7 +17,7 @@ def ScrapeAll():
 
 
 
-    IDs, names, freqs, bandW, stats, descs = [], [], [], [], [], []
+    IDs, names, freqs, bandW, stats, descs, sources = [], [], [], [], [], [], []
     for each in myDicts:
         IDs += each['ID']
         names += each['Name']
@@ -25,6 +25,7 @@ def ScrapeAll():
         bandW += each['Bandwidth/Baud']
         stats += each['Status']
         descs += each['Description']
+        sources += each['Source']
 
     """
     Sort based off Names
@@ -37,8 +38,10 @@ def ScrapeAll():
     bandW = list(np.array(bandW)[nameInds])
     stats = list(np.array(stats)[nameInds])
     descs = list(np.array(descs)[nameInds])
+    sources = list(np.array(sources)[nameInds])
 
-    compDict = {'ID':IDs, 'Name':names, 'Frequency [MHz]':freqs, 'Bandwidth [kHz]/Baud':bandW, 'Status':stats, 'Description':descs}
+    compDict = {'ID':IDs, 'Name':names, 'Frequency [MHz]':freqs, 'Bandwidth [kHz]/Baud':bandW,
+                'Status':stats, 'Description':descs, 'Source':sources}
 
 
     clones = []
@@ -62,6 +65,7 @@ def ScrapeAll():
         compDict['Bandwidth [kHz]/Baud'].pop(popInd)
         compDict['Status'].pop(popInd)
         compDict['Description'].pop(popInd)
+        compDict['Source'].pop(popInd)
 
     return compDict
 

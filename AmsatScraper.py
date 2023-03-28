@@ -27,7 +27,7 @@ def Scraper():
 
     myDict = {'ID':[str(x) for x in amsat_dict.pop('Number')], 'Name':[str(x) for x in amsat_dict.pop('Satellite')],
              'Frequency':[str(x) for x in amsat_dict.pop('Downlink')], 'Bandwidth/Baud':[], 'Status':[actDict[str(x)] for x in amsat_dict.pop('Unnamed: 7')],
-             'Description':[str(x) for x in amsat_dict.pop('Mode')]}
+             'Description':[str(x) for x in amsat_dict.pop('Mode')], 'Source':[]}
 
     #Remove null entries
 
@@ -36,6 +36,7 @@ def Scraper():
     nulls = []
     index = 0
     for each in myDict['Name']:
+        myDict['Source'] = myDict['Source'] + ['AmSAT']
         if ((each == 'nan') or (myDict['Frequency'][index] == 'nan')):
             nulls += [index]
         if (myDict['Description'][index].strip() in actDict.keys()):
