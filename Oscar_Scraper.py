@@ -78,6 +78,7 @@ def Scraper():
 
     myDict['Status'] = ['None' for x in myDict['Name']]
     myDict['Source'] = ['Oscar' for x in myDict['Name']]
+
     newF = []
     for each in myDict['Frequency']:
             newF += [each.replace('MHz','').strip()]
