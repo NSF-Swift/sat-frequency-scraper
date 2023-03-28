@@ -1,0 +1,618 @@
+,ID,Name,Frequency,Bandwidth/Baud,Description,Status
+0,4320,Argos-4,401.65,4 kHz,DCP Reports,None
+1,4321,Argos-4,465.9875,5 kHz,DCP commanding,None
+2,398,COMS,2091.76,1000 kHz,Telecommand & Ranging,None
+3,399,COMS,2271.6,1000 kHz,Telemetry,None
+4,1930,COSMIC-1,2039.5,64 kHz,Commands,None
+5,1933,COSMIC-2,2093.1,64 kHz,Commands,None
+6,1936,COSMIC-2b,2093.1,32 kHz,Commands,None
+7,2478,CryoSat,401.25,23 kHz,Precise positioning by DORIS,None
+8,2493,CryoSat,2036.25,95 kHz,Precise positioning by DORIS,None
+9,2479,CryoSat-2,401.25,23 kHz,Precise positioning by DORIS,None
+10,2494,CryoSat-2,2036.25,95 kHz,Precise positioning by DORIS,None
+11,1927,DSCOVR,2039.65,36 kHz,Commands,None
+12,1374,Electro-L N1,406.05,100 kHz,Distress messages,None
+13,1377,Electro-L N1,1544.5,200 kHz,Distress messages to LUT,None
+14,1381,Electro-L N1,5747.124,10050 kHz,"Telemetry, command & ranging",None
+15,1719,Electro-L N1,3405.703,9290 kHz,Telemetry,None
+16,1456,Electro-L N2,406.05,100 kHz,Distress messages,None
+17,1457,Electro-L N2,1544.5,200 kHz,Distress messages to LUT,None
+18,1459,Electro-L N2,465,200 kHz,Data relay satellite to satellite,None
+19,1463,Electro-L N2,5747.124,10050 kHz,"Telemetry, command & ranging",None
+20,1720,Electro-L N2,3405.703,9290 kHz,Telemetry,None
+21,1486,Electro-L N3,406.05,100 kHz,Distress messages,None
+22,1487,Electro-L N3,1544.5,200 kHz,Distress messages to LUT,None
+23,1489,Electro-L N3,465,200 kHz,Data relay satellite to satellite,None
+24,1493,Electro-L N3,5747.124,10050 kHz,"Telemetry, command & ranging",None
+25,1721,Electro-L N3,3405.703,9290 kHz,Telemetry,None
+26,1795,Electro-L N4,406.05,100 kHz,Distress messages,None
+27,1796,Electro-L N4,1544.5,200 kHz,Distress messages to LUT,None
+28,1797,Electro-L N4,465,200 kHz,Data relay satellite to satellite,None
+29,1798,Electro-L N4,5747.124,10050 kHz,"Telemetry, command & ranging",None
+30,1799,Electro-L N4,3405.703,9290 kHz,Telemetry,None
+31,3628,Electro-L N5,406.05,100 kHz,Distress messages,None
+32,3629,Electro-L N5,1544.5,200 kHz,Distress messages to LUT,None
+33,3630,Electro-L N5,465,200 kHz,Data relay satellite to satellite,None
+34,3631,Electro-L N5,5747.124,10050 kHz,"Telemetry, command & ranging",None
+35,3632,Electro-L N5,3405.703,9290 kHz,Telemetry,None
+36,1566,FY-2A,2059.5,26 kHz,Information,None
+37,1567,FY-2A,1699.5,26 kHz,Information,None
+38,1578,FY-2A,2056.5 - 2057.5,70 kHz,Telecommands,None
+39,1584,FY-2B,2059.5,26 kHz,Information,None
+40,1585,FY-2B,1699.5,26 kHz,Information,None
+41,1596,FY-2B,2056.5 - 2057.5,70 kHz,Telecommands,None
+42,1614,FY-2C,2056.5 - 2057.5,70 kHz,Telecommands,None
+43,1632,FY-2D,2056.5 - 2057.5,70 kHz,Telecommands,None
+44,1650,FY-2E,2056.5 - 2057.5,70 kHz,Telecommands,None
+45,1668,FY-2F,2056.5 - 2057.5,70 kHz,Telecommands,None
+46,1686,FY-2G,2056.5 - 2057.5,70 kHz,Telecommands,None
+47,1704,FY-2H,2056.5 - 2057.5,70 kHz,Telecommands,None
+48,1711,FY-4A,401.1 - 401.4,3 kHz,Regional DCP reports,None
+49,1712,FY-4A,402 - 402.1,3 kHz,International DCP reports,None
+50,1713,FY-4A,1688,4000 kHz,DCP report relay,None
+51,1043,GOES-10,401.7 - 402.1,1.2 kHz,DCP reports,None
+52,1044,GOES-10,401.7 - 402.1,0.3 kHz,DCP reports,None
+53,1045,GOES-10,401.7 - 402.1,0.4 kHz,DCP reports,None
+54,1046,GOES-10,1694.5,150 kHz,DCP report relay,None
+55,1047,GOES-10,1694.8,150 kHz,DCP report relay,None
+56,1048,GOES-10,406.05,0.8 kHz,Distress messages,None
+57,1049,GOES-10,406.25,2 kHz,Distress messages,None
+58,1050,GOES-10,1544.5,0.2 kHz,Distress messages to LUT,None
+59,1051,GOES-10,2034.8875,50 kHz,Information,None
+60,1052,GOES-10,1693.4,27 kHz,Information,None
+61,1053,GOES-10,2034.2,20 kHz,Commands,None
+62,1054,GOES-10,2034.2,20 kHz,Commands,None
+63,1055,GOES-10,2034.2,200 kHz,Commands,None
+64,1056,GOES-10,2208.586,500 kHz,Telemetry and ranging,None
+65,1057,GOES-10,2209.086,500 kHz,Telemetry and ranging,None
+66,1058,GOES-10,1694,20 kHz,Telemetry,None
+67,1073,GOES-10 (S-America),401.7 - 402.1,1.2 kHz,DCP reports,None
+68,1074,GOES-10 (S-America),401.7 - 402.1,0.3 kHz,DCP reports,None
+69,1075,GOES-10 (S-America),401.7 - 402.1,0.4 kHz,DCP reports,None
+70,1076,GOES-10 (S-America),1694.5,150 kHz,DCP report relay,None
+71,1077,GOES-10 (S-America),1694.8,150 kHz,DCP report relay,None
+72,1078,GOES-10 (S-America),406.05,0.8 kHz,Distress messages,None
+73,1079,GOES-10 (S-America),406.25,2 kHz,Distress messages,None
+74,1080,GOES-10 (S-America),1544.5,0.2 kHz,Distress messages to LUT,None
+75,1081,GOES-10 (S-America),2034.8875,50 kHz,Information,None
+76,1082,GOES-10 (S-America),1693.4,27 kHz,Information,None
+77,1083,GOES-10 (S-America),2034.2,20 kHz,Commands,None
+78,1084,GOES-10 (S-America),2034.2,20 kHz,Commands,None
+79,1085,GOES-10 (S-America),2034.2,200 kHz,Commands,None
+80,1086,GOES-10 (S-America),2208.586,500 kHz,Telemetry and ranging,None
+81,1087,GOES-10 (S-America),2209.086,500 kHz,Telemetry and ranging,None
+82,1088,GOES-10 (S-America),1694,20 kHz,Telemetry,None
+83,1103,GOES-11,401.7 - 402.1,1.2 kHz,DCP reports,None
+84,1104,GOES-11,401.7 - 402.1,0.3 kHz,DCP reports,None
+85,1105,GOES-11,401.7 - 402.1,0.4 kHz,DCP reports,None
+86,1106,GOES-11,1694.5,150 kHz,DCP report relay,None
+87,1107,GOES-11,1694.8,150 kHz,DCP report relay,None
+88,1108,GOES-11,406.05,0.8 kHz,Distress messages,None
+89,1109,GOES-11,406.25,2 kHz,Distress messages,None
+90,1110,GOES-11,1544.5,0.2 kHz,Distress messages to LUT,None
+91,1111,GOES-11,2034.8875,50 kHz,Information,None
+92,1112,GOES-11,1693.4,27 kHz,Information,None
+93,1113,GOES-11,2034.2,20 kHz,Commands,None
+94,1114,GOES-11,2034.2,20 kHz,Commands,None
+95,1115,GOES-11,2034.2,200 kHz,Commands,None
+96,1116,GOES-11,2208.586,500 kHz,Telemetry and ranging,None
+97,1117,GOES-11,2209.086,500 kHz,Telemetry and ranging,None
+98,1118,GOES-11,1694,20 kHz,Telemetry,None
+99,1133,GOES-12,401.7 - 402.1,1.2 kHz,DCP reports,None
+100,1134,GOES-12,401.7 - 402.1,0.3 kHz,DCP reports,None
+101,1135,GOES-12,401.7 - 402.1,0.4 kHz,DCP reports,None
+102,1136,GOES-12,1694.5,150 kHz,DCP report relay,None
+103,1137,GOES-12,1694.8,150 kHz,DCP report relay,None
+104,1138,GOES-12,406.05,0.8 kHz,Distress messages,None
+105,1139,GOES-12,406.25,2 kHz,Distress messages,None
+106,1140,GOES-12,1544.5,0.2 kHz,Distress messages to LUT,None
+107,1141,GOES-12,2034.8875,50 kHz,Information,None
+108,1142,GOES-12,1693.4,27 kHz,Information,None
+109,1143,GOES-12,2034.2,20 kHz,Commands,None
+110,1144,GOES-12,2034.2,20 kHz,Commands,None
+111,1145,GOES-12,2034.2,200 kHz,Commands,None
+112,1146,GOES-12,2208.586,500 kHz,Telemetry and ranging,None
+113,1147,GOES-12,2209.086,500 kHz,Telemetry and ranging,None
+114,1148,GOES-12,1694,20 kHz,Telemetry,None
+115,1163,GOES-12 (S-America),401.7 - 402.1,1.2 kHz,DCP reports,None
+116,1164,GOES-12 (S-America),401.7 - 402.1,0.3 kHz,DCP reports,None
+117,1165,GOES-12 (S-America),401.7 - 402.1,0.4 kHz,DCP reports,None
+118,1166,GOES-12 (S-America),1694.5,150 kHz,DCP report relay,None
+119,1167,GOES-12 (S-America),1694.8,150 kHz,DCP report relay,None
+120,1168,GOES-12 (S-America),406.05,0.8 kHz,Distress messages,None
+121,1169,GOES-12 (S-America),406.25,2 kHz,Distress messages,None
+122,1170,GOES-12 (S-America),1544.5,0.2 kHz,Distress messages to LUT,None
+123,1171,GOES-12 (S-America),2034.8875,50 kHz,Information,None
+124,1172,GOES-12 (S-America),1693.4,27 kHz,Information,None
+125,1173,GOES-12 (S-America),2034.2,20 kHz,Commands,None
+126,1174,GOES-12 (S-America),2034.2,20 kHz,Commands,None
+127,1175,GOES-12 (S-America),2034.2,200 kHz,Commands,None
+128,1176,GOES-12 (S-America),2208.586,500 kHz,Telemetry and ranging,None
+129,1177,GOES-12 (S-America),2209.086,500 kHz,Telemetry and ranging,None
+130,1178,GOES-12 (S-America),1694,20 kHz,Telemetry,None
+131,808,GOES-13,401.7 - 402.4,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+132,809,GOES-13,401.7 - 402.4,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+133,810,GOES-13,401.7 - 402.4,0.4 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+134,811,GOES-13,1694.5,150 kHz,DCP report relay,None
+135,812,GOES-13,1694.8,150 kHz,DCP report relay,None
+136,813,GOES-13,1694.5,150 kHz,DCP report relay,None
+137,814,GOES-13,1694.8,150 kHz,DCP report relay,None
+138,815,GOES-13,1694.5,150 kHz,DCP report relay,None
+139,816,GOES-13,1694.8,150 kHz,DCP report relay,None
+140,817,GOES-13,406.025,3 kHz,Distress messages,None
+141,818,GOES-13,406.028,3 kHz,Distress messages,None
+142,819,GOES-13,1544.5,200 kHz,Distress messages to LUT,None
+143,820,GOES-13,1544.5,200 kHz,Distress messages to LUT,None
+144,821,GOES-13,2034.7,25 kHz,Information,None
+145,822,GOES-13,1692.7,25 kHz,Information,None
+146,823,GOES-13,2034.2,34 kHz,Commands,None
+147,824,GOES-13,2034.2,200 kHz,Commands,None
+148,825,GOES-13,2034.2,200 kHz,Commands,None
+149,826,GOES-13,2034.2,200 kHz,Commands,None
+150,827,GOES-13,2209.086,500 kHz,Telemetry and ranging,None
+151,828,GOES-13,2209.086,500 kHz,Telemetry and ranging,None
+152,829,GOES-13,2209.086,500 kHz,Telemetry and ranging,None
+153,830,GOES-13,1694,2 kHz,Telemetry,None
+154,831,GOES-13,1694,16 kHz,Telemetry,None
+155,850,GOES-14,401.7 - 402.4,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+156,851,GOES-14,401.7 - 402.4,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+157,852,GOES-14,401.7 - 402.4,0.4 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+158,853,GOES-14,1694.5,150 kHz,DCP report relay,None
+159,854,GOES-14,1694.8,150 kHz,DCP report relay,None
+160,855,GOES-14,1694.5,150 kHz,DCP report relay,None
+161,856,GOES-14,1694.8,150 kHz,DCP report relay,None
+162,857,GOES-14,1694.5,150 kHz,DCP report relay,None
+163,858,GOES-14,1694.8,150 kHz,DCP report relay,None
+164,859,GOES-14,406.025,3 kHz,Distress messages,None
+165,860,GOES-14,406.028,3 kHz,Distress messages,None
+166,861,GOES-14,1544.5,200 kHz,Distress messages to LUT,None
+167,862,GOES-14,1544.5,200 kHz,Distress messages to LUT,None
+168,863,GOES-14,2034.7,25 kHz,Information,None
+169,864,GOES-14,1692.7,25 kHz,Information,None
+170,865,GOES-14,2034.2,34 kHz,Commands,None
+171,866,GOES-14,2034.2,200 kHz,Commands,None
+172,867,GOES-14,2034.2,200 kHz,Commands,None
+173,868,GOES-14,2034.2,200 kHz,Commands,None
+174,869,GOES-14,2209.086,500 kHz,Telemetry and ranging,None
+175,870,GOES-14,2209.086,500 kHz,Telemetry and ranging,None
+176,871,GOES-14,2209.086,500 kHz,Telemetry and ranging,None
+177,872,GOES-14,1694,2 kHz,Telemetry,None
+178,873,GOES-14,1694,16 kHz,Telemetry,None
+179,766,GOES-15,401.7 - 402.4,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+180,767,GOES-15,401.7 - 402.4,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+181,768,GOES-15,401.7 - 402.4,0.4 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+182,769,GOES-15,1694.5,150 kHz,DCP report relay,None
+183,770,GOES-15,1694.8,150 kHz,DCP report relay,None
+184,771,GOES-15,1694.5,150 kHz,DCP report relay,None
+185,772,GOES-15,1694.8,150 kHz,DCP report relay,None
+186,773,GOES-15,1694.5,150 kHz,DCP report relay,None
+187,774,GOES-15,1694.8,150 kHz,DCP report relay,None
+188,775,GOES-15,406.025,3 kHz,Distress messages,None
+189,776,GOES-15,406.028,3 kHz,Distress messages,None
+190,777,GOES-15,1544.5,200 kHz,Distress messages to LUT,None
+191,778,GOES-15,1544.5,200 kHz,Distress messages to LUT,None
+192,779,GOES-15,2034.7,25 kHz,Information,None
+193,780,GOES-15,1692.7,25 kHz,Information,None
+194,781,GOES-15,2034.2,34 kHz,Commands,None
+195,782,GOES-15,2034.2,200 kHz,Commands,None
+196,783,GOES-15,2034.2,200 kHz,Commands,None
+197,784,GOES-15,2034.2,200 kHz,Commands,None
+198,785,GOES-15,2209.086,500 kHz,Telemetry and ranging,None
+199,786,GOES-15,2209.086,500 kHz,Telemetry and ranging,None
+200,787,GOES-15,2209.086,500 kHz,Telemetry and ranging,None
+201,788,GOES-15,1694,2 kHz,Telemetry,None
+202,789,GOES-15,1694,16 kHz,Telemetry,None
+203,932,GOES-16,2032.775,44.5 kHz,DCP Command by user,None
+204,934,GOES-16,2032.825,44.5 kHz,DCP Command by user,None
+205,935,GOES-16,468.775,44.5 kHz,DCP Command,None
+206,936,GOES-16,468.825,44.5 kHz,DCP Command,None
+207,937,GOES-16,401.7 - 402.4,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+208,938,GOES-16,401.7 - 402.4,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+209,939,GOES-16,401.7 - 402.4,400 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+210,945,GOES-16,1680.2,400 kHz,DCP report relay (International),None
+211,949,GOES-16,406.05,1.6 kHz,Distress messages,None
+212,950,GOES-16,1544.55,100 kHz,Distress messages to LUT ,None
+213,951,GOES-16,2036,84 kHz,Telecommands and ranging,None
+214,952,GOES-16,2036,71.4 kHz,Telecommands and ranging,None
+215,953,GOES-16,2036,1500 kHz,Telecommands and ranging,None
+216,954,GOES-16,2034.2,8 kHz,Commands,None
+217,955,GOES-16,2034.2,128 kHz,Commands,None
+218,956,GOES-16,2211.04,1500 kHz,Telemetry and ranging,None
+219,957,GOES-16,2211.04,4920 kHz,Telemetry and ranging,None
+220,1947,GOES-16,2211.04,4930 kHz,Telemetry and ranging,None
+221,1948,GOES-16,1693,80 kHz,Telemetry,None
+222,1949,GOES-16,1693,8 kHz,Telemetry,None
+223,4319,GOES-16,1679.9,400 kHz,DCP report relay (U.S. domestic),None
+224,1960,GOES-17,2032.775,44.5 kHz,DCP Command by user,None
+225,1961,GOES-17,2032.825,44.5 kHz,DCP Command by user,None
+226,1962,GOES-17,468.775,44.5 kHz,DCP Command,None
+227,1963,GOES-17,468.825,44.5 kHz,DCP Command,None
+228,1964,GOES-17,401.7 - 402.4,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+229,1965,GOES-17,401.7 - 402.4,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+230,1967,GOES-17,1679.9,400 kHz,DCP report relay (U:S: domestic),None
+231,1968,GOES-17,1680.2,400 kHz,DCP report relay (International),None
+232,1969,GOES-17,406.05,1.6 kHz,Distress messages,None
+233,1970,GOES-17,1544.55,100 kHz,Distress messages to LUT ,None
+234,1971,GOES-17,2036,84 kHz,Telecommands and ranging,None
+235,1972,GOES-17,2036,71.4 kHz,Telecommands and ranging,None
+236,1973,GOES-17,2036,1500 kHz,Telecommands and ranging,None
+237,1974,GOES-17,2034.2,8 kHz,Commands,None
+238,1975,GOES-17,2034.2,128 kHz,Commands,None
+239,1976,GOES-17,2211.04,1500 kHz,Telemetry and ranging,None
+240,1977,GOES-17,2211.04,4920 kHz,Telemetry and ranging,None
+241,1978,GOES-17,2211.04,4930 kHz,Telemetry and ranging,None
+242,1979,GOES-17,1693,80 kHz,Telemetry,None
+243,1980,GOES-17,1693,8 kHz,Telemetry,None
+244,1991,GOES-18,2032.775,44.5 kHz,DCP Command by user,None
+245,1992,GOES-18,2032.825,44.5 kHz,DCP Command by user,None
+246,1993,GOES-18,468.775,44.5 kHz,DCP Command,None
+247,1994,GOES-18,468.825,44.5 kHz,DCP Command,None
+248,1995,GOES-18,401.7 - 402.4,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+249,1996,GOES-18,401.7 - 402.4,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+250,1998,GOES-18,1679.9,400 kHz,DCP report relay (U:S: domestic),None
+251,1999,GOES-18,1680.2,400 kHz,DCP report relay (International),None
+252,2000,GOES-18,406.05,1 kHz,Distress messages,None
+253,2001,GOES-18,1544.55,100 kHz,Distress messages to LUT ,None
+254,2002,GOES-18,2036,84 kHz,Telecommands and ranging,None
+255,2003,GOES-18,2036,71.4 kHz,Telecommands and ranging,None
+256,2004,GOES-18,2036,1500 kHz,Telecommands and ranging,None
+257,2005,GOES-18,2034.2,8 kHz,Commands,None
+258,2006,GOES-18,2034.2,128 kHz,Commands,None
+259,2007,GOES-18,2211.04,1500 kHz,Telemetry and ranging,None
+260,2008,GOES-18,2211.04,4920 kHz,Telemetry and ranging,None
+261,2009,GOES-18,2211.04,4930 kHz,Telemetry and ranging,None
+262,2010,GOES-18,1693,80 kHz,Telemetry,None
+263,2011,GOES-18,1693,8 kHz,Telemetry,None
+264,892,GOES-8,401.7 - 402.1,1.2 kHz,DCP reports,None
+265,893,GOES-8,401.7 - 402.1,0.3 kHz,DCP reports,None
+266,894,GOES-8,401.7 - 402.1,0.4 kHz,DCP reports,None
+267,895,GOES-8,1694.5,150 kHz,DCP report relay,None
+268,896,GOES-8,1694.8,150 kHz,DCP report relay,None
+269,901,GOES-8,406.05,0.8 kHz,Distress messages,None
+270,902,GOES-8,406.25,2 kHz,Distress messages,None
+271,903,GOES-8,1544.5,0.2 kHz,Distress messages to LUT,None
+272,905,GOES-8,2034.8875,50 kHz,Information,None
+273,906,GOES-8,1693.4,27 kHz,Information,None
+274,907,GOES-8,2034.2,20 kHz,Commands,None
+275,908,GOES-8,2034.2,20 kHz,Commands,None
+276,909,GOES-8,2034.2,200 kHz,Commands,None
+277,911,GOES-8,2208.586,500 kHz,Telemetry and ranging,None
+278,912,GOES-8,2209.086,500 kHz,Telemetry and ranging,None
+279,914,GOES-8,1694,20 kHz,Telemetry,None
+280,983,GOES-9,401.7 - 402.1,1.2 kHz,DCP reports,None
+281,984,GOES-9,401.7 - 402.1,0.3 kHz,DCP reports,None
+282,985,GOES-9,401.7 - 402.1,0.4 kHz,DCP reports,None
+283,986,GOES-9,1694.5,150 kHz,DCP report relay,None
+284,987,GOES-9,1694.8,150 kHz,DCP report relay,None
+285,988,GOES-9,406.05,0.8 kHz,Distress messages,None
+286,989,GOES-9,406.25,2 kHz,Distress messages,None
+287,990,GOES-9,1544.5,0.2 kHz,Distress messages to LUT,None
+288,991,GOES-9,2034.8875,50 kHz,Information,None
+289,992,GOES-9,1693.4,27 kHz,Information,None
+290,993,GOES-9,2034.2,20 kHz,Commands,None
+291,994,GOES-9,2034.2,20 kHz,Commands,None
+292,995,GOES-9,2034.2,200 kHz,Commands,None
+293,996,GOES-9,2208.586,500 kHz,Telemetry and ranging,None
+294,997,GOES-9,2209.086,500 kHz,Telemetry and ranging,None
+295,998,GOES-9,1694,20 kHz,Telemetry,None
+296,1013,GOES-9 (GMS backup),401.7 - 402.1,1.2 kHz,DCP reports,None
+297,1014,GOES-9 (GMS backup),401.7 - 402.1,0.3 kHz,DCP reports,None
+298,1015,GOES-9 (GMS backup),401.7 - 402.1,0.4 kHz,DCP reports,None
+299,1016,GOES-9 (GMS backup),1694.5,150 kHz,DCP report relay,None
+300,1017,GOES-9 (GMS backup),1694.8,150 kHz,DCP report relay,None
+301,1018,GOES-9 (GMS backup),406.05,0.8 kHz,Distress messages,None
+302,1019,GOES-9 (GMS backup),406.25,2 kHz,Distress messages,None
+303,1020,GOES-9 (GMS backup),1544.5,0.2 kHz,Distress messages to LUT,None
+304,1021,GOES-9 (GMS backup),2034.8875,50 kHz,Information,None
+305,1022,GOES-9 (GMS backup),1693.4,27 kHz,Information,None
+306,1023,GOES-9 (GMS backup),2034.2,20 kHz,Commands,None
+307,1024,GOES-9 (GMS backup),2034.2,20 kHz,Commands,None
+308,1025,GOES-9 (GMS backup),2034.2,200 kHz,Commands,None
+309,1026,GOES-9 (GMS backup),2208.586,500 kHz,Telemetry and ranging,None
+310,1027,GOES-9 (GMS backup),2209.086,500 kHz,Telemetry and ranging,None
+311,1028,GOES-9 (GMS backup),1694,20 kHz,Telemetry,None
+312,2022,GOES-U,2032.775,44.5 kHz,DCP Command by user,None
+313,2023,GOES-U,2032.825,44.5 kHz,DCP Command by user,None
+314,2024,GOES-U,468.775,44.5 kHz,DCP Command,None
+315,2025,GOES-U,468.825,44.5 kHz,DCP Command,None
+316,2026,GOES-U,401.7 - 402.4,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+317,2027,GOES-U,401.7 - 402.4,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None
+318,2029,GOES-U,1679.9,400 kHz,DCP report relay (U:S: domestic),None
+319,2030,GOES-U,1680.2,400 kHz,DCP report relay (International),None
+320,2031,GOES-U,406.05,1.6 kHz,Distress messages,None
+321,2032,GOES-U,1544.55,100 kHz,Distress messages to LUT ,None
+322,2033,GOES-U,2036,84 kHz,Telecommands and ranging,None
+323,2034,GOES-U,2036,71.4 kHz,Telecommands and ranging,None
+324,2035,GOES-U,2036,1500 kHz,Telecommands and ranging,None
+325,2036,GOES-U,2034.2,8 kHz,Commands,None
+326,2037,GOES-U,2034.2,128 kHz,Commands,None
+327,2038,GOES-U,2211.04,1500 kHz,Telemetry and ranging,None
+328,2039,GOES-U,2211.04,4920 kHz,Telemetry and ranging,None
+329,2040,GOES-U,2211.04,4930 kHz,Telemetry and ranging,None
+330,2041,GOES-U,1693,80 kHz,Telemetry,None
+331,2042,GOES-U,1693,8 kHz,Telemetry,None
+332,414,Himawari-6 (MTSAT-1R),2100.164,550 kHz,Telecommand and ranging,None
+333,415,Himawari-6 (MTSAT-1R),2280.721,1100 kHz,Telemetry and ranging,None
+334,416,Himawari-6 (MTSAT-1R),2034.2,300 kHz,Telecommand,None
+335,417,Himawari-6 (MTSAT-1R),1694,400 kHz,Telemetry,None
+336,472,Himawari-7 (MTSAT-2),2100.164,550 kHz,Telecommand and ranging,None
+337,473,Himawari-7 (MTSAT-2),2280.721,1100 kHz,Telemetry and ranging,None
+338,474,Himawari-7 (MTSAT-2),2034.2,300 kHz,Telecommand,None
+339,475,Himawari-7 (MTSAT-2),1694,400 kHz,Telemetry,None
+340,1872,Himawari-8,14125,40 kHz,Telecommands and ranging,None
+341,1873,Himawari-8,14125,250 kHz,Telecommands and ranging,None
+342,1874,Himawari-8,14125,620 kHz,Reference for Telecommands and ranging (no data carried),None
+343,2044,Himawari-8,12475,1200 kHz,Telemetry and ranging,None
+344,2045,Himawari-8,12475,1200 kHz,Telemetry and ranging,None
+345,2054,Himawari-9,14125,40 kHz,Telecommands and ranging,None
+346,2055,Himawari-9,14125,250 kHz,Telecommands and ranging,None
+347,2056,Himawari-9,14125,620 kHz,Reference for Telecommands and ranging (no data carried),None
+348,2057,Himawari-9,12475,1200 kHz,Telemetry and ranging,None
+349,2058,Himawari-9,12475,1200 kHz,Telemetry and ranging,None
+350,2480,HY-2A,401.25,23 kHz,Precise positioning by DORIS,None
+351,2495,HY-2A,2036.25,95 kHz,Precise positioning by DORIS,None
+352,2482,HY-2C,401.25,23 kHz,Precise positioning by DORIS,None
+353,2497,HY-2C,2036.25,95 kHz,Precise positioning by DORIS,None
+354,2483,HY-2D,401.25,23 kHz,Precise positioning by DORIS,None
+355,2498,HY-2D,2036.25,95 kHz,Precise positioning by DORIS,None
+356,1722,INSAT-3A,406.025,80 kHz,Distress messages,None
+357,1723,INSAT-3A,4505.7,80 kHz,Distress messages to LUT,None
+358,1728,INSAT-3D,406.05,80 kHz,Distress messages,None
+359,1729,INSAT-3D,4507,80 kHz,Distress messages to LUT,None
+360,1734,INSAT-3DR,406.05,80 kHz,Distress messages,None
+361,1735,INSAT-3DR,4507,80 kHz,Distress messages to LUT,None
+362,1741,INSAT-3DS,406.05,80 kHz,Distress messages,None
+363,1742,INSAT-3DS,4507,80 kHz,Distress messages to LUT,None
+364,2489,JASON-1,401.25,23 kHz,Precise positioning by DORIS,None
+365,2504,JASON-1,2036.25,95 kHz,Precise positioning by DORIS,None
+366,1941,JASON-2,401.25,23 kHz,Precise positioning by DORIS,None
+367,1942,JASON-2,2036.25,95 kHz,Precise positioning by DORIS,None
+368,2182,JASON-2,2088.878,8 kHz,Commands,None
+369,2187,JASON-3,401.25,23 kHz,Precise positioning by DORIS,None
+370,2188,JASON-3,2036.25,95 kHz,Precise positioning by DORIS,None
+371,3767,JASON-3,2040.493,8 kHz,Commands,None
+372,1904,JPSS-3,2067.27,6040 kHz,Transmission to TDRSS,None
+373,1905,JPSS-3,2247.5,6040 kHz,Return from TDRSS,None
+374,1906,JPSS-3,2067.27,32 kHz,Commands,None
+375,1907,JPSS-3,2067.27,256 kHz,Commands (memory load),None
+376,1908,JPSS-3,2247.5,3200 kHz,Telemetry and commands (info data rate),None
+377,1910,JPSS-3,1227.6,24000 kHz,GPS reception at JPSS (info data rate),None
+378,1911,JPSS-3,1575.42,24000 kHz,GPS reception at JPSS (info data rate),None
+379,1917,JPSS-4,2067.27,6040 kHz,Transmission to TDRSS,None
+380,1918,JPSS-4,2247.5,6040 kHz,Return from TDRSS,None
+381,1919,JPSS-4,2067.27,32 kHz,Commands,None
+382,1920,JPSS-4,2067.092 - 2067.448,256 kHz,Commands (memory load),None
+383,1921,JPSS-4,2247.5,3200 kHz,Telemetry and commands (info data rate),None
+384,1923,JPSS-4,1227.6,24000 kHz,GPS reception at JPSS (info data rate),None
+385,1924,JPSS-4,1575.42,24000 kHz,GPS reception at JPSS (info data rate),None
+386,1353,Meteor-M N1,5747.124,10010 kHz,"Telemetry, command & ranging",None
+387,1556,Meteor-M N1,3405.235,9290 kHz,Telemetry,None
+388,1510,Meteor-M N2,5747.124,10010 kHz,"Telemetry, command & ranging",None
+389,1558,Meteor-M N2,3405.235,9290 kHz,Telemetry,None
+390,1529,Meteor-M N2-1,5747.124,10010 kHz,"Telemetry, command & ranging",None
+391,1560,Meteor-M N2-1,3405.235,9290 kHz,Telemetry,None
+392,1548,Meteor-M N2-2,5747.124,10010 kHz,"Telemetry, command & ranging",None
+393,1562,Meteor-M N2-2,3405.235,9290 kHz,Telemetry,None
+394,1813,Meteor-M N2-3,5747.124,10010 kHz,"Telemetry, command & ranging",None
+395,1814,Meteor-M N2-3,3405.235,9290 kHz,Telemetry,None
+396,1828,Meteor-M N2-4,5747.124,10010 kHz,"Telemetry, command & ranging",None
+397,1829,Meteor-M N2-4,3405.235,9290 kHz,Telemetry,None
+398,1843,Meteor-M N2-5,5747.124,10010 kHz,"Telemetry, command & ranging",None
+399,1844,Meteor-M N2-5,3405.235,9290 kHz,Telemetry,None
+400,3646,Meteor-M N2-6,5747.124,10010 kHz,"Telemetry, command & ranging",None
+401,3647,Meteor-M N2-6,3405.235,9290 kHz,Telemetry,None
+402,640,Meteosat-10,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None
+403,641,Meteosat-10,1544.5,200 kHz,Distress messages to LUT,None
+404,642,Meteosat-10,2069.5729,1000 kHz,Telecommand and ranging,None
+405,643,Meteosat-10,2247.5,1000 kHz,Telemetry,None
+406,655,Meteosat-11,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None
+407,656,Meteosat-11,1544.5,200 kHz,Distress messages to LUT,None
+408,657,Meteosat-11,2070.4938,1000 kHz,Telecommand and ranging,None
+409,658,Meteosat-11,2248.5,1000 kHz,Telemetry,None
+410,611,Meteosat-4,2098,6.3 kHz,Telecommand and ranging,None
+411,612,Meteosat-4,2099,6.3 kHz,Telecommand and ranging,None
+412,613,Meteosat-4,2242.225,2.6 kHz,Telemetry,None
+413,614,Meteosat-4,1676.428,2.6 kHz,Telemetry,None
+414,596,Meteosat-5,2098,6.3 kHz,Telecommand and ranging,None
+415,597,Meteosat-5,2099,6.3 kHz,Telecommand and ranging,None
+416,598,Meteosat-5,2242.2325,2.6 kHz,Telemetry,None
+417,599,Meteosat-5,1676.428,2.6 kHz,Telemetry,None
+418,581,Meteosat-5 (IODC),2098,6.3 kHz,Telecommand and ranging,None
+419,582,Meteosat-5 (IODC),2099,6.3 kHz,Telecommand and ranging,None
+420,583,Meteosat-5 (IODC),2242.225,2.6 kHz,Telemetry,None
+421,584,Meteosat-5 (IODC),1676.428,2.6 kHz,Telemetry,None
+422,566,Meteosat-6,2098,6.3 kHz,Telecommand and ranging,None
+423,567,Meteosat-6,2099,6.3 kHz,Telecommand and ranging,None
+424,568,Meteosat-6,2242.225,2.6 kHz,Telemetry,None
+425,569,Meteosat-6,1676.428,2.6 kHz,Telemetry,None
+426,551,Meteosat-6 (IODC),2098,6.3 kHz,Telecommand and ranging,None
+427,552,Meteosat-6 (IODC),2099,6.3 kHz,Telecommand and ranging,None
+428,553,Meteosat-6 (IODC),2242.225,2.6 kHz,Telemetry,None
+429,554,Meteosat-6 (IODC),1676.428,2.6 kHz,Telemetry,None
+430,444,Meteosat-7,2098,6.3 kHz,Telecommand and ranging,None
+431,445,Meteosat-7,2099,6.3 kHz,Telecommand and ranging,None
+432,446,Meteosat-7,2242.225,2.6 kHz,Telemetry,None
+433,447,Meteosat-7,1676.428,2.6 kHz,Telemetry,None
+434,536,Meteosat-7 (IODC),2098,6.3 kHz,Telecommand and ranging,None
+435,537,Meteosat-7 (IODC),2099,6.3 kHz,Telecommand and ranging,None
+436,538,Meteosat-7 (IODC),2242.225,2.6 kHz,Telemetry,None
+437,539,Meteosat-7 (IODC),1676.428,2.6 kHz,Telemetry,None
+438,436,Meteosat-8,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None
+439,437,Meteosat-8,1544.5,200 kHz,Distress messages to LUT,None
+440,438,Meteosat-8,2068.6521,1000 kHz,Telecommand and ranging,None
+441,439,Meteosat-8,2246.5,1000 kHz,Telemetry,None
+442,2067,Meteosat-8 (IODC),406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None
+443,2068,Meteosat-8 (IODC),1544.5,200 kHz,Distress messages to LUT,None
+444,2069,Meteosat-8 (IODC),2068.6521,1000 kHz,Telecommand and ranging,None
+445,2070,Meteosat-8 (IODC),2246.5,1000 kHz,Telemetry,None
+446,625,Meteosat-9,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None
+447,626,Meteosat-9,1544.5,200 kHz,Distress messages to LUT,None
+448,627,Meteosat-9,2067.731,1000 kHz,Telecommand and ranging,None
+449,628,Meteosat-9,2245.5,1000 kHz,Telemetry,None
+450,4065,Meteosat-9 (IODC),406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None
+451,4066,Meteosat-9 (IODC),1544.5,200 kHz,Distress messages to LUT,None
+452,4067,Meteosat-9 (IODC),2067.731,1000 kHz,Telecommand and ranging,None
+453,4068,Meteosat-9 (IODC),2245.5,1000 kHz,Telemetry,None
+454,430,Metop-A,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None
+455,431,Metop-A,1544.5,200 kHz,Distress messages to LUT,None
+456,432,Metop-A,2053.4583,1500 kHz,Telecommand and ranging,None
+457,433,Metop-A,2230,2000 kHz,Telemetry,None
+458,504,Metop-B,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None
+459,505,Metop-B,1544.5,200 kHz,Distress messages to LUT,None
+460,506,Metop-B,2053.4583,1500 kHz,Telecommand and ranging,None
+461,507,Metop-B,2230,2000 kHz,Telemetry,None
+462,746,Metop-C,2053.4583,1500 kHz,Telecommand and ranging,None
+463,747,Metop-C,2230,2000 kHz,Telemetry,None
+464,3967,Metop-SG-A1,2054.9317,1000 kHz,Telecommand,None
+465,3969,Metop-SG-A1,2231.6,1400 kHz,Telemetry,None
+466,3977,Metop-SG-A2,2056.0367,1000 kHz,"Telecommand
+
+",None
+467,3979,Metop-SG-A2,2232.8,1400 kHz,"Telemetry
+
+",None
+468,3985,Metop-SG-A3,2054.9317,1000 kHz,Telecommand,None
+469,3987,Metop-SG-A3,2231.6,1400 kHz,Telemetry,None
+470,3993,Metop-SG-B1,2051.985,1000 kHz,Telecommand,None
+471,3995,Metop-SG-B1,2228.4,1400 kHz,Telemetry,None
+472,4002,Metop-SG-B2,2057.1417,1000 kHz,Telecommand,None
+473,4004,Metop-SG-B2,2234,1400 kHz,Telemetry,None
+474,4009,Metop-SG-B3,2051.985,1000 kHz,Telecommand,None
+475,4011,Metop-SG-B3,2228.4,1400 kHz,Telemetry,None
+476,48,MTG-I1,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None
+477,49,MTG-I1,1544.3,200 kHz,Distress messages to LUT,None
+478,3881,MTG-I1,1544.5,200 kHz,Distress messages to LUT,None
+479,3882,MTG-I1,2065.8896,1000 kHz,Telecommand,None
+480,3884,MTG-I1,2243.5,1000 kHz,Telemetry (primary),None
+481,3888,MTG-I1,2247.5,1000 kHz,Telemetry (secondary),None
+482,3889,MTG-I1,2251.5,1000 kHz,Telemetry (secondary),None
+483,3891,MTG-I1,2256.5,1000 kHz,Telemetry (secondary),None
+484,667,MTG-I2,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None
+485,668,MTG-I2,1544.3,200 kHz,Distress messages to LUT,None
+486,669,MTG-I2,1544.5,200 kHz,Distress messages to LUT,None
+487,671,MTG-I2,2070.493,1000 kHz,Telecommand,None
+488,673,MTG-I2,2248.5,1000 kHz,Telemetry (primary),None
+489,3906,MTG-I2,2242.5,1000 kHz,Telemetry (secondary),None
+490,3907,MTG-I2,2245.5,1000 kHz,Telemetry (secondary),None
+491,3910,MTG-I2,2254.5,1000 kHz,Telemetry (secondary),None
+492,682,MTG-I3,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None
+493,683,MTG-I3,1544.3,200 kHz,Distress messages to LUT,None
+494,684,MTG-I3,1544.5,200 kHz,Distress messages to LUT,None
+495,685,MTG-I3,2065.8896,1000 kHz,Telecommand,None
+496,687,MTG-I3,2243.5,1000 kHz,Telemetry (primary),None
+497,3914,MTG-I3,2247.5,1000 kHz,Telemetry (secondary),None
+498,3915,MTG-I3,2251.5,1000 kHz,Telemetry (secondary),None
+499,3917,MTG-I3,2256.5,1000 kHz,Telemetry (secondary),None
+500,697,MTG-I4,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None
+501,698,MTG-I4,1544.3,200 kHz,Distress messages to LUT,None
+502,699,MTG-I4,1544.5,200 kHz,Distress messages to LUT,None
+503,701,MTG-I4,2070.493,1000 kHz,Telecommand,None
+504,703,MTG-I4,2248.5,1000 kHz,Telemetry (primary),None
+505,3918,MTG-I4,2242.5,1000 kHz,Telemetry (secondary),None
+506,3919,MTG-I4,2245.5,1000 kHz,Telemetry (secondary),None
+507,3922,MTG-I4,2254.5,1000 kHz,Telemetry (secondary),None
+508,3893,MTG-S1,2253.5,1000 kHz,Telemetry (primary),None
+509,3895,MTG-S1,2243.5,1000 kHz,Telemetry (secondary),None
+510,3897,MTG-S1,2246.5,1000 kHz,Telemetry (secondary),None
+511,4335,MTG-S1,2075.0979,1000 kHz,Telecommand,None
+512,730,MTG-S2,2079.7021,1000 kHz,Telecommand,None
+513,732,MTG-S2,2258.5,1000 kHz,Telemetry (primary),None
+514,3901,MTG-S2,2244.5,1000 kHz,Telemetry (secondary),None
+515,3903,MTG-S2,2247.5,1000 kHz,Telemetry (secondary),None
+516,3904,MTG-S2,2251.5,1000 kHz,Telemetry (secondary),None
+517,963,NOAA-15,401.65,4 kHz,DCP reports,None
+518,964,NOAA-15,465.9875,5 kHz,DCP commanding,None
+519,965,NOAA-15,406.05,4 kHz,Distress messages,None
+520,966,NOAA-15,1544.5,750 kHz,Distress messages to LUT,None
+521,967,NOAA-15,2026,2000 kHz,Commands,None
+522,968,NOAA-15,2247.5,6000 kHz,Telemetry and command,None
+523,1279,NOAA-16,401.65,4 kHz,DCP reports,None
+524,1280,NOAA-16,465.9875,5 kHz,DCP commanding,None
+525,1281,NOAA-16,406.05,4 kHz,Distress messages,None
+526,1282,NOAA-16,1544.5,750 kHz,Distress messages to LUT,None
+527,1283,NOAA-16,2026,2000 kHz,Commands,None
+528,1284,NOAA-16,2247.5,6000 kHz,Telemetry and command,None
+529,1295,NOAA-17,401.65,4 kHz,DCP reports,None
+530,1296,NOAA-17,465.9875,5 kHz,DCP commanding,None
+531,1297,NOAA-17,406.05,4 kHz,Distress messages,None
+532,1298,NOAA-17,1544.5,750 kHz,Distress messages to LUT,None
+533,1299,NOAA-17,2026,2000 kHz,Commands,None
+534,1300,NOAA-17,2247.5,6000 kHz,Telemetry and command,None
+535,1311,NOAA-18,401.65,4 kHz,DCP reports,None
+536,1312,NOAA-18,465.9875,5 kHz,DCP commanding,None
+537,1313,NOAA-18,406.05,4 kHz,Distress messages,None
+538,1314,NOAA-18,1544.5,750 kHz,Distress messages to LUT,None
+539,1315,NOAA-18,2026,2000 kHz,Commands,None
+540,1316,NOAA-18,2247.5,6000 kHz,Telemetry and command,None
+541,1327,NOAA-19,401.65,4 kHz,DCP reports,None
+542,1328,NOAA-19,465.9875,5 kHz,DCP commanding,None
+543,1329,NOAA-19,406.05,4 kHz,Distress messages,None
+544,1330,NOAA-19,1544.5,750 kHz,Distress messages to LUT,None
+545,1331,NOAA-19,2026,2000 kHz,Commands,None
+546,1332,NOAA-19,2247.5,6000 kHz,Telemetry and command,None
+547,1392,NOAA-20,2067.27,6040 kHz,Transmission to TDRSS ,None
+548,1393,NOAA-20,2247.5,6040 kHz,Return from TDRSS,None
+549,1394,NOAA-20,2067.27,4 kHz,Commands,None
+550,1892,NOAA-20,2067.27,256 kHz,Commands (memory load),None
+551,1893,NOAA-20,2247.5,3200 kHz,Telemetry and commands,None
+552,1894,NOAA-20,2247.5,6040 kHz,Telemetry and commands,None
+553,1895,NOAA-20,1227.6,24000 kHz,GPS reception at JPSS,None
+554,1896,NOAA-20,1575.42,24000 kHz,GPS reception at JPSS,None
+555,1339,NOAA-21,2067.27,6040 kHz,Transmission to TDRSS,None
+556,1340,NOAA-21,2247.5,6040 kHz,Return from TDRSS,None
+557,1341,NOAA-21,2067.27,32 kHz,Commands,None
+558,1342,NOAA-21,2067.3,512 kHz,Commands (memory load),None
+559,1551,NOAA-21,2247.5,3200 kHz,Telemetry and commands  (info data rate),None
+560,1897,NOAA-21,1227.6,24000 kHz,GPS reception at JPSS (info data rate),None
+561,1898,NOAA-21,1575.42,24000 kHz,GPS reception at JPSS (info data rate),None
+562,4324,Odin,2033.35,250 kHz,Telecommand,None
+563,4325,Odin,2208.1629,5120 kHz,Telemetry,None
+564,4292,RadarSat-2,2230,4000 kHz,Spacecraft telemetry,None
+565,4294,RadarSat-2,2053.46,1000 kHz,Spacecraft telecommand,None
+566,4297,RCM-1,2230,600 kHz,Spacecraft telemetry,None
+567,4298,RCM-1,2053.46,500 kHz,Spacecraft telecommand,None
+568,4303,RCM-2,2230,600 kHz,Spacecraft telemetry,None
+569,4304,RCM-2,2053.46,500 kHz,Spacecraft telecommand,None
+570,4309,RCM-3,2230,600 kHz,Spacecraft telemetry,None
+571,4310,RCM-3,2053.46,500 kHz,Spacecraft telecommand,None
+572,2490,SARAL,401.25,23 kHz,Precise positioning by DORIS,None
+573,2505,SARAL,2036.25,95 kHz,Precise positioning by DORIS,None
+574,4314,SCISAT-1,2232,6000 kHz,Spacecraft telemetry shared with science data downlink,None
+575,4315,SCISAT-1,2053.6,3400 kHz,Spacecraft telecommand,None
+576,2491,Sentinel-3A,401.25,23 kHz,Precise positioning by DORIS,None
+577,2506,Sentinel-3A,2036.25,95 kHz,Precise positioning by DORIS,None
+578,3670,Sentinel-3A,2075.65,768 kHz,Telecommands,None
+579,3674,Sentinel-3A,2254.1,2200 kHz,High Data Rate Telemetry,None
+580,3681,Sentinel-3B,401.25,23 kHz,Precise positioning by DORIS,None
+581,3682,Sentinel-3B,2036.25,95 kHz,Precise positioning by DORIS,None
+582,3683,Sentinel-3B,2075.65,768 kHz,Telecommands,None
+583,3684,Sentinel-3B,2254.1,2200 kHz,High Data Rate Telemetry,None
+584,3689,Sentinel-3C,401.25,23 kHz,Precise positioning by DORIS,None
+585,3690,Sentinel-3C,2036.25,95 kHz,Precise positioning by DORIS,None
+586,3691,Sentinel-3C,2075.65,768 kHz,Telecommands,None
+587,3692,Sentinel-3C,2254.1,2200 kHz,High Data Rate Telemetry,None
+588,3697,Sentinel-3D,401.25,23 kHz,Precise positioning by DORIS,None
+589,3698,Sentinel-3D,2036.25,95 kHz,Precise positioning by DORIS,None
+590,3699,Sentinel-3D,2075.65,768 kHz,Telecommands,None
+591,3700,Sentinel-3D,2254.1,2200 kHz,High Data Rate Telemetry,None
+592,4018,Sentinel-6A,401.25,23 kHz,Precise positioning by DORIS,None
+593,4019,Sentinel-6A,2036.25,95 kHz,Precise positioning by DORIS,None
+594,4020,Sentinel-6A,2256.75,1750 kHz,Telemetry,None
+595,4023,Sentinel-6A,2078.0906,192 kHz,Commands,None
+596,4026,Sentinel-6B,401.25,23 kHz,Precise positioning by DORIS,None
+597,4027,Sentinel-6B,2036.25,95 kHz,Precise positioning by DORIS,None
+598,4028,Sentinel-6B,2268.5,1750 kHz,Telemetry,None
+599,4029,Sentinel-6B,2088.9104,192 kHz,Commands,None
+600,1424,SNPP,2067.27,6000 kHz,Trasmission to TDRSS,None
+601,1425,SNPP,2247.5,6040 kHz,Return from TDRSS,None
+602,1430,SNPP,2067.3,4 kHz,Commands,None
+603,1431,SNPP,2067.3,256 kHz,Commands (memory load),None
+604,1433,SNPP,2247.5,6040 kHz,Telemetry and commands,None
+605,1890,SNPP,1227.6,24000 kHz,GPS reception at SNPP,None
+606,1891,SNPP,1575.42,24000 kHz,GPS reception at SNPP,None
+607,4171,THEOS-1,2035.9625,8 kHz,Telecommand,None
+608,4172,THEOS-1,2211,800 kHz,Telemetry and ranging,None
+609,4174,THEOS-2 Main,2066.56,120 kHz,Telecommand,None
+610,4175,THEOS-2 Main,2244.228,240 kHz,Telemetry and ranging,None
+611,4177,THEOS-2 Small,2060,70 kHz,Telecommand,None
+612,4178,THEOS-2 Small,2236.666,70 kHz,Telemetry and ranging,None
