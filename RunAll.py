@@ -59,13 +59,15 @@ def ScrapeAll():
 
 
     for popInd in clones:
-        compDict['ID'].pop(popInd)
-        compDict['Name'].pop(popInd)
-        compDict['Frequency [MHz]'].pop(popInd)
-        compDict['Bandwidth [kHz]/Baud'].pop(popInd)
-        compDict['Status'].pop(popInd)
-        compDict['Description'].pop(popInd)
-        compDict['Source'].pop(popInd)
+        for Key in compDict:
+            compDict[Key].pop(popInd)
+        #compDict['ID'].pop(popInd)
+        #compDict['Name'].pop(popInd)
+        #compDict['Frequency [MHz]'].pop(popInd)
+        #compDict['Bandwidth [kHz]/Baud'].pop(popInd)
+        #compDict['Status'].pop(popInd)
+        #compDict['Description'].pop(popInd)
+        #compDict['Source'].pop(popInd)
 
     return compDict
 

@@ -101,12 +101,15 @@ def Scraper():
     nulls = sorted(list(set(nulls)), reverse=True)
 
     for popInd in nulls:
-        myDict['ID'].pop(popInd)
-        myDict['Name'].pop(popInd)
-        myDict['Frequency'].pop(popInd)
-        myDict['Status'].pop(popInd)
-        myDict['Description'].pop(popInd)
-        myDict['Source'].pop(popInd)
+        for Key in myDict:
+            if (Key != 'Bandwidth/Baud'):
+                myDict[Key].pop(popInd)
+        #myDict['ID'].pop(popInd)
+        #myDict['Name'].pop(popInd)
+        #myDict['Frequency'].pop(popInd)
+        #myDict['Status'].pop(popInd)
+        #myDict['Description'].pop(popInd)
+        #myDict['Source'].pop(popInd)
 
 
     return myDict
