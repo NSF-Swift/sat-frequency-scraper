@@ -1,6 +1,7 @@
 import mechanicalsoup
 import requests
 import pandas as pd
+import numpy as np
 
 def Scraper():
     """
@@ -34,6 +35,13 @@ def Scraper():
         myDict['Bandwidth/Baud'] = myDict['Bandwidth/Baud'] + [bw]
         myDict['Description'] = myDict['Description'] + [Desc]
         myDict['Source'] = myDict['Source'] + ['USRadioGuy']
+
+    for index in range(len(myDict['Frequency'])):
+        each = myDict['Frequency'][index]
+        if ('-' in each):
+            indFreqs = [float(x.strip()) for x in each.split('-')]
+            newF = str(np.average(indFreqs))
+            myDict['Frequency'][index] = newF
     return myDict
 
 

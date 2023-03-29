@@ -1,0 +1,849 @@
+,ID,Name,Frequency,Status,Bandwidth/Baud,Description,Source
+0,None,COMS,1687,inactive,6000 kHz,Raw data,USRadioGuy
+1,None,COMS,2040.9,inactive,5200 kHz,High resolution data,USRadioGuy
+2,None,COMS,1695.4,inactive,5200 kHz,High resolution data,USRadioGuy
+3,None,COMS,2037.64,inactive,1000 kHz,Selected data,USRadioGuy
+4,None,COMS,1692.14,inactive,1000 kHz,Selected data,USRadioGuy
+5,None,COSMIC-1,2215,inactive,4560 kHz,"Telemetry, sensor data",USRadioGuy
+6,None,COSMIC-1,2215,inactive,64 kHz,"Telemetry, sensor data",USRadioGuy
+7,None,COSMIC-2,2264,inactive,4000 kHz,"Telemetry, sensor data",USRadioGuy
+8,None,COSMIC-2,2264,inactive,64 kHz,"Telemetry, sensor data",USRadioGuy
+9,None,COSMIC-2b,2264,inactive,2000 kHz,"Telemetry, sensor data",USRadioGuy
+10,None,COSMIC-2b,2264,inactive,32 kHz,"Telemetry, sensor data",USRadioGuy
+11,None,DSCOVR,2215,inactive,1150 kHz,Telemetry and raw data,USRadioGuy
+12,None,Electro-L N1,7500,inactive,73000 kHz,Raw data,USRadioGuy
+13,None,Electro-L N1,7500,inactive,73000 kHz,Raw data,USRadioGuy
+14,None,Electro-L N1,7500,inactive,73000 kHz,Raw data,USRadioGuy
+15,None,Electro-L N1,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+16,None,Electro-L N1,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+17,None,Electro-L N1,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+18,None,Electro-L N1,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+19,None,Electro-L N1,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+20,None,Electro-L N1,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+21,None,Electro-L N1,1691,inactive,2000 kHz,High resolution data and information,USRadioGuy
+22,None,Electro-L N1,1693,inactive,2000 kHz,High resolution data and information,USRadioGuy
+23,None,Electro-L N1,1691,inactive,2000 kHz,High resolution data and information,USRadioGuy
+24,None,Electro-L N1,1693,inactive,2000 kHz,High resolution data and information,USRadioGuy
+25,None,Electro-L N1,1691,inactive,200 kHz,Low resolution data and information,USRadioGuy
+26,None,Electro-L N1,1691,inactive,200 kHz,Low resolution data and information,USRadioGuy
+27,None,Electro-L N1,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+28,None,Electro-L N1,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+29,None,Electro-L N1,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+30,None,Electro-L N1,1696.4,inactive,2000 kHz,DCP report relay,USRadioGuy
+31,None,Electro-L N1,1697,inactive,2000 kHz,DCP report relay,USRadioGuy
+32,None,Electro-L N1,1696.4,inactive,400 kHz,DCP report relay,USRadioGuy
+33,None,Electro-L N1,1697,inactive,400 kHz,DCP report relay,USRadioGuy
+34,None,Electro-L N2,7500,inactive,73000 kHz,Raw data,USRadioGuy
+35,None,Electro-L N2,7500,inactive,73000 kHz,Raw data,USRadioGuy
+36,None,Electro-L N2,7500,inactive,73000 kHz,Raw data,USRadioGuy
+37,None,Electro-L N2,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+38,None,Electro-L N2,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+39,None,Electro-L N2,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+40,None,Electro-L N2,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+41,None,Electro-L N2,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+42,None,Electro-L N2,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+43,None,Electro-L N2,1691,inactive,2000 kHz,High resolution data and information,USRadioGuy
+44,None,Electro-L N2,1693,inactive,2000 kHz,High resolution data and information,USRadioGuy
+45,None,Electro-L N2,1691,inactive,2000 kHz,High resolution data and information,USRadioGuy
+46,None,Electro-L N2,1693,inactive,2000 kHz,High resolution data and information,USRadioGuy
+47,None,Electro-L N2,1691,inactive,200 kHz,Low resolution data and information,USRadioGuy
+48,None,Electro-L N2,1691,inactive,200 kHz,Low resolution data and information,USRadioGuy
+49,None,Electro-L N2,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+50,None,Electro-L N2,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+51,None,Electro-L N2,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+52,None,Electro-L N2,1696.4,inactive,2000 kHz,DCP report relay,USRadioGuy
+53,None,Electro-L N2,1697,inactive,2000 kHz,DCP report relay,USRadioGuy
+54,None,Electro-L N2,1696.4,inactive,400 kHz,DCP report relay,USRadioGuy
+55,None,Electro-L N2,1697,inactive,400 kHz,DCP report relay,USRadioGuy
+56,None,Electro-L N3,7500,inactive,73000 kHz,Raw data,USRadioGuy
+57,None,Electro-L N3,7500,inactive,73000 kHz,Raw data,USRadioGuy
+58,None,Electro-L N3,7500,inactive,73000 kHz,Raw data,USRadioGuy
+59,None,Electro-L N3,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+60,None,Electro-L N3,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+61,None,Electro-L N3,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+62,None,Electro-L N3,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+63,None,Electro-L N3,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+64,None,Electro-L N3,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+65,None,Electro-L N3,1691,inactive,2000 kHz,High resolution data and information,USRadioGuy
+66,None,Electro-L N3,1693,inactive,2000 kHz,High resolution data and information,USRadioGuy
+67,None,Electro-L N3,1691,inactive,2000 kHz,High resolution data and information,USRadioGuy
+68,None,Electro-L N3,1693,inactive,2000 kHz,High resolution data and information,USRadioGuy
+69,None,Electro-L N3,1691,inactive,200 kHz,Low resolution data and information,USRadioGuy
+70,None,Electro-L N3,1691,inactive,200 kHz,Low resolution data and information,USRadioGuy
+71,None,Electro-L N3,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+72,None,Electro-L N3,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+73,None,Electro-L N3,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+74,None,Electro-L N3,1696.4,inactive,2000 kHz,DCP report relay,USRadioGuy
+75,None,Electro-L N3,1697,inactive,2000 kHz,DCP report relay,USRadioGuy
+76,None,Electro-L N3,1696.4,inactive,400 kHz,DCP report relay,USRadioGuy
+77,None,Electro-L N3,1697,inactive,400 kHz,DCP report relay,USRadioGuy
+78,None,Electro-L N4,7500,inactive,73000 kHz,Raw data,USRadioGuy
+79,None,Electro-L N4,7500,inactive,73000 kHz,Raw data,USRadioGuy
+80,None,Electro-L N4,7500,inactive,73000 kHz,Raw data,USRadioGuy
+81,None,Electro-L N4,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+82,None,Electro-L N4,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+83,None,Electro-L N4,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+84,None,Electro-L N4,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+85,None,Electro-L N4,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+86,None,Electro-L N4,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+87,None,Electro-L N4,1691,inactive,2000 kHz,High resolution data and information,USRadioGuy
+88,None,Electro-L N4,1693,inactive,2000 kHz,High resolution data and information,USRadioGuy
+89,None,Electro-L N4,1691,inactive,2000 kHz,High resolution data and information,USRadioGuy
+90,None,Electro-L N4,1693,inactive,2000 kHz,High resolution data and information,USRadioGuy
+91,None,Electro-L N4,1691,inactive,200 kHz,Low resolution data and information,USRadioGuy
+92,None,Electro-L N4,1691,inactive,200 kHz,Low resolution data and information,USRadioGuy
+93,None,Electro-L N4,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+94,None,Electro-L N4,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+95,None,Electro-L N4,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+96,None,Electro-L N4,1696.4,inactive,2000 kHz,DCP report relay,USRadioGuy
+97,None,Electro-L N4,1697,inactive,2000 kHz,DCP report relay,USRadioGuy
+98,None,Electro-L N4,1696.4,inactive,400 kHz,DCP report relay,USRadioGuy
+99,None,Electro-L N4,1697,inactive,400 kHz,DCP report relay,USRadioGuy
+100,None,Electro-L N5,7500,inactive,73000 kHz,Raw data,USRadioGuy
+101,None,Electro-L N5,7500,inactive,73000 kHz,Raw data,USRadioGuy
+102,None,Electro-L N5,7500,inactive,73000 kHz,Raw data,USRadioGuy
+103,None,Electro-L N5,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+104,None,Electro-L N5,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+105,None,Electro-L N5,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+106,None,Electro-L N5,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+107,None,Electro-L N5,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+108,None,Electro-L N5,8195,inactive,32000 kHz,Processed images and information,USRadioGuy
+109,None,Electro-L N5,1691,inactive,2000 kHz,High resolution data and information,USRadioGuy
+110,None,Electro-L N5,1693,inactive,2000 kHz,High resolution data and information,USRadioGuy
+111,None,Electro-L N5,1691,inactive,2000 kHz,High resolution data and information,USRadioGuy
+112,None,Electro-L N5,1693,inactive,2000 kHz,High resolution data and information,USRadioGuy
+113,None,Electro-L N5,1691,inactive,200 kHz,Low resolution data and information,USRadioGuy
+114,None,Electro-L N5,1691,inactive,200 kHz,Low resolution data and information,USRadioGuy
+115,None,Electro-L N5,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+116,None,Electro-L N5,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+117,None,Electro-L N5,402.0,inactive,3 kHz,Regional & International DCP reports,USRadioGuy
+118,None,Electro-L N5,1696.4,inactive,2000 kHz,DCP report relay,USRadioGuy
+119,None,Electro-L N5,1697,inactive,2000 kHz,DCP report relay,USRadioGuy
+120,None,Electro-L N5,1696.4,inactive,400 kHz,DCP report relay,USRadioGuy
+121,None,Electro-L N5,1697,inactive,400 kHz,DCP report relay,USRadioGuy
+122,None,FY-2A,1681.6,inactive,20000 kHz,Raw data,USRadioGuy
+123,None,FY-2A,2047.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+124,None,FY-2A,1687.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+125,None,FY-2A,2051,active,260 kHz,Selected data,USRadioGuy
+126,None,FY-2A,1691,active,260 kHz,Selected data,USRadioGuy
+127,None,FY-2A,401.25,inactive,3 kHz,Regional DCP reports,USRadioGuy
+128,None,FY-2A,402.05,inactive,3 kHz,International DCP reports,USRadioGuy
+129,None,FY-2A,2050.5,inactive,1000 kHz,Primary station,USRadioGuy
+130,None,FY-2A,1690.5,inactive,1000 kHz,Primary station,USRadioGuy
+131,None,FY-2A,2046.5,inactive,1000 kHz,Secondary station,USRadioGuy
+132,None,FY-2A,1686.5,inactive,1000 kHz,Secondary station,USRadioGuy
+133,None,FY-2A,2044.5,inactive,1000 kHz,Backup station,USRadioGuy
+134,None,FY-2A,1684.5,inactive,1000 kHz,Backup station,USRadioGuy
+135,None,FY-2B,1681.6,inactive,20000 kHz,Raw data,USRadioGuy
+136,None,FY-2B,2047.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+137,None,FY-2B,1687.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+138,None,FY-2B,2051,active,260 kHz,Selected data,USRadioGuy
+139,None,FY-2B,1691,active,260 kHz,Selected data,USRadioGuy
+140,None,FY-2B,401.25,inactive,3 kHz,Regional DCP reports,USRadioGuy
+141,None,FY-2B,402.05,inactive,3 kHz,International DCP reports,USRadioGuy
+142,None,FY-2B,2050.5,inactive,1000 kHz,Primary station,USRadioGuy
+143,None,FY-2B,1690.5,inactive,1000 kHz,Primary station,USRadioGuy
+144,None,FY-2B,2046.5,inactive,1000 kHz,Secondary station,USRadioGuy
+145,None,FY-2B,1686.5,inactive,1000 kHz,Secondary station,USRadioGuy
+146,None,FY-2B,2044.5,inactive,1000 kHz,Backup station,USRadioGuy
+147,None,FY-2B,1684.5,inactive,1000 kHz,Backup station,USRadioGuy
+148,None,FY-2C,1681.6,inactive,20000 kHz,Raw data,USRadioGuy
+149,None,FY-2C,2047.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+150,None,FY-2C,1687.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+151,None,FY-2C,2051,inactive,260 kHz,Selected data,USRadioGuy
+152,None,FY-2C,1690.5,inactive,1000 kHz,Selected data,USRadioGuy
+153,None,FY-2C,401.25,inactive,3 kHz,Regional DCP reports,USRadioGuy
+154,None,FY-2C,402.05,inactive,3 kHz,International DCP reports,USRadioGuy
+155,None,FY-2C,2050.5,inactive,1000 kHz,Primary station,USRadioGuy
+156,None,FY-2C,1690.5,inactive,1000 kHz,Primary station,USRadioGuy
+157,None,FY-2C,2046.5,inactive,1000 kHz,Secondary station,USRadioGuy
+158,None,FY-2C,1686.5,inactive,1000 kHz,Secondary station,USRadioGuy
+159,None,FY-2C,2044.5,inactive,1000 kHz,Backup station,USRadioGuy
+160,None,FY-2C,1684.5,inactive,1000 kHz,Backup station,USRadioGuy
+161,None,FY-2D,1681.6,inactive,20000 kHz,Raw data,USRadioGuy
+162,None,FY-2D,2047.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+163,None,FY-2D,1687.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+164,None,FY-2D,2051,inactive,260 kHz,Selected data (not in use),USRadioGuy
+165,None,FY-2D,1690.5,inactive,1000 kHz,Selected data (not in use),USRadioGuy
+166,None,FY-2D,401.25,inactive,3 kHz,Regional DCP reports,USRadioGuy
+167,None,FY-2D,402.05,inactive,3 kHz,International DCP reports,USRadioGuy
+168,None,FY-2D,2050.5,inactive,1000 kHz,Primary station,USRadioGuy
+169,None,FY-2D,1690.5,inactive,1000 kHz,Primary station,USRadioGuy
+170,None,FY-2D,2046.5,inactive,1000 kHz,Secondary station,USRadioGuy
+171,None,FY-2D,1686.5,inactive,1000 kHz,Secondary station,USRadioGuy
+172,None,FY-2D,2044.5,inactive,1000 kHz,Backup station,USRadioGuy
+173,None,FY-2D,1684.5,inactive,1000 kHz,Backup station,USRadioGuy
+174,None,FY-2E,1681.6,inactive,20000 kHz,Raw data,USRadioGuy
+175,None,FY-2E,2047.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+176,None,FY-2E,1687.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+177,None,FY-2E,2051,inactive,260 kHz,Selected data (not in use),USRadioGuy
+178,None,FY-2E,1690.5,inactive,1000 kHz,Selected data (not in use),USRadioGuy
+179,None,FY-2E,401.25,inactive,3 kHz,Regional DCP reports,USRadioGuy
+180,None,FY-2E,402.05,inactive,3 kHz,International DCP reports,USRadioGuy
+181,None,FY-2E,2050.5,inactive,1000 kHz,Primary station,USRadioGuy
+182,None,FY-2E,1690.5,inactive,1000 kHz,Primary station,USRadioGuy
+183,None,FY-2E,2046.5,inactive,1000 kHz,Secondary station,USRadioGuy
+184,None,FY-2E,1686.5,inactive,1000 kHz,Secondary station,USRadioGuy
+185,None,FY-2E,2044.5,inactive,1000 kHz,Backup station,USRadioGuy
+186,None,FY-2E,1684.5,inactive,1000 kHz,Backup station,USRadioGuy
+187,None,FY-2F,1681.6,inactive,20000 kHz,Raw data,USRadioGuy
+188,None,FY-2F,2047.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+189,None,FY-2F,1687.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+190,None,FY-2F,2051,inactive,260 kHz,Selected data,USRadioGuy
+191,None,FY-2F,1690.5,inactive,1000 kHz,Selected data,USRadioGuy
+192,None,FY-2F,401.25,inactive,3 kHz,Regional DCP reports,USRadioGuy
+193,None,FY-2F,402.05,inactive,3 kHz,International DCP reports,USRadioGuy
+194,None,FY-2F,2050.5,inactive,1000 kHz,Primary station,USRadioGuy
+195,None,FY-2F,1690.5,inactive,1000 kHz,Primary station,USRadioGuy
+196,None,FY-2F,2046.5,inactive,1000 kHz,Secondary station,USRadioGuy
+197,None,FY-2F,1686.5,inactive,1000 kHz,Secondary station,USRadioGuy
+198,None,FY-2F,2044.5,inactive,1000 kHz,Backup station,USRadioGuy
+199,None,FY-2F,1684.5,inactive,1000 kHz,Backup station,USRadioGuy
+200,None,FY-2G,1681.6,inactive,20000 kHz,Raw data,USRadioGuy
+201,None,FY-2G,2047.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+202,None,FY-2G,1687.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+203,None,FY-2G,2051,inactive,260 kHz,Selected data,USRadioGuy
+204,None,FY-2G,1690.5,inactive,1000 kHz,Selected data,USRadioGuy
+205,None,FY-2G,401.25,inactive,3 kHz,Regional DCP reports,USRadioGuy
+206,None,FY-2G,402.05,inactive,3 kHz,International DCP reports,USRadioGuy
+207,None,FY-2G,2050.5,inactive,1000 kHz,Primary station,USRadioGuy
+208,None,FY-2G,1690.5,inactive,1000 kHz,Primary station,USRadioGuy
+209,None,FY-2G,2046.5,inactive,1000 kHz,Secondary station,USRadioGuy
+210,None,FY-2G,1686.5,inactive,1000 kHz,Secondary station,USRadioGuy
+211,None,FY-2G,2044.5,inactive,1000 kHz,Backup station,USRadioGuy
+212,None,FY-2G,1684.5,inactive,1000 kHz,Backup station,USRadioGuy
+213,None,FY-2H,1681.6,inactive,20000 kHz,Raw data,USRadioGuy
+214,None,FY-2H,2047.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+215,None,FY-2H,1687.5,inactive,2000 kHz,High-resolution data,USRadioGuy
+216,None,FY-2H,2051,inactive,260 kHz,Selected data,USRadioGuy
+217,None,FY-2H,1690.5,inactive,1000 kHz,Selected data,USRadioGuy
+218,None,FY-2H,401.25,inactive,3 kHz,Regional DCP reports,USRadioGuy
+219,None,FY-2H,402.05,inactive,3 kHz,International DCP reports,USRadioGuy
+220,None,FY-2H,2050.5,inactive,1000 kHz,Primary station,USRadioGuy
+221,None,FY-2H,1690.5,inactive,1000 kHz,Primary station,USRadioGuy
+222,None,FY-2H,2046.5,inactive,1000 kHz,Secondary station,USRadioGuy
+223,None,FY-2H,1686.5,inactive,1000 kHz,Secondary station,USRadioGuy
+224,None,FY-2H,2044.5,inactive,1000 kHz,Backup station,USRadioGuy
+225,None,FY-2H,1684.5,inactive,1000 kHz,Backup station,USRadioGuy
+226,None,FY-3A,8145.95,inactive,149000 kHz,Stored data,USRadioGuy
+227,None,FY-3A,7775,inactive,45000 kHz,Full-resolution MERSI data,USRadioGuy
+228,None,FY-3A,1704.5,inactive,6800 kHz,Other instrument data,USRadioGuy
+229,None,FY-3B,8145.95,inactive,149000 kHz,Stored data,USRadioGuy
+230,None,FY-3B,7775,inactive,45000 kHz,Full-resolution MERSI data,USRadioGuy
+231,None,FY-3B,1704.5,inactive,6800 kHz,Other instrument data,USRadioGuy
+232,None,FY-3C,8175,inactive,300000 kHz,Stored data,USRadioGuy
+233,None,FY-3C,7780,inactive,60000 kHz,Full-resolution MERSI data,USRadioGuy
+234,None,FY-3C,1701.4,inactive,6800 kHz,Other instrument data,USRadioGuy
+235,None,FY-3D,7820,inactive,100000 kHz,Full-resolution data,USRadioGuy
+236,None,FY-4A,7500,inactive,100000 kHz,Raw data,USRadioGuy
+237,None,FY-4A,8185,inactive,20000 kHz,High-resolution data,USRadioGuy
+238,None,FY-4A,8205,inactive,20000 kHz,High-resolution data,USRadioGuy
+239,None,FY-4A,1681,inactive,12000 kHz,High-resolution data,USRadioGuy
+240,None,FY-4A,2057,inactive,1000 kHz,Selected data and information,USRadioGuy
+241,None,FY-4A,1697,inactive,2000 kHz,Selected data and information,USRadioGuy
+242,None,FY-4A,2047,inactive,10000 kHz,Ranging,USRadioGuy
+243,None,FY-4A,2227,inactive,10000 kHz,Ranging,USRadioGuy
+244,None,FY-4A,1693,inactive,8000 kHz,Ranging,USRadioGuy
+245,None,FY-4A,2067.5,inactive,85000 kHz,Telemetry and commands,USRadioGuy
+246,None,FY-4A,2245,inactive,90000 kHz,Telemetry and commands,USRadioGuy
+247,None,GOES-10,1676,inactive,5000 kHz,Raw data,USRadioGuy
+248,None,GOES-10,2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+249,None,GOES-10,1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+250,None,GOES-10,2033,active,50 kHz,Selected data,USRadioGuy
+251,None,GOES-10,1691,active,50 kHz,Selected data,USRadioGuy
+252,None,GOES-10,2033,inactive,660 kHz,Selected data,USRadioGuy
+253,None,GOES-10,1691,inactive,660 kHz,Selected data,USRadioGuy
+254,None,GOES-10,1681.478,inactive,200 kHz,Multiuse Data Link,USRadioGuy
+255,None,GOES-10,2034.8875,inactive,125 kHz,DCP interrogation,USRadioGuy
+256,None,GOES-10,2034.9,inactive,125 kHz,DCP interrogation,USRadioGuy
+257,None,GOES-10,2034.9125,inactive,125 kHz,DCP interrogation,USRadioGuy
+258,None,GOES-10,468.8125,inactive,200 kHz,DCP interrogation,USRadioGuy
+259,None,GOES-10,468.825,inactive,200 kHz,DCP interrogation,USRadioGuy
+260,None,GOES-10,468.8375,inactive,200 kHz,DCP interrogation,USRadioGuy
+261,None,GOES-10 (S-America),1676,inactive,5000 kHz,Raw data,USRadioGuy
+262,None,GOES-10 (S-America),2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+263,None,GOES-10 (S-America),1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+264,None,GOES-10 (S-America),2033,active,50 kHz,Selected data,USRadioGuy
+265,None,GOES-10 (S-America),1691,active,50 kHz,Selected data,USRadioGuy
+266,None,GOES-10 (S-America),2033,inactive,660 kHz,Selected data,USRadioGuy
+267,None,GOES-10 (S-America),1691,inactive,660 kHz,Selected data,USRadioGuy
+268,None,GOES-10 (S-America),1681.478,inactive,200 kHz,Multiuse Data Link,USRadioGuy
+269,None,GOES-10 (S-America),2034.8875,inactive,125 kHz,DCP interrogation,USRadioGuy
+270,None,GOES-10 (S-America),2034.9,inactive,125 kHz,DCP interrogation,USRadioGuy
+271,None,GOES-10 (S-America),2034.9125,inactive,125 kHz,DCP interrogation,USRadioGuy
+272,None,GOES-10 (S-America),468.8125,inactive,200 kHz,DCP interrogation,USRadioGuy
+273,None,GOES-10 (S-America),468.825,inactive,200 kHz,DCP interrogation,USRadioGuy
+274,None,GOES-10 (S-America),468.8375,inactive,200 kHz,DCP interrogation,USRadioGuy
+275,None,GOES-11,1676,inactive,5000 kHz,Raw data,USRadioGuy
+276,None,GOES-11,2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+277,None,GOES-11,1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+278,None,GOES-11,2033,active,50 kHz,Ceased October 2005,USRadioGuy
+279,None,GOES-11,1691,active,50 kHz,Ceased October 2005,USRadioGuy
+280,None,GOES-11,2033,inactive,660 kHz,Selected data,USRadioGuy
+281,None,GOES-11,1691,inactive,660 kHz,Selected data,USRadioGuy
+282,None,GOES-11,1681.478,inactive,200 kHz,Multiuse Data Link,USRadioGuy
+283,None,GOES-11,2034.8875,inactive,125 kHz,DCP interrogation,USRadioGuy
+284,None,GOES-11,2034.9,inactive,125 kHz,DCP interrogation,USRadioGuy
+285,None,GOES-11,2034.9125,inactive,125 kHz,DCP interrogation,USRadioGuy
+286,None,GOES-11,468.8125,inactive,200 kHz,DCP interrogation,USRadioGuy
+287,None,GOES-11,468.825,inactive,200 kHz,DCP interrogation,USRadioGuy
+288,None,GOES-11,468.8375,inactive,200 kHz,DCP interrogation,USRadioGuy
+289,None,GOES-12,1676,inactive,5000 kHz,Raw data,USRadioGuy
+290,None,GOES-12,2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+291,None,GOES-12,1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+292,None,GOES-12,2033,active,50 kHz,Ceased October 2005,USRadioGuy
+293,None,GOES-12,1691,active,50 kHz,Ceased October 2005,USRadioGuy
+294,None,GOES-12,2033,inactive,660 kHz,Selected data,USRadioGuy
+295,None,GOES-12,1691,inactive,660 kHz,Selected data,USRadioGuy
+296,None,GOES-12,1681.478,inactive,200 kHz,Multiuse Data Link,USRadioGuy
+297,None,GOES-12,2034.8875,inactive,125 kHz,DCP interrogation,USRadioGuy
+298,None,GOES-12,2034.9,inactive,125 kHz,DCP interrogation,USRadioGuy
+299,None,GOES-12,2034.9125,inactive,125 kHz,DCP interrogation,USRadioGuy
+300,None,GOES-12,468.8125,inactive,200 kHz,DCP interrogation,USRadioGuy
+301,None,GOES-12,468.825,inactive,200 kHz,DCP interrogation,USRadioGuy
+302,None,GOES-12,468.8375,inactive,200 kHz,DCP interrogation,USRadioGuy
+303,None,GOES-12 (S-America),1676,inactive,5000 kHz,Raw data,USRadioGuy
+304,None,GOES-12 (S-America),2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+305,None,GOES-12 (S-America),1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+306,None,GOES-12 (S-America),2033,inactive,660 kHz,Selected data,USRadioGuy
+307,None,GOES-12 (S-America),1691,inactive,660 kHz,Selected data,USRadioGuy
+308,None,GOES-12 (S-America),1681.478,inactive,200 kHz,Multiuse Data Link,USRadioGuy
+309,None,GOES-12 (S-America),2034.8875,inactive,125 kHz,DCP interrogation,USRadioGuy
+310,None,GOES-12 (S-America),2034.9,inactive,125 kHz,DCP interrogation,USRadioGuy
+311,None,GOES-12 (S-America),2034.9125,inactive,125 kHz,DCP interrogation,USRadioGuy
+312,None,GOES-12 (S-America),468.8125,inactive,200 kHz,DCP interrogation,USRadioGuy
+313,None,GOES-12 (S-America),468.825,inactive,200 kHz,DCP interrogation,USRadioGuy
+314,None,GOES-12 (S-America),468.8375,inactive,200 kHz,DCP interrogation,USRadioGuy
+315,None,GOES-13,1676,inactive,5000 kHz,Raw data,USRadioGuy
+316,None,GOES-13,1676,inactive,5000 kHz,Raw data,USRadioGuy
+317,None,GOES-13,2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+318,None,GOES-13,2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+319,None,GOES-13,1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+320,None,GOES-13,1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+321,None,GOES-13,2033,inactive,660 kHz,Selected data,USRadioGuy
+322,None,GOES-13,1691,inactive,660 kHz,Selected data,USRadioGuy
+323,None,GOES-13,1681.478,inactive,200 kHz,Multiuse Data Link,USRadioGuy
+324,None,GOES-13,1681.478,inactive,400 kHz,Multiuse Data Link,USRadioGuy
+325,None,GOES-13,2034.8875,inactive,10 kHz,DCP interrogation,USRadioGuy
+326,None,GOES-13,2034.9,inactive,10 kHz,DCP interrogation,USRadioGuy
+327,None,GOES-13,2034.9125,inactive,10 kHz,DCP interrogation,USRadioGuy
+328,None,GOES-13,468.8125,inactive,10 kHz,DCP interrogation,USRadioGuy
+329,None,GOES-13,468.825,inactive,10 kHz,DCP interrogation,USRadioGuy
+330,None,GOES-13,468.8375,inactive,10 kHz,DCP interrogation,USRadioGuy
+331,None,GOES-14,1676,inactive,5000 kHz,Raw data,USRadioGuy
+332,None,GOES-14,1676,inactive,5000 kHz,Raw data,USRadioGuy
+333,None,GOES-14,2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+334,None,GOES-14,2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+335,None,GOES-14,1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+336,None,GOES-14,1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+337,None,GOES-14,2033,inactive,660 kHz,Selected data,USRadioGuy
+338,None,GOES-14,1691,inactive,660 kHz,Selected data,USRadioGuy
+339,None,GOES-14,1681.478,inactive,200 kHz,Multiuse Data Link,USRadioGuy
+340,None,GOES-14,1681.478,inactive,400 kHz,Multiuse Data Link,USRadioGuy
+341,None,GOES-14,2034.8875,inactive,10 kHz,DCP interrogation,USRadioGuy
+342,None,GOES-14,2034.9,inactive,10 kHz,DCP interrogation,USRadioGuy
+343,None,GOES-14,2034.9125,inactive,10 kHz,DCP interrogation,USRadioGuy
+344,None,GOES-14,468.8125,inactive,10 kHz,DCP interrogation,USRadioGuy
+345,None,GOES-14,468.825,inactive,10 kHz,DCP interrogation,USRadioGuy
+346,None,GOES-14,468.8375,inactive,10 kHz,DCP interrogation,USRadioGuy
+347,None,GOES-15,1676,inactive,5000 kHz,Raw data,USRadioGuy
+348,None,GOES-15,1676,inactive,5000 kHz,Raw data,USRadioGuy
+349,None,GOES-15,2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+350,None,GOES-15,2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+351,None,GOES-15,1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+352,None,GOES-15,1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+353,None,GOES-15,2033,inactive,660 kHz,Selected data,USRadioGuy
+354,None,GOES-15,1691,inactive,660 kHz,Selected data,USRadioGuy
+355,None,GOES-15,1681.478,inactive,200 kHz,Multiuse Data Link,USRadioGuy
+356,None,GOES-15,1681.478,inactive,400 kHz,Multiuse Data Link,USRadioGuy
+357,None,GOES-15,2034.8875,inactive,10 kHz,DCP interrogation,USRadioGuy
+358,None,GOES-15,2034.9,inactive,10 kHz,DCP interrogation,USRadioGuy
+359,None,GOES-15,2034.9125,inactive,10 kHz,DCP interrogation,USRadioGuy
+360,None,GOES-15,468.8125,inactive,10 kHz,DCP interrogation,USRadioGuy
+361,None,GOES-15,468.825,inactive,10 kHz,DCP interrogation,USRadioGuy
+362,None,GOES-15,468.8375,inactive,10 kHz,DCP interrogation,USRadioGuy
+363,None,GOES-16,8220,inactive,120000 kHz,Raw data,USRadioGuy
+364,None,GOES-16,7216.6,inactive,10900 kHz,Processed images/soundings,USRadioGuy
+365,None,GOES-16,7216.6,inactive,9790 kHz,Processed images/soundings,USRadioGuy
+366,None,GOES-16,1686.6,inactive,10900 kHz,Processed images/soundings,USRadioGuy
+367,None,GOES-16,1686.6,inactive,9790 kHz,Processed images/soundings,USRadioGuy
+368,None,GOES-16,2027.1,inactive,1206 kHz,Selected data and information,USRadioGuy
+369,None,GOES-16,1694.1,inactive,1210 kHz,Selected data and information,USRadioGuy
+370,None,GOES-17,8220,inactive,120000 kHz,Raw data,USRadioGuy
+371,None,GOES-17,7216.6,inactive,10900 kHz,Processed images/soundings,USRadioGuy
+372,None,GOES-17,7216.6,inactive,9790 kHz,Processed images/soundings,USRadioGuy
+373,None,GOES-17,1686.6,inactive,10900 kHz,Processed images/soundings,USRadioGuy
+374,None,GOES-17,1686.6,inactive,9790 kHz,Processed images/soundings,USRadioGuy
+375,None,GOES-17,2027.1,inactive,1206 kHz,Selected data and information,USRadioGuy
+376,None,GOES-17,1694.1,inactive,1210 kHz,Selected data and information,USRadioGuy
+377,None,GOES-18,8220,inactive,120000 kHz,Raw data,USRadioGuy
+378,None,GOES-18,7216.6,inactive,10900 kHz,Processed images/soundings,USRadioGuy
+379,None,GOES-18,7216.6,inactive,9790 kHz,Processed images/soundings,USRadioGuy
+380,None,GOES-18,1686.6,inactive,10900 kHz,Processed images/soundings,USRadioGuy
+381,None,GOES-18,1686.6,inactive,9790 kHz,Processed images/soundings,USRadioGuy
+382,None,GOES-18,2027.1,inactive,1206 kHz,Selected data and information,USRadioGuy
+383,None,GOES-18,1694.1,inactive,1210 kHz,Selected data and information,USRadioGuy
+384,None,GOES-8,1676,inactive,5000 kHz,Raw data,USRadioGuy
+385,None,GOES-8,2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+386,None,GOES-8,1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+387,None,GOES-8,2033,active,50 kHz,Selected data,USRadioGuy
+388,None,GOES-8,1691,active,50 kHz,Selected data,USRadioGuy
+389,None,GOES-8,2033,inactive,660 kHz,Selected data,USRadioGuy
+390,None,GOES-8,1691,inactive,660 kHz,Selected data,USRadioGuy
+391,None,GOES-8,1681.478,inactive,200 kHz,Multiuse Data Link,USRadioGuy
+392,None,GOES-8,2034.8875,inactive,125 kHz,DCP interrogation,USRadioGuy
+393,None,GOES-8,2034.9,inactive,125 kHz,DCP interrogation,USRadioGuy
+394,None,GOES-8,2034.9125,inactive,125 kHz,DCP interrogation,USRadioGuy
+395,None,GOES-8,468.8125,inactive,200 kHz,DCP interrogation,USRadioGuy
+396,None,GOES-8,468.825,inactive,200 kHz,DCP interrogation,USRadioGuy
+397,None,GOES-8,468.8375,inactive,200 kHz,DCP interrogation,USRadioGuy
+398,None,GOES-9,1676,inactive,5000 kHz,Raw data,USRadioGuy
+399,None,GOES-9,2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+400,None,GOES-9,1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+401,None,GOES-9,2033,active,50 kHz,Selected data,USRadioGuy
+402,None,GOES-9,1691,active,50 kHz,Selected data,USRadioGuy
+403,None,GOES-9,2033,inactive,660 kHz,Selected data,USRadioGuy
+404,None,GOES-9,1691,inactive,660 kHz,Selected data,USRadioGuy
+405,None,GOES-9,1681.478,inactive,200 kHz,Multiuse Data Link,USRadioGuy
+406,None,GOES-9,2034.8875,inactive,125 kHz,DCP interrogation,USRadioGuy
+407,None,GOES-9,2034.9,inactive,125 kHz,DCP interrogation,USRadioGuy
+408,None,GOES-9,2034.9125,inactive,125 kHz,DCP interrogation,USRadioGuy
+409,None,GOES-9,468.8125,inactive,200 kHz,DCP interrogation,USRadioGuy
+410,None,GOES-9,468.825,inactive,200 kHz,DCP interrogation,USRadioGuy
+411,None,GOES-9,468.8375,inactive,200 kHz,DCP interrogation,USRadioGuy
+412,None,GOES-9 (GMS backup),1676,inactive,5000 kHz,Raw data,USRadioGuy
+413,None,GOES-9 (GMS backup),2027.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+414,None,GOES-9 (GMS backup),1685.7,inactive,4000 kHz,Processed images/soundings,USRadioGuy
+415,None,GOES-9 (GMS backup),2033,active,50 kHz,Selected data,USRadioGuy
+416,None,GOES-9 (GMS backup),1691,active,50 kHz,Selected data,USRadioGuy
+417,None,GOES-9 (GMS backup),2033,inactive,660 kHz,Selected data,USRadioGuy
+418,None,GOES-9 (GMS backup),1691,inactive,660 kHz,Selected data,USRadioGuy
+419,None,GOES-9 (GMS backup),1681.478,inactive,200 kHz,Multiuse Data Link,USRadioGuy
+420,None,GOES-9 (GMS backup),2034.8875,inactive,125 kHz,DCP interrogation,USRadioGuy
+421,None,GOES-9 (GMS backup),2034.9,inactive,125 kHz,DCP interrogation,USRadioGuy
+422,None,GOES-9 (GMS backup),2034.9125,inactive,125 kHz,DCP interrogation,USRadioGuy
+423,None,GOES-9 (GMS backup),468.8125,inactive,200 kHz,DCP interrogation,USRadioGuy
+424,None,GOES-9 (GMS backup),468.825,inactive,200 kHz,DCP interrogation,USRadioGuy
+425,None,GOES-9 (GMS backup),468.8375,inactive,200 kHz,DCP interrogation,USRadioGuy
+426,None,GOES-U,8220,inactive,120000 kHz,Raw data,USRadioGuy
+427,None,GOES-U,7216.6,inactive,10900 kHz,Processed images/soundings,USRadioGuy
+428,None,GOES-U,7216.6,inactive,9790 kHz,Processed images/soundings,USRadioGuy
+429,None,GOES-U,1686.6,inactive,10900 kHz,Processed images/soundings,USRadioGuy
+430,None,GOES-U,1686.6,inactive,9790 kHz,Processed images/soundings,USRadioGuy
+431,None,GOES-U,2027.1,inactive,1206 kHz,Selected data and information,USRadioGuy
+432,None,GOES-U,1694.1,inactive,1210 kHz,Selected data and information,USRadioGuy
+433,None,Himawari-6 (MTSAT-1R),1677,inactive,10000 kHz,Raw data,USRadioGuy
+434,None,Himawari-6 (MTSAT-1R),2029.1,inactive,6000 kHz,High resolution data. Service terminated in Dec 2015,USRadioGuy
+435,None,Himawari-6 (MTSAT-1R),1687.1,inactive,6000 kHz,High resolution data. Service terminated in Dec 2015.,USRadioGuy
+436,None,Himawari-6 (MTSAT-1R),2029.1,inactive,2000 kHz,High resolution data - This service was terminated in March 2008,USRadioGuy
+437,None,Himawari-6 (MTSAT-1R),1687.1,inactive,2000 kHz,High resolution data - This service was terminated in March 2008,USRadioGuy
+438,None,Himawari-6 (MTSAT-1R),2033,inactive,250 kHz,Selected data. Service terminated in Dec 2015.,USRadioGuy
+439,None,Himawari-6 (MTSAT-1R),1691,inactive,250 kHz,Selected data.  Service terminated in Dec 2015.,USRadioGuy
+440,None,Himawari-6 (MTSAT-1R),2033,active,260 kHz,Weather facsimile - This service was terminated in March 2008,USRadioGuy
+441,None,Himawari-6 (MTSAT-1R),1691,active,260 kHz,Weather facsimile - This service was terminated in March 2008,USRadioGuy
+442,None,Himawari-6 (MTSAT-1R),2034.933,inactive,6 kHz,DCP interrogation,USRadioGuy
+443,None,Himawari-6 (MTSAT-1R),2034.925,inactive,6 kHz,DCP interrogation,USRadioGuy
+444,None,Himawari-6 (MTSAT-1R),2034.974,inactive,6 kHz,DCP interrogation,USRadioGuy
+445,None,Himawari-6 (MTSAT-1R),402.2,inactive,2 kHz,DCP reports,USRadioGuy
+446,None,Himawari-6 (MTSAT-1R),402.2,inactive,4 kHz,DCP reports,USRadioGuy
+447,None,Himawari-6 (MTSAT-1R),402.2,inactive,6 kHz,DCP reports,USRadioGuy
+448,None,Himawari-6 (MTSAT-1R),1694.5,inactive,2 kHz,DCP report relay,USRadioGuy
+449,None,Himawari-6 (MTSAT-1R),1694.5,inactive,4 kHz,DCP report relay,USRadioGuy
+450,None,Himawari-6 (MTSAT-1R),1694.5,inactive,6 kHz,DCP report relay,USRadioGuy
+451,None,Himawari-7 (MTSAT-2),1677,inactive,10000 kHz,Raw data,USRadioGuy
+452,None,Himawari-7 (MTSAT-2),2029.1,inactive,6000 kHz,High resolution data,USRadioGuy
+453,None,Himawari-7 (MTSAT-2),1687.1,inactive,6000 kHz,High resolution data,USRadioGuy
+454,None,Himawari-7 (MTSAT-2),2033,inactive,250 kHz,Selected data,USRadioGuy
+455,None,Himawari-7 (MTSAT-2),1691,inactive,250 kHz,Selected data,USRadioGuy
+456,None,Himawari-7 (MTSAT-2),2034.933,inactive,6 kHz,DCP interrogation,USRadioGuy
+457,None,Himawari-7 (MTSAT-2),2034.925,inactive,6 kHz,DCP interrogation,USRadioGuy
+458,None,Himawari-7 (MTSAT-2),2034.974,inactive,6 kHz,DCP interrogation,USRadioGuy
+459,None,Himawari-7 (MTSAT-2),402.2,inactive,2 kHz,DCP reports,USRadioGuy
+460,None,Himawari-7 (MTSAT-2),402.2,inactive,4 kHz,DCP reports,USRadioGuy
+461,None,Himawari-7 (MTSAT-2),402.2,inactive,6 kHz,DCP reports,USRadioGuy
+462,None,Himawari-7 (MTSAT-2),1694.5,inactive,2 kHz,DCP report relay,USRadioGuy
+463,None,Himawari-7 (MTSAT-2),1694.5,inactive,4 kHz,DCP report relay,USRadioGuy
+464,None,Himawari-7 (MTSAT-2),1694.5,inactive,6 kHz,DCP report relay,USRadioGuy
+465,None,Himawari-8,18284.6,inactive,110000 kHz,Raw data,USRadioGuy
+466,None,Himawari-8,18284.6,inactive,110000 kHz,Raw data,USRadioGuy
+467,None,Himawari-8,402.2,inactive,2 kHz,DCP reports,USRadioGuy
+468,None,Himawari-8,402.2,inactive,4 kHz,DCP reports,USRadioGuy
+469,None,Himawari-8,402.2,inactive,6 kHz,DCP reports,USRadioGuy
+470,None,Himawari-8,18399.5,inactive,2 kHz,DCP report relay,USRadioGuy
+471,None,Himawari-8,18399.5,inactive,4 kHz,DCP report relay,USRadioGuy
+472,None,Himawari-8,18399.5,inactive,6 kHz,DCP report relay,USRadioGuy
+473,None,Himawari-9,18284.6,inactive,110000 kHz,Raw data,USRadioGuy
+474,None,Himawari-9,18284.6,inactive,110000 kHz,Raw data,USRadioGuy
+475,None,Himawari-9,402.2,inactive,2 kHz,DCP reports,USRadioGuy
+476,None,Himawari-9,402.2,inactive,4 kHz,DCP reports,USRadioGuy
+477,None,Himawari-9,402.2,inactive,6 kHz,DCP reports,USRadioGuy
+478,None,Himawari-9,18399.5,inactive,2 kHz,DCP report relay,USRadioGuy
+479,None,Himawari-9,18399.5,inactive,4 kHz,DCP report relay,USRadioGuy
+480,None,Himawari-9,18399.5,inactive,6 kHz,DCP report relay,USRadioGuy
+481,None,INSAT-3A,4501.5,inactive,500 kHz,VHRR raw data,USRadioGuy
+482,None,INSAT-3A,4508.93,inactive,500 kHz,CCD raw data,USRadioGuy
+483,None,INSAT-3A,402.75,inactive,180 kHz,DCP reports,USRadioGuy
+484,None,INSAT-3A,4504.2,inactive,180 kHz,DCP relay,USRadioGuy
+485,None,INSAT-3C,2599.23,active,200 kHz,Meteorological Data Distribution including data originated from INSAT-3A,USRadioGuy
+486,None,INSAT-3C,2559.23,active,200 kHz,Cyclone Warning Dissemination System for selected INSAT-3A data activated in the cyclone season,USRadioGuy
+487,None,INSAT-3D,4781,inactive,9600 kHz,IMAGER raw data,USRadioGuy
+488,None,INSAT-3D,4798,inactive,96 kHz,SOUNDER raw data,USRadioGuy
+489,None,INSAT-3D,402.75,inactive,180 kHz,DCP reports,USRadioGuy
+490,None,INSAT-3D,4506.05,inactive,180 kHz,DCP relay,USRadioGuy
+491,None,INSAT-3DR,4781,inactive,9600 kHz,IMAGER raw data,USRadioGuy
+492,None,INSAT-3DR,4798,inactive,96 kHz,SOUNDER raw data,USRadioGuy
+493,None,INSAT-3DR,402.75,inactive,180 kHz,DCP reports,USRadioGuy
+494,None,INSAT-3DR,4506.05,inactive,180 kHz,DCP relay,USRadioGuy
+495,None,INSAT-3DS,4781,inactive,9600 kHz,IMAGER raw data,USRadioGuy
+496,None,INSAT-3DS,4798,inactive,96 kHz,SOUNDER raw data,USRadioGuy
+497,None,INSAT-3DS,402.75,inactive,180 kHz,DCP reports,USRadioGuy
+498,None,INSAT-3DS,4506.05,inactive,180 kHz,DCP relay,USRadioGuy
+499,None,JASON-2,5300,inactive,320000 kHz,FM Pulse Radar. Telemetry and Altimeter real-time data,USRadioGuy
+500,None,JASON-2,5300,inactive,100000 kHz,FM Pulse Radar. Telemetry and Altimeter real-time data,USRadioGuy
+501,None,JASON-2,13575,inactive,320000 kHz,FM Pulse Radar. Telemetry and Altimeter real-time data,USRadioGuy
+502,None,JASON-2,2268.465,inactive,839 kHz,Telemetry and Altimeter stored data,USRadioGuy
+503,None,JASON-3,5300,inactive,320000 kHz,FM Pulse Radar. Telemetry and Altimeter real-time data,USRadioGuy
+504,None,JASON-3,5300,inactive,100000 kHz,FM Pulse Radar. Telemetry and Altimeter real-time data,USRadioGuy
+505,None,JASON-3,13575,inactive,320000 kHz,FM Pulse Radar. Telemetry and Altimeter real-time data,USRadioGuy
+506,None,JASON-3,2215.92,inactive,2000 kHz,Telemetry and Altimeter stored data,USRadioGuy
+507,None,JPSS-2,26703.4,inactive,300000 kHz,Stored Mission Data (info data rate),USRadioGuy
+508,None,JPSS-2,26703.4,inactive,150000 kHz,Stored Mission Data (info data rate),USRadioGuy
+509,None,JPSS-2,7812,inactive,50000 kHz,Real-time High Rate Data,USRadioGuy
+510,None,JPSS-3,26703.4,inactive,300000 kHz,Stored Mission Data (info data rate),USRadioGuy
+511,None,JPSS-3,26703.4,inactive,150000 kHz,Stored Mission Data (info data rate),USRadioGuy
+512,None,JPSS-3,7812,inactive,50000 kHz,Real-time High Rate Data,USRadioGuy
+513,None,JPSS-4,26703.4,inactive,300000 kHz,Stored Mission Data (info data rate),USRadioGuy
+514,None,JPSS-4,26703.4,inactive,150000 kHz,Stored Mission Data (info data rate),USRadioGuy
+515,None,JPSS-4,7812,inactive,50000 kHz,Real-time High Rate Data,USRadioGuy
+516,None,Kalpana-1,4503.5,inactive,500 kHz,VHRR raw data,USRadioGuy
+517,None,Kalpana-1,402.75,inactive,180 kHz,DCP reports,USRadioGuy
+518,None,Kalpana-1,4506.05,inactive,180 kHz,DCP relay,USRadioGuy
+519,None,Meteor-M N1,8128,inactive,30700 kHz,Stored data,USRadioGuy
+520,None,Meteor-M N1,8320,inactive,30700 kHz,Stored data,USRadioGuy
+521,None,Meteor-M N1,8128,inactive,123000 kHz,Stored data,USRadioGuy
+522,None,Meteor-M N1,8320,inactive,123000 kHz,Stored data,USRadioGuy
+523,None,Meteor-M N1,1700,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+524,None,Meteor-M N1,1705,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+525,None,Meteor-M N1,137.1,inactive,150 kHz,Selected data,USRadioGuy
+526,None,Meteor-M N1,137.9,inactive,150 kHz,Selected data,USRadioGuy
+527,None,Meteor-M N1,137.9125,inactive,150 kHz,Selected data,USRadioGuy
+528,None,Meteor-M N1,402.2,inactive,5 kHz,Regional and International DCP reports,USRadioGuy
+529,None,Meteor-M N1,401.95,inactive,5 kHz,Regional DCP reports,USRadioGuy
+530,None,Meteor-M N2,8128,inactive,30700 kHz,Stored data,USRadioGuy
+531,None,Meteor-M N2,8320,inactive,30700 kHz,Stored data,USRadioGuy
+532,None,Meteor-M N2,8128,inactive,123000 kHz,Stored data,USRadioGuy
+533,None,Meteor-M N2,8320,inactive,123000 kHz,Stored data,USRadioGuy
+534,None,Meteor-M N2,1700,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+535,None,Meteor-M N2,1705,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+536,None,Meteor-M N2,137.1,inactive,150 kHz,Selected data,USRadioGuy
+537,None,Meteor-M N2,137.9,inactive,150 kHz,Selected data,USRadioGuy
+538,None,Meteor-M N2,137.9125,inactive,150 kHz,Selected data,USRadioGuy
+539,None,Meteor-M N2,402.2,inactive,5 kHz,Regional and International DCP reports,USRadioGuy
+540,None,Meteor-M N2,401.95,inactive,5 kHz,Regional DCP reports,USRadioGuy
+541,None,Meteor-M N2-1,8128,inactive,30700 kHz,Stored data,USRadioGuy
+542,None,Meteor-M N2-1,8320,inactive,30700 kHz,Stored data,USRadioGuy
+543,None,Meteor-M N2-1,8128,inactive,123000 kHz,Stored data,USRadioGuy
+544,None,Meteor-M N2-1,8320,inactive,123000 kHz,Stored data,USRadioGuy
+545,None,Meteor-M N2-1,1700,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+546,None,Meteor-M N2-1,1705,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+547,None,Meteor-M N2-1,137.1,inactive,150 kHz,Selected data,USRadioGuy
+548,None,Meteor-M N2-1,137.9,inactive,150 kHz,Selected data,USRadioGuy
+549,None,Meteor-M N2-1,137.9125,inactive,150 kHz,Selected data,USRadioGuy
+550,None,Meteor-M N2-1,402.2,inactive,5 kHz,Regional and International DCP reports,USRadioGuy
+551,None,Meteor-M N2-1,401.95,inactive,5 kHz,Regional DCP reports,USRadioGuy
+552,None,Meteor-M N2-2,8128,inactive,30700 kHz,Stored data,USRadioGuy
+553,None,Meteor-M N2-2,8320,inactive,30700 kHz,Stored data,USRadioGuy
+554,None,Meteor-M N2-2,8128,inactive,123000 kHz,Stored data,USRadioGuy
+555,None,Meteor-M N2-2,8320,inactive,123000 kHz,Stored data,USRadioGuy
+556,None,Meteor-M N2-2,1700,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+557,None,Meteor-M N2-2,1705,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+558,None,Meteor-M N2-2,137.1,inactive,150 kHz,Selected data,USRadioGuy
+559,None,Meteor-M N2-2,137.9,inactive,150 kHz,Selected data,USRadioGuy
+560,None,Meteor-M N2-2,137.9125,inactive,150 kHz,Selected data,USRadioGuy
+561,None,Meteor-M N2-2,402.2,inactive,5 kHz,Regional and International DCP reports,USRadioGuy
+562,None,Meteor-M N2-2,401.95,inactive,5 kHz,Regional DCP reports,USRadioGuy
+563,None,Meteor-M N2-3,8128,inactive,30700 kHz,Stored data,USRadioGuy
+564,None,Meteor-M N2-3,8320,inactive,30700 kHz,Stored data,USRadioGuy
+565,None,Meteor-M N2-3,8128,inactive,123000 kHz,Stored data,USRadioGuy
+566,None,Meteor-M N2-3,8320,inactive,123000 kHz,Stored data,USRadioGuy
+567,None,Meteor-M N2-3,1700,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+568,None,Meteor-M N2-3,1705,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+569,None,Meteor-M N2-3,137.1,inactive,150 kHz,Selected data,USRadioGuy
+570,None,Meteor-M N2-3,137.9,inactive,150 kHz,Selected data,USRadioGuy
+571,None,Meteor-M N2-3,137.9125,inactive,150 kHz,Selected data,USRadioGuy
+572,None,Meteor-M N2-3,402.2,inactive,5 kHz,Regional and International DCP reports,USRadioGuy
+573,None,Meteor-M N2-3,401.95,inactive,5 kHz,Regional DCP reports,USRadioGuy
+574,None,Meteor-M N2-4,8128,inactive,30700 kHz,Stored data,USRadioGuy
+575,None,Meteor-M N2-4,8320,inactive,30700 kHz,Stored data,USRadioGuy
+576,None,Meteor-M N2-4,8128,inactive,123000 kHz,Stored data,USRadioGuy
+577,None,Meteor-M N2-4,8320,inactive,123000 kHz,Stored data,USRadioGuy
+578,None,Meteor-M N2-4,1700,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+579,None,Meteor-M N2-4,1705,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+580,None,Meteor-M N2-4,137.1,inactive,150 kHz,Selected data,USRadioGuy
+581,None,Meteor-M N2-4,137.9,inactive,150 kHz,Selected data,USRadioGuy
+582,None,Meteor-M N2-4,137.9125,inactive,150 kHz,Selected data,USRadioGuy
+583,None,Meteor-M N2-4,402.2,inactive,5 kHz,Regional and International DCP reports,USRadioGuy
+584,None,Meteor-M N2-4,401.95,inactive,5 kHz,Regional DCP reports,USRadioGuy
+585,None,Meteor-M N2-5,8128,inactive,30700 kHz,Stored data,USRadioGuy
+586,None,Meteor-M N2-5,8320,inactive,30700 kHz,Stored data,USRadioGuy
+587,None,Meteor-M N2-5,8128,inactive,123000 kHz,Stored data,USRadioGuy
+588,None,Meteor-M N2-5,8320,inactive,123000 kHz,Stored data,USRadioGuy
+589,None,Meteor-M N2-5,1700,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+590,None,Meteor-M N2-5,1705,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+591,None,Meteor-M N2-5,137.1,inactive,150 kHz,Selected data,USRadioGuy
+592,None,Meteor-M N2-5,137.9,inactive,150 kHz,Selected data,USRadioGuy
+593,None,Meteor-M N2-5,137.9125,inactive,150 kHz,Selected data,USRadioGuy
+594,None,Meteor-M N2-5,402.2,inactive,5 kHz,Regional and International DCP reports,USRadioGuy
+595,None,Meteor-M N2-5,401.95,inactive,5 kHz,Regional DCP reports,USRadioGuy
+596,None,Meteor-M N2-6,8128,inactive,30700 kHz,Stored data,USRadioGuy
+597,None,Meteor-M N2-6,8320,inactive,30700 kHz,Stored data,USRadioGuy
+598,None,Meteor-M N2-6,8128,inactive,123000 kHz,Stored data,USRadioGuy
+599,None,Meteor-M N2-6,8320,inactive,123000 kHz,Stored data,USRadioGuy
+600,None,Meteor-M N2-6,1700,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+601,None,Meteor-M N2-6,1705,inactive,3000 kHz,High resolution data + DCP reports,USRadioGuy
+602,None,Meteor-M N2-6,137.1,inactive,150 kHz,Selected data,USRadioGuy
+603,None,Meteor-M N2-6,137.9,inactive,150 kHz,Selected data,USRadioGuy
+604,None,Meteor-M N2-6,137.9125,inactive,150 kHz,Selected data,USRadioGuy
+605,None,Meteor-M N2-6,402.2,inactive,5 kHz,Regional and International DCP reports,USRadioGuy
+606,None,Meteor-M N2-6,401.95,inactive,5 kHz,Regional DCP reports,USRadioGuy
+607,None,Meteosat-10,1686.83,inactive,5400 kHz,Raw data,USRadioGuy
+608,None,Meteosat-10,2105.65,inactive,2000 kHz,High resolution data - not operational,USRadioGuy
+609,None,Meteosat-10,1695.15,inactive,2000 kHz,High resolution data - not operational,USRadioGuy
+610,None,Meteosat-10,2101.5,inactive,660 kHz,Selected data,USRadioGuy
+611,None,Meteosat-10,1691,inactive,660 kHz,Selected data,USRadioGuy
+612,None,Meteosat-10,402.05,inactive,3 kHz,"International DCP reports, 33 channels",USRadioGuy
+613,None,Meteosat-10,402.27,inactive,1.5 kHz,"Regional DCP reports, 223 channels",USRadioGuy
+614,None,Meteosat-10,1675.281,inactive,750 kHz,DCP report relay,USRadioGuy
+615,None,Meteosat-11,1686.83,inactive,5400 kHz,Raw data,USRadioGuy
+616,None,Meteosat-11,2105.65,inactive,2000 kHz,High resolution data - not planned to be used,USRadioGuy
+617,None,Meteosat-11,1695.15,inactive,2000 kHz,High resolution data - not planned to be used,USRadioGuy
+618,None,Meteosat-11,2101.5,inactive,660 kHz,Selected data,USRadioGuy
+619,None,Meteosat-11,1691,inactive,660 kHz,Selected data,USRadioGuy
+620,None,Meteosat-11,402.05,inactive,3 kHz,"International DCP reports, 33 channels",USRadioGuy
+621,None,Meteosat-11,402.27,inactive,1.5 kHz,"Regional DCP reports, 223 channels",USRadioGuy
+622,None,Meteosat-11,1675.281,inactive,750 kHz,DCP report relay,USRadioGuy
+623,None,Meteosat-4,1686.83,inactive,1333.2 kHz,Raw data,USRadioGuy
+624,None,Meteosat-4,2105,inactive,660 kHz,High resolution data,USRadioGuy
+625,None,Meteosat-4,1694.5,inactive,660 kHz,High resolution data,USRadioGuy
+626,None,Meteosat-4,2101.5,active,30 kHz,Selected data,USRadioGuy
+627,None,Meteosat-4,1691,active,30 kHz,Selected data,USRadioGuy
+628,None,Meteosat-4,402.05,inactive,3 kHz,"International DCP reports, 33 channels",USRadioGuy
+629,None,Meteosat-4,402.15,inactive,1.5 kHz,"Regional DCP reports, 33 channels",USRadioGuy
+630,None,Meteosat-4,1675.281,inactive,200 kHz,DCP report relay,USRadioGuy
+631,None,Meteosat-4,1695.74,inactive,120 kHz,Information,USRadioGuy
+632,None,Meteosat-5,1686.83,inactive,1333.2 kHz,Raw data,USRadioGuy
+633,None,Meteosat-5,2105,inactive,660 kHz,High resolution data,USRadioGuy
+634,None,Meteosat-5,1694.5,inactive,660 kHz,High resolution data,USRadioGuy
+635,None,Meteosat-5,2101.5,active,30 kHz,Selected data,USRadioGuy
+636,None,Meteosat-5,1691,active,30 kHz,Selected data,USRadioGuy
+637,None,Meteosat-5,402.05,inactive,3 kHz,"International DCP reports, 33 channels",USRadioGuy
+638,None,Meteosat-5,402.15,inactive,1.5 kHz,"Regional DCP reports, 33 channels",USRadioGuy
+639,None,Meteosat-5,1675.281,inactive,200 kHz,DCP report relay,USRadioGuy
+640,None,Meteosat-5,1695.74,inactive,120 kHz,Information,USRadioGuy
+641,None,Meteosat-5 (IODC),1686.83,inactive,1333.2 kHz,Raw data,USRadioGuy
+642,None,Meteosat-5 (IODC),2105,inactive,660 kHz,High resolution data,USRadioGuy
+643,None,Meteosat-5 (IODC),1694.5,inactive,660 kHz,High resolution data,USRadioGuy
+644,None,Meteosat-5 (IODC),2101.5,active,30 kHz,Selected data,USRadioGuy
+645,None,Meteosat-5 (IODC),1691,active,30 kHz,Selected data,USRadioGuy
+646,None,Meteosat-5 (IODC),402.05,inactive,3 kHz,"International DCP reports, 33 channels",USRadioGuy
+647,None,Meteosat-5 (IODC),402.15,inactive,1.5 kHz,"Regional DCP reports, 33 channels",USRadioGuy
+648,None,Meteosat-5 (IODC),1675.28,inactive,200 kHz,DCP report relay,USRadioGuy
+649,None,Meteosat-6,1686.83,inactive,1333.2 kHz,Raw data,USRadioGuy
+650,None,Meteosat-6,2105,inactive,660 kHz,High resolution data,USRadioGuy
+651,None,Meteosat-6,1694.5,inactive,660 kHz,High resolution data,USRadioGuy
+652,None,Meteosat-6,2101.5,active,30 kHz,Selected data,USRadioGuy
+653,None,Meteosat-6,1691,active,30 kHz,Selected data,USRadioGuy
+654,None,Meteosat-6,402.05,inactive,3 kHz,"International DCP reports, 33 channels",USRadioGuy
+655,None,Meteosat-6,402.15,inactive,1.5 kHz,"Regional DCP reports, 33 channels",USRadioGuy
+656,None,Meteosat-6,1675.281,inactive,200 kHz,DCP report relay,USRadioGuy
+657,None,Meteosat-6,1695.74,inactive,120 kHz,Information,USRadioGuy
+658,None,Meteosat-6 (IODC),1686.83,inactive,1333.2 kHz,Raw data,USRadioGuy
+659,None,Meteosat-6 (IODC),2105,inactive,660 kHz,High resolution data,USRadioGuy
+660,None,Meteosat-6 (IODC),1694.5,inactive,660 kHz,High resolution data,USRadioGuy
+661,None,Meteosat-6 (IODC),2101.5,active,30 kHz,Selected data,USRadioGuy
+662,None,Meteosat-6 (IODC),1691,active,30 kHz,Selected data,USRadioGuy
+663,None,Meteosat-6 (IODC),402.05,inactive,3 kHz,"International DCP reports, 33 channels",USRadioGuy
+664,None,Meteosat-6 (IODC),402.15,inactive,1.5 kHz,"Regional DCP reports, 33 channels",USRadioGuy
+665,None,Meteosat-6 (IODC),1675.281,inactive,200 kHz,DCP report relay,USRadioGuy
+666,None,Meteosat-7,1686.83,inactive,1333.2 kHz,Raw data,USRadioGuy
+667,None,Meteosat-7,2105,inactive,660 kHz,High resolution data,USRadioGuy
+668,None,Meteosat-7,1694.5,inactive,660 kHz,High resolution data,USRadioGuy
+669,None,Meteosat-7,2101.5,active,30 kHz,Selected data,USRadioGuy
+670,None,Meteosat-7,1691,active,30 kHz,Selected data,USRadioGuy
+671,None,Meteosat-7,402.05,inactive,3 kHz,"International DCP reports, 33 channels",USRadioGuy
+672,None,Meteosat-7,402.15,inactive,1.5 kHz,"Regional DCP reports, 33 channels",USRadioGuy
+673,None,Meteosat-7,1675.281,inactive,200 kHz,DCP report relay,USRadioGuy
+674,None,Meteosat-7,1695.74,inactive,120 kHz,Information,USRadioGuy
+675,None,Meteosat-7 (IODC),1686.83,inactive,1333.2 kHz,Raw data,USRadioGuy
+676,None,Meteosat-7 (IODC),2105,inactive,660 kHz,High resolution data,USRadioGuy
+677,None,Meteosat-7 (IODC),1694.5,inactive,660 kHz,High resolution data,USRadioGuy
+678,None,Meteosat-7 (IODC),2101.5,active,30 kHz,Selected data,USRadioGuy
+679,None,Meteosat-7 (IODC),1691,active,30 kHz,Selected data,USRadioGuy
+680,None,Meteosat-7 (IODC),402.05,inactive,3 kHz,"International DCP reports, 33 channels",USRadioGuy
+681,None,Meteosat-7 (IODC),402.15,inactive,1.5 kHz,"Regional DCP reports, 33 channels",USRadioGuy
+682,None,Meteosat-7 (IODC),1675.281,inactive,200 kHz,DCP report relay,USRadioGuy
+683,None,Meteosat-7 (IODC),1695.74,inactive,120 kHz,Information,USRadioGuy
+684,None,Meteosat-8,1686.83,inactive,5400 kHz,Raw data,USRadioGuy
+685,None,Meteosat-8,2105.65,inactive,2000 kHz,High resolution data - not in use,USRadioGuy
+686,None,Meteosat-8,1695.15,inactive,2000 kHz,High resolution data - not in use,USRadioGuy
+687,None,Meteosat-8,2101.5,inactive,660 kHz,Selected data - not in use,USRadioGuy
+688,None,Meteosat-8,1691,inactive,660 kHz,Selected data - not in use,USRadioGuy
+689,None,Meteosat-8,402.05,inactive,3 kHz,"International DCP reports, 33 channels",USRadioGuy
+690,None,Meteosat-8,402.27,inactive,1.5 kHz,"Regional DCP reports, 223 channels",USRadioGuy
+691,None,Meteosat-8,1675.281,inactive,750 kHz,DCP report relay,USRadioGuy
+692,None,Meteosat-8 (IODC),1686.83,inactive,5400 kHz,Raw data,USRadioGuy
+693,None,Meteosat-8 (IODC),2105.65,inactive,2000 kHz,High resolution data - not in use,USRadioGuy
+694,None,Meteosat-8 (IODC),1695.15,inactive,2000 kHz,High resolution data - not in use,USRadioGuy
+695,None,Meteosat-8 (IODC),2101.5,inactive,660 kHz,Selected data - not in use,USRadioGuy
+696,None,Meteosat-8 (IODC),1691,inactive,660 kHz,Selected data - not in use,USRadioGuy
+697,None,Meteosat-8 (IODC),402.05,inactive,3 kHz,"International DCP reports, 33 channels",USRadioGuy
+698,None,Meteosat-8 (IODC),402.27,inactive,1.5 kHz,"Regional DCP reports, 223 channels",USRadioGuy
+699,None,Meteosat-8 (IODC),1675.281,inactive,750 kHz,DCP report relay,USRadioGuy
+700,None,Meteosat-9,1686.83,inactive,5400 kHz,Raw data,USRadioGuy
+701,None,Meteosat-9,2105.65,inactive,2000 kHz,High resolution data - not in use,USRadioGuy
+702,None,Meteosat-9,1695.15,inactive,2000 kHz,High resolution data - not in use,USRadioGuy
+703,None,Meteosat-9,2101.5,inactive,660 kHz,Selected data,USRadioGuy
+704,None,Meteosat-9,1691,inactive,660 kHz,Selected data,USRadioGuy
+705,None,Meteosat-9,402.05,inactive,3 kHz,"International DCP reports, 33 channels",USRadioGuy
+706,None,Meteosat-9,402.27,inactive,1.5 kHz,"Regional DCP reports, 223 channels",USRadioGuy
+707,None,Meteosat-9,1675.281,inactive,750 kHz,DCP report relay,USRadioGuy
+708,None,Meteosat-9 (IODC),1686.83,inactive,5400 kHz,Raw data,USRadioGuy
+709,None,Meteosat-9 (IODC),2105.65,inactive,2000 kHz,High resolution data - not in use,USRadioGuy
+710,None,Meteosat-9 (IODC),1695.15,inactive,2000 kHz,High resolution data - not in use,USRadioGuy
+711,None,Meteosat-9 (IODC),2101.5,inactive,660 kHz,Selected data,USRadioGuy
+712,None,Meteosat-9 (IODC),1691,inactive,660 kHz,Selected data,USRadioGuy
+713,None,Meteosat-9 (IODC),402.05,inactive,3 kHz,"International DCP reports, 33 channels",USRadioGuy
+714,None,Meteosat-9 (IODC),402.27,inactive,1.5 kHz,"Regional DCP reports, 223 channels",USRadioGuy
+715,None,Meteosat-9 (IODC),1675.281,inactive,750 kHz,DCP report relay,USRadioGuy
+716,None,Metop-A,7800,inactive,63000 kHz,Raw data,USRadioGuy
+717,None,Metop-A,1701.3,inactive,4500 kHz,High resolution data - not in use,USRadioGuy
+718,None,Metop-A,1707,inactive,4500 kHz,High resolution data - used part time,USRadioGuy
+719,None,Metop-A,137.1,inactive,150 kHz,Selected data - not in use,USRadioGuy
+720,None,Metop-A,137.9125,inactive,150 kHz,"Selected data - backup, not in use",USRadioGuy
+721,None,Metop-A,401.585,inactive,10 kHz,DCP reports,USRadioGuy
+722,None,Metop-A,465.9875,inactive,1 kHz,DCP configuration control,USRadioGuy
+723,None,Metop-B,7800,inactive,63000 kHz,Raw data,USRadioGuy
+724,None,Metop-B,1701.3,inactive,4500 kHz,High resolution data,USRadioGuy
+725,None,Metop-B,1707,inactive,4500 kHz,High resolution data - backup,USRadioGuy
+726,None,Metop-B,137.1,inactive,150 kHz,Selected data,USRadioGuy
+727,None,Metop-B,137.9125,inactive,150 kHz,Selected data - backup,USRadioGuy
+728,None,Metop-B,401.595,inactive,10 kHz,DCP reports,USRadioGuy
+729,None,Metop-B,465.9875,inactive,1 kHz,DCP configuration control,USRadioGuy
+730,None,Metop-C,7800,inactive,63000 kHz,Raw data,USRadioGuy
+731,None,Metop-C,1701.3,inactive,4500 kHz,High resolution data - not in use,USRadioGuy
+732,None,Metop-C,1707,inactive,4500 kHz,High resolution data - used part time,USRadioGuy
+733,None,Metop-C,137.1,inactive,150 kHz,Selected data - not in use,USRadioGuy
+734,None,Metop-C,137.9125,inactive,150 kHz,"Selected data - backup, not in use",USRadioGuy
+735,None,Metop-C,401.585,inactive,10 kHz,DCP reports,USRadioGuy
+736,None,Metop-C,465.9875,inactive,1 kHz,DCP configuration control,USRadioGuy
+737,None,Metop-SG-A1,7825,inactive,150000 kHz,Direct Data Broadcast,USRadioGuy
+738,None,Metop-SG-A1,26295,inactive,366000 kHz,"Stored Mission Data, Channel 1",USRadioGuy
+739,None,Metop-SG-A1,26700,inactive,366000 kHz,"Stored Mission Data, Channel 2",USRadioGuy
+740,None,Metop-SG-A1,401.345,inactive,80 kHz,Argos DCS,USRadioGuy
+741,None,Metop-SG-A1,465.9875,inactive,20 kHz,Argos DCS return link,USRadioGuy
+742,None,Metop-SG-A2,7825,inactive,150000 kHz,Direct Data Broadcast,USRadioGuy
+743,None,Metop-SG-A2,26295,inactive,366000 kHz,"Stored Mission Data, Channel 1",USRadioGuy
+744,None,Metop-SG-A2,26700,inactive,366000 kHz,"Stored Mission Data, Channel 2",USRadioGuy
+745,None,Metop-SG-A2,401.345,inactive,80 kHz,Argos DCS,USRadioGuy
+746,None,Metop-SG-A2,465.9875,inactive,20 kHz,Argos DCS return link,USRadioGuy
+747,None,Metop-SG-A3,7825,inactive,150000 kHz,Direct Data Broadcast,USRadioGuy
+748,None,Metop-SG-A3,26295,inactive,366000 kHz,"Stored Mission Data, Channel 1",USRadioGuy
+749,None,Metop-SG-A3,26700,inactive,366000 kHz,"Stored Mission Data, Channel 2",USRadioGuy
+750,None,Metop-SG-A3,401.345,inactive,80 kHz,Argos DCS,USRadioGuy
+751,None,Metop-SG-A3,465.9875,inactive,20 kHz,Argos DCS return link,USRadioGuy
+752,None,Metop-SG-B1,7825,inactive,150000 kHz,Direct Data Broadcast,USRadioGuy
+753,None,Metop-SG-B1,26700,inactive,366000 kHz,Stored Mission Data,USRadioGuy
+754,None,Metop-SG-B1,401.345,inactive,80 kHz,Argos DCS,USRadioGuy
+755,None,Metop-SG-B1,465.9875,inactive,20 kHz,Argos DCS return link,USRadioGuy
+756,None,Metop-SG-B2,7825,inactive,150000 kHz,Direct Data Broadcast,USRadioGuy
+757,None,Metop-SG-B2,26700,inactive,366000 kHz,Stored Mission Data,USRadioGuy
+758,None,Metop-SG-B2,401.345,inactive,80 kHz,Argos DCS,USRadioGuy
+759,None,Metop-SG-B2,465.9875,inactive,20 kHz,Argos DCS return link,USRadioGuy
+760,None,Metop-SG-B3,7825,inactive,150000 kHz,Direct Data Broadcast,USRadioGuy
+761,None,Metop-SG-B3,26700,inactive,366000 kHz,Stored Mission Data,USRadioGuy
+762,None,Metop-SG-B3,401.345,inactive,80 kHz,Argos DCS,USRadioGuy
+763,None,Metop-SG-B3,465.9875,inactive,20 kHz,Argos DCS return link,USRadioGuy
+764,None,MTG-I1,26360,inactive,287000 kHz,Mission Data Acquisition,USRadioGuy
+765,None,MTG-I1,402.275,inactive,3 kHz,Data Collection Platform transmissions,USRadioGuy
+766,None,MTG-I1,402.275,inactive,1.5 kHz,Data Collection Platform transmissions,USRadioGuy
+767,None,MTG-I2,26360,inactive,287000 kHz,Mission Data Acquisition,USRadioGuy
+768,None,MTG-I2,402.275,inactive,3 kHz,Data Collection Platform transmissions,USRadioGuy
+769,None,MTG-I2,402.275,inactive,1.5 kHz,Data Collection Platform transmissions,USRadioGuy
+770,None,MTG-I3,26360,inactive,287000 kHz,Mission Data Acquisition,USRadioGuy
+771,None,MTG-I3,402.275,inactive,3 kHz,Data Collection Platform transmissions,USRadioGuy
+772,None,MTG-I3,402.275,inactive,1.5 kHz,Data Collection Platform transmissions,USRadioGuy
+773,None,MTG-I4,26360,inactive,287000 kHz,Mission Data Acquisition,USRadioGuy
+774,None,MTG-I4,402.275,inactive,3 kHz,Data Collection Platform transmissions,USRadioGuy
+775,None,MTG-I4,402.275,inactive,1.5 kHz,Data Collection Platform transmissions,USRadioGuy
+776,None,MTG-S1,26760,inactive,452000 kHz,Mission Data Acquisition,USRadioGuy
+777,None,MTG-S2,26760,inactive,452000 kHz,Mission Data Acquisition,USRadioGuy
+778,None,NOAA-15,2247.5,inactive,4000 kHz,Global and Local data (GAC and LAC),USRadioGuy
+779,None,NOAA-15,1702.5,inactive,4000 kHz,Full information data,USRadioGuy
+780,None,NOAA-15,1698,inactive,4000 kHz,Full information data,USRadioGuy
+781,None,NOAA-15,1707,inactive,4000 kHz,Full information data,USRadioGuy
+782,None,NOAA-15,137.5,active,38 kHz,Reduced resolution images,USRadioGuy
+783,None,NOAA-15,137.62,active,38 kHz,Reduced resolution images,USRadioGuy
+784,None,NOAA-15,137.1,active,38 kHz,Reduced resolution images,USRadioGuy
+785,None,NOAA-15,137.9125,active,38 kHz,Reduced resolution images,USRadioGuy
+786,None,NOAA-15,137.35,inactive,46 kHz,TIP data,USRadioGuy
+787,None,NOAA-15,137.77,inactive,46 kHz,TIP data,USRadioGuy
+788,None,NOAA-16,2247.5,inactive,4000 kHz,Global and Local data (GAC and LAC),USRadioGuy
+789,None,NOAA-16,1702.5,inactive,4000 kHz,Full information data,USRadioGuy
+790,None,NOAA-16,1698,inactive,4000 kHz,Full information data,USRadioGuy
+791,None,NOAA-16,1707,inactive,4000 kHz,Full information data,USRadioGuy
+792,None,NOAA-16,137.35,active,38 kHz,Reduced resolution images,USRadioGuy
+793,None,NOAA-16,137.77,active,38 kHz,Reduced resolution images,USRadioGuy
+794,None,NOAA-16,137.1,active,38 kHz,Reduced resolution images,USRadioGuy
+795,None,NOAA-16,137.9125,active,38 kHz,Reduced resolution images,USRadioGuy
+796,None,NOAA-16,137.35,inactive,46 kHz,TIP data,USRadioGuy
+797,None,NOAA-16,137.77,inactive,46 kHz,TIP data,USRadioGuy
+798,None,NOAA-17,2247.5,inactive,2000 kHz,Global and Local data (GAC and LAC),USRadioGuy
+799,None,NOAA-17,1702.5,inactive,4000 kHz,Full information data,USRadioGuy
+800,None,NOAA-17,1698,inactive,4000 kHz,Full information data,USRadioGuy
+801,None,NOAA-17,1707,inactive,4000 kHz,Full information data,USRadioGuy
+802,None,NOAA-17,137.5,active,38 kHz,Reduced resolution images,USRadioGuy
+803,None,NOAA-17,137.62,active,38 kHz,Reduced resolution images,USRadioGuy
+804,None,NOAA-17,137.1,active,38 kHz,Reduced resolution images,USRadioGuy
+805,None,NOAA-17,137.9125,active,38 kHz,Reduced resolution images,USRadioGuy
+806,None,NOAA-17,137.35,inactive,46 kHz,TIP data,USRadioGuy
+807,None,NOAA-17,137.77,inactive,46 kHz,TIP data,USRadioGuy
+808,None,NOAA-18,2247.5,inactive,4000 kHz,Global and Local data (GAC and LAC),USRadioGuy
+809,None,NOAA-18,1702.5,inactive,4000 kHz,Full information data,USRadioGuy
+810,None,NOAA-18,1698,inactive,4000 kHz,Full information data,USRadioGuy
+811,None,NOAA-18,1707,inactive,4000 kHz,Full information data,USRadioGuy
+812,None,NOAA-18,137.35,active,38 kHz,Reduced resolution images,USRadioGuy
+813,None,NOAA-18,137.77,active,38 kHz,Reduced resolution images,USRadioGuy
+814,None,NOAA-18,137.1,active,38 kHz,Reduced resolution images,USRadioGuy
+815,None,NOAA-18,137.9125,active,38 kHz,Reduced resolution images,USRadioGuy
+816,None,NOAA-18,137.35,inactive,46 kHz,TIP data,USRadioGuy
+817,None,NOAA-18,137.77,inactive,46 kHz,TIP data,USRadioGuy
+818,None,NOAA-19,2247.5,inactive,2000 kHz,Global and Local data (GAC and LAC),USRadioGuy
+819,None,NOAA-19,1702.5,inactive,4000 kHz,Full information data,USRadioGuy
+820,None,NOAA-19,1698,inactive,4000 kHz,Full information data,USRadioGuy
+821,None,NOAA-19,1707,inactive,4000 kHz,Full information data,USRadioGuy
+822,None,NOAA-19,137.35,active,38 kHz,Reduced resolution images,USRadioGuy
+823,None,NOAA-19,137.77,active,38 kHz,Reduced resolution images,USRadioGuy
+824,None,NOAA-19,137.1,active,38 kHz,Reduced resolution images,USRadioGuy
+825,None,NOAA-19,137.9125,active,38 kHz,Reduced resolution images,USRadioGuy
+826,None,NOAA-19,137.35,inactive,46 kHz,TIP data,USRadioGuy
+827,None,NOAA-19,137.77,inactive,46 kHz,TIP data,USRadioGuy
+828,None,NOAA-20,26703.4,inactive,300000 kHz,Stored Mission Data,USRadioGuy
+829,None,NOAA-20,7812,inactive,30000 kHz,Real-time High Rate Data,USRadioGuy
+830,None,NOAA-21,26703.4,inactive,300000 kHz,Stored Mission Data,USRadioGuy
+831,None,NOAA-21,7812,inactive,30000 kHz,Real-time High Rate Data,USRadioGuy
+832,None,RCM-1,5400.0,active,N/R kHz,C-band SAR,USRadioGuy
+833,None,Sentinel-3A,8095,inactive,140000 kHz,Raw data downlink,USRadioGuy
+834,None,Sentinel-3A,8260,inactive,140000 kHz,Raw data downlink,USRadioGuy
+835,None,Sentinel-3B,8095,inactive,140000 kHz,Raw data downlink,USRadioGuy
+836,None,Sentinel-3B,8260,inactive,140000 kHz,Raw data downlink,USRadioGuy
+837,None,Sentinel-3C,8095,inactive,140000 kHz,Raw data downlink,USRadioGuy
+838,None,Sentinel-3C,8260,inactive,140000 kHz,Raw data downlink,USRadioGuy
+839,None,Sentinel-3D,8095,inactive,140000 kHz,Raw data downlink,USRadioGuy
+840,None,Sentinel-3D,8260,inactive,140000 kHz,Raw data downlink,USRadioGuy
+841,None,Sentinel-6A,8090,inactive,120000 kHz,Data Downlink,USRadioGuy
+842,None,Sentinel-6B,8090,inactive,120000 kHz,Data Downlink,USRadioGuy
+843,None,SNPP,8212.5,inactive,300000 kHz,Stored Mission Data,USRadioGuy
+844,None,SNPP,7812,inactive,30000 kHz,Real-time High Rate Data,USRadioGuy
+845,None,THEOS-1,8140.0,inactive,kHz,Earth Observation Image Data (PAN/MS),USRadioGuy
+846,None,THEOS-2 Main,8150,active,250000 kHz,Earth Observation Image Data (PAN/MS),USRadioGuy
+847,None,THEOS-2 Small,8200,inactive,130000 kHz,Earth Observation RGB Image data,USRadioGuy
