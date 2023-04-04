@@ -1,5 +1,6 @@
 import pandas as pd
 import requests
+import re
 
 def Scraper():
     """
@@ -31,21 +32,35 @@ def Scraper():
 
     #Remove null entries
 
+    beacons = [str(x) for x in amsat_dict.pop('Beacon')]
+    ogLen = len(myDict['Frequency'])
+    myDict['Frequency'] += beacons
+
+    for key in myDict:
+        if (key != 'Frequency'):
+            myDict[key] += myDict[key]
 
 
     nulls = []
     index = 0
     for each in myDict['Name']:
         myDict['Source'] = myDict['Source'] + ['AmSAT']
+        myDict['Bandwidth/Baud'] = myDict['Bandwidth/Baud'] + ['BW']
         if ((each == 'nan') or (myDict['Frequency'][index] == 'nan')):
             nulls += [index]
         if (myDict['Description'][index].strip() in actDict.keys()):
             myDict['Status'][index] = actDict[myDict['Description'][index].strip()]
             myDict['Description'][index] = 'None'
+        if (index >= ogLen):
+            myDict['Description'][index] = 'Beacon, ' + myDict['Description'][index]
+        if (bool(re.search(r'\d', myDict['Frequency'][index])) == False):
+            nulls += [index]
 
         index += 1
 
-    nulls = sorted(nulls, reverse=True)
+    nulls = (sorted(list(set(nulls)), reverse=True))
+    print(len(myDict['ID']))
+    print(nulls)
 
     for popInd in nulls:
         myDict['ID'].pop(popInd)
@@ -53,6 +68,8 @@ def Scraper():
         myDict['Frequency'].pop(popInd)
         myDict['Status'].pop(popInd)
         myDict['Description'].pop(popInd)
+        myDict['Bandwidth/Baud'].pop(popInd)
+        myDict['Source'].pop(popInd)
 
     return myDict
 
