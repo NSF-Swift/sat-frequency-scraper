@@ -11,7 +11,7 @@ from AmsatScraper import Scraper as ams
 
 
 def ScrapeAll():
-    myDicts = [sns(), rgs(), fccs()]
+    myDicts = [sns(), rgs(), fccs(), ams()]
 
 
 

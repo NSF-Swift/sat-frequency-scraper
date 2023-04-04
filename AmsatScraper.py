@@ -59,8 +59,6 @@ def Scraper():
         index += 1
 
     nulls = (sorted(list(set(nulls)), reverse=True))
-    print(len(myDict['ID']))
-    print(nulls)
 
     for popInd in nulls:
         myDict['ID'].pop(popInd)
