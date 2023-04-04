@@ -46,8 +46,10 @@ def Scraper():
     # generate OSCAR DataFrames
     oscarXL = []
     for file in os.listdir():
-        if (file[:7] == 'Oscar -'):
+        if (file[-5:] == '.xlsx'):
             oscarXL += [file]
+
+    oscarXL = sorted(oscarXL)
 
     # for debugging
     # print(oscarXL)
@@ -56,11 +58,12 @@ def Scraper():
     mw_df = mw_xl[['Id', 'Satellite', 'Frequency (GHz)', 'Bandwidth (MHz)', 'Comment']].rename(
                 columns={'Frequency (GHz)': 'Frequency (MHz)', 'Bandwidth (MHz)': 'Bandwidth (kHz)'}
             )
-    gs_xl = pd.DataFrame(pd.read_excel(oscarXL[1]))
-    gs_df = gs_xl[['Id', 'Satellite', 'Frequency (MHz)', 'Bandwidth (kHz)', 'Comment']]
 
-    sat_xl = pd.DataFrame(pd.read_excel(oscarXL[2]))
+    sat_xl = pd.DataFrame(pd.read_excel(oscarXL[1]))
     sat_df = sat_xl[['Id', 'Satellite', 'Frequency (MHz)', 'Bandwidth (kHz)', 'Comment']]
+
+    gs_xl = pd.DataFrame(pd.read_excel(oscarXL[2]))
+    gs_df = gs_xl[['Id', 'Satellite', 'Frequency (MHz)', 'Bandwidth (kHz)', 'Comment']]
 
     oscar_df = pd.concat([mw_df, gs_df, sat_df])
 
