@@ -43,6 +43,9 @@ def Scraper():
         driver.find_element(By.XPATH, f'/html/body/div[1]/div[2]/div[{i+1}]/div/form/button').click()
         time.sleep(2)
 
+    # close driver session
+    driver.quit()
+
     # generate OSCAR DataFrames
     oscarXL = []
     for file in os.listdir():
@@ -51,21 +54,15 @@ def Scraper():
 
     oscarXL = sorted(oscarXL)
 
-    # for debugging
-    # print(oscarXL)
-
-    mw_xl = pd.DataFrame(pd.read_excel(oscarXL[0]))
-    mw_df = mw_xl[['Id', 'Satellite', 'Frequency (GHz)', 'Bandwidth (MHz)', 'Comment']].rename(
+    mw_df = pd.DataFrame(pd.read_excel(oscarXL[0])).rename(
                 columns={'Frequency (GHz)': 'Frequency (MHz)', 'Bandwidth (MHz)': 'Bandwidth (kHz)'}
             )
 
-    sat_xl = pd.DataFrame(pd.read_excel(oscarXL[1]))
-    sat_df = sat_xl[['Id', 'Satellite', 'Frequency (MHz)', 'Bandwidth (kHz)', 'Comment']]
+    sat_df = pd.DataFrame(pd.read_excel(oscarXL[1]))
 
-    gs_xl = pd.DataFrame(pd.read_excel(oscarXL[2]))
-    gs_df = gs_xl[['Id', 'Satellite', 'Frequency (MHz)', 'Bandwidth (kHz)', 'Comment']]
+    gs_df = pd.DataFrame(pd.read_excel(oscarXL[2]))
 
-    oscar_df = pd.concat([mw_df, gs_df, sat_df])
+    oscar_df = pd.concat([mw_df, sat_df, gs_df])
 
     # generate OSCAR dictionary
     sat_dict = oscar_df.to_dict('list')
@@ -115,9 +112,6 @@ def Scraper():
     # delete downloaded files
     for i in range(len(oscarXL)):
         os.remove(oscarXL[i])
-    
-    # close driver session
-    driver.quit()
 
     return myDict
 
