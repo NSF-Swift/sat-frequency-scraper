@@ -4,16 +4,16 @@ import numpy as np
 import pandas as pd
 
 def get_case(row):
-    if '/' in row:
-        _case = 'mult'
-    elif '//' in row:
-        _case = 'dub_mult'
-    elif '-' in row:
-        _case = 'band'
+    if '(bandwidth' in row:
+        _case = 'parenthesis'
     elif '~' in row:
         _case = 'tilde'
-    elif '(bandwidth' in row:
-        _case = 'parenthesis'
+    elif '//' in row:
+        _case = 'dub_mult'
+    elif '/' in row:
+        _case = 'mult'
+    elif '-' in row:
+        _case = 'band'
     else:
         _case = 'single'
     return _case
@@ -33,12 +33,13 @@ def Fixer(row):
         return row.replace('~', ''), 'None'
     elif _case == 'dub_mult':
         entries = [Fixer(x) for x in row.split('//')]
-        indFreqs = entries[0][0], entries[1][0]
-        indBands = entries[0][1], entries[1][1]
+        indFreqs = entries[0][0], entries[0][1]
+        indBands = entries[1][0], entries[1][1]
+        return indFreqs, indBands
     elif _case == 'mult':
         entries = [Fixer(x) for x in row.split('/')]
-        indFreqs = entries[0][0], entries[1][0]
-        indBands = entries[0][1], entries[1][1]
+        indFreqs = entries[0][0], entries[0][1]
+        indBands = entries[1][0], entries[1][1]
         return indFreqs, indBands
     elif _case == 'single':
         return row, 'None'
@@ -110,67 +111,21 @@ def Scraper():
         myDict['Bandwidth/Baud'].pop(popInd)
         myDict['Source'].pop(popInd)
 
-    #for each in myDict['Frequency']:
-    #    if ('-' in each):
-    #        if each == ('S Ku-band'):
-    #            myDict['Frequency'] = str(np.average(2600, 18000))
-    #            myDict['Bandwidth/Baud'] = str(abs(np.diff(2600, 18000)))
-    #        elif each == ('U S-band'):
-
-    #        indFreqs = [float(x.strip()) for x in each.split('-')]
-    #        myDict['Frequency'] = str(np.average(indFreqs))
-    #        myDict['Bandwidth/Baud'] = str(abs(np.diff(indFreqs)))
-
-    #for each in myDict['Frequency']:
-    #    if ('/' in each):
-    #        indFreqs = [x.strip() for x in each.split('/')]
-    #        if ('-' in indFreqs):
-    #            for i in indFreqs:
-    #                if i.endswith('GHz'):
-    #                    myDict['Frequency'] = i.replace('GHz', '').strip()
-    #                elif i.endswith('.xxx'):
-    #                    myDict['Frequency'] =  i.replace('.xxx', '').strip()
-    #                else:
-    #                    myDict['Frequency'] = i
-    #            indFreqs = [float(x.strip()) for x in each.split('-')]
-    #            myDict['Frequency'] = str(np.average(indFreqs))
-    #            myDict['Bandwidth/Baud'] = str(abs(np.diff(indFreqs)))
-    #        elif ('//' in each):
-    #            for i in indFreqs:
-    #                if i.endswith('GHz'):
-    #                    myDict['Frequency'] = i.replace('GHz', '').strip()
-    #                elif i.endswith('.xxx'):
-    #                    myDict['Frequency'] =  i.replace('.xxx', '').strip()
-    #                else:
-    #                    myDict['Frequency'] = i
-    #            myDict['Frequency'] = str([float(x.strip()) for x in each.split('//')])
-    #        elif ('~' in each):
-    #            for i in indFreqs:
-    #                if i.endswith('GHz'):
-    #                    myDict['Frequency'] = i.replace('GHz', '').strip()
-    #                elif i.endswith('.xxx'):
-    #                    myDict['Frequency'] =  i.replace('.xxx', '').strip()
-    #                else:
-    #                    myDict['Frequency'] = i
-    #            myDict['Frequency'] = str([float(x.strip()) for x in each.strip('~')])
-    #        else:
-    #            myDict['Frequency'] = indFreqs
-
-    #    elif "-" in each:
-
     newFreqs = []
     newBands = []
     for each in myDict['Frequency']:
         if each == ('U S-band 5.8GHz'):
-            continue
+            newFreqs.append(each)
+            newBands.append('None')
         elif each == ('S Ku-band'):
-            continue
+            newFreqs.append(each)
+            newBands.append('None')
         else:
             newFreqs.append(Fixer(each)[0])
             newBands.append(Fixer(each)[1])
 
-    print(len(myDict['Frequency']))
-    print(len(newFreqs))
+    myDict['Frequency'] = newFreqs
+    myDict['Bandwidth/Baud'] = newBands
 
     return myDict
 
