@@ -3,45 +3,36 @@ import requests
 import numpy as np
 import pandas as pd
 
-def get_case(row):
-    if '(bandwidth' in row:
-        _case = 'parenthesis'
-    elif '~' in row:
-        _case = 'tilde'
-    elif '//' in row:
-        _case = 'dub_mult'
-    elif '/' in row:
-        _case = 'mult'
-    elif '-' in row:
-        _case = 'band'
-    else:
-        _case = 'single'
-    return _case
 
 def Fixer(row):
-    _case = get_case(row)
-    if _case == 'band':
+    #_case = get_case(row)
+    if ('(bandwidth' in row):
+        avg = row.split('(')[0]
+        bw = row.replace(' ', '')[-6:-4]
+        return avg, bw
+    elif ('~' in row):
+        return row.replace('~', ''), 'None'
+    elif ('//' in row):
+        entries = [Fixer(x) for x in row.split('//')]
+        #print("ENTRIES: ", entries)
+        indFreqs = entries[0][0], entries[1][0]
+        indBands = entries[0][1], entries[1][1]
+        returnedRow = indFreqs, indBands
+        #print(returnedRow)
+        return indFreqs, indBands
+    elif ('/' in row):
+        entries = [Fixer(x) for x in row.split('/')]
+        indFreqs = entries[0][0], entries[1][0]
+        indBands = entries[0][1], entries[1][1]
+        returnedRow = indFreqs, indBands
+        #print(returnedRow)
+        return indFreqs, indBands
+    elif ('-' in row):
         indFreqs = [float(x.strip()) for x in row.split('-')]
         avg = str(np.average(indFreqs))
-        bw = str((indFreqs[1]-indFreqs[0])/2)
+        bw = str(abs(round((indFreqs[1]-indFreqs[0])/2, 6)) * 1000) + ' kHz'
         return avg, bw
-    elif _case == 'parenthesis':
-        avg = row.split('(')[0]
-        bw = row.replace(' ', '')[-6:-4] 
-        return avg, bw
-    elif _case == 'tilde':
-        return row.replace('~', ''), 'None'
-    elif _case == 'dub_mult':
-        entries = [Fixer(x) for x in row.split('//')]
-        indFreqs = entries[0][0], entries[0][1]
-        indBands = entries[1][0], entries[1][1]
-        return indFreqs, indBands
-    elif _case == 'mult':
-        entries = [Fixer(x) for x in row.split('/')]
-        indFreqs = entries[0][0], entries[0][1]
-        indBands = entries[1][0], entries[1][1]
-        return indFreqs, indBands
-    elif _case == 'single':
+    else:
         return row, 'None'
 
 def Scraper():
@@ -111,21 +102,27 @@ def Scraper():
         myDict['Bandwidth/Baud'].pop(popInd)
         myDict['Source'].pop(popInd)
 
-    newFreqs = []
-    newBands = []
-    for each in myDict['Frequency']:
-        if each == ('U S-band 5.8GHz'):
-            newFreqs.append(each)
-            newBands.append('None')
-        elif each == ('S Ku-band'):
-            newFreqs.append(each)
-            newBands.append('None')
-        else:
-            newFreqs.append(Fixer(each)[0])
-            newBands.append(Fixer(each)[1])
+    freqLen = len(myDict['Frequency'])
 
-    myDict['Frequency'] = newFreqs
-    myDict['Bandwidth/Baud'] = newBands
+    for ind in range(freqLen):
+        indFreq = myDict['Frequency'][ind]
+        if ((indFreq == ('U S-band 5.8GHz')) or (indFreq == ('S Ku-band'))):
+            myDict['Bandwidth/Baud'][ind] = 'None'
+
+        else:
+            entries = Fixer(indFreq)
+            if (len(entries[0]) == 2):
+                myDict['Frequency'][ind] = entries[0][0]
+                myDict['Bandwidth/Baud'][ind] = entries[1][0]
+                myDict['Frequency'] = myDict['Frequency'] + [entries[0][1]]
+                myDict['Bandwidth/Baud'] = myDict['Bandwidth/Baud'] + [entries[1][1]]
+                for key in myDict:
+                    if ((key != 'Frequency') and (key != 'Bandwidth/Baud')):
+                        myDict[key] = myDict[key] + [myDict[key][ind]]
+            else:
+                myDict['Frequency'][ind] = entries[0]
+
+                myDict['Bandwidth/Baud'][ind] = entries[1]
 
     return myDict
 
