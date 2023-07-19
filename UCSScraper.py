@@ -8,7 +8,7 @@ import numpy as np
 def Scraper():
     ucs_url = "https://www.ucsusa.org/media/11492"
 
-    ucs_xl = pd.read_excel(ucs_url)
+    ucs_xl = pd.read_excel(ucs_url, storage_options={'User-Agent': 'Chrome/51.0.2704.103'}) 
     ucs_df = pd.DataFrame(ucs_xl)
 
 
