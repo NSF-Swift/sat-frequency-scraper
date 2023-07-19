@@ -69,6 +69,10 @@ def ScrapeAll():
         #compDict['Description'].pop(popInd)
         #compDict['Source'].pop(popInd)
 
+    """
+    Here we wish to add orbital class info if available
+    """
+
     return compDict
 
 if __name__ == "__main__":
