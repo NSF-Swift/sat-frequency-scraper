@@ -8,6 +8,7 @@ from RadioGuyScraper import Scraper as rgs
 from SatNogsScraper import Scraper as sns
 from FccScraper import Scraper as fccs
 from AmsatScraper import Scraper as ams
+from UCSScraper import Scraper as ucs
 
 
 def ScrapeAll():
@@ -72,7 +73,14 @@ def ScrapeAll():
     """
     Here we wish to add orbital class info if available
     """
+    orbits = ['None' for x in compDict['Name']]
+    ucsDict = ucs()
 
+    for nameInd in range(len(compDict['Name'])):
+        if ((compDict['Name'][nameInd] in ucsDict['Friendly Name']) or (compDict['Name'][nameInd] in ucsDict['Official Name'])):
+            sdfasdf
+        elif (True in [(compDict['Name'][nameInd] in x) for x in ucsDict['Alternate Names']]):
+            sdfds
     return compDict
 
 if __name__ == "__main__":

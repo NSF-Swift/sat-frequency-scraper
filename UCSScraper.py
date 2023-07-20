@@ -3,7 +3,11 @@ import requests
 import re
 import numpy as np
 
-
+"""
+This script returns a dictionary with different keys than the others. That is -
+Friendly Name, Alternate Names, ID, and Orbit Class. The idea is to use this
+script to fill in the Orbit Class column for listed satellites 
+"""
 
 def Scraper():
     ucs_url = "https://www.ucsusa.org/media/11492"
