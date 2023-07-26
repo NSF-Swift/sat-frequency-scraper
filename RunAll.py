@@ -77,10 +77,11 @@ def ScrapeAll():
     ucsDict = ucs()
 
     for nameInd in range(len(compDict['Name'])):
-        if ((compDict['Name'][nameInd] in ucsDict['Friendly Name']) or (compDict['Name'][nameInd] in ucsDict['Official Name'])):
-            sdfasdf
+        if ((compDict['Name'][nameInd] in ucsDict['Friendly Name']) or (compDict['Name'][nameInd] in ucsDict['Official Name'])
+            or (compDict['ID'][nameInd] in ucsDict['ID'])):
+            print("1")
         elif (True in [(compDict['Name'][nameInd] in x) for x in ucsDict['Alternate Names']]):
-            sdfds
+            print("2")
     return compDict
 
 if __name__ == "__main__":

@@ -7,34 +7,32 @@ def Scraper():
     """
     Returns dictionary consisting of ID, Name, Frequency, Status, and Description
     """
-    url = 'https://usradioguy.com/satellite-frequencies/'
-    browser = mechanicalsoup.StatefulBrowser()
-    browser.open(url)
-    myRes = browser.get_current_page().find_all("tr")
+    rg_url = "https://usradioguy.com/NOAA/Satellite_Frequencies_2023-03-01.xlsx"
 
-    myDict = {'ID':[], 'Name':[], 'Frequency':[], 'Status':[],
-             'Bandwidth/Baud':[], 'Description':[], 'Source':[]}
+    #read spreadsheet and convert into dataframe
+    rg_xl = pd.read_excel(rg_url)
+    rg_df = pd.DataFrame(rg_xl)
 
-    for each in myRes[1:]:
-        satName = str(each.contents[1].contents[0])
-        ID = 'None'
-        bw = str(each.contents[8].contents[0]).strip()
-        FreqRaw = str(each.contents[7].contents[0]).strip()
-        mInd = FreqRaw.index("M")
-        Freq = FreqRaw[:mInd].strip()
-        statRaw = str(each.contents[11].contents[0]).strip()
-        if (statRaw == 'D'):
+    #convert to dictionary
+    rg_dict = rg_df.to_dict('list')
+
+
+    myDict = {'Name':[str(x) for x in rg_dict.pop('Satellite')],
+             'Frequency':[str(x[:x.index("M")].strip()) for x in rg_dict.pop('Frequency (MHz)')],
+              'Bandwidth/Baud':[str(x) for x in rg_dict.pop('Bandwidth (kHz)')],
+              'Description':[str(x) for x in rg_dict.pop('Comment')],
+              'Status':[str(x) for x in rg_dict.pop('Dead/Active')]}
+    myDict['ID'] = ['None' for x in myDict['Name']]
+    myDict['Source'] = ['USRadioGuy' for x in myDict['Name']]
+
+    newStat = []
+    for each in myDict['Status']:
+        if (each == 'D'):
             stat = 'inactive'
         else:
             stat = 'active'
-        Desc = str(each.contents[12].contents[0]).strip()
-        myDict['ID'] = myDict['ID'] + [ID]
-        myDict['Name'] = myDict['Name'] + [satName]
-        myDict['Frequency'] = myDict['Frequency'] + [Freq]
-        myDict['Status'] = myDict['Status'] + [stat]
-        myDict['Bandwidth/Baud'] = myDict['Bandwidth/Baud'] + [bw]
-        myDict['Description'] = myDict['Description'] + [Desc]
-        myDict['Source'] = myDict['Source'] + ['USRadioGuy']
+        newStat += [stat]
+    myDict['Status'] = newStat
 
     for index in range(len(myDict['Frequency'])):
         each = myDict['Frequency'][index]
@@ -42,6 +40,7 @@ def Scraper():
             indFreqs = [float(x.strip()) for x in each.split('-')]
             newF = str(np.average(indFreqs))
             myDict['Frequency'][index] = newF
+
     return myDict
 
 
