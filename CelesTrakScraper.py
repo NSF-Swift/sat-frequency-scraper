@@ -9,9 +9,9 @@ def Scraper():
     celestrak_df = celestrak_csv[["OBJECT_NAME", "MEAN_MOTION", "NORAD_CAT_ID"]]
 
     p = celestrak_df["MEAN_MOTION"]
-    celestrak_df.loc[(p > 0) & (p <= 2), "ORBIT_TYPE"] = "GEO"
-    celestrak_df.loc[(p > 2) & (p <= 15), "ORBIT_TYPE"] = "MEO"
-    celestrak_df.loc[(p > 15), "ORBIT_TYPE"] = "LEO"
+    celestrak_df.loc[(p >= 0) & (p < 2), "ORBIT_TYPE"] = "GEO"
+    celestrak_df.loc[(p >= 2) & (p < 15), "ORBIT_TYPE"] = "MEO"
+    celestrak_df.loc[(p >= 15), "ORBIT_TYPE"] = "LEO"
 
     trunc_df = celestrak_df.drop(["MEAN_MOTION"], axis=1)
 
