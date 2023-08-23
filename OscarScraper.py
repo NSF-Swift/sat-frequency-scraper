@@ -68,7 +68,7 @@ def Scraper():
     sat_dict = oscar_df.to_dict('list')
 
     myDict = {
-        'ID':[str(x) for x in sat_dict.pop('Id')],
+        'ID':['None' for x in sat_dict.pop('Id')],
         'Name':[str(x) for x in sat_dict.pop('Satellite')],
         'Frequency':[str(x) for x in sat_dict.pop('Frequency (MHz)')],
         'Bandwidth/Baud':[str(x) for x in sat_dict.pop('Bandwidth (kHz)')],
