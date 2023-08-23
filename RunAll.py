@@ -28,6 +28,26 @@ def ScrapeAll():
         descs += each['Description']
         sources += each['Source']
 
+
+
+    """
+    Here we wish to add orbital class info if available
+    """
+    orbits = ['None' for x in names]
+    ucsDict = ucs()
+
+    for nameInd in range(len(names)):
+        if ((names[nameInd] in ucsDict['Friendly Name']) or (names[nameInd] in ucsDict['Official Name'])
+            or (IDs[nameInd] in ucsDict['ID'])):
+            if (IDs[nameInd] not in ucsDict['ID']):
+                print(IDs[nameInd])
+                print(names[nameInd])
+            print("1")
+        else:
+            print("3")
+
+
+
     """
     Sort based off Names
     """
@@ -70,18 +90,8 @@ def ScrapeAll():
         #compDict['Description'].pop(popInd)
         #compDict['Source'].pop(popInd)
 
-    """
-    Here we wish to add orbital class info if available
-    """
-    orbits = ['None' for x in compDict['Name']]
-    ucsDict = ucs()
 
-    for nameInd in range(len(compDict['Name'])):
-        if ((compDict['Name'][nameInd] in ucsDict['Friendly Name']) or (compDict['Name'][nameInd] in ucsDict['Official Name'])
-            or (compDict['ID'][nameInd] in ucsDict['ID'])):
-            print("1")
-        elif (True in [(compDict['Name'][nameInd] in x) for x in ucsDict['Alternate Names']]):
-            print("2")
+
     return compDict
 
 if __name__ == "__main__":

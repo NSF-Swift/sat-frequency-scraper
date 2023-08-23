@@ -1,0 +1,2334 @@
+,ID,Name,Frequency,Bandwidth/Baud,Description,Status,Source
+0,3103,ALOS,1270.0,N/R,L-band SAR,None,Oscar
+1,3102,ALOS-2,1257.5,84 MHz,L-band SAR,None,Oscar
+2,4365,ALOS-2,1236.5,42 MHz,L-band SAR,None,Oscar
+3,4366,ALOS-2,1257.5,28 MHz,L-band SAR,None,Oscar
+4,4367,ALOS-2,1278.5,14 MHz,L-band SAR,None,Oscar
+5,3543,ALOS-4,1270.0,N/R,L-band SAR,None,Oscar
+6,2071,Aqua,23800.0,270 MHz,Water vapour channel,None,Oscar
+7,2072,Aqua,31400.0,180 MHz,Window channel,None,Oscar
+8,2073,Aqua,53870.0,N/R,"Oxygen band, 12 channels",None,Oscar
+9,2085,Aqua,89000.0,6000 MHz,Window channel,None,Oscar
+10,3721,Aqua,150000.0,1000 MHz,Weak water vapour channel,None,Oscar
+11,3722,Aqua,183310.0,N/R,"Water vapour band, 3 channels
+
+",None,Oscar
+12,3723,Aqua,6925.0,350 MHz,Window channel,None,Oscar
+13,3724,Aqua,10650.0,100 MHz,Window channel,None,Oscar
+14,3725,Aqua,18700.0,200 MHz,Window channel,None,Oscar
+15,3726,Aqua,23800.0,400 MHz,"Water vapour channel
+",None,Oscar
+16,3727,Aqua,36500.0,1000 MHz,"Window channel
+",None,Oscar
+17,3728,Aqua,89000.0,3000 MHz,"Window channel
+",None,Oscar
+18,3732,ASNARO-2,9300.0,N/R,X-band SAR,None,Oscar
+19,2086,Aura,115300.0,500 MHz,"Band for temperature and pressure using 118GHz O2 line. 
+",None,Oscar
+20,2087,Aura,117000.0,500 MHz,"Band for temperature and pressure using 118GHz O2 line. 
+",None,Oscar
+21,2088,Aura,118753.0,10 MHz,"Band for temperature and pressure using 118GHz O2 line. 
+",None,Oscar
+22,2089,Aura,118753.0,1250 MHz,"Band for temperature and pressure using 118GHz O2 line. 
+",None,Oscar
+23,2090,Aura,120500.0,500 MHz,Temp and Pressure sounding using 118 GHz line.,None,Oscar
+24,4199,Aura,122000.0,500 MHz,Temp and Pressure sounding using 118 GHz O2 line,None,Oscar
+25,4200,Aura,177265.19999999998,158 MHz,Water vapour sounding using 183.3 GHz line,None,Oscar
+26,4201,Aura,181598.7,1250 MHz,Water vapour sounding using 183.3 GHz line,None,Oscar
+27,4202,Aura,183314.2,10 MHz,Water vapour sounding using 183.3 GHz channel ,None,Oscar
+28,4203,Aura,183314.2,1250 MHz,Water vapour sounding using 183.3 GHz line,None,Oscar
+29,4204,Aura,200979.80000000002,1250 MHz,Target N20 ,None,Oscar
+30,4205,Aura,204356.59999999998,1250 MHz,Target ClO,None,Oscar
+31,4206,Aura,206136.69999999998,1250 MHz,Target ozone,None,Oscar
+32,4207,Aura,230543.2,10 MHz,Target CO ,None,Oscar
+33,4208,Aura,230543.2,1250 MHz,Ozone and CO target,None,Oscar
+34,4209,Aura,233951.5,1250 MHz,Target OO,None,Oscar
+35,4210,Aura,235715.1,10 MHz,Target ozone,None,Oscar
+36,4211,Aura,235715.1,1250 MHz,Target ozone,None,Oscar
+37,4212,Aura,239660.0,15600 MHz,4 bands on ozone line at 239.66 GHz,None,Oscar
+38,4213,Aura,624782.1,158 MHz,Target gas BrO,None,Oscar
+39,4214,Aura,625385.6,1250 MHz,Target ozone,None,Oscar
+40,4215,Aura,625932.7,1250 MHz,Target HCl,None,Oscar
+41,4216,Aura,635884.4,158 MHz,Target HOCl,None,Oscar
+42,4217,Aura,649465.9,1250 MHz,Target ClO,None,Oscar
+43,4218,Aura,649716.2,158 MHz,Target HO2,None,Oscar
+44,4219,Aura,650193.7000000001,1250 MHz,Target BrO,None,Oscar
+45,4220,Aura,652848.5,1250 MHz,Target N2O,None,Oscar
+46,4221,Aura,660500.6,158 MHz,Target HO2,None,Oscar
+47,4222,Aura,2502380.4,1250 MHz,Target O2,None,Oscar
+48,4223,Aura,2510005.7,1250 MHz,Target OH,None,Oscar
+49,4224,Aura,2514373.5,1250 MHz,Target OH,None,Oscar
+50,4387,AWS PFM,53979.5,-,8 temperature sounding channels in O2 band,None,Oscar
+51,4388,AWS PFM,89000.0,400 MHz,Window channel,None,Oscar
+52,4389,AWS PFM,165500.0,280 MHz,Weak water vapour channel,None,Oscar
+53,4390,AWS PFM,183310.0,-,5 water vapour channels,None,Oscar
+54,4391,AWS PFM,325150.0,-,4 high freq channels,None,Oscar
+55,3082,BIOMASS,435.0,N/R,P-band SAR,None,Oscar
+56,3125,CFOSAT,13575.0,N/R,Ku-band radar altimeter,None,Oscar
+57,3821,CFOSAT,13256.0,N/R,Ku-band scatterometer,None,Oscar
+58,4180,CIMR,1413.5,25 MHz,Surface sensing channel,None,Oscar
+59,4181,CIMR,6875.0,400 MHz,Surface sensing channel,None,Oscar
+60,4182,CIMR,10650.0,100 MHz,Surface sensing channel,None,Oscar
+61,4183,CIMR,18700.0,200 MHz,Surface sensing channel,None,Oscar
+62,4184,CIMR,36500.0,300 MHz,Surface sensing channel,None,Oscar
+63,3069,CloudSat,94050.0,0.36 MHz,W-band precipitation radar,None,Oscar
+64,3156,COMPIRA,5300.0,N/R,C-band radar altimeter,None,Oscar
+65,3157,COMPIRA,13500.0,N/R,Ku-band radar altimeter,None,Oscar
+66,3824,COMPIRA,9500.0,N/R,X-band radar altimeter,None,Oscar
+67,3169,Coriolis,6800.0,125 MHz,Window channel,None,Oscar
+68,3170,Coriolis,10700.0,300 MHz,Window channel,None,Oscar
+69,3171,Coriolis,18700.0,750 MHz,Window channel,None,Oscar
+70,3172,Coriolis,23800.0,500 MHz,Water vapour channel,None,Oscar
+71,3173,Coriolis,37000.0,2000 MHz,Window channel,None,Oscar
+72,4317,COSMIC-2,1575.45,N/R,Signal received from GNSS satellites,None,Oscar
+73,4318,COSMIC-2,1227.6000000000001,N/R,Signal received from GNSS satellites,None,Oscar
+74,4185,CRISTAL,13500.0,500 MHz,Altimeter band,None,Oscar
+75,4186,CRISTAL,35750.0,500 MHz,Altimeter band,None,Oscar
+76,4187,CRISTAL,18700.0,200 MHz,nan,None,Oscar
+77,4188,CRISTAL,23800.0,400 MHz,nan,None,Oscar
+78,4189,CRISTAL,34000.0,700 MHz,nan,None,Oscar
+79,4196,CRISTAL,90000.0,5000 MHz,High frequency window channel,None,Oscar
+80,4197,CRISTAL,130000.0,5000 MHz,High frequency window channel,None,Oscar
+81,4198,CRISTAL,168000.0,5000 MHz,High frequency water vapour channel,None,Oscar
+82,3138,CryoSat,13560.0,N/R,Ku-band radar altimeter,None,Oscar
+83,3139,CryoSat-2,13575.0,350 MHz,Ku-band radar altimeter,None,Oscar
+84,4069,CSAR-1,5400.0,N/R,C-band SAR,None,Oscar
+85,4368,CSAR-2,5400.0,1 MHz,C-Band SAR,None,Oscar
+86,3091,CSG-1,9600.0,N/R,X-band SAR,None,Oscar
+87,3092,CSG-2,9600.0,N/R,X-band SAR,None,Oscar
+88,3087,CSK-1,9600.0,N/R,X-band SAR,None,Oscar
+89,3088,CSK-2,9600.0,N/R,X-band SAR,None,Oscar
+90,3089,CSK-3,9600.0,N/R,X-band SAR,None,Oscar
+91,3090,CSK-4,9600.0,N/R,X-band SAR,None,Oscar
+92,3873,DMSP-F15,19350.0,400 MHz,Window channel,None,Oscar
+93,3874,DMSP-F15,22235.0,400 MHz,Water vapour channel,None,Oscar
+94,3875,DMSP-F15,37000.0,1500 MHz,Window channel,None,Oscar
+95,3876,DMSP-F15,85000.0,3000 MHz,Window channel,None,Oscar
+96,3877,DMSP-F15,54912.49999999999,N/R,"Oxygen band, 7 channels",None,Oscar
+97,3878,DMSP-F15,91655.0,3000 MHz,Window channel,None,Oscar
+98,3879,DMSP-F15,150000.0,1500 MHz,Weak water vapour channel,None,Oscar
+99,3880,DMSP-F15,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+100,3832,DMSP-F16,19350.0,356 MHz,Window channel,None,Oscar
+101,3833,DMSP-F16,22235.0,407 MHz,Water vapour channel,None,Oscar
+102,3834,DMSP-F16,37000.0,1580 MHz,Window channel,None,Oscar
+103,3835,DMSP-F16,56839.5,N/R,"Oxygen band, 13 channels",None,Oscar
+104,3836,DMSP-F16,91655.0,2829 MHz,Window channel,None,Oscar
+105,3837,DMSP-F16,150000.0,3284 MHz,Weak water vapour channel,None,Oscar
+106,3838,DMSP-F16,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+107,3853,DMSP-F17,19350.0,356 MHz,Window channel,None,Oscar
+108,3854,DMSP-F17,22235.0,407 MHz,Water vapour channel,None,Oscar
+109,3855,DMSP-F17,37000.0,1580 MHz,Window channel,None,Oscar
+110,3856,DMSP-F17,56839.5,N/R,"Oxygen band, 13 channels",None,Oscar
+111,3857,DMSP-F17,91655.0,2829 MHz,Window channel,None,Oscar
+112,3858,DMSP-F17,150000.0,3284 MHz,Weak water vapour channel,None,Oscar
+113,3859,DMSP-F17,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+114,3860,DMSP-F18,19350.0,356 MHz,Window channel,None,Oscar
+115,3861,DMSP-F18,22235.0,407 MHz,Water vapour channel,None,Oscar
+116,3862,DMSP-F18,37000.0,1580 MHz,Window channel,None,Oscar
+117,3863,DMSP-F18,56839.5,N/R,"Oxygen band, 13 channels",None,Oscar
+118,3864,DMSP-F18,91655.0,2829 MHz,Window channel,None,Oscar
+119,3865,DMSP-F18,150000.0,3284 MHz,Weak water vapour channel,None,Oscar
+120,3866,DMSP-F18,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+121,3867,DMSP-F19,19350.0,356 MHz,Window channel,None,Oscar
+122,3868,DMSP-F19,22235.0,407 MHz,Water vapour channel,None,Oscar
+123,3869,DMSP-F19,56839.5,N/R,"Oxygen band, 13 channels",None,Oscar
+124,3870,DMSP-F19,91655.0,2829 MHz,Window channel,None,Oscar
+125,3871,DMSP-F19,150000.0,3284 MHz,Weak water vapour channel,None,Oscar
+126,3872,DMSP-F19,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+127,2527,EarthCARE,94050.0,7 MHz,W-band precipitation radar,None,Oscar
+128,3798,Envisat,3200.0,N/R,S-band radar altimeter,None,Oscar
+129,3799,Envisat,13600.0,N/R,Ku-band radar altimeter,None,Oscar
+130,3800,Envisat,23800.0,650 MHz,Water vapour channel (supporting altimeter),None,Oscar
+131,3801,Envisat,36500.0,650 MHz,Window channel (supporting altimeter),None,Oscar
+132,3802,Envisat,5331.0,N/R,C-band SAR,None,Oscar
+133,3825,EOS-01,9590.0,N/R,X-band SAR,None,Oscar
+134,3739,EOS-04,5350.0,N/R,C-band SAR,None,Oscar
+135,4408,EOS-07,183310.0,-,6 Water vapour sounding channels,None,Oscar
+136,3803,ERS-1,13800.0,N/R,Ku-band radar altimeter,None,Oscar
+137,3804,ERS-1,23800.0,400 MHz,Water vapour channel (supporting altimeter),None,Oscar
+138,3805,ERS-1,36500.0,400 MHz,Window channel (supporting altimeter),None,Oscar
+139,3806,ERS-1,5300.0,N/R,C-band scatterometer,None,Oscar
+140,3807,ERS-1,5300.0,N/R,C-band SAR,None,Oscar
+141,3808,ERS-2,13800.0,N/R,Ku-band radar altimeter,None,Oscar
+142,3809,ERS-2,23800.0,650 MHz,Water vapour channel (supporting altimeter),None,Oscar
+143,3810,ERS-2,36500.0,650 MHz,Window channel (supporting altimeter),None,Oscar
+144,3811,ERS-2,5300.0,N/R,C-band scatterometer,None,Oscar
+145,3812,ERS-2,5300.0,N/R,C-band SAR,None,Oscar
+146,2746,FY-3A,10650.0,180 MHz,Window channel,None,Oscar
+147,2751,FY-3A,18700.0,200 MHz,Window channel,None,Oscar
+148,2756,FY-3A,23800.0,400 MHz,Water vapour channel,None,Oscar
+149,2761,FY-3A,36500.0,400 MHz,Window channel,None,Oscar
+150,2766,FY-3A,89000.0,3000 MHz,Window channel,None,Oscar
+151,2934,FY-3A,53832.49999999999,N/R,"Oxygen band, 4 channels",None,Oscar
+152,3743,FY-3A,150000.0,1000 MHz,Weak water vapour channel,None,Oscar
+153,3744,FY-3A,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+154,2747,FY-3B,10650.0,180 MHz,Window channel,None,Oscar
+155,2752,FY-3B,18700.0,200 MHz,Window channel,None,Oscar
+156,2757,FY-3B,23800.0,400 MHz,Water vapour channel,None,Oscar
+157,2762,FY-3B,36500.0,400 MHz,Window channel,None,Oscar
+158,2767,FY-3B,89000.0,3000 MHz,Window channel,None,Oscar
+159,2941,FY-3B,53832.49999999999,N/R,"Oxygen band, 4 channels",None,Oscar
+160,2942,FY-3B,150000.0,1000 MHz,Weak water vapour channel,None,Oscar
+161,2945,FY-3B,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+162,2741,FY-3C,10650.0,180 MHz,Window channel,None,Oscar
+163,2742,FY-3C,18700.0,200 MHz,Window channel,None,Oscar
+164,2743,FY-3C,23800.0,400 MHz,Water vapour channel,None,Oscar
+165,2744,FY-3C,36500.0,400 MHz,Window channel,None,Oscar
+166,2745,FY-3C,89000.0,3000 MHz,Window channel,None,Oscar
+167,3745,FY-3C,53832.49999999999,N/R,"Oxygen band, 13 channels",None,Oscar
+168,3746,FY-3C,89000.0,1500 MHz,Window channel,None,Oscar
+169,3747,FY-3C,118750.0,N/R,"Oxygen band, 8 channels",None,Oscar
+170,3748,FY-3C,150000.0,N/R,Weak water vapour channel,None,Oscar
+171,3749,FY-3C,183310.0,N/R,"Water vapour band, 5 channels",None,Oscar
+172,2748,FY-3D,10650.0,180 MHz,Window channel,None,Oscar
+173,2753,FY-3D,18700.0,200 MHz,Window channel,None,Oscar
+174,2758,FY-3D,23800.0,400 MHz,Water vapour channel,None,Oscar
+175,2763,FY-3D,36500.0,400 MHz,Window channel,None,Oscar
+176,2768,FY-3D,89000.0,3000 MHz,Window channel,None,Oscar
+177,3750,FY-3D,53832.49999999999,N/R,"Oxygen band, 13 channels",None,Oscar
+178,3751,FY-3D,89000.0,1500 MHz,Window channel,None,Oscar
+179,3752,FY-3D,118750.0,N/R,"Oxygen band, 8 channels",None,Oscar
+180,3753,FY-3D,150000.0,1500 MHz,Weak water vapour channel,None,Oscar
+181,3754,FY-3D,183310.0,N/R,"Water vapour band, 5 channels",None,Oscar
+182,4339,FY-3D,53832.49999999999,N/R,Temperature sounding channels,None,Oscar
+183,4340,FY-3D,118750.0,N/R,Temperature sounding channels,None,Oscar
+184,4341,FY-3D,183310.0,N/R,Water vapour sounding channels,None,Oscar
+185,4342,FY-3D,165500.0,N/R,Weak water vapour sounding channels,None,Oscar
+186,2553,FY-3E,53832.49999999999,N/R,"Oxygen band, 13 channels",None,Oscar
+187,2558,FY-3E,89000.0,1500 MHz,Window channel,None,Oscar
+188,2568,FY-3E,118750.0,N/R,"Oxygen band, 8 channels",None,Oscar
+189,2598,FY-3E,166000.0,1500 MHz,Weak water vapour channel,None,Oscar
+190,2603,FY-3E,183310.0,N/R,"Water vapour band, 5 channels",None,Oscar
+191,2949,FY-3E,5300.0,N/R,C-band scatterometer,None,Oscar
+192,2950,FY-3E,13265.0,N/R,Ku-band scatterometer,None,Oscar
+193,4336,FY-3E,23800.0,270 MHz,Water vapour channel,None,Oscar
+194,4337,FY-3E,31400.0,180 MHz,Window channel ,None,Oscar
+195,2750,FY-3F,10650.0,180 MHz,Window channel,None,Oscar
+196,2755,FY-3F,18700.0,200 MHz,Window channel,None,Oscar
+197,2760,FY-3F,23800.0,400 MHz,Water vapour channel,None,Oscar
+198,2765,FY-3F,36500.0,400 MHz,Window channel,None,Oscar
+199,2770,FY-3F,89000.0,3000 MHz,Window channel,None,Oscar
+200,2989,FY-3F,23800.0,270 MHz,Water vapour channel,None,Oscar
+201,2990,FY-3F,31400.0,180 MHz,Window channel,None,Oscar
+202,2991,FY-3F,53832.49999999999,N/R,"Oxygen band, 13 channels",None,Oscar
+203,2992,FY-3F,89000.0,1500 MHz,Window channel,None,Oscar
+204,2993,FY-3F,118750.0,N/R,"Oxygen band, 8 channels",None,Oscar
+205,2994,FY-3F,166000.0,1500 MHz,"Weak water vapour channel
+",None,Oscar
+206,2995,FY-3F,183310.0,N/R,"Water vapour band, 5 channels",None,Oscar
+207,4338,FY-3F,53832.49999999999,N/R,Temperature sounding channels,None,Oscar
+208,4347,FY-3F,118750.3,N/R,Temperature sounding channels,None,Oscar
+209,2984,FY-3G,10650.0,180 MHz,Window channel,None,Oscar
+210,2985,FY-3G,18700.0,200 MHz,Window channel,None,Oscar
+211,2986,FY-3G,23800.0,400 MHz,Water vapour channel,None,Oscar
+212,2987,FY-3G,36500.0,400 MHz,Window channel,None,Oscar
+213,2988,FY-3G,89000.0,3000 MHz,Window channel,None,Oscar
+214,3026,FY-3G,13350.0,-,Ku-band precipitation radar,None,Oscar
+215,3027,FY-3G,35550.0,-,Ka-band precipitation radar,None,Oscar
+216,4343,FY-3G,50300.0,400 MHz,Temperature sounding channel,None,Oscar
+217,4344,FY-3G,52610.0,400 MHz,Temperature sounding channel,None,Oscar
+218,4345,FY-3G,53240.0,400 MHz,Temperature sounding channel,None,Oscar
+219,4346,FY-3G,53750.0,400 MHz,Temperature sounding channel,None,Oscar
+220,4348,FY-3G,118750.3,N/R,Temperature sounding channels,None,Oscar
+221,4349,FY-3G,183310.0,N/R,Water vapour sounding channels,None,Oscar
+222,4519,FY-3G,165500.0,N/R,Water vapour channel,None,Oscar
+223,2749,FY-3H,10650.0,180 MHz,Window channel,None,Oscar
+224,2754,FY-3H,18700.0,200 MHz,Window channel,None,Oscar
+225,2759,FY-3H,23800.0,400 MHz,Water vapour channel,None,Oscar
+226,2764,FY-3H,36500.0,400 MHz,Window channel,None,Oscar
+227,2769,FY-3H,89000.0,3000 MHz,Window channel,None,Oscar
+228,2953,FY-3H,23800.0,270 MHz,Water vapour channel,None,Oscar
+229,2954,FY-3H,31400.0,180 MHz,Window channel,None,Oscar
+230,2955,FY-3H,53832.49999999999,N/R,"Oxygen band, 13 channels",None,Oscar
+231,3755,FY-3H,89000.0,1500 MHz,"Window channel
+",None,Oscar
+232,3756,FY-3H,118750.0,N/R,"Oxygen band, 8 channels
+",None,Oscar
+233,3757,FY-3H,166000.0,1500 MHz,"Weak water vapour channel
+",None,Oscar
+234,3758,FY-3H,183310.0,N/R,"Water vapour band, 5 channels
+",None,Oscar
+235,4350,FY-3H,50300.0,400 MHz,Temperature sounding channel,None,Oscar
+236,4351,FY-3H,52610.0,400 MHz,Temperature sounding channel,None,Oscar
+237,4352,FY-3H,53240.0,400 MHz,Temperature sounding channel,None,Oscar
+238,4353,FY-3H,53750.0,400 MHz,Temperature sounding channel,None,Oscar
+239,4355,FY-3H,118750.3,N/R,Temperature sounding channel,None,Oscar
+240,3049,FY-3I,10650.0,10 MHz,Window channel,None,Oscar
+241,3050,FY-3I,18700.0,10 MHz,Window channel,None,Oscar
+242,3051,FY-3I,23800.0,15 MHz,Water vapour channel,None,Oscar
+243,3052,FY-3I,36500.0,20 MHz,Window channel,None,Oscar
+244,3053,FY-3I,89000.0,25 MHz,Window channel,None,Oscar
+245,3061,FY-3I,13600.0,N/R,Ku-band precipitation radar,None,Oscar
+246,3062,FY-3I,35550.0,N/R,Ka-band precipitation radar,None,Oscar
+247,4356,FY-3I,50300.0,400 MHz,Temperature sounding channel,None,Oscar
+248,4357,FY-3I,52610.0,400 MHz,Temperature sounding channel,None,Oscar
+249,4358,FY-3I,53240.0,400 MHz,Temperature sounding channel,None,Oscar
+250,4359,FY-3I,53750.0,400 MHz,Temperature sounding channel,None,Oscar
+251,4360,FY-3I,118750.3,N/R,Temperature sounding channel,None,Oscar
+252,4361,FY-3I,183310.0,N/R,Water vapour sounding channel,None,Oscar
+253,4520,FY-3I,165500.0,N/R,Water vapour channel,None,Oscar
+254,3004,FY-3J,23800.0,270 MHz,Water vapour channel,None,Oscar
+255,3005,FY-3J,31400.0,180 MHz,Window channel,None,Oscar
+256,3006,FY-3J,53832.49999999999,N/R,"Oxygen band, 13 channels",None,Oscar
+257,3007,FY-3J,89000.0,1500 MHz,Window channel,None,Oscar
+258,3008,FY-3J,118750.0,N/R,"Oxygen band, 8 channels",None,Oscar
+259,3009,FY-3J,166000.0,1500 MHz,Weak water vapour channel,None,Oscar
+260,3010,FY-3J,183310.0,N/R,"Water vapour band, 5 channels",None,Oscar
+261,3011,FY-3J,5300.0,N/R,C-band scatterometer,None,Oscar
+262,3012,FY-3J,13265.0,N/R,"Ku-band scatterometer
+
+",None,Oscar
+263,2167,GCOM-W,6925.0,350 MHz,Window channel,None,Oscar
+264,2168,GCOM-W,7300.0,350 MHz,Window channel,None,Oscar
+265,2169,GCOM-W,10650.0,100 MHz,Window channel,None,Oscar
+266,2170,GCOM-W,18700.0,200 MHz,Window channel,None,Oscar
+267,2171,GCOM-W,23800.0,400 MHz,Water vapour channel,None,Oscar
+268,2172,GCOM-W,36500.0,1000 MHz,Window channel,None,Oscar
+269,2173,GCOM-W,89000.0,3000 MHz,Window channel,None,Oscar
+270,3826,GF-12,5400.0,N/R,C-band SAR,None,Oscar
+271,4032,GF-12-02,5400.0,N/R,C-band SAR,None,Oscar
+272,3730,GF-3,5400.0,N/R,C-band SAR,None,Oscar
+273,4047,GOSAT-GW,6925.0,350 MHz,nan,None,Oscar
+274,4048,GOSAT-GW,7300.0,350 MHz,nan,None,Oscar
+275,4049,GOSAT-GW,10250.0,500 MHz,nan,None,Oscar
+276,4050,GOSAT-GW,10650.0,100 MHz,nan,None,Oscar
+277,4051,GOSAT-GW,18700.0,200 MHz,nan,None,Oscar
+278,4052,GOSAT-GW,23800.0,400 MHz,nan,None,Oscar
+279,4053,GOSAT-GW,36420.0,840 MHz,nan,None,Oscar
+280,4054,GOSAT-GW,89000.0,3000 MHz,nan,None,Oscar
+281,4055,GOSAT-GW,165500.0,4000 MHz,nan,None,Oscar
+282,4056,GOSAT-GW,183310.0,-,2 water vapour channels +/-3GHz; +/-7GHz,None,Oscar
+283,2470,GPM Core Observatory,10650.0,100 MHz,Window channel,None,Oscar
+284,2471,GPM Core Observatory,18700.0,200 MHz,Window channel,None,Oscar
+285,2472,GPM Core Observatory,23800.0,400 MHz,Water vapour channel,None,Oscar
+286,2473,GPM Core Observatory,36500.0,1000 MHz,Window channel,None,Oscar
+287,2474,GPM Core Observatory,89000.0,6000 MHz,Window channel,None,Oscar
+288,2475,GPM Core Observatory,166000.0,4000 MHz,Weak water vapour channel,None,Oscar
+289,2476,GPM Core Observatory,183310.0,-,"Water vapour band, 2 channels +/- 3GHz, +/-7GHz, 2 GHz band width",None,Oscar
+290,2477,GPM Core Observatory,13597.0,14 MHz,Ku-band precipitation radar,None,Oscar
+291,4362,GPM Core Observatory,13603.0,14 MHz,Ku-band precipitation radar,None,Oscar
+292,4363,GPM Core Observatory,35547.0,14 MHz,Ku-band precipitation radar,None,Oscar
+293,4364,GPM Core Observatory,35553.0,14 MHz,Ku-band precipitation radar,None,Oscar
+294,3081,HJ-1C,2700.0,N/R,S-band SAR,None,Oscar
+295,4322,HJ-2E,2700.0,N/R,S-band SAR,None,Oscar
+296,4323,HJ-2F,2700.0,N/R,S-band SAR,None,Oscar
+297,3104,HRWS-SAR,9650.0,N/R,X-band SAR,None,Oscar
+298,3161,HY-2A,6600.0,350 MHz,Window channel,None,Oscar
+299,3162,HY-2A,10700.0,250 MHz,Window channel,None,Oscar
+300,3163,HY-2A,18700.0,250 MHz,Window channel,None,Oscar
+301,3164,HY-2A,23800.0,400 MHz,Water vapour channel,None,Oscar
+302,3165,HY-2A,37000.0,1000 MHz,Window channel,None,Oscar
+303,3783,HY-2A,5250.0,N/R,C-band altimeter,None,Oscar
+304,3784,HY-2A,13580.0,N/R,Ku-band altimeter,None,Oscar
+305,3785,HY-2A,13256.0,N/R,Ku-band scatterometer,None,Oscar
+306,3174,HY-2B,6600.0,350 MHz,Window channel,None,Oscar
+307,3175,HY-2B,10700.0,250 MHz,Window channel,None,Oscar
+308,3176,HY-2B,18700.0,250 MHz,Window channel,None,Oscar
+309,3177,HY-2B,23800.0,400 MHz,Water vapour channel,None,Oscar
+310,3786,HY-2B,37000.0,1000 MHz,Window channel,None,Oscar
+311,3787,HY-2B,5250.0,N/R,C-band radar altimeter,None,Oscar
+312,3788,HY-2B,13580.0,N/R,Ku-band radar altimeter,None,Oscar
+313,3789,HY-2B,13256.0,N/R,Ku-band scatterometer,None,Oscar
+314,3145,HY-2C,5250.0,N/R,"C-band radar altimeter
+",None,Oscar
+315,3151,HY-2C,13580.0,N/R,Ku-band radar altimeter,None,Oscar
+316,3790,HY-2C,13256.0,N/R,Ku-band scatterometer,None,Oscar
+317,3146,HY-2D,5250.0,N/R,C-band radar altimeter,None,Oscar
+318,3152,HY-2D,13580.0,N/R,Ku-band radar altimeter,None,Oscar
+319,3791,HY-2D,13256.0,N/R,Ku-band scatterometer,None,Oscar
+320,3123,HY-2L,13575.0,N/R,Ku-band radar altimeter,None,Oscar
+321,3822,HY-2L,13256.0,N/R,Ku-band scatterometer,None,Oscar
+322,3795,HY-2S,5250.0,N/R,C-band radar altimeter,None,Oscar
+323,3796,HY-2S,13580.0,N/R,Ku-band radar altimeter,None,Oscar
+324,3797,HY-2S,13256.0,N/R,Ku-band scatterometer,None,Oscar
+325,3740,HY-3A,9500.0,N/R,X-band SAR,None,Oscar
+326,3741,HY-3B,9500.0,N/R,X-band SAR,None,Oscar
+327,3827,ISS COWVR,18700.0,780 MHz,Window channel,None,Oscar
+328,3828,ISS COWVR,23800.0,475 MHz,Water vapour channel,None,Oscar
+329,3829,ISS COWVR,39900.0,1975 MHz,Window channel,None,Oscar
+330,3823,ISS RainCube,35750.0,N/R,Ka-band precipitation radar,None,Oscar
+331,3124,ISS RapidScat,13400.0,nan,Ku-band scatterometer,None,Oscar
+332,3762,JASON-1,5300.0,N/R,C-band radar altimeter,None,Oscar
+333,3763,JASON-1,13575.0,N/R,Ku-band radar altimeter,None,Oscar
+334,3764,JASON-1,18700.0,200 MHz,"Window channel (supporting altimeter)
+",None,Oscar
+335,3765,JASON-1,23800.0,400 MHz,"Water vapour channel (supporting altimeter)
+",None,Oscar
+336,3766,JASON-1,34000.0,400 MHz,"Window channel (supporting altimeter)
+",None,Oscar
+337,2183,JASON-2,5300.0,N/R,C-band radar altimeter,None,Oscar
+338,3759,JASON-2,13575.0,N/R,Ku-band radar altimeter,None,Oscar
+339,3760,JASON-2,18700.0,200 MHz,Window channel (supporting altimeter),None,Oscar
+340,3761,JASON-2,23800.0,400 MHz,Water vapour channel (supporting altimeter),None,Oscar
+341,4033,JASON-2,34000.0,400 MHz,Window channel (supporting altimeter),None,Oscar
+342,3768,JASON-3,5300.0,N/R,C-band radar altimeter,None,Oscar
+343,3769,JASON-3,13575.0,N/R,Ku-band radar altimeter,None,Oscar
+344,4034,JASON-3,18700.0,200 MHz,Window channel (supporting altimeter),None,Oscar
+345,4035,JASON-3,23800.0,400 MHz,Water vapour channel (supporting altimeter),None,Oscar
+346,4036,JASON-3,34000.0,400 MHz,Window channel (supporting altimeter),None,Oscar
+347,2233,JPSS-3,23800.0,270 MHz,Water vapour channel,None,Oscar
+348,2234,JPSS-3,31400.0,180 MHz,Window channel,None,Oscar
+349,2235,JPSS-3,53979.5,-,"Oxygen band, 13 channels",None,Oscar
+350,2248,JPSS-3,88200.0,2000 MHz,Window channel,None,Oscar
+351,2249,JPSS-3,165500.0,3000 MHz,Weak water vapour channel,None,Oscar
+352,2250,JPSS-3,183310.0,-,"Water vapour band, 5 channels",None,Oscar
+353,2255,JPSS-4,23800.0,270 MHz,"Water vapour channel
+
+",None,Oscar
+354,2256,JPSS-4,31400.0,180 MHz,Window channel,None,Oscar
+355,2257,JPSS-4,53979.5,-,"Oxygen band, 13 channels",None,Oscar
+356,2270,JPSS-4,88200.0,2000 MHz,Window channel,None,Oscar
+357,2271,JPSS-4,165500.0,3000 MHz,Weak water vapour channel,None,Oscar
+358,2272,JPSS-4,183310.0,-,"Water vapour band, 5 channels",None,Oscar
+359,3105,KOMPSAT-5,9660.0,N/R,X-band SAR,None,Oscar
+360,3830,KOMPSAT-6,9660.0,N/R,X-band SAR,None,Oscar
+361,3734,Kondor-E,3110.0,N/R,S-band SAR,None,Oscar
+362,3733,Kondor-E1,3130.0,N/R,S-band SAR,None,Oscar
+363,4410,Kondor-FKA 1,3130.0,N/R,S-band SAR,None,Oscar
+364,4411,Kondor-FKA 2,3130.0,N/R,S-band SAR,None,Oscar
+365,3178,Megha-Tropiques,18700.0,200 MHz,Window channel,None,Oscar
+366,3179,Megha-Tropiques,23800.0,400 MHz,Water vapour channel,None,Oscar
+367,3180,Megha-Tropiques,36500.0,1000 MHz,Window channel,None,Oscar
+368,3181,Megha-Tropiques,89000.0,1700 MHz,Window channel,None,Oscar
+369,3182,Megha-Tropiques,157000.0,1700 MHz,Weak water vapour channel,None,Oscar
+370,3814,Megha-Tropiques,183310.0,N/R,"Water vapour band, 6 channels",None,Oscar
+371,3457,Meteor-M N1,10600.0,100 MHz,Window channel,None,Oscar
+372,3459,Meteor-M N1,18700.0,200 MHz,Window channel,None,Oscar
+373,3461,Meteor-M N1,23800.0,400 MHz,Water vapour channel,None,Oscar
+374,3463,Meteor-M N1,31500.0,400 MHz,Window channel,None,Oscar
+375,3465,Meteor-M N1,36700.0,400 MHz,Window channel,None,Oscar
+376,3467,Meteor-M N1,42000.0,400 MHz,Window channel,None,Oscar
+377,3469,Meteor-M N1,48000.0,400 MHz,Window channel,None,Oscar
+378,3471,Meteor-M N1,55256.5,N/R,"Oxygen band, 10 channels",None,Oscar
+379,3491,Meteor-M N1,91655.0,2500 MHz,Window channel,None,Oscar
+380,3493,Meteor-M N1,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+381,3495,Meteor-M N1,9623.0,N/R,X-band SAR,None,Oscar
+382,3206,Meteor-M N2,10600.0,100 MHz,Window channel,None,Oscar
+383,3212,Meteor-M N2,18700.0,200 MHz,Window channel,None,Oscar
+384,3218,Meteor-M N2,23800.0,400 MHz,Water vapour channel,None,Oscar
+385,3224,Meteor-M N2,31500.0,400 MHz,Window channel,None,Oscar
+386,3230,Meteor-M N2,36700.0,400 MHz,Window channel,None,Oscar
+387,3326,Meteor-M N2,42000.0,400 MHz,Window channel,None,Oscar
+388,3362,Meteor-M N2,48000.0,400 MHz,Window channel,None,Oscar
+389,3368,Meteor-M N2,55256.5,N/R,"Oxygen band, 10 channels",None,Oscar
+390,3428,Meteor-M N2,91655.0,2500 MHz,Window channel,None,Oscar
+391,3434,Meteor-M N2,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+392,3446,Meteor-M N2,9623.0,N/R,X-band SAR1,None,Oscar
+393,3458,Meteor-M N2-1,10600.0,100 MHz,Window channel,None,Oscar
+394,3460,Meteor-M N2-1,18700.0,200 MHz,Window channel,None,Oscar
+395,3462,Meteor-M N2-1,23800.0,400 MHz,Water vapour channel,None,Oscar
+396,3464,Meteor-M N2-1,31500.0,400 MHz,Window channel,None,Oscar
+397,3466,Meteor-M N2-1,36700.0,400 MHz,Window channel,None,Oscar
+398,3468,Meteor-M N2-1,42000.0,400 MHz,Window channel,None,Oscar
+399,3470,Meteor-M N2-1,48000.0,400 MHz,Window channel,None,Oscar
+400,3472,Meteor-M N2-1,55256.5,N/R,"Oxygen band, 10 channels",None,Oscar
+401,3492,Meteor-M N2-1,91655.0,2500 MHz,Window channel,None,Oscar
+402,3494,Meteor-M N2-1,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+403,3207,Meteor-M N2-2,10600.0,100 MHz,Window channel,None,Oscar
+404,3213,Meteor-M N2-2,18700.0,200 MHz,Window channel,None,Oscar
+405,3219,Meteor-M N2-2,23800.0,400 MHz,Water vapour channel,None,Oscar
+406,3225,Meteor-M N2-2,31500.0,400 MHz,Window channel,None,Oscar
+407,3231,Meteor-M N2-2,36700.0,400 MHz,Window channel,None,Oscar
+408,3327,Meteor-M N2-2,42000.0,400 MHz,Window channel,None,Oscar
+409,3363,Meteor-M N2-2,48000.0,400 MHz,Window channel,None,Oscar
+410,3369,Meteor-M N2-2,55256.5,N/R,"Oxygen band, 10 channels",None,Oscar
+411,3429,Meteor-M N2-2,91655.0,2500 MHz,Window channel,None,Oscar
+412,3435,Meteor-M N2-2,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+413,3447,Meteor-M N2-2,9623.0,N/R,X-band SAR,None,Oscar
+414,3208,Meteor-M N2-3,10600.0,100 MHz,Window channel,None,Oscar
+415,3214,Meteor-M N2-3,18700.0,200 MHz,Window channel,None,Oscar
+416,3220,Meteor-M N2-3,23800.0,400 MHz,Water vapour channel,None,Oscar
+417,3226,Meteor-M N2-3,31500.0,400 MHz,Window channel,None,Oscar
+418,3232,Meteor-M N2-3,36700.0,400 MHz,Window channel,None,Oscar
+419,3328,Meteor-M N2-3,42000.0,400 MHz,Window channel,None,Oscar
+420,3364,Meteor-M N2-3,48000.0,400 MHz,Window channel,None,Oscar
+421,3370,Meteor-M N2-3,55256.5,N/R,"Oxygen band, 10 channels",None,Oscar
+422,3430,Meteor-M N2-3,91655.0,2500 MHz,Window channel,None,Oscar
+423,3436,Meteor-M N2-3,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+424,4478,Meteor-M N2-3,9623.000000000002,1 MHz,X-band SAR ,None,Oscar
+425,3209,Meteor-M N2-4,10600.0,100 MHz,Window channel,None,Oscar
+426,3215,Meteor-M N2-4,18700.0,200 MHz,Window channel,None,Oscar
+427,3221,Meteor-M N2-4,23800.0,400 MHz,Water vapour channel,None,Oscar
+428,3227,Meteor-M N2-4,31500.0,400 MHz,Window channel,None,Oscar
+429,3233,Meteor-M N2-4,36700.0,400 MHz,Window channel,None,Oscar
+430,3329,Meteor-M N2-4,42000.0,400 MHz,Window channel,None,Oscar
+431,3365,Meteor-M N2-4,48000.0,400 MHz,Window channel,None,Oscar
+432,3371,Meteor-M N2-4,55256.5,N/R,"Oxygen band, 10 channels",None,Oscar
+433,3431,Meteor-M N2-4,91655.0,2500 MHz,Window channel,None,Oscar
+434,3437,Meteor-M N2-4,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+435,3449,Meteor-M N2-4,9623.0,N/R,X-band SAR,None,Oscar
+436,3210,Meteor-M N2-5,10600.0,100 MHz,Window channel,None,Oscar
+437,3216,Meteor-M N2-5,18700.0,200 MHz,Window channel,None,Oscar
+438,3222,Meteor-M N2-5,23800.0,400 MHz,Water vapour channel,None,Oscar
+439,3228,Meteor-M N2-5,31500.0,400 MHz,Window channel,None,Oscar
+440,3234,Meteor-M N2-5,36700.0,400 MHz,Window channel,None,Oscar
+441,3330,Meteor-M N2-5,42000.0,400 MHz,Window channel,None,Oscar
+442,3366,Meteor-M N2-5,48000.0,400 MHz,Window channel,None,Oscar
+443,3372,Meteor-M N2-5,55256.5,N/R,"Oxygen band, 10 channels",None,Oscar
+444,3438,Meteor-M N2-5,91655.0,2500 MHz,Window channel,None,Oscar
+445,3444,Meteor-M N2-5,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+446,3742,Meteor-M N2-5,9623.0,N/R,X-band SAR,None,Oscar
+447,3649,Meteor-M N2-6,10600.0,100 MHz,Window channel,None,Oscar
+448,3650,Meteor-M N2-6,18700.0,200 MHz,Window channel,None,Oscar
+449,3651,Meteor-M N2-6,23800.0,400 MHz,Water vapour channel,None,Oscar
+450,3652,Meteor-M N2-6,31500.0,400 MHz,Window channel,None,Oscar
+451,3653,Meteor-M N2-6,36700.0,400 MHz,Window channel,None,Oscar
+452,3654,Meteor-M N2-6,42000.0,400 MHz,Window channel,None,Oscar
+453,3655,Meteor-M N2-6,48000.0,400 MHz,Window channel,None,Oscar
+454,3656,Meteor-M N2-6,55256.5,N/R,"Oxygen band, 10 channels",None,Oscar
+455,3666,Meteor-M N2-6,91655.0,2500 MHz,Window channel,None,Oscar
+456,3667,Meteor-M N2-6,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+457,3669,Meteor-M N2-6,9623.0,N/R,X-band SAR,None,Oscar
+458,3500,Meteor-MP N1,6900.0,400 MHz,Window channel,None,Oscar
+459,3501,Meteor-MP N1,10600.0,100 MHz,Window channel,None,Oscar
+460,3502,Meteor-MP N1,18700.0,200 MHz,Window channel,None,Oscar
+461,3503,Meteor-MP N1,23800.0,400 MHz,Water vapour channel,None,Oscar
+462,3504,Meteor-MP N1,31500.0,400 MHz,Window channel,None,Oscar
+463,3505,Meteor-MP N1,36700.0,400 MHz,Window channel,None,Oscar
+464,3506,Meteor-MP N1,54806.5,N/R,"Oxygen band, 11 channels",None,Oscar
+465,3517,Meteor-MP N1,91655.0,2500 MHz,Window channel,None,Oscar
+466,3518,Meteor-MP N1,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+467,3520,Meteor-MP N1,9623.0,N/R,X-band SAR,None,Oscar
+468,3521,Meteor-MP N2,6900.0,400 MHz,Window channel,None,Oscar
+469,3522,Meteor-MP N2,10600.0,100 MHz,Window channel,None,Oscar
+470,3523,Meteor-MP N2,18700.0,200 MHz,Window channel,None,Oscar
+471,3524,Meteor-MP N2,23800.0,400 MHz,Water vapour channel,None,Oscar
+472,3525,Meteor-MP N2,31500.0,400 MHz,Window channel,None,Oscar
+473,3526,Meteor-MP N2,36700.0,400 MHz,Window channel,None,Oscar
+474,3527,Meteor-MP N2,54806.5,N/R,"Oxygen band, 11 channels",None,Oscar
+475,3539,Meteor-MP N2,91655.0,2500 MHz,Window channel,None,Oscar
+476,3540,Meteor-MP N2,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+477,3541,Meteor-MP N2,9623.0,N/R,X-band SAR,None,Oscar
+478,2282,Metop-A,23800.0,270 MHz,Water vapour channel,None,Oscar
+479,2283,Metop-A,31400.0,180 MHz,Window channel,None,Oscar
+480,2284,Metop-A,53870.0,N/R,"Oxygen band, 12 channels",None,Oscar
+481,2296,Metop-A,89000.0,6000 MHz,Window channel,None,Oscar
+482,3709,Metop-A,89000.0,2800 MHz,Window channel,None,Oscar
+483,3710,Metop-A,157000.0,2800 MHz,Weak water vapour channel,None,Oscar
+484,3711,Metop-A,185310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+485,3712,Metop-A,5255.0,1 MHz,C-band scatterometer,None,Oscar
+486,2304,Metop-B,23800.0,270 MHz,Water vapour channel,None,Oscar
+487,2305,Metop-B,31400.0,180 MHz,Window channel,None,Oscar
+488,2306,Metop-B,53870.0,N/R,"Oxygen band, 12 channels",None,Oscar
+489,2317,Metop-B,89000.0,6000 MHz,Window channel,None,Oscar
+490,3713,Metop-B,89000.0,2800 MHz,Window channel,None,Oscar
+491,3714,Metop-B,157000.0,2800 MHz,Weak water vapour channel,None,Oscar
+492,3715,Metop-B,185310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+493,3716,Metop-B,5255.0,1 MHz,C-band scatterometer,None,Oscar
+494,2324,Metop-C,23800.0,270 MHz,"Water vapour channel
+",None,Oscar
+495,2325,Metop-C,31400.0,180 MHz,Window channel,None,Oscar
+496,2326,Metop-C,53870.0,N/R,"Oxygen band, 12 channels",None,Oscar
+497,2338,Metop-C,89000.0,6000 MHz,Window channel,None,Oscar
+498,3717,Metop-C,89000.0,2800 MHz,Window channel,None,Oscar
+499,3718,Metop-C,157000.0,2800 MHz,Weak water vapour channel,None,Oscar
+500,3719,Metop-C,185310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+501,3720,Metop-C,5255.0,1 MHz,C-band scatterometer,None,Oscar
+502,3948,Metop-SG-A1,23800.0,270 MHz,Water vapour channel,None,Oscar
+503,3949,Metop-SG-A1,31400.0,180 MHz,Window channel,None,Oscar
+504,3950,Metop-SG-A1,53870.0,N/R,"Oxygen band, 14 channels",None,Oscar
+505,3951,Metop-SG-A1,89000.0,4000 MHz,Window channel,None,Oscar
+506,3952,Metop-SG-A1,165500.0,3000 MHz,Weak water vapour channel,None,Oscar
+507,3953,Metop-SG-A1,183310.0,N/R,"Water vapour band, 5 channels",None,Oscar
+508,3954,Metop-SG-A1,229000.0,2000 MHz,Window channel,None,Oscar
+509,3947,Metop-SG-A2,23800.0,270 MHz,Water vapour channel,None,Oscar
+510,3955,Metop-SG-A2,31400.0,180 MHz,Window channel,None,Oscar
+511,3956,Metop-SG-A2,53870.0,nan,"Oxygen band, 14 channels",None,Oscar
+512,3957,Metop-SG-A2,89000.0,4000 MHz,Window channel,None,Oscar
+513,3958,Metop-SG-A2,165500.0,3000 MHz,Weak water vapour channel,None,Oscar
+514,3959,Metop-SG-A2,183310.0,N/R,"Water vapour band, 5 channels",None,Oscar
+515,3961,Metop-SG-A2,229000.0,2000 MHz,Window channel,None,Oscar
+516,2796,Metop-SG-A3,23800.0,270 MHz,Water vapour channel,None,Oscar
+517,2798,Metop-SG-A3,31400.0,180 MHz,Window channel,None,Oscar
+518,2800,Metop-SG-A3,53870.0,N/R,"Oxygen band, 14 channels",None,Oscar
+519,2826,Metop-SG-A3,89000.0,4000 MHz,Window channel,None,Oscar
+520,2828,Metop-SG-A3,165500.0,3000 MHz,Weak water vapour channel,None,Oscar
+521,2830,Metop-SG-A3,183310.0,N/R,"Water vapour band, 5 channels",None,Oscar
+522,2840,Metop-SG-A3,229000.0,2000 MHz,Window channel,None,Oscar
+523,2843,Metop-SG-B1,18700.0,200 MHz,Window channel,None,Oscar
+524,2844,Metop-SG-B1,23800.0,400 MHz,Water vapour channel,None,Oscar
+525,2845,Metop-SG-B1,31400.0,100 MHz,Window channel,None,Oscar
+526,2846,Metop-SG-B1,52025.00000000001,N/R,"Oxygen band, 4 channels",None,Oscar
+527,2850,Metop-SG-B1,89000.0,4000 MHz,Window channel,None,Oscar
+528,2851,Metop-SG-B1,118650.0,N/R,"Oxygen band, 4 channels",None,Oscar
+529,2855,Metop-SG-B1,165500.0,2900 MHz,Weak water vapour channel,None,Oscar
+530,2856,Metop-SG-B1,183310.0,N/R,"Water vapour band, 5 channels",None,Oscar
+531,2898,Metop-SG-B1,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+532,2900,Metop-SG-B1,243200.0,8000 MHz,Window channel,None,Oscar
+533,2901,Metop-SG-B1,325150.0,N/R,"Water vapour band, 3 channels",None,Oscar
+534,2904,Metop-SG-B1,448000.0,N/R,"Water vapour band, 3 channels",None,Oscar
+535,2907,Metop-SG-B1,664000.0,N/R,Window channel,None,Oscar
+536,2930,Metop-SG-B1,5355.0,2 MHz,C-band scatterometer,None,Oscar
+537,2861,Metop-SG-B2,18700.0,200 MHz,Window channel,None,Oscar
+538,2862,Metop-SG-B2,23800.0,400 MHz,Water vapour channel,None,Oscar
+539,2863,Metop-SG-B2,31400.0,1000 MHz,Window channel,None,Oscar
+540,2864,Metop-SG-B2,52025.00000000001,N/R,"Oxygen band, 4 channels",None,Oscar
+541,2868,Metop-SG-B2,89000.0,4000 MHz,Window channel,None,Oscar
+542,2869,Metop-SG-B2,118650.0,N/R,"Oxygen band, 4 channels
+",None,Oscar
+543,2873,Metop-SG-B2,165500.0,2900 MHz,Weak water vapour channel,None,Oscar
+544,2874,Metop-SG-B2,183310.0,N/R,"Water vapour band, 5 channels",None,Oscar
+545,2908,Metop-SG-B2,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+546,2912,Metop-SG-B2,243200.0,8000 MHz,Window channel,None,Oscar
+547,2913,Metop-SG-B2,325150.0,N/R,"Water vapour band, 3 channels",None,Oscar
+548,2915,Metop-SG-B2,448000.0,N/R,"Water vapour band, 3 channels",None,Oscar
+549,2918,Metop-SG-B2,664000.0,N/R,Window channel,None,Oscar
+550,2931,Metop-SG-B2,5355.0,2 MHz,C-band scatterometer,None,Oscar
+551,2879,Metop-SG-B3,18700.0,200 MHz,Window channel,None,Oscar
+552,2880,Metop-SG-B3,23800.0,400 MHz,Water vapour channel,None,Oscar
+553,2881,Metop-SG-B3,31400.0,1000 MHz,Window channel,None,Oscar
+554,2882,Metop-SG-B3,52025.00000000001,N/R,"Oxygen band, 4 channels",None,Oscar
+555,2886,Metop-SG-B3,89000.0,4000 MHz,Window channel,None,Oscar
+556,2887,Metop-SG-B3,118650.0,N/R,"Oxygen band, 4 channels",None,Oscar
+557,2891,Metop-SG-B3,165500.0,2900 MHz,Weak water vapour channel,None,Oscar
+558,2892,Metop-SG-B3,183310.0,N/R,"Water vapour band, 5 channels",None,Oscar
+559,2919,Metop-SG-B3,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+560,2922,Metop-SG-B3,243200.0,8000 MHz,Window channel,None,Oscar
+561,2923,Metop-SG-B3,325150.0,N/R,"Water vapour band, 3 channels",None,Oscar
+562,2926,Metop-SG-B3,448000.0,N/R,"Water vapour band, 3 channels",None,Oscar
+563,2929,Metop-SG-B3,664000.0,N/R,Window channel,None,Oscar
+564,2932,Metop-SG-B3,5355.0,2 MHz,C-band scatterometer,None,Oscar
+565,3735,NI-SAR,1257.5,80 MHz,L-band SAR,None,Oscar
+566,3736,NI-SAR,3200.0,75 MHz,S-band SAR,None,Oscar
+567,2340,NOAA-15,23800.0,270 MHz,Water vapour channel,None,Oscar
+568,2341,NOAA-15,31400.0,180 MHz,Window channel,None,Oscar
+569,2343,NOAA-15,53870.0,N/R,"Oxygen band, 12 channels",None,Oscar
+570,2355,NOAA-15,89000.0,6000 MHz,Window channel,None,Oscar
+571,2356,NOAA-15,89000.0,1000 MHz,Window channel,None,Oscar
+572,2357,NOAA-15,150000.0,1000 MHz,Weak water vapour channel,None,Oscar
+573,2358,NOAA-15,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+574,2360,NOAA-16,23800.0,270 MHz,Water vapour channel,None,Oscar
+575,2361,NOAA-16,31400.0,180 MHz,Window channel,None,Oscar
+576,2362,NOAA-16,53870.0,N/R,"Oxygen band, 12 channels",None,Oscar
+577,2374,NOAA-16,89000.0,6000 MHz,Window channel,None,Oscar
+578,2375,NOAA-16,89000.0,1 MHz,Window channel,None,Oscar
+579,2376,NOAA-16,150000.0,1 MHz,Weak water vapour channel,None,Oscar
+580,2377,NOAA-16,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+581,2380,NOAA-17,23800.0,270 MHz,Water vapour channel,None,Oscar
+582,2381,NOAA-17,31400.0,180 MHz,Window channel2,None,Oscar
+583,2382,NOAA-17,53870.0,N/R,"Oxygen band, 12 channels",None,Oscar
+584,2394,NOAA-17,89000.0,6000 MHz,Window channel,None,Oscar
+585,2395,NOAA-17,89000.0,1000 MHz,Window channel,None,Oscar
+586,2396,NOAA-17,150000.0,1000 MHz,Weak water vapour channel,None,Oscar
+587,2397,NOAA-17,183310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+588,2405,NOAA-18,23800.0,270 MHz,Water vapour channel,None,Oscar
+589,2406,NOAA-18,31400.0,180 MHz,Window channel,None,Oscar
+590,2407,NOAA-18,53870.0,N/R,"Oxygen band, 12 channels",None,Oscar
+591,2419,NOAA-18,89000.0,6000 MHz,Window channel,None,Oscar
+592,3703,NOAA-18,89000.0,2800 MHz,"Window channel
+",None,Oscar
+593,3704,NOAA-18,157000.0,2800 MHz,"Weak water vapour channel
+",None,Oscar
+594,3705,NOAA-18,185310.0,N/R,"Water vapour band, 3 channels",None,Oscar
+595,2425,NOAA-19,23800.0,270 MHz,Water vapour channel,None,Oscar
+596,2426,NOAA-19,31400.0,180 MHz,Window channel,None,Oscar
+597,2427,NOAA-19,53870.0,N/R,"Oxygen band, 12 channels",None,Oscar
+598,2438,NOAA-19,89000.0,6000 MHz,Window channel,None,Oscar
+599,3706,NOAA-19,89000.0,2800 MHz,Window channel,None,Oscar
+600,3707,NOAA-19,157000.0,2800 MHz,Weak water vapour channel,None,Oscar
+601,3708,NOAA-19,185310.0,12000 MHz,"Water vapour band, 3 channels",None,Oscar
+602,2189,NOAA-20,23800.0,270 MHz,Water vapour channel,None,Oscar
+603,2190,NOAA-20,31400.0,180 MHz,Window channel,None,Oscar
+604,2191,NOAA-20,53979.5,-,"Oxygen band, 13 channels",None,Oscar
+605,2204,NOAA-20,88200.0,2000 MHz,Window channel,None,Oscar
+606,2205,NOAA-20,165500.0,3000 MHz,Weak water vapour channel,None,Oscar
+607,2206,NOAA-20,183310.0,-,"Water vapour band, 5 channels",None,Oscar
+608,2211,NOAA-21,23800.0,270 MHz,Water vapour channel,None,Oscar
+609,2212,NOAA-21,31400.0,180 MHz,Window channel,None,Oscar
+610,2213,NOAA-21,53979.5,-,"Oxygen band, 13 channels",None,Oscar
+611,2226,NOAA-21,88200.0,2000 MHz,Window channel,None,Oscar
+612,2227,NOAA-21,165500.0,3000 MHz,Weak water vapour channel,None,Oscar
+613,2228,NOAA-21,183310.0,-,"Water vapour band, 5 channels",None,Oscar
+614,3731,NovaSAR-S,3200.0,N/R,S-band SAR,None,Oscar
+615,3108,Obzor-R N1,9623.0,N/R,X-band SAR,None,Oscar
+616,3109,Obzor-R N2,9623.0,N/R,X-band SAR,None,Oscar
+617,3110,Obzor-R N3,9623.0,N/R,X-band SAR,None,Oscar
+618,3111,Obzor-R N4,9623.0,N/R,X-band SAR,None,Oscar
+619,3778,OceanSat-1 (IRS-P4),6600.0,350 MHz,Window channel,None,Oscar
+620,3779,OceanSat-1 (IRS-P4),10650.0,100 MHz,Window channel,None,Oscar
+621,3780,OceanSat-1 (IRS-P4),18000.0,200 MHz,Window channel,None,Oscar
+622,3781,OceanSat-1 (IRS-P4),21000.0,400 MHz,Water vapour channel,None,Oscar
+623,2521,OceanSat-2,13515.0,N/R,Ku-band scatterometer,None,Oscar
+624,2522,OceanSat-3 (EOS-06),13515.0,N/R,Ku-band scatterometer,None,Oscar
+625,3782,OceanSat-3A,13515.0,N/R,Ku-band scatterometer,None,Oscar
+626,4518,PIESAT-1,9650.0,10 MHz,X-Band SAR,None,Oscar
+627,4409,PRETTY,1176.5,0.1 MHz,GNSS reflected signal in L5 band,None,Oscar
+628,2440,RadarSat-1,5300.0,N/R,C-band SAR,None,Oscar
+629,2441,RadarSat-2,5400.0,N/R,C-band SAR,None,Oscar
+630,4299,RCM-1,5405.0,140 MHz,C-Band SAR,None,Oscar
+631,4305,RCM-2,5405.0,140 MHz,C-Band SAR,None,Oscar
+632,4311,RCM-3,5405.0,140 MHz,C-Band SAR,None,Oscar
+633,3737,RISAT-1,5350.0,N/R,C-band SAR,None,Oscar
+634,4511,RISAT-1B,5350.0,N/R,C-band SAR,None,Oscar
+635,3075,RISAT-2,9590.0,N/R,X-band SAR,None,Oscar
+636,3577,RISAT-2B,9590.0,N/R,X-band SAR,None,Oscar
+637,3578,RISAT-2BR1,9590.0,N/R,X-band SAR,None,Oscar
+638,4094,ROSE-L,1257.5,85 MHz,C-Band SAR,None,Oscar
+639,3083,SAOCOM-1A,1275.0,N/R,L-band SAR,None,Oscar
+640,3084,SAOCOM-1B,1275.0,N/R,L-band SAR,None,Oscar
+641,3085,SAOCOM-2A,1275.0,N/R,L-band SAR,None,Oscar
+642,3086,SAOCOM-2B,1275.0,N/R,L-band SAR,None,Oscar
+643,2524,SARAL,35750.0,N/R,Ka-band radar altimeter,None,Oscar
+644,2525,SARAL,23800.0,200 MHz,Water vapour channel associated to the altimeter,None,Oscar
+645,2526,SARAL,36500.0,200 MHz,Window channel associated to the altimeter,None,Oscar
+646,2523,ScatSat-1,13515.0,N/R,Ku-band scatterometer,None,Oscar
+647,2519,Sentinel-1A,5405.0,100 MHz,C-band SAR,None,Oscar
+648,2520,Sentinel-1B,5405.0,100 MHz,C-band SAR,None,Oscar
+649,3545,Sentinel-1C,5405.0,100 MHz,C-band SAR,None,Oscar
+650,3546,Sentinel-1D,5405.0,100 MHz,C-band SAR,None,Oscar
+651,3676,Sentinel-3A,5410.0,320 MHz,C-band radar altimeter,None,Oscar
+652,3678,Sentinel-3A,13575.0,350 MHz,Ku-band radar altimeter,None,Oscar
+653,3770,Sentinel-3A,23800.0,400 MHz,Water vapour channel (supporting altimeter),None,Oscar
+654,3771,Sentinel-3A,36500.0,1000 MHz,Window channel (supporting altimeter),None,Oscar
+655,3685,Sentinel-3B,5410.0,320 MHz,C-band radar altimeter,None,Oscar
+656,3686,Sentinel-3B,13575.0,350 MHz,Ku-band radar altimeter,None,Oscar
+657,3772,Sentinel-3B,23800.0,400 MHz,"Water vapour channel (supporting altimeter)
+",None,Oscar
+658,3773,Sentinel-3B,36500.0,1000 MHz,"Window channel (supporting altimeter)
+",None,Oscar
+659,3693,Sentinel-3C,5410.0,320 MHz,C-band radar altimeter,None,Oscar
+660,3694,Sentinel-3C,13575.0,350 MHz,Ku-band radar altimeter,None,Oscar
+661,3774,Sentinel-3C,23800.0,400 MHz,Water vapour channel (supporting altimeter),None,Oscar
+662,3775,Sentinel-3C,36500.0,1000 MHz,Window channel (supporting altimeter),None,Oscar
+663,3701,Sentinel-3D,5410.0,320 MHz,C-band radar altimeter,None,Oscar
+664,3702,Sentinel-3D,13575.0,350 MHz,Ku-band radar altimeter,None,Oscar
+665,3776,Sentinel-3D,23800.0,400 MHz,Water vapour channel (supporting altimeter),None,Oscar
+666,3777,Sentinel-3D,36500.0,1000 MHz,Window channel (supporting altimeter),None,Oscar
+667,4037,Sentinel-6A,5410.0,320 MHz,C-band altimeter,None,Oscar
+668,4038,Sentinel-6A,13575.0,320 MHz,Ku-band altimeter,None,Oscar
+669,4039,Sentinel-6A,18700.0,200 MHz,Window channel,None,Oscar
+670,4040,Sentinel-6A,23800.0,400 MHz,Water vapour channel,None,Oscar
+671,4041,Sentinel-6A,34000.0,700 MHz,Window channel,None,Oscar
+672,4190,Sentinel-6A,90000.0,5000 MHz,High freq window channel,None,Oscar
+673,4191,Sentinel-6A,130000.0,5000 MHz,High freq window channel,None,Oscar
+674,4192,Sentinel-6A,168000.0,5000 MHz,Water vapour channel,None,Oscar
+675,4042,Sentinel-6B,5410.0,320 MHz,C-band radar altimeter,None,Oscar
+676,4043,Sentinel-6B,13575.0,320 MHz,Ku-band radar altimeter,None,Oscar
+677,4044,Sentinel-6B,18700.0,200 MHz,Window channel,None,Oscar
+678,4045,Sentinel-6B,23800.0,400 MHz,Water vapour channel,None,Oscar
+679,4046,Sentinel-6B,34000.0,700 MHz,Window channel,None,Oscar
+680,4193,Sentinel-6B,90000.0,5000 MHz,High frequency window channel,None,Oscar
+681,4194,Sentinel-6B,130000.0,5000 MHz,High frequency window channel,None,Oscar
+682,4195,Sentinel-6B,168000.0,5000 MHz,High frequency water vapour channel,None,Oscar
+683,3076,SEOSAR/Paz,9650.0,N/R,X-band SAR,None,Oscar
+684,4229,SMAP,1413.5,24 MHz,Conical scanning radiometer for soil moisture,None,Oscar
+685,2445,SMOS,1413.5,19 MHz,Forward looking interferometric radiometer,None,Oscar
+686,2446,SNPP,23800.0,270 MHz,Water vapour channel,None,Oscar
+687,2447,SNPP,31400.0,180 MHz,Window channel,None,Oscar
+688,2448,SNPP,53979.5,-,"Oxygen band, 13 channels",None,Oscar
+689,2461,SNPP,88200.0,2000 MHz,Window channel,None,Oscar
+690,2462,SNPP,165500.0,3000 MHz,Weak water vapour channel,None,Oscar
+691,2463,SNPP,183310.0,-,"Water vapour band, 5 channels",None,Oscar
+692,4429,Sterna-1,53979.5,-,8 temperature sounding channels in O2 band,None,Oscar
+693,4430,Sterna-1,89000.0,400 MHz,Window channel,None,Oscar
+694,4431,Sterna-1,165500.0,280 MHz,Weak water vapour channel,None,Oscar
+695,4432,Sterna-1,183310.0,-,5 water vapour channels,None,Oscar
+696,4433,Sterna-1,325150.0,-,4 High freq channel,None,Oscar
+697,4451,Sterna-2,53979.5,-,8 temperature sounding channels in O2 band,None,Oscar
+698,4452,Sterna-2,89000.0,400 MHz,Window channel,None,Oscar
+699,4453,Sterna-2,165500.0,280 MHz,Weak water vapour channel,None,Oscar
+700,4454,Sterna-2,183310.0,-,5 water vapour channels,None,Oscar
+701,4455,Sterna-2,325150.0,-,4 High freq channels,None,Oscar
+702,4473,Sterna-3,53979.5,-,8 temperature sounding channels in O2 band,None,Oscar
+703,4474,Sterna-3,89000.0,400 MHz,Window channel,None,Oscar
+704,4475,Sterna-3,165500.0,280 MHz,Weak water vapour channel,None,Oscar
+705,4476,Sterna-3,183310.0,-,5 water vapour channels,None,Oscar
+706,4477,Sterna-3,325150.0,-,4 high freq channels,None,Oscar
+707,4225,StriX-1,9650.0,-,X band SAR,None,Oscar
+708,4226,StriX-α,9650.0,-,X-Band SAR,None,Oscar
+709,4227,StriX-β,9650.0,-,X-Band SAR,None,Oscar
+710,3158,SWOT,5300.0,320 MHz,"C-band radar altimeter
+",None,Oscar
+711,3159,SWOT,13575.0,320 MHz,Ku-band radar altimeter,None,Oscar
+712,3160,SWOT,35750.0,200 MHz,Ka-band radar altimeter,None,Oscar
+713,3166,SWOT,18700.0,200 MHz,Window channel (supporting altimeters),None,Oscar
+714,3167,SWOT,23800.0,400 MHz,Water vapour channel (supporting altimeters),None,Oscar
+715,3168,SWOT,34000.0,700 MHz,Window channel (supporting altimeters),None,Oscar
+716,3729,Tandem-L,9650.0,N/R,X-band SAR,None,Oscar
+717,3074,TanDEM-X,9650.0,N/R,X-band SAR,None,Oscar
+718,3073,TerraSAR-X,9650.0,N/R,X-band SAR,None,Oscar
+719,3815,TRMM,10650.0,100 MHz,Window channel,None,Oscar
+720,3816,TRMM,19350.0,500 MHz,Window channel,None,Oscar
+721,3817,TRMM,21300.0,200 MHz,Water vapour channel,None,Oscar
+722,3818,TRMM,37000.0,2000 MHz,Window channel,None,Oscar
+723,3819,TRMM,85500.0,3000 MHz,Window channel,None,Oscar
+724,3820,TRMM,13500.0,N/R,Ku-band precipitation radar,None,Oscar
+725,4230,TROPICS-01 (Pathfinder),91655.0,3000 MHz,Passive MW radiometer in window region,None,Oscar
+726,4231,TROPICS-01 (Pathfinder),114500.0,1000 MHz,Passive MW radiometer in window region,None,Oscar
+727,4234,TROPICS-01 (Pathfinder),115950.0,800 MHz,Passive MW radiometer in window region,None,Oscar
+728,4235,TROPICS-01 (Pathfinder),116650.0,600 MHz,Passive MW radiometer in window region,None,Oscar
+729,4236,TROPICS-01 (Pathfinder),117250.0,600 MHz,Passive MW radiometer in window region,None,Oscar
+730,4237,TROPICS-01 (Pathfinder),117800.0,500 MHz,Passive MW radiometer in window region,None,Oscar
+731,4238,TROPICS-01 (Pathfinder),118240.0,380 MHz,Passive MW radiometer in window region,None,Oscar
+732,4239,TROPICS-01 (Pathfinder),118580.0,380 MHz,Passive MW radiometer in O2 band,None,Oscar
+733,4240,TROPICS-01 (Pathfinder),184410.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+734,4241,TROPICS-01 (Pathfinder),186510.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+735,4242,TROPICS-01 (Pathfinder),190310.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+736,4243,TROPICS-01 (Pathfinder),204800.0,2000 MHz,Passive MW radiometer in window,None,Oscar
+737,4244,TROPICS-04,91655.0,3000 MHz,Passive MW radiometer in window region,None,Oscar
+738,4245,TROPICS-04,114500.0,1000 MHz,Passive MW radiometer in window region,None,Oscar
+739,4246,TROPICS-04,115950.0,800 MHz,Passive MW radiometer in window region,None,Oscar
+740,4247,TROPICS-04,116650.0,600 MHz,Passive MW radiometer in window region,None,Oscar
+741,4248,TROPICS-04,117250.0,600 MHz,Passive MW radiometer in window region,None,Oscar
+742,4249,TROPICS-04,117800.0,500 MHz,Passive MW radiometer in window region,None,Oscar
+743,4250,TROPICS-04,118240.0,380 MHz,Passive MW radiometer in window region,None,Oscar
+744,4251,TROPICS-04,118580.0,380 MHz,Passive MW radiometer in O2 band,None,Oscar
+745,4252,TROPICS-04,184410.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+746,4253,TROPICS-04,186510.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+747,4254,TROPICS-04,190310.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+748,4255,TROPICS-04,204800.0,2000 MHz,Passive MW radiometer in window,None,Oscar
+749,4256,TROPICS-05,91655.0,3000 MHz,Passive MW radiometer in window region,None,Oscar
+750,4257,TROPICS-05,114500.0,1000 MHz,Passive MW radiometer in window region,None,Oscar
+751,4258,TROPICS-05,115950.0,800 MHz,Passive MW radiometer in window region,None,Oscar
+752,4259,TROPICS-05,116650.0,600 MHz,Passive MW radiometer in window region,None,Oscar
+753,4260,TROPICS-05,117250.0,600 MHz,Passive MW radiometer in window region,None,Oscar
+754,4261,TROPICS-05,117800.0,500 MHz,Passive MW radiometer in window region,None,Oscar
+755,4262,TROPICS-05,118240.0,380 MHz,Passive MW radiometer in window region,None,Oscar
+756,4263,TROPICS-05,118580.0,380 MHz,Passive MW radiometer in O2 band,None,Oscar
+757,4264,TROPICS-05,184410.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+758,4265,TROPICS-05,186510.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+759,4266,TROPICS-05,190310.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+760,4267,TROPICS-05,204800.0,2000 MHz,Passive MW radiometer in window,None,Oscar
+761,4268,TROPICS-06,91655.0,3000 MHz,Passive MW radiometer in window region,None,Oscar
+762,4269,TROPICS-06,114500.0,1000 MHz,Passive MW radiometer in window region,None,Oscar
+763,4270,TROPICS-06,115950.0,800 MHz,Passive MW radiometer in window region,None,Oscar
+764,4271,TROPICS-06,116650.0,600 MHz,Passive MW radiometer in window region,None,Oscar
+765,4272,TROPICS-06,117250.0,600 MHz,Passive MW radiometer in window region,None,Oscar
+766,4273,TROPICS-06,117800.0,500 MHz,Passive MW radiometer in window region,None,Oscar
+767,4274,TROPICS-06,118240.0,380 MHz,Passive MW radiometer in window region,None,Oscar
+768,4275,TROPICS-06,118580.0,380 MHz,Passive MW radiometer in O2 band,None,Oscar
+769,4276,TROPICS-06,184410.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+770,4277,TROPICS-06,186510.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+771,4278,TROPICS-06,190310.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+772,4279,TROPICS-06,204800.0,2000 MHz,Passive MW radiometer in window,None,Oscar
+773,4280,TROPICS-07,91655.0,3000 MHz,Passive MW radiometer in window region,None,Oscar
+774,4281,TROPICS-07,114500.0,1000 MHz,Passive MW radiometer in window region,None,Oscar
+775,4282,TROPICS-07,115950.0,800 MHz,Passive MW radiometer in window region,None,Oscar
+776,4283,TROPICS-07,116650.0,600 MHz,Passive MW radiometer in window region,None,Oscar
+777,4284,TROPICS-07,117250.0,600 MHz,Passive MW radiometer in window region,None,Oscar
+778,4285,TROPICS-07,117800.0,500 MHz,Passive MW radiometer in window region,None,Oscar
+779,4286,TROPICS-07,118240.0,380 MHz,Passive MW radiometer in window region,None,Oscar
+780,4287,TROPICS-07,118580.0,380 MHz,Passive MW radiometer in O2 band,None,Oscar
+781,4288,TROPICS-07,184410.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+782,4289,TROPICS-07,186510.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+783,4290,TROPICS-07,190310.0,2000 MHz,Passive MW radiometer near water vapour  line,None,Oscar
+784,4291,TROPICS-07,204800.0,2000 MHz,Passive MW radiometer in window,None,Oscar
+785,4327,WSF-M1,10850.0,500 MHz,Window channel with 3rd or 4th stokes vectors,None,Oscar
+786,4330,WSF-M1,18850.0,500 MHz,Window channel with 3rd or 4th stokes vectors,None,Oscar
+787,4331,WSF-M1,23800.0,370 MHz,Window channel ,None,Oscar
+788,4332,WSF-M1,36750.0,500 MHz,Window channel with 3rd and 4th stokes vector,None,Oscar
+789,4333,WSF-M1,37300.0,2500 MHz,Window channel ,None,Oscar
+790,4334,WSF-M1,89000.0,6000 MHz,Window channel ,None,Oscar
+791,4375,WSF-M2,10850.0,500 MHz,Window channel with 3rd or 4th stokes vectors,None,Oscar
+792,4376,WSF-M2,18850.0,500 MHz,Window channel with 3rd or 4th stokes vectors,None,Oscar
+793,4377,WSF-M2,23800.0,370 MHz,Window channel ,None,Oscar
+794,4378,WSF-M2,36750.0,500 MHz,Window channel with 3rd and 4th stokes vector,None,Oscar
+795,4379,WSF-M2,37300.0,2500 MHz,Window channel ,None,Oscar
+796,4380,WSF-M2,89000.0,6000 MHz,Window channel ,None,Oscar
+797,4320,Argos-4,401.65,4 kHz,DCP Reports,None,Oscar
+798,4321,Argos-4,465.9875,5 kHz,DCP commanding,None,Oscar
+799,398,COMS,2091.76,1000 kHz,Telecommand & Ranging,None,Oscar
+800,399,COMS,2271.6,1000 kHz,Telemetry,None,Oscar
+801,1930,COSMIC-1,2039.5,64 kHz,Commands,None,Oscar
+802,1933,COSMIC-2,2093.1,64 kHz,Commands,None,Oscar
+803,1936,COSMIC-2b,2093.1,32 kHz,Commands,None,Oscar
+804,2478,CryoSat,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+805,2493,CryoSat,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+806,2479,CryoSat-2,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+807,2494,CryoSat-2,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+808,1927,DSCOVR,2039.65,36 kHz,Commands,None,Oscar
+809,1374,Electro-L N1,406.05,100 kHz,Distress messages,None,Oscar
+810,1377,Electro-L N1,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+811,1381,Electro-L N1,5747.124,10050 kHz,"Telemetry, command & ranging",None,Oscar
+812,1719,Electro-L N1,3405.703,9290 kHz,Telemetry,None,Oscar
+813,1456,Electro-L N2,406.05,100 kHz,Distress messages,None,Oscar
+814,1457,Electro-L N2,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+815,1459,Electro-L N2,465,200 kHz,Data relay satellite to satellite,None,Oscar
+816,1463,Electro-L N2,5747.124,10050 kHz,"Telemetry, command & ranging",None,Oscar
+817,1720,Electro-L N2,3405.703,9290 kHz,Telemetry,None,Oscar
+818,1486,Electro-L N3,406.05,100 kHz,Distress messages,None,Oscar
+819,1487,Electro-L N3,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+820,1489,Electro-L N3,465,200 kHz,Data relay satellite to satellite,None,Oscar
+821,1493,Electro-L N3,5747.124,10050 kHz,"Telemetry, command & ranging",None,Oscar
+822,1721,Electro-L N3,3405.703,9290 kHz,Telemetry,None,Oscar
+823,1795,Electro-L N4,406.05,100 kHz,Distress messages,None,Oscar
+824,1796,Electro-L N4,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+825,1797,Electro-L N4,465,200 kHz,Data relay satellite to satellite,None,Oscar
+826,1798,Electro-L N4,5747.124,10050 kHz,"Telemetry, command & ranging",None,Oscar
+827,1799,Electro-L N4,3405.703,9290 kHz,Telemetry,None,Oscar
+828,3628,Electro-L N5,406.05,100 kHz,Distress messages,None,Oscar
+829,3629,Electro-L N5,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+830,3630,Electro-L N5,465,200 kHz,Data relay satellite to satellite,None,Oscar
+831,3631,Electro-L N5,5747.124,10050 kHz,"Telemetry, command & ranging",None,Oscar
+832,3632,Electro-L N5,3405.703,9290 kHz,Telemetry,None,Oscar
+833,1566,FY-2A,2059.5,26 kHz,Information,None,Oscar
+834,1567,FY-2A,1699.5,26 kHz,Information,None,Oscar
+835,1578,FY-2A,2057.0,70 kHz,Telecommands,None,Oscar
+836,1584,FY-2B,2059.5,26 kHz,Information,None,Oscar
+837,1585,FY-2B,1699.5,26 kHz,Information,None,Oscar
+838,1596,FY-2B,2057.0,70 kHz,Telecommands,None,Oscar
+839,1614,FY-2C,2057.0,70 kHz,Telecommands,None,Oscar
+840,1632,FY-2D,2057.0,70 kHz,Telecommands,None,Oscar
+841,1650,FY-2E,2057.0,70 kHz,Telecommands,None,Oscar
+842,1668,FY-2F,2057.0,70 kHz,Telecommands,None,Oscar
+843,1686,FY-2G,2057.0,70 kHz,Telecommands,None,Oscar
+844,1704,FY-2H,2057.0,70 kHz,Telecommands,None,Oscar
+845,4512,FY-4A,1693,8000 kHz,Ranging,None,Oscar
+846,4513,FY-4A,2047.0,8000 kHz,Ranging,None,Oscar
+847,4514,FY-4A,2227.0,8000 kHz,Ranging,None,Oscar
+848,4497,FY-4B,2047,10000 kHz,Ranging,None,Oscar
+849,4498,FY-4B,2227,10000 kHz,Ranging,None,Oscar
+850,4499,FY-4B,1693,8000 kHz,Ranging,None,Oscar
+851,4500,FY-4B,2067.5,85000 kHz,Telemetry and commands,None,Oscar
+852,4501,FY-4B,2245,90000 kHz,Telemetry and commands,None,Oscar
+853,4502,GEO-KOMPSAT-2A,2102.458,1000 kHz,Telecommands and Ranging,None,Oscar
+854,4503,GEO-KOMPSAT-2A,2283.212,1000 kHz,Telecommands and Ranging,None,Oscar
+855,4504,GEO-KOMPSAT-2A,2037.64,1000 kHz,Telecommands,None,Oscar
+856,4505,GEO-KOMPSAT-2A,2040.9,5000 kHz,Telecommands,None,Oscar
+857,4506,GEO-KOMPSAT-2A,2060.5,20000 kHz,Telecommands,None,Oscar
+858,1043,GOES-10,401.9,1.2 kHz,DCP reports,None,Oscar
+859,1044,GOES-10,401.9,0.3 kHz,DCP reports,None,Oscar
+860,1045,GOES-10,401.9,0.4 kHz,DCP reports,None,Oscar
+861,1046,GOES-10,1694.5,150 kHz,DCP report relay,None,Oscar
+862,1047,GOES-10,1694.8,150 kHz,DCP report relay,None,Oscar
+863,1048,GOES-10,406.05,0.8 kHz,Distress messages,None,Oscar
+864,1049,GOES-10,406.25,2 kHz,Distress messages,None,Oscar
+865,1050,GOES-10,1544.5,0.2 kHz,Distress messages to LUT,None,Oscar
+866,1051,GOES-10,2034.8875,50 kHz,Information,None,Oscar
+867,1052,GOES-10,1693.4,27 kHz,Information,None,Oscar
+868,1053,GOES-10,2034.2,20 kHz,Commands,None,Oscar
+869,1054,GOES-10,2034.2,20 kHz,Commands,None,Oscar
+870,1055,GOES-10,2034.2,200 kHz,Commands,None,Oscar
+871,1056,GOES-10,2208.586,500 kHz,Telemetry and ranging,None,Oscar
+872,1057,GOES-10,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+873,1058,GOES-10,1694,20 kHz,Telemetry,None,Oscar
+874,1073,GOES-10 (S-America),401.9,1.2 kHz,DCP reports,None,Oscar
+875,1074,GOES-10 (S-America),401.9,0.3 kHz,DCP reports,None,Oscar
+876,1075,GOES-10 (S-America),401.9,0.4 kHz,DCP reports,None,Oscar
+877,1076,GOES-10 (S-America),1694.5,150 kHz,DCP report relay,None,Oscar
+878,1077,GOES-10 (S-America),1694.8,150 kHz,DCP report relay,None,Oscar
+879,1078,GOES-10 (S-America),406.05,0.8 kHz,Distress messages,None,Oscar
+880,1079,GOES-10 (S-America),406.25,2 kHz,Distress messages,None,Oscar
+881,1080,GOES-10 (S-America),1544.5,0.2 kHz,Distress messages to LUT,None,Oscar
+882,1081,GOES-10 (S-America),2034.8875,50 kHz,Information,None,Oscar
+883,1082,GOES-10 (S-America),1693.4,27 kHz,Information,None,Oscar
+884,1083,GOES-10 (S-America),2034.2,20 kHz,Commands,None,Oscar
+885,1084,GOES-10 (S-America),2034.2,20 kHz,Commands,None,Oscar
+886,1085,GOES-10 (S-America),2034.2,200 kHz,Commands,None,Oscar
+887,1086,GOES-10 (S-America),2208.586,500 kHz,Telemetry and ranging,None,Oscar
+888,1087,GOES-10 (S-America),2209.086,500 kHz,Telemetry and ranging,None,Oscar
+889,1088,GOES-10 (S-America),1694,20 kHz,Telemetry,None,Oscar
+890,1103,GOES-11,401.9,1.2 kHz,DCP reports,None,Oscar
+891,1104,GOES-11,401.9,0.3 kHz,DCP reports,None,Oscar
+892,1105,GOES-11,401.9,0.4 kHz,DCP reports,None,Oscar
+893,1106,GOES-11,1694.5,150 kHz,DCP report relay,None,Oscar
+894,1107,GOES-11,1694.8,150 kHz,DCP report relay,None,Oscar
+895,1108,GOES-11,406.05,0.8 kHz,Distress messages,None,Oscar
+896,1109,GOES-11,406.25,2 kHz,Distress messages,None,Oscar
+897,1110,GOES-11,1544.5,0.2 kHz,Distress messages to LUT,None,Oscar
+898,1111,GOES-11,2034.8875,50 kHz,Information,None,Oscar
+899,1112,GOES-11,1693.4,27 kHz,Information,None,Oscar
+900,1113,GOES-11,2034.2,20 kHz,Commands,None,Oscar
+901,1114,GOES-11,2034.2,20 kHz,Commands,None,Oscar
+902,1115,GOES-11,2034.2,200 kHz,Commands,None,Oscar
+903,1116,GOES-11,2208.586,500 kHz,Telemetry and ranging,None,Oscar
+904,1117,GOES-11,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+905,1118,GOES-11,1694,20 kHz,Telemetry,None,Oscar
+906,1133,GOES-12,401.9,1.2 kHz,DCP reports,None,Oscar
+907,1134,GOES-12,401.9,0.3 kHz,DCP reports,None,Oscar
+908,1135,GOES-12,401.9,0.4 kHz,DCP reports,None,Oscar
+909,1136,GOES-12,1694.5,150 kHz,DCP report relay,None,Oscar
+910,1137,GOES-12,1694.8,150 kHz,DCP report relay,None,Oscar
+911,1138,GOES-12,406.05,0.8 kHz,Distress messages,None,Oscar
+912,1139,GOES-12,406.25,2 kHz,Distress messages,None,Oscar
+913,1140,GOES-12,1544.5,0.2 kHz,Distress messages to LUT,None,Oscar
+914,1141,GOES-12,2034.8875,50 kHz,Information,None,Oscar
+915,1142,GOES-12,1693.4,27 kHz,Information,None,Oscar
+916,1143,GOES-12,2034.2,20 kHz,Commands,None,Oscar
+917,1144,GOES-12,2034.2,20 kHz,Commands,None,Oscar
+918,1145,GOES-12,2034.2,200 kHz,Commands,None,Oscar
+919,1146,GOES-12,2208.586,500 kHz,Telemetry and ranging,None,Oscar
+920,1147,GOES-12,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+921,1148,GOES-12,1694,20 kHz,Telemetry,None,Oscar
+922,1163,GOES-12 (S-America),401.9,1.2 kHz,DCP reports,None,Oscar
+923,1164,GOES-12 (S-America),401.9,0.3 kHz,DCP reports,None,Oscar
+924,1165,GOES-12 (S-America),401.9,0.4 kHz,DCP reports,None,Oscar
+925,1166,GOES-12 (S-America),1694.5,150 kHz,DCP report relay,None,Oscar
+926,1167,GOES-12 (S-America),1694.8,150 kHz,DCP report relay,None,Oscar
+927,1168,GOES-12 (S-America),406.05,0.8 kHz,Distress messages,None,Oscar
+928,1169,GOES-12 (S-America),406.25,2 kHz,Distress messages,None,Oscar
+929,1170,GOES-12 (S-America),1544.5,0.2 kHz,Distress messages to LUT,None,Oscar
+930,1171,GOES-12 (S-America),2034.8875,50 kHz,Information,None,Oscar
+931,1172,GOES-12 (S-America),1693.4,27 kHz,Information,None,Oscar
+932,1173,GOES-12 (S-America),2034.2,20 kHz,Commands,None,Oscar
+933,1174,GOES-12 (S-America),2034.2,20 kHz,Commands,None,Oscar
+934,1175,GOES-12 (S-America),2034.2,200 kHz,Commands,None,Oscar
+935,1176,GOES-12 (S-America),2208.586,500 kHz,Telemetry and ranging,None,Oscar
+936,1177,GOES-12 (S-America),2209.086,500 kHz,Telemetry and ranging,None,Oscar
+937,1178,GOES-12 (S-America),1694,20 kHz,Telemetry,None,Oscar
+938,808,GOES-13,402.04999999999995,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+939,809,GOES-13,402.04999999999995,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+940,810,GOES-13,402.04999999999995,0.4 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+941,811,GOES-13,1694.5,150 kHz,DCP report relay,None,Oscar
+942,812,GOES-13,1694.8,150 kHz,DCP report relay,None,Oscar
+943,813,GOES-13,1694.5,150 kHz,DCP report relay,None,Oscar
+944,814,GOES-13,1694.8,150 kHz,DCP report relay,None,Oscar
+945,815,GOES-13,1694.5,150 kHz,DCP report relay,None,Oscar
+946,816,GOES-13,1694.8,150 kHz,DCP report relay,None,Oscar
+947,817,GOES-13,406.025,3 kHz,Distress messages,None,Oscar
+948,818,GOES-13,406.028,3 kHz,Distress messages,None,Oscar
+949,819,GOES-13,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+950,820,GOES-13,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+951,821,GOES-13,2034.7,25 kHz,Information,None,Oscar
+952,822,GOES-13,1692.7,25 kHz,Information,None,Oscar
+953,823,GOES-13,2034.2,34 kHz,Commands,None,Oscar
+954,824,GOES-13,2034.2,200 kHz,Commands,None,Oscar
+955,825,GOES-13,2034.2,200 kHz,Commands,None,Oscar
+956,826,GOES-13,2034.2,200 kHz,Commands,None,Oscar
+957,827,GOES-13,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+958,828,GOES-13,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+959,829,GOES-13,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+960,830,GOES-13,1694,2 kHz,Telemetry,None,Oscar
+961,831,GOES-13,1694,16 kHz,Telemetry,None,Oscar
+962,850,GOES-14,402.04999999999995,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+963,851,GOES-14,402.04999999999995,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+964,852,GOES-14,402.04999999999995,0.4 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+965,853,GOES-14,1694.5,150 kHz,DCP report relay,None,Oscar
+966,854,GOES-14,1694.8,150 kHz,DCP report relay,None,Oscar
+967,855,GOES-14,1694.5,150 kHz,DCP report relay,None,Oscar
+968,856,GOES-14,1694.8,150 kHz,DCP report relay,None,Oscar
+969,857,GOES-14,1694.5,150 kHz,DCP report relay,None,Oscar
+970,858,GOES-14,1694.8,150 kHz,DCP report relay,None,Oscar
+971,859,GOES-14,406.025,3 kHz,Distress messages,None,Oscar
+972,860,GOES-14,406.028,3 kHz,Distress messages,None,Oscar
+973,861,GOES-14,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+974,862,GOES-14,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+975,863,GOES-14,2034.7,25 kHz,Information,None,Oscar
+976,864,GOES-14,1692.7,25 kHz,Information,None,Oscar
+977,865,GOES-14,2034.2,34 kHz,Commands,None,Oscar
+978,866,GOES-14,2034.2,200 kHz,Commands,None,Oscar
+979,867,GOES-14,2034.2,200 kHz,Commands,None,Oscar
+980,868,GOES-14,2034.2,200 kHz,Commands,None,Oscar
+981,869,GOES-14,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+982,870,GOES-14,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+983,871,GOES-14,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+984,872,GOES-14,1694,2 kHz,Telemetry,None,Oscar
+985,873,GOES-14,1694,16 kHz,Telemetry,None,Oscar
+986,766,GOES-15,402.04999999999995,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+987,767,GOES-15,402.04999999999995,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+988,768,GOES-15,402.04999999999995,0.4 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+989,769,GOES-15,1694.5,150 kHz,DCP report relay,None,Oscar
+990,770,GOES-15,1694.8,150 kHz,DCP report relay,None,Oscar
+991,771,GOES-15,1694.5,150 kHz,DCP report relay,None,Oscar
+992,772,GOES-15,1694.8,150 kHz,DCP report relay,None,Oscar
+993,773,GOES-15,1694.5,150 kHz,DCP report relay,None,Oscar
+994,774,GOES-15,1694.8,150 kHz,DCP report relay,None,Oscar
+995,775,GOES-15,406.025,3 kHz,Distress messages,None,Oscar
+996,776,GOES-15,406.028,3 kHz,Distress messages,None,Oscar
+997,777,GOES-15,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+998,778,GOES-15,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+999,779,GOES-15,2034.7,25 kHz,Information,None,Oscar
+1000,780,GOES-15,1692.7,25 kHz,Information,None,Oscar
+1001,781,GOES-15,2034.2,34 kHz,Commands,None,Oscar
+1002,782,GOES-15,2034.2,200 kHz,Commands,None,Oscar
+1003,783,GOES-15,2034.2,200 kHz,Commands,None,Oscar
+1004,784,GOES-15,2034.2,200 kHz,Commands,None,Oscar
+1005,785,GOES-15,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+1006,786,GOES-15,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+1007,787,GOES-15,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+1008,788,GOES-15,1694,2 kHz,Telemetry,None,Oscar
+1009,789,GOES-15,1694,16 kHz,Telemetry,None,Oscar
+1010,932,GOES-16,2032.775,44.5 kHz,DCP Command by user,None,Oscar
+1011,934,GOES-16,2032.825,44.5 kHz,DCP Command by user,None,Oscar
+1012,935,GOES-16,468.775,44.5 kHz,DCP Command,None,Oscar
+1013,936,GOES-16,468.825,44.5 kHz,DCP Command,None,Oscar
+1014,937,GOES-16,402.04999999999995,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+1015,938,GOES-16,402.04999999999995,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+1016,939,GOES-16,402.04999999999995,400 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+1017,945,GOES-16,1680.2,400 kHz,DCP report relay (International),None,Oscar
+1018,949,GOES-16,406.05,1.6 kHz,Distress messages,None,Oscar
+1019,950,GOES-16,1544.55,100 kHz,Distress messages to LUT ,None,Oscar
+1020,951,GOES-16,2036,84 kHz,Telecommands and ranging,None,Oscar
+1021,952,GOES-16,2036,71.4 kHz,Telecommands and ranging,None,Oscar
+1022,953,GOES-16,2036,1500 kHz,Telecommands and ranging,None,Oscar
+1023,954,GOES-16,2034.2,8 kHz,Commands,None,Oscar
+1024,955,GOES-16,2034.2,128 kHz,Commands,None,Oscar
+1025,956,GOES-16,2211.04,1500 kHz,Telemetry and ranging,None,Oscar
+1026,957,GOES-16,2211.04,4920 kHz,Telemetry and ranging,None,Oscar
+1027,1947,GOES-16,2211.04,4930 kHz,Telemetry and ranging,None,Oscar
+1028,1948,GOES-16,1693,80 kHz,Telemetry,None,Oscar
+1029,1949,GOES-16,1693,8 kHz,Telemetry,None,Oscar
+1030,4319,GOES-16,1679.9,400 kHz,DCP report relay (U.S. domestic),None,Oscar
+1031,1960,GOES-17,2032.775,44.5 kHz,DCP Command by user,None,Oscar
+1032,1961,GOES-17,2032.825,44.5 kHz,DCP Command by user,None,Oscar
+1033,1962,GOES-17,468.775,44.5 kHz,DCP Command,None,Oscar
+1034,1963,GOES-17,468.825,44.5 kHz,DCP Command,None,Oscar
+1035,1964,GOES-17,402.04999999999995,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+1036,1965,GOES-17,402.04999999999995,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+1037,1967,GOES-17,1679.9,400 kHz,DCP report relay (U:S: domestic),None,Oscar
+1038,1968,GOES-17,1680.2,400 kHz,DCP report relay (International),None,Oscar
+1039,1969,GOES-17,406.05,1.6 kHz,Distress messages,None,Oscar
+1040,1970,GOES-17,1544.55,100 kHz,Distress messages to LUT ,None,Oscar
+1041,1971,GOES-17,2036,84 kHz,Telecommands and ranging,None,Oscar
+1042,1972,GOES-17,2036,71.4 kHz,Telecommands and ranging,None,Oscar
+1043,1973,GOES-17,2036,1500 kHz,Telecommands and ranging,None,Oscar
+1044,1974,GOES-17,2034.2,8 kHz,Commands,None,Oscar
+1045,1975,GOES-17,2034.2,128 kHz,Commands,None,Oscar
+1046,1976,GOES-17,2211.04,1500 kHz,Telemetry and ranging,None,Oscar
+1047,1977,GOES-17,2211.04,4920 kHz,Telemetry and ranging,None,Oscar
+1048,1978,GOES-17,2211.04,4930 kHz,Telemetry and ranging,None,Oscar
+1049,1979,GOES-17,1693,80 kHz,Telemetry,None,Oscar
+1050,1980,GOES-17,1693,8 kHz,Telemetry,None,Oscar
+1051,1991,GOES-18,2032.775,44.5 kHz,DCP Command by user,None,Oscar
+1052,1992,GOES-18,2032.825,44.5 kHz,DCP Command by user,None,Oscar
+1053,1993,GOES-18,468.775,44.5 kHz,DCP Command,None,Oscar
+1054,1994,GOES-18,468.825,44.5 kHz,DCP Command,None,Oscar
+1055,1995,GOES-18,402.04999999999995,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+1056,1996,GOES-18,402.04999999999995,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+1057,1998,GOES-18,1679.9,400 kHz,DCP report relay (U:S: domestic),None,Oscar
+1058,1999,GOES-18,1680.2,400 kHz,DCP report relay (International),None,Oscar
+1059,2000,GOES-18,406.05,1 kHz,Distress messages,None,Oscar
+1060,2001,GOES-18,1544.55,100 kHz,Distress messages to LUT ,None,Oscar
+1061,2002,GOES-18,2036,84 kHz,Telecommands and ranging,None,Oscar
+1062,2003,GOES-18,2036,71.4 kHz,Telecommands and ranging,None,Oscar
+1063,2004,GOES-18,2036,1500 kHz,Telecommands and ranging,None,Oscar
+1064,2005,GOES-18,2034.2,8 kHz,Commands,None,Oscar
+1065,2006,GOES-18,2034.2,128 kHz,Commands,None,Oscar
+1066,2007,GOES-18,2211.04,1500 kHz,Telemetry and ranging,None,Oscar
+1067,2008,GOES-18,2211.04,4920 kHz,Telemetry and ranging,None,Oscar
+1068,2009,GOES-18,2211.04,4930 kHz,Telemetry and ranging,None,Oscar
+1069,2010,GOES-18,1693,80 kHz,Telemetry,None,Oscar
+1070,2011,GOES-18,1693,8 kHz,Telemetry,None,Oscar
+1071,892,GOES-8,401.9,1.2 kHz,DCP reports,None,Oscar
+1072,893,GOES-8,401.9,0.3 kHz,DCP reports,None,Oscar
+1073,894,GOES-8,401.9,0.4 kHz,DCP reports,None,Oscar
+1074,895,GOES-8,1694.5,150 kHz,DCP report relay,None,Oscar
+1075,896,GOES-8,1694.8,150 kHz,DCP report relay,None,Oscar
+1076,901,GOES-8,406.05,0.8 kHz,Distress messages,None,Oscar
+1077,902,GOES-8,406.25,2 kHz,Distress messages,None,Oscar
+1078,903,GOES-8,1544.5,0.2 kHz,Distress messages to LUT,None,Oscar
+1079,905,GOES-8,2034.8875,50 kHz,Information,None,Oscar
+1080,906,GOES-8,1693.4,27 kHz,Information,None,Oscar
+1081,907,GOES-8,2034.2,20 kHz,Commands,None,Oscar
+1082,908,GOES-8,2034.2,20 kHz,Commands,None,Oscar
+1083,909,GOES-8,2034.2,200 kHz,Commands,None,Oscar
+1084,911,GOES-8,2208.586,500 kHz,Telemetry and ranging,None,Oscar
+1085,912,GOES-8,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+1086,914,GOES-8,1694,20 kHz,Telemetry,None,Oscar
+1087,983,GOES-9,401.9,1.2 kHz,DCP reports,None,Oscar
+1088,984,GOES-9,401.9,0.3 kHz,DCP reports,None,Oscar
+1089,985,GOES-9,401.9,0.4 kHz,DCP reports,None,Oscar
+1090,986,GOES-9,1694.5,150 kHz,DCP report relay,None,Oscar
+1091,987,GOES-9,1694.8,150 kHz,DCP report relay,None,Oscar
+1092,988,GOES-9,406.05,0.8 kHz,Distress messages,None,Oscar
+1093,989,GOES-9,406.25,2 kHz,Distress messages,None,Oscar
+1094,990,GOES-9,1544.5,0.2 kHz,Distress messages to LUT,None,Oscar
+1095,991,GOES-9,2034.8875,50 kHz,Information,None,Oscar
+1096,992,GOES-9,1693.4,27 kHz,Information,None,Oscar
+1097,993,GOES-9,2034.2,20 kHz,Commands,None,Oscar
+1098,994,GOES-9,2034.2,20 kHz,Commands,None,Oscar
+1099,995,GOES-9,2034.2,200 kHz,Commands,None,Oscar
+1100,996,GOES-9,2208.586,500 kHz,Telemetry and ranging,None,Oscar
+1101,997,GOES-9,2209.086,500 kHz,Telemetry and ranging,None,Oscar
+1102,998,GOES-9,1694,20 kHz,Telemetry,None,Oscar
+1103,1013,GOES-9 (GMS backup),401.9,1.2 kHz,DCP reports,None,Oscar
+1104,1014,GOES-9 (GMS backup),401.9,0.3 kHz,DCP reports,None,Oscar
+1105,1015,GOES-9 (GMS backup),401.9,0.4 kHz,DCP reports,None,Oscar
+1106,1016,GOES-9 (GMS backup),1694.5,150 kHz,DCP report relay,None,Oscar
+1107,1017,GOES-9 (GMS backup),1694.8,150 kHz,DCP report relay,None,Oscar
+1108,1018,GOES-9 (GMS backup),406.05,0.8 kHz,Distress messages,None,Oscar
+1109,1019,GOES-9 (GMS backup),406.25,2 kHz,Distress messages,None,Oscar
+1110,1020,GOES-9 (GMS backup),1544.5,0.2 kHz,Distress messages to LUT,None,Oscar
+1111,1021,GOES-9 (GMS backup),2034.8875,50 kHz,Information,None,Oscar
+1112,1022,GOES-9 (GMS backup),1693.4,27 kHz,Information,None,Oscar
+1113,1023,GOES-9 (GMS backup),2034.2,20 kHz,Commands,None,Oscar
+1114,1024,GOES-9 (GMS backup),2034.2,20 kHz,Commands,None,Oscar
+1115,1025,GOES-9 (GMS backup),2034.2,200 kHz,Commands,None,Oscar
+1116,1026,GOES-9 (GMS backup),2208.586,500 kHz,Telemetry and ranging,None,Oscar
+1117,1027,GOES-9 (GMS backup),2209.086,500 kHz,Telemetry and ranging,None,Oscar
+1118,1028,GOES-9 (GMS backup),1694,20 kHz,Telemetry,None,Oscar
+1119,2022,GOES-U,2032.775,44.5 kHz,DCP Command by user,None,Oscar
+1120,2023,GOES-U,2032.825,44.5 kHz,DCP Command by user,None,Oscar
+1121,2024,GOES-U,468.775,44.5 kHz,DCP Command,None,Oscar
+1122,2025,GOES-U,468.825,44.5 kHz,DCP Command,None,Oscar
+1123,2026,GOES-U,402.04999999999995,1.2 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+1124,2027,GOES-U,402.04999999999995,0.3 kHz,DCP reports. Range for Regional: 401.7-402.1 MHz; for International: 402.0-402.4 MHz,None,Oscar
+1125,2029,GOES-U,1679.9,400 kHz,DCP report relay (U:S: domestic),None,Oscar
+1126,2030,GOES-U,1680.2,400 kHz,DCP report relay (International),None,Oscar
+1127,2031,GOES-U,406.05,1.6 kHz,Distress messages,None,Oscar
+1128,2032,GOES-U,1544.55,100 kHz,Distress messages to LUT ,None,Oscar
+1129,2033,GOES-U,2036,84 kHz,Telecommands and ranging,None,Oscar
+1130,2034,GOES-U,2036,71.4 kHz,Telecommands and ranging,None,Oscar
+1131,2035,GOES-U,2036,1500 kHz,Telecommands and ranging,None,Oscar
+1132,2036,GOES-U,2034.2,8 kHz,Commands,None,Oscar
+1133,2037,GOES-U,2034.2,128 kHz,Commands,None,Oscar
+1134,2038,GOES-U,2211.04,1500 kHz,Telemetry and ranging,None,Oscar
+1135,2039,GOES-U,2211.04,4920 kHz,Telemetry and ranging,None,Oscar
+1136,2040,GOES-U,2211.04,4930 kHz,Telemetry and ranging,None,Oscar
+1137,2041,GOES-U,1693,80 kHz,Telemetry,None,Oscar
+1138,2042,GOES-U,1693,8 kHz,Telemetry,None,Oscar
+1139,414,Himawari-6 (MTSAT-1R),2100.164,550 kHz,Telecommand and ranging,None,Oscar
+1140,415,Himawari-6 (MTSAT-1R),2280.721,1100 kHz,Telemetry and ranging,None,Oscar
+1141,416,Himawari-6 (MTSAT-1R),2034.2,300 kHz,Telecommand,None,Oscar
+1142,417,Himawari-6 (MTSAT-1R),1694,400 kHz,Telemetry,None,Oscar
+1143,472,Himawari-7 (MTSAT-2),2100.164,550 kHz,Telecommand and ranging,None,Oscar
+1144,473,Himawari-7 (MTSAT-2),2280.721,1100 kHz,Telemetry and ranging,None,Oscar
+1145,474,Himawari-7 (MTSAT-2),2034.2,300 kHz,Telecommand,None,Oscar
+1146,475,Himawari-7 (MTSAT-2),1694,400 kHz,Telemetry,None,Oscar
+1147,1872,Himawari-8,14125,40 kHz,Telecommands and ranging,None,Oscar
+1148,1873,Himawari-8,14125,250 kHz,Telecommands and ranging,None,Oscar
+1149,1874,Himawari-8,14125,620 kHz,Reference for Telecommands and ranging (no data carried),None,Oscar
+1150,2044,Himawari-8,12475,1200 kHz,Telemetry and ranging,None,Oscar
+1151,2045,Himawari-8,12475,1200 kHz,Telemetry and ranging,None,Oscar
+1152,2054,Himawari-9,14125,40 kHz,Telecommands and ranging,None,Oscar
+1153,2055,Himawari-9,14125,250 kHz,Telecommands and ranging,None,Oscar
+1154,2056,Himawari-9,14125,620 kHz,Reference for Telecommands and ranging (no data carried),None,Oscar
+1155,2057,Himawari-9,12475,1200 kHz,Telemetry and ranging,None,Oscar
+1156,2058,Himawari-9,12475,1200 kHz,Telemetry and ranging,None,Oscar
+1157,2480,HY-2A,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+1158,2495,HY-2A,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+1159,2482,HY-2C,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+1160,2497,HY-2C,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+1161,2483,HY-2D,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+1162,2498,HY-2D,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+1163,1722,INSAT-3A,406.025,80 kHz,Distress messages,None,Oscar
+1164,1723,INSAT-3A,4505.7,80 kHz,Distress messages to LUT,None,Oscar
+1165,1728,INSAT-3D,406.05,80 kHz,Distress messages,None,Oscar
+1166,1729,INSAT-3D,4507,80 kHz,Distress messages to LUT,None,Oscar
+1167,1734,INSAT-3DR,406.05,80 kHz,Distress messages,None,Oscar
+1168,1735,INSAT-3DR,4507,80 kHz,Distress messages to LUT,None,Oscar
+1169,1741,INSAT-3DS,406.05,80 kHz,Distress messages,None,Oscar
+1170,1742,INSAT-3DS,4507,80 kHz,Distress messages to LUT,None,Oscar
+1171,2489,JASON-1,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+1172,2504,JASON-1,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+1173,1941,JASON-2,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+1174,1942,JASON-2,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+1175,2182,JASON-2,2088.878,8 kHz,Commands,None,Oscar
+1176,2187,JASON-3,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+1177,2188,JASON-3,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+1178,3767,JASON-3,2040.493,8 kHz,Commands,None,Oscar
+1179,1904,JPSS-3,2067.27,6040 kHz,Transmission to TDRSS,None,Oscar
+1180,1905,JPSS-3,2247.5,6040 kHz,Return from TDRSS,None,Oscar
+1181,1906,JPSS-3,2067.27,32 kHz,Commands,None,Oscar
+1182,1907,JPSS-3,2067.27,256 kHz,Commands (memory load),None,Oscar
+1183,1908,JPSS-3,2247.5,3200 kHz,Telemetry and commands (info data rate),None,Oscar
+1184,1910,JPSS-3,1227.6,24000 kHz,GPS reception at JPSS (info data rate),None,Oscar
+1185,1911,JPSS-3,1575.42,24000 kHz,GPS reception at JPSS (info data rate),None,Oscar
+1186,1917,JPSS-4,2067.27,6040 kHz,Transmission to TDRSS,None,Oscar
+1187,1918,JPSS-4,2247.5,6040 kHz,Return from TDRSS,None,Oscar
+1188,1919,JPSS-4,2067.27,32 kHz,Commands,None,Oscar
+1189,1920,JPSS-4,2067.27,256 kHz,Commands (memory load),None,Oscar
+1190,1921,JPSS-4,2247.5,3200 kHz,Telemetry and commands (info data rate),None,Oscar
+1191,1923,JPSS-4,1227.6,24000 kHz,GPS reception at JPSS (info data rate),None,Oscar
+1192,1924,JPSS-4,1575.42,24000 kHz,GPS reception at JPSS (info data rate),None,Oscar
+1193,1353,Meteor-M N1,5747.124,10010 kHz,"Telemetry, command & ranging",None,Oscar
+1194,1556,Meteor-M N1,3405.235,9290 kHz,Telemetry,None,Oscar
+1195,1510,Meteor-M N2,5747.124,10010 kHz,"Telemetry, command & ranging",None,Oscar
+1196,1558,Meteor-M N2,3405.235,9290 kHz,Telemetry,None,Oscar
+1197,1529,Meteor-M N2-1,5747.124,10010 kHz,"Telemetry, command & ranging",None,Oscar
+1198,1560,Meteor-M N2-1,3405.235,9290 kHz,Telemetry,None,Oscar
+1199,1548,Meteor-M N2-2,5747.124,10010 kHz,"Telemetry, command & ranging",None,Oscar
+1200,1562,Meteor-M N2-2,3405.235,9290 kHz,Telemetry,None,Oscar
+1201,1813,Meteor-M N2-3,5747.124,10010 kHz,"Telemetry, command & ranging",None,Oscar
+1202,1814,Meteor-M N2-3,3405.235,9290 kHz,Telemetry,None,Oscar
+1203,1828,Meteor-M N2-4,5747.124,10010 kHz,"Telemetry, command & ranging",None,Oscar
+1204,1829,Meteor-M N2-4,3405.235,9290 kHz,Telemetry,None,Oscar
+1205,1843,Meteor-M N2-5,5747.124,10010 kHz,"Telemetry, command & ranging",None,Oscar
+1206,1844,Meteor-M N2-5,3405.235,9290 kHz,Telemetry,None,Oscar
+1207,3646,Meteor-M N2-6,5747.124,10010 kHz,"Telemetry, command & ranging",None,Oscar
+1208,3647,Meteor-M N2-6,3405.235,9290 kHz,Telemetry,None,Oscar
+1209,640,Meteosat-10,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None,Oscar
+1210,641,Meteosat-10,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+1211,642,Meteosat-10,2069.5729,1000 kHz,Telecommand and ranging,None,Oscar
+1212,643,Meteosat-10,2247.5,1000 kHz,Telemetry,None,Oscar
+1213,655,Meteosat-11,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None,Oscar
+1214,656,Meteosat-11,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+1215,657,Meteosat-11,2070.4938,1000 kHz,Telecommand and ranging,None,Oscar
+1216,658,Meteosat-11,2248.5,1000 kHz,Telemetry,None,Oscar
+1217,611,Meteosat-4,2098,6.3 kHz,Telecommand and ranging,None,Oscar
+1218,612,Meteosat-4,2099,6.3 kHz,Telecommand and ranging,None,Oscar
+1219,613,Meteosat-4,2242.225,2.6 kHz,Telemetry,None,Oscar
+1220,614,Meteosat-4,1676.428,2.6 kHz,Telemetry,None,Oscar
+1221,596,Meteosat-5,2098,6.3 kHz,Telecommand and ranging,None,Oscar
+1222,597,Meteosat-5,2099,6.3 kHz,Telecommand and ranging,None,Oscar
+1223,598,Meteosat-5,2242.2325,2.6 kHz,Telemetry,None,Oscar
+1224,599,Meteosat-5,1676.428,2.6 kHz,Telemetry,None,Oscar
+1225,581,Meteosat-5 (IODC),2098,6.3 kHz,Telecommand and ranging,None,Oscar
+1226,582,Meteosat-5 (IODC),2099,6.3 kHz,Telecommand and ranging,None,Oscar
+1227,583,Meteosat-5 (IODC),2242.225,2.6 kHz,Telemetry,None,Oscar
+1228,584,Meteosat-5 (IODC),1676.428,2.6 kHz,Telemetry,None,Oscar
+1229,566,Meteosat-6,2098,6.3 kHz,Telecommand and ranging,None,Oscar
+1230,567,Meteosat-6,2099,6.3 kHz,Telecommand and ranging,None,Oscar
+1231,568,Meteosat-6,2242.225,2.6 kHz,Telemetry,None,Oscar
+1232,569,Meteosat-6,1676.428,2.6 kHz,Telemetry,None,Oscar
+1233,551,Meteosat-6 (IODC),2098,6.3 kHz,Telecommand and ranging,None,Oscar
+1234,552,Meteosat-6 (IODC),2099,6.3 kHz,Telecommand and ranging,None,Oscar
+1235,553,Meteosat-6 (IODC),2242.225,2.6 kHz,Telemetry,None,Oscar
+1236,554,Meteosat-6 (IODC),1676.428,2.6 kHz,Telemetry,None,Oscar
+1237,444,Meteosat-7,2098,6.3 kHz,Telecommand and ranging,None,Oscar
+1238,445,Meteosat-7,2099,6.3 kHz,Telecommand and ranging,None,Oscar
+1239,446,Meteosat-7,2242.225,2.6 kHz,Telemetry,None,Oscar
+1240,447,Meteosat-7,1676.428,2.6 kHz,Telemetry,None,Oscar
+1241,536,Meteosat-7 (IODC),2098,6.3 kHz,Telecommand and ranging,None,Oscar
+1242,537,Meteosat-7 (IODC),2099,6.3 kHz,Telecommand and ranging,None,Oscar
+1243,538,Meteosat-7 (IODC),2242.225,2.6 kHz,Telemetry,None,Oscar
+1244,539,Meteosat-7 (IODC),1676.428,2.6 kHz,Telemetry,None,Oscar
+1245,436,Meteosat-8,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None,Oscar
+1246,437,Meteosat-8,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+1247,438,Meteosat-8,2068.6521,1000 kHz,Telecommand and ranging,None,Oscar
+1248,439,Meteosat-8,2246.5,1000 kHz,Telemetry,None,Oscar
+1249,2067,Meteosat-8 (IODC),406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None,Oscar
+1250,2068,Meteosat-8 (IODC),1544.5,200 kHz,Distress messages to LUT,None,Oscar
+1251,2069,Meteosat-8 (IODC),2068.6521,1000 kHz,Telecommand and ranging,None,Oscar
+1252,2070,Meteosat-8 (IODC),2246.5,1000 kHz,Telemetry,None,Oscar
+1253,625,Meteosat-9,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None,Oscar
+1254,626,Meteosat-9,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+1255,627,Meteosat-9,2067.731,1000 kHz,Telecommand and ranging,None,Oscar
+1256,628,Meteosat-9,2245.5,1000 kHz,Telemetry,None,Oscar
+1257,4065,Meteosat-9 (IODC),406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None,Oscar
+1258,4066,Meteosat-9 (IODC),1544.5,200 kHz,Distress messages to LUT,None,Oscar
+1259,4067,Meteosat-9 (IODC),2067.731,1000 kHz,Telecommand and ranging,None,Oscar
+1260,4068,Meteosat-9 (IODC),2245.5,1000 kHz,Telemetry,None,Oscar
+1261,430,Metop-A,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None,Oscar
+1262,431,Metop-A,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+1263,432,Metop-A,2053.4583,1500 kHz,Telecommand and ranging,None,Oscar
+1264,433,Metop-A,2230,2000 kHz,Telemetry,None,Oscar
+1265,504,Metop-B,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None,Oscar
+1266,505,Metop-B,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+1267,506,Metop-B,2053.4583,1500 kHz,Telecommand and ranging,None,Oscar
+1268,507,Metop-B,2230,2000 kHz,Telemetry,None,Oscar
+1269,746,Metop-C,2053.4583,1500 kHz,Telecommand and ranging,None,Oscar
+1270,747,Metop-C,2230,2000 kHz,Telemetry,None,Oscar
+1271,3967,Metop-SG-A1,2054.9317,1000 kHz,Telecommand,None,Oscar
+1272,3969,Metop-SG-A1,2231.6,1400 kHz,Telemetry,None,Oscar
+1273,3977,Metop-SG-A2,2056.0367,1000 kHz,"Telecommand
+
+",None,Oscar
+1274,3979,Metop-SG-A2,2232.8,1400 kHz,"Telemetry
+
+",None,Oscar
+1275,3985,Metop-SG-A3,2054.9317,1000 kHz,Telecommand,None,Oscar
+1276,3987,Metop-SG-A3,2231.6,1400 kHz,Telemetry,None,Oscar
+1277,3993,Metop-SG-B1,2051.985,1000 kHz,Telecommand,None,Oscar
+1278,3995,Metop-SG-B1,2228.4,1400 kHz,Telemetry,None,Oscar
+1279,4002,Metop-SG-B2,2057.1417,1000 kHz,Telecommand,None,Oscar
+1280,4004,Metop-SG-B2,2234,1400 kHz,Telemetry,None,Oscar
+1281,4009,Metop-SG-B3,2051.985,1000 kHz,Telecommand,None,Oscar
+1282,4011,Metop-SG-B3,2228.4,1400 kHz,Telemetry,None,Oscar
+1283,48,MTG-I1,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None,Oscar
+1284,49,MTG-I1,1544.3,200 kHz,Distress messages to LUT,None,Oscar
+1285,3881,MTG-I1,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+1286,3882,MTG-I1,2065.8896,1000 kHz,Telecommand,None,Oscar
+1287,3884,MTG-I1,2243.5,1000 kHz,Telemetry (primary),None,Oscar
+1288,3888,MTG-I1,2247.5,1000 kHz,Telemetry (secondary),None,Oscar
+1289,3889,MTG-I1,2251.5,1000 kHz,Telemetry (secondary),None,Oscar
+1290,3891,MTG-I1,2256.5,1000 kHz,Telemetry (secondary),None,Oscar
+1291,667,MTG-I2,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None,Oscar
+1292,668,MTG-I2,1544.3,200 kHz,Distress messages to LUT,None,Oscar
+1293,669,MTG-I2,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+1294,671,MTG-I2,2070.493,1000 kHz,Telecommand,None,Oscar
+1295,673,MTG-I2,2248.5,1000 kHz,Telemetry (primary),None,Oscar
+1296,3906,MTG-I2,2242.5,1000 kHz,Telemetry (secondary),None,Oscar
+1297,3907,MTG-I2,2245.5,1000 kHz,Telemetry (secondary),None,Oscar
+1298,3910,MTG-I2,2254.5,1000 kHz,Telemetry (secondary),None,Oscar
+1299,682,MTG-I3,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None,Oscar
+1300,683,MTG-I3,1544.3,200 kHz,Distress messages to LUT,None,Oscar
+1301,684,MTG-I3,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+1302,685,MTG-I3,2065.8896,1000 kHz,Telecommand,None,Oscar
+1303,687,MTG-I3,2243.5,1000 kHz,Telemetry (primary),None,Oscar
+1304,3914,MTG-I3,2247.5,1000 kHz,Telemetry (secondary),None,Oscar
+1305,3915,MTG-I3,2251.5,1000 kHz,Telemetry (secondary),None,Oscar
+1306,3917,MTG-I3,2256.5,1000 kHz,Telemetry (secondary),None,Oscar
+1307,697,MTG-I4,406.05,100 kHz,Distress messages - beacon bandwidth: 3 kHz,None,Oscar
+1308,698,MTG-I4,1544.3,200 kHz,Distress messages to LUT,None,Oscar
+1309,699,MTG-I4,1544.5,200 kHz,Distress messages to LUT,None,Oscar
+1310,701,MTG-I4,2070.493,1000 kHz,Telecommand,None,Oscar
+1311,703,MTG-I4,2248.5,1000 kHz,Telemetry (primary),None,Oscar
+1312,3918,MTG-I4,2242.5,1000 kHz,Telemetry (secondary),None,Oscar
+1313,3919,MTG-I4,2245.5,1000 kHz,Telemetry (secondary),None,Oscar
+1314,3922,MTG-I4,2254.5,1000 kHz,Telemetry (secondary),None,Oscar
+1315,3893,MTG-S1,2253.5,1000 kHz,Telemetry (primary),None,Oscar
+1316,3895,MTG-S1,2243.5,1000 kHz,Telemetry (secondary),None,Oscar
+1317,3897,MTG-S1,2246.5,1000 kHz,Telemetry (secondary),None,Oscar
+1318,4335,MTG-S1,2075.0979,1000 kHz,Telecommand,None,Oscar
+1319,730,MTG-S2,2079.7021,1000 kHz,Telecommand,None,Oscar
+1320,732,MTG-S2,2258.5,1000 kHz,Telemetry (primary),None,Oscar
+1321,3901,MTG-S2,2244.5,1000 kHz,Telemetry (secondary),None,Oscar
+1322,3903,MTG-S2,2247.5,1000 kHz,Telemetry (secondary),None,Oscar
+1323,3904,MTG-S2,2251.5,1000 kHz,Telemetry (secondary),None,Oscar
+1324,963,NOAA-15,401.65,4 kHz,DCP reports,None,Oscar
+1325,964,NOAA-15,465.9875,5 kHz,DCP commanding,None,Oscar
+1326,965,NOAA-15,406.05,4 kHz,Distress messages,None,Oscar
+1327,966,NOAA-15,1544.5,750 kHz,Distress messages to LUT,None,Oscar
+1328,967,NOAA-15,2026,2000 kHz,Commands,None,Oscar
+1329,968,NOAA-15,2247.5,6000 kHz,Telemetry and command,None,Oscar
+1330,1279,NOAA-16,401.65,4 kHz,DCP reports,None,Oscar
+1331,1280,NOAA-16,465.9875,5 kHz,DCP commanding,None,Oscar
+1332,1281,NOAA-16,406.05,4 kHz,Distress messages,None,Oscar
+1333,1282,NOAA-16,1544.5,750 kHz,Distress messages to LUT,None,Oscar
+1334,1283,NOAA-16,2026,2000 kHz,Commands,None,Oscar
+1335,1284,NOAA-16,2247.5,6000 kHz,Telemetry and command,None,Oscar
+1336,1295,NOAA-17,401.65,4 kHz,DCP reports,None,Oscar
+1337,1296,NOAA-17,465.9875,5 kHz,DCP commanding,None,Oscar
+1338,1297,NOAA-17,406.05,4 kHz,Distress messages,None,Oscar
+1339,1298,NOAA-17,1544.5,750 kHz,Distress messages to LUT,None,Oscar
+1340,1299,NOAA-17,2026,2000 kHz,Commands,None,Oscar
+1341,1300,NOAA-17,2247.5,6000 kHz,Telemetry and command,None,Oscar
+1342,1311,NOAA-18,401.65,4 kHz,DCP reports,None,Oscar
+1343,1312,NOAA-18,465.9875,5 kHz,DCP commanding,None,Oscar
+1344,1313,NOAA-18,406.05,4 kHz,Distress messages,None,Oscar
+1345,1314,NOAA-18,1544.5,750 kHz,Distress messages to LUT,None,Oscar
+1346,1315,NOAA-18,2026,2000 kHz,Commands,None,Oscar
+1347,1316,NOAA-18,2247.5,6000 kHz,Telemetry and command,None,Oscar
+1348,1327,NOAA-19,401.65,4 kHz,DCP reports,None,Oscar
+1349,1328,NOAA-19,465.9875,5 kHz,DCP commanding,None,Oscar
+1350,1329,NOAA-19,406.05,4 kHz,Distress messages,None,Oscar
+1351,1330,NOAA-19,1544.5,750 kHz,Distress messages to LUT,None,Oscar
+1352,1331,NOAA-19,2026,2000 kHz,Commands,None,Oscar
+1353,1332,NOAA-19,2247.5,6000 kHz,Telemetry and command,None,Oscar
+1354,1392,NOAA-20,2067.27,6040 kHz,Transmission to TDRSS ,None,Oscar
+1355,1393,NOAA-20,2247.5,6040 kHz,Return from TDRSS,None,Oscar
+1356,1394,NOAA-20,2067.27,4 kHz,Commands,None,Oscar
+1357,1892,NOAA-20,2067.27,256 kHz,Commands (memory load),None,Oscar
+1358,1893,NOAA-20,2247.5,3200 kHz,Telemetry and commands,None,Oscar
+1359,1894,NOAA-20,2247.5,6040 kHz,Telemetry and commands,None,Oscar
+1360,1895,NOAA-20,1227.6,24000 kHz,GPS reception at JPSS,None,Oscar
+1361,1896,NOAA-20,1575.42,24000 kHz,GPS reception at JPSS,None,Oscar
+1362,1339,NOAA-21,2067.27,6040 kHz,Transmission to TDRSS,None,Oscar
+1363,1340,NOAA-21,2247.5,6040 kHz,Return from TDRSS,None,Oscar
+1364,1341,NOAA-21,2067.27,32 kHz,Commands,None,Oscar
+1365,1342,NOAA-21,2067.3,512 kHz,Commands (memory load),None,Oscar
+1366,1551,NOAA-21,2247.5,3200 kHz,Telemetry and commands  (info data rate),None,Oscar
+1367,1897,NOAA-21,1227.6,24000 kHz,GPS reception at JPSS (info data rate),None,Oscar
+1368,1898,NOAA-21,1575.42,24000 kHz,GPS reception at JPSS (info data rate),None,Oscar
+1369,4324,Odin,2033.35,250 kHz,Telecommand,None,Oscar
+1370,4325,Odin,2208.1629,5120 kHz,Telemetry,None,Oscar
+1371,4292,RadarSat-2,2230,4000 kHz,Spacecraft telemetry,None,Oscar
+1372,4294,RadarSat-2,2053.46,1000 kHz,Spacecraft telecommand,None,Oscar
+1373,4297,RCM-1,2230,600 kHz,Spacecraft telemetry,None,Oscar
+1374,4298,RCM-1,2053.46,500 kHz,Spacecraft telecommand,None,Oscar
+1375,4303,RCM-2,2230,600 kHz,Spacecraft telemetry,None,Oscar
+1376,4304,RCM-2,2053.46,500 kHz,Spacecraft telecommand,None,Oscar
+1377,4309,RCM-3,2230,600 kHz,Spacecraft telemetry,None,Oscar
+1378,4310,RCM-3,2053.46,500 kHz,Spacecraft telecommand,None,Oscar
+1379,2490,SARAL,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+1380,2505,SARAL,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+1381,4314,SCISAT-1,2232,6000 kHz,Spacecraft telemetry shared with science data downlink,None,Oscar
+1382,4315,SCISAT-1,2053.6,3400 kHz,Spacecraft telecommand,None,Oscar
+1383,2491,Sentinel-3A,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+1384,2506,Sentinel-3A,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+1385,3670,Sentinel-3A,2075.65,768 kHz,Telecommands,None,Oscar
+1386,3674,Sentinel-3A,2254.1,2200 kHz,High Data Rate Telemetry,None,Oscar
+1387,3681,Sentinel-3B,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+1388,3682,Sentinel-3B,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+1389,3683,Sentinel-3B,2075.65,768 kHz,Telecommands,None,Oscar
+1390,3684,Sentinel-3B,2254.1,2200 kHz,High Data Rate Telemetry,None,Oscar
+1391,3689,Sentinel-3C,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+1392,3690,Sentinel-3C,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+1393,3691,Sentinel-3C,2075.65,768 kHz,Telecommands,None,Oscar
+1394,3692,Sentinel-3C,2254.1,2200 kHz,High Data Rate Telemetry,None,Oscar
+1395,3697,Sentinel-3D,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+1396,3698,Sentinel-3D,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+1397,3699,Sentinel-3D,2075.65,768 kHz,Telecommands,None,Oscar
+1398,3700,Sentinel-3D,2254.1,2200 kHz,High Data Rate Telemetry,None,Oscar
+1399,4018,Sentinel-6A,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+1400,4019,Sentinel-6A,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+1401,4020,Sentinel-6A,2256.75,1750 kHz,Telemetry,None,Oscar
+1402,4023,Sentinel-6A,2078.0906,192 kHz,Commands,None,Oscar
+1403,4026,Sentinel-6B,401.25,23 kHz,Precise positioning by DORIS,None,Oscar
+1404,4027,Sentinel-6B,2036.25,95 kHz,Precise positioning by DORIS,None,Oscar
+1405,4028,Sentinel-6B,2268.5,1750 kHz,Telemetry,None,Oscar
+1406,4029,Sentinel-6B,2088.9104,192 kHz,Commands,None,Oscar
+1407,1424,SNPP,2067.27,6000 kHz,Trasmission to TDRSS,None,Oscar
+1408,1425,SNPP,2247.5,6040 kHz,Return from TDRSS,None,Oscar
+1409,1430,SNPP,2067.3,4 kHz,Commands,None,Oscar
+1410,1431,SNPP,2067.3,256 kHz,Commands (memory load),None,Oscar
+1411,1433,SNPP,2247.5,6040 kHz,Telemetry and commands,None,Oscar
+1412,1890,SNPP,1227.6,24000 kHz,GPS reception at SNPP,None,Oscar
+1413,1891,SNPP,1575.42,24000 kHz,GPS reception at SNPP,None,Oscar
+1414,4171,THEOS-1,2035.9625,8 kHz,Telecommand,None,Oscar
+1415,4172,THEOS-1,2211,800 kHz,Telemetry and ranging,None,Oscar
+1416,4174,THEOS-2 Main,2066.56,120 kHz,Telecommand,None,Oscar
+1417,4175,THEOS-2 Main,2244.228,240 kHz,Telemetry and ranging,None,Oscar
+1418,4177,THEOS-2 Small,2060,170 kHz,Telecommand,None,Oscar
+1419,4178,THEOS-2 Small,2236.666,70 kHz,Telemetry and ranging,None,Oscar
+1420,288,COMS,1687,6000 kHz,Raw data,None,Oscar
+1421,394,COMS,2040.9,5200 kHz,High resolution data,None,Oscar
+1422,395,COMS,1695.4,5200 kHz,High resolution data,None,Oscar
+1423,396,COMS,2037.64,1000 kHz,Selected data,None,Oscar
+1424,397,COMS,1692.14,1000 kHz,Selected data,None,Oscar
+1425,1928,COSMIC-1,2215,4560 kHz,"Telemetry, sensor data",None,Oscar
+1426,1929,COSMIC-1,2215,64 kHz,"Telemetry, sensor data",None,Oscar
+1427,1931,COSMIC-2,2264,4000 kHz,"Telemetry, sensor data",None,Oscar
+1428,1932,COSMIC-2,2264,64 kHz,"Telemetry, sensor data",None,Oscar
+1429,1934,COSMIC-2b,2264,2000 kHz,"Telemetry, sensor data",None,Oscar
+1430,1935,COSMIC-2b,2264,32 kHz,"Telemetry, sensor data",None,Oscar
+1431,1926,DSCOVR,2215,1150 kHz,Telemetry and raw data,None,Oscar
+1432,293,Electro-L N1,7500,73000 kHz,Raw data,None,Oscar
+1433,294,Electro-L N1,7500,73000 kHz,Raw data,None,Oscar
+1434,295,Electro-L N1,7500,73000 kHz,Raw data,None,Oscar
+1435,296,Electro-L N1,8195,32000 kHz,Processed images and information,None,Oscar
+1436,1356,Electro-L N1,8195,32000 kHz,Processed images and information,None,Oscar
+1437,1357,Electro-L N1,8195,32000 kHz,Processed images and information,None,Oscar
+1438,1358,Electro-L N1,8195,32000 kHz,Processed images and information,None,Oscar
+1439,1359,Electro-L N1,8195,32000 kHz,Processed images and information,None,Oscar
+1440,1360,Electro-L N1,8195,32000 kHz,Processed images and information,None,Oscar
+1441,1361,Electro-L N1,1691,2000 kHz,High resolution data and information,None,Oscar
+1442,1362,Electro-L N1,1693,2000 kHz,High resolution data and information,None,Oscar
+1443,1363,Electro-L N1,1691,2000 kHz,High resolution data and information,None,Oscar
+1444,1364,Electro-L N1,1693,2000 kHz,High resolution data and information,None,Oscar
+1445,1365,Electro-L N1,1691,200 kHz,Low resolution data and information,None,Oscar
+1446,1366,Electro-L N1,1691,200 kHz,Low resolution data and information,None,Oscar
+1447,1367,Electro-L N1,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1448,1368,Electro-L N1,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1449,1369,Electro-L N1,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1450,1370,Electro-L N1,1696.4,2000 kHz,DCP report relay,None,Oscar
+1451,1371,Electro-L N1,1697,2000 kHz,DCP report relay,None,Oscar
+1452,1372,Electro-L N1,1696.4,400 kHz,DCP report relay,None,Oscar
+1453,1373,Electro-L N1,1697,400 kHz,DCP report relay,None,Oscar
+1454,1434,Electro-L N2,7500,73000 kHz,Raw data,None,Oscar
+1455,1435,Electro-L N2,7500,73000 kHz,Raw data,None,Oscar
+1456,1436,Electro-L N2,7500,73000 kHz,Raw data,None,Oscar
+1457,1437,Electro-L N2,8195,32000 kHz,Processed images and information,None,Oscar
+1458,1438,Electro-L N2,8195,32000 kHz,Processed images and information,None,Oscar
+1459,1439,Electro-L N2,8195,32000 kHz,Processed images and information,None,Oscar
+1460,1440,Electro-L N2,8195,32000 kHz,Processed images and information,None,Oscar
+1461,1441,Electro-L N2,8195,32000 kHz,Processed images and information,None,Oscar
+1462,1442,Electro-L N2,8195,32000 kHz,Processed images and information,None,Oscar
+1463,1443,Electro-L N2,1691,2000 kHz,High resolution data and information,None,Oscar
+1464,1444,Electro-L N2,1693,2000 kHz,High resolution data and information,None,Oscar
+1465,1445,Electro-L N2,1691,2000 kHz,High resolution data and information,None,Oscar
+1466,1446,Electro-L N2,1693,2000 kHz,High resolution data and information,None,Oscar
+1467,1447,Electro-L N2,1691,200 kHz,Low resolution data and information,None,Oscar
+1468,1448,Electro-L N2,1691,200 kHz,Low resolution data and information,None,Oscar
+1469,1449,Electro-L N2,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1470,1450,Electro-L N2,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1471,1451,Electro-L N2,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1472,1452,Electro-L N2,1696.4,2000 kHz,DCP report relay,None,Oscar
+1473,1453,Electro-L N2,1697,2000 kHz,DCP report relay,None,Oscar
+1474,1454,Electro-L N2,1696.4,400 kHz,DCP report relay,None,Oscar
+1475,1455,Electro-L N2,1697,400 kHz,DCP report relay,None,Oscar
+1476,1464,Electro-L N3,7500,73000 kHz,Raw data,None,Oscar
+1477,1465,Electro-L N3,7500,73000 kHz,Raw data,None,Oscar
+1478,1466,Electro-L N3,7500,73000 kHz,Raw data,None,Oscar
+1479,1467,Electro-L N3,8195,32000 kHz,Processed images and information,None,Oscar
+1480,1468,Electro-L N3,8195,32000 kHz,Processed images and information,None,Oscar
+1481,1469,Electro-L N3,8195,32000 kHz,Processed images and information,None,Oscar
+1482,1470,Electro-L N3,8195,32000 kHz,Processed images and information,None,Oscar
+1483,1471,Electro-L N3,8195,32000 kHz,Processed images and information,None,Oscar
+1484,1472,Electro-L N3,8195,32000 kHz,Processed images and information,None,Oscar
+1485,1473,Electro-L N3,1691,2000 kHz,High resolution data and information,None,Oscar
+1486,1474,Electro-L N3,1693,2000 kHz,High resolution data and information,None,Oscar
+1487,1475,Electro-L N3,1691,2000 kHz,High resolution data and information,None,Oscar
+1488,1476,Electro-L N3,1693,2000 kHz,High resolution data and information,None,Oscar
+1489,1477,Electro-L N3,1691,200 kHz,Low resolution data and information,None,Oscar
+1490,1478,Electro-L N3,1691,200 kHz,Low resolution data and information,None,Oscar
+1491,1479,Electro-L N3,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1492,1480,Electro-L N3,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1493,1481,Electro-L N3,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1494,1482,Electro-L N3,1696.4,2000 kHz,DCP report relay,None,Oscar
+1495,1483,Electro-L N3,1697,2000 kHz,DCP report relay,None,Oscar
+1496,1484,Electro-L N3,1696.4,400 kHz,DCP report relay,None,Oscar
+1497,1485,Electro-L N3,1697,400 kHz,DCP report relay,None,Oscar
+1498,1773,Electro-L N4,7500,73000 kHz,Raw data,None,Oscar
+1499,1774,Electro-L N4,7500,73000 kHz,Raw data,None,Oscar
+1500,1775,Electro-L N4,7500,73000 kHz,Raw data,None,Oscar
+1501,1776,Electro-L N4,8195,32000 kHz,Processed images and information,None,Oscar
+1502,1777,Electro-L N4,8195,32000 kHz,Processed images and information,None,Oscar
+1503,1778,Electro-L N4,8195,32000 kHz,Processed images and information,None,Oscar
+1504,1779,Electro-L N4,8195,32000 kHz,Processed images and information,None,Oscar
+1505,1780,Electro-L N4,8195,32000 kHz,Processed images and information,None,Oscar
+1506,1781,Electro-L N4,8195,32000 kHz,Processed images and information,None,Oscar
+1507,1782,Electro-L N4,1691,2000 kHz,High resolution data and information,None,Oscar
+1508,1783,Electro-L N4,1693,2000 kHz,High resolution data and information,None,Oscar
+1509,1784,Electro-L N4,1691,2000 kHz,High resolution data and information,None,Oscar
+1510,1785,Electro-L N4,1693,2000 kHz,High resolution data and information,None,Oscar
+1511,1786,Electro-L N4,1691,200 kHz,Low resolution data and information,None,Oscar
+1512,1787,Electro-L N4,1691,200 kHz,Low resolution data and information,None,Oscar
+1513,1788,Electro-L N4,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1514,1789,Electro-L N4,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1515,1790,Electro-L N4,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1516,1791,Electro-L N4,1696.4,2000 kHz,DCP report relay,None,Oscar
+1517,1792,Electro-L N4,1697,2000 kHz,DCP report relay,None,Oscar
+1518,1793,Electro-L N4,1696.4,400 kHz,DCP report relay,None,Oscar
+1519,1794,Electro-L N4,1697,400 kHz,DCP report relay,None,Oscar
+1520,3606,Electro-L N5,7500,73000 kHz,Raw data,None,Oscar
+1521,3607,Electro-L N5,7500,73000 kHz,Raw data,None,Oscar
+1522,3608,Electro-L N5,7500,73000 kHz,Raw data,None,Oscar
+1523,3609,Electro-L N5,8195,32000 kHz,Processed images and information,None,Oscar
+1524,3610,Electro-L N5,8195,32000 kHz,Processed images and information,None,Oscar
+1525,3611,Electro-L N5,8195,32000 kHz,Processed images and information,None,Oscar
+1526,3612,Electro-L N5,8195,32000 kHz,Processed images and information,None,Oscar
+1527,3613,Electro-L N5,8195,32000 kHz,Processed images and information,None,Oscar
+1528,3614,Electro-L N5,8195,32000 kHz,Processed images and information,None,Oscar
+1529,3615,Electro-L N5,1691,2000 kHz,High resolution data and information,None,Oscar
+1530,3616,Electro-L N5,1693,2000 kHz,High resolution data and information,None,Oscar
+1531,3617,Electro-L N5,1691,2000 kHz,High resolution data and information,None,Oscar
+1532,3618,Electro-L N5,1693,2000 kHz,High resolution data and information,None,Oscar
+1533,3619,Electro-L N5,1691,200 kHz,Low resolution data and information,None,Oscar
+1534,3620,Electro-L N5,1691,200 kHz,Low resolution data and information,None,Oscar
+1535,3621,Electro-L N5,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1536,3622,Electro-L N5,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1537,3623,Electro-L N5,402.0,3 kHz,Regional & International DCP reports,None,Oscar
+1538,3624,Electro-L N5,1696.4,2000 kHz,DCP report relay,None,Oscar
+1539,3625,Electro-L N5,1697,2000 kHz,DCP report relay,None,Oscar
+1540,3626,Electro-L N5,1696.4,400 kHz,DCP report relay,None,Oscar
+1541,3627,Electro-L N5,1697,400 kHz,DCP report relay,None,Oscar
+1542,305,FY-2A,1681.6,20000 kHz,Raw data,None,Oscar
+1543,306,FY-2A,2047.5,2000 kHz,High-resolution data,None,Oscar
+1544,1563,FY-2A,1687.5,2000 kHz,High-resolution data,None,Oscar
+1545,1564,FY-2A,2051,260 kHz,Selected data,None,Oscar
+1546,1565,FY-2A,1691,260 kHz,Selected data,None,Oscar
+1547,1570,FY-2A,401.25,3 kHz,Regional DCP reports,None,Oscar
+1548,1571,FY-2A,402.05,3 kHz,International DCP reports,None,Oscar
+1549,1572,FY-2A,2050.5,1000 kHz,Primary station,None,Oscar
+1550,1573,FY-2A,1690.5,1000 kHz,Primary station,None,Oscar
+1551,1574,FY-2A,2046.5,1000 kHz,Secondary station,None,Oscar
+1552,1575,FY-2A,1686.5,1000 kHz,Secondary station,None,Oscar
+1553,1576,FY-2A,2044.5,1000 kHz,Backup station,None,Oscar
+1554,1577,FY-2A,1684.5,1000 kHz,Backup station,None,Oscar
+1555,1579,FY-2B,1681.6,20000 kHz,Raw data,None,Oscar
+1556,1580,FY-2B,2047.5,2000 kHz,High-resolution data,None,Oscar
+1557,1581,FY-2B,1687.5,2000 kHz,High-resolution data,None,Oscar
+1558,1582,FY-2B,2051,260 kHz,Selected data,None,Oscar
+1559,1583,FY-2B,1691,260 kHz,Selected data,None,Oscar
+1560,1588,FY-2B,401.25,3 kHz,Regional DCP reports,None,Oscar
+1561,1589,FY-2B,402.05,3 kHz,International DCP reports,None,Oscar
+1562,1590,FY-2B,2050.5,1000 kHz,Primary station,None,Oscar
+1563,1591,FY-2B,1690.5,1000 kHz,Primary station,None,Oscar
+1564,1592,FY-2B,2046.5,1000 kHz,Secondary station,None,Oscar
+1565,1593,FY-2B,1686.5,1000 kHz,Secondary station,None,Oscar
+1566,1594,FY-2B,2044.5,1000 kHz,Backup station,None,Oscar
+1567,1595,FY-2B,1684.5,1000 kHz,Backup station,None,Oscar
+1568,1597,FY-2C,1681.6,20000 kHz,Raw data,None,Oscar
+1569,1598,FY-2C,2047.5,2000 kHz,High-resolution data,None,Oscar
+1570,1599,FY-2C,1687.5,2000 kHz,High-resolution data,None,Oscar
+1571,1604,FY-2C,2051,260 kHz,Selected data,None,Oscar
+1572,1605,FY-2C,1690.5,1000 kHz,Selected data,None,Oscar
+1573,1606,FY-2C,401.25,3 kHz,Regional DCP reports,None,Oscar
+1574,1607,FY-2C,402.05,3 kHz,International DCP reports,None,Oscar
+1575,1608,FY-2C,2050.5,1000 kHz,Primary station,None,Oscar
+1576,1609,FY-2C,1690.5,1000 kHz,Primary station,None,Oscar
+1577,1610,FY-2C,2046.5,1000 kHz,Secondary station,None,Oscar
+1578,1611,FY-2C,1686.5,1000 kHz,Secondary station,None,Oscar
+1579,1612,FY-2C,2044.5,1000 kHz,Backup station,None,Oscar
+1580,1613,FY-2C,1684.5,1000 kHz,Backup station,None,Oscar
+1581,1615,FY-2D,1681.6,20000 kHz,Raw data,None,Oscar
+1582,1616,FY-2D,2047.5,2000 kHz,High-resolution data,None,Oscar
+1583,1617,FY-2D,1687.5,2000 kHz,High-resolution data,None,Oscar
+1584,1622,FY-2D,2051,260 kHz,Selected data (not in use),None,Oscar
+1585,1623,FY-2D,1690.5,1000 kHz,Selected data (not in use),None,Oscar
+1586,1624,FY-2D,401.25,3 kHz,Regional DCP reports,None,Oscar
+1587,1625,FY-2D,402.05,3 kHz,International DCP reports,None,Oscar
+1588,1626,FY-2D,2050.5,1000 kHz,Primary station,None,Oscar
+1589,1627,FY-2D,1690.5,1000 kHz,Primary station,None,Oscar
+1590,1628,FY-2D,2046.5,1000 kHz,Secondary station,None,Oscar
+1591,1629,FY-2D,1686.5,1000 kHz,Secondary station,None,Oscar
+1592,1630,FY-2D,2044.5,1000 kHz,Backup station,None,Oscar
+1593,1631,FY-2D,1684.5,1000 kHz,Backup station,None,Oscar
+1594,1633,FY-2E,1681.6,20000 kHz,Raw data,None,Oscar
+1595,1634,FY-2E,2047.5,2000 kHz,High-resolution data,None,Oscar
+1596,1635,FY-2E,1687.5,2000 kHz,High-resolution data,None,Oscar
+1597,1640,FY-2E,2051,260 kHz,Selected data (not in use),None,Oscar
+1598,1641,FY-2E,1690.5,1000 kHz,Selected data (not in use),None,Oscar
+1599,1642,FY-2E,401.25,3 kHz,Regional DCP reports,None,Oscar
+1600,1643,FY-2E,402.05,3 kHz,International DCP reports,None,Oscar
+1601,1644,FY-2E,2050.5,1000 kHz,Primary station,None,Oscar
+1602,1645,FY-2E,1690.5,1000 kHz,Primary station,None,Oscar
+1603,1646,FY-2E,2046.5,1000 kHz,Secondary station,None,Oscar
+1604,1647,FY-2E,1686.5,1000 kHz,Secondary station,None,Oscar
+1605,1648,FY-2E,2044.5,1000 kHz,Backup station,None,Oscar
+1606,1649,FY-2E,1684.5,1000 kHz,Backup station,None,Oscar
+1607,1651,FY-2F,1681.6,20000 kHz,Raw data,None,Oscar
+1608,1652,FY-2F,2047.5,2000 kHz,High-resolution data,None,Oscar
+1609,1653,FY-2F,1687.5,2000 kHz,High-resolution data,None,Oscar
+1610,1658,FY-2F,2051,260 kHz,Selected data,None,Oscar
+1611,1659,FY-2F,1690.5,1000 kHz,Selected data,None,Oscar
+1612,1660,FY-2F,401.25,3 kHz,Regional DCP reports,None,Oscar
+1613,1661,FY-2F,402.05,3 kHz,International DCP reports,None,Oscar
+1614,1662,FY-2F,2050.5,1000 kHz,Primary station,None,Oscar
+1615,1663,FY-2F,1690.5,1000 kHz,Primary station,None,Oscar
+1616,1664,FY-2F,2046.5,1000 kHz,Secondary station,None,Oscar
+1617,1665,FY-2F,1686.5,1000 kHz,Secondary station,None,Oscar
+1618,1666,FY-2F,2044.5,1000 kHz,Backup station,None,Oscar
+1619,1667,FY-2F,1684.5,1000 kHz,Backup station,None,Oscar
+1620,1669,FY-2G,1681.6,20000 kHz,Raw data,None,Oscar
+1621,1670,FY-2G,2047.5,2000 kHz,High-resolution data,None,Oscar
+1622,1671,FY-2G,1687.5,2000 kHz,High-resolution data,None,Oscar
+1623,1676,FY-2G,2051,260 kHz,Selected data,None,Oscar
+1624,1677,FY-2G,1690.5,1000 kHz,Selected data,None,Oscar
+1625,1678,FY-2G,401.25,3 kHz,Regional DCP reports,None,Oscar
+1626,1679,FY-2G,402.05,3 kHz,International DCP reports,None,Oscar
+1627,1680,FY-2G,2050.5,1000 kHz,Primary station,None,Oscar
+1628,1681,FY-2G,1690.5,1000 kHz,Primary station,None,Oscar
+1629,1682,FY-2G,2046.5,1000 kHz,Secondary station,None,Oscar
+1630,1683,FY-2G,1686.5,1000 kHz,Secondary station,None,Oscar
+1631,1684,FY-2G,2044.5,1000 kHz,Backup station,None,Oscar
+1632,1685,FY-2G,1684.5,1000 kHz,Backup station,None,Oscar
+1633,1687,FY-2H,1681.6,20000 kHz,Raw data,None,Oscar
+1634,1688,FY-2H,2047.5,2000 kHz,High-resolution data,None,Oscar
+1635,1689,FY-2H,1687.5,2000 kHz,High-resolution data,None,Oscar
+1636,1694,FY-2H,2051,260 kHz,Selected data,None,Oscar
+1637,1695,FY-2H,1690.5,1000 kHz,Selected data,None,Oscar
+1638,1696,FY-2H,401.25,3 kHz,Regional DCP reports,None,Oscar
+1639,1697,FY-2H,402.05,3 kHz,International DCP reports,None,Oscar
+1640,1698,FY-2H,2050.5,1000 kHz,Primary station,None,Oscar
+1641,1699,FY-2H,1690.5,1000 kHz,Primary station,None,Oscar
+1642,1700,FY-2H,2046.5,1000 kHz,Secondary station,None,Oscar
+1643,1701,FY-2H,1686.5,1000 kHz,Secondary station,None,Oscar
+1644,1702,FY-2H,2044.5,1000 kHz,Backup station,None,Oscar
+1645,1703,FY-2H,1684.5,1000 kHz,Backup station,None,Oscar
+1646,334,FY-3A,8145.95,149000 kHz,Stored data,None,Oscar
+1647,335,FY-3A,7775,45000 kHz,Full-resolution MERSI data,None,Oscar
+1648,336,FY-3A,1704.5,6800 kHz,Other instrument data,None,Oscar
+1649,337,FY-3B,8145.95,149000 kHz,Stored data,None,Oscar
+1650,338,FY-3B,7775,45000 kHz,Full-resolution MERSI data,None,Oscar
+1651,339,FY-3B,1704.5,6800 kHz,Other instrument data,None,Oscar
+1652,1743,FY-3C,8175,300000 kHz,Stored data,None,Oscar
+1653,1744,FY-3C,7820,60000 kHz,Full-resolution MERSI data ,None,Oscar
+1654,1745,FY-3C,1706.7,6800 kHz,Other instrument data ,None,Oscar
+1655,1869,FY-3D,7820,100000 kHz,Full-resolution data,None,Oscar
+1656,4479,FY-3D,7820.0, kHz,nan,None,Oscar
+1657,4480,FY-3D,8250.0, kHz,nan,None,Oscar
+1658,4481,FY-3E,7860.0, kHz,nan,None,Oscar
+1659,4482,FY-3E,8212.5, kHz,nan,None,Oscar
+1660,4483,FY-3G,7790.0, kHz,nan,None,Oscar
+1661,4484,FY-3G,8212.5, kHz,nan,None,Oscar
+1662,1705,FY-4A,7500,100000 kHz,Raw data,None,Oscar
+1663,1706,FY-4A,8185,20000 kHz,High-resolution data,None,Oscar
+1664,1707,FY-4A,8205,20000 kHz,High-resolution data,None,Oscar
+1665,1708,FY-4A,1681,12000 kHz,High-resolution data,None,Oscar
+1666,1709,FY-4A,2057,1000 kHz,Selected data and information,None,Oscar
+1667,1710,FY-4A,1697,2000 kHz,Selected data and information,None,Oscar
+1668,4487,FY-4A,401.25,300 kHz,Regional DCP reports,None,Oscar
+1669,4516,FY-4A,402.05, kHz,International DCP reports,None,Oscar
+1670,4517,FY-4A,1688.0, kHz,DCP reports relay,None,Oscar
+1671,4488,FY-4B,401.25, kHz,Regional DCP reports,None,Oscar
+1672,4489,FY-4B,402.05, kHz,International DCP reports,None,Oscar
+1673,4490,FY-4B,1688.0, kHz,DCP report relay,None,Oscar
+1674,4491,FY-4B,7500.0, kHz,Raw Data,None,Oscar
+1675,4492,FY-4B,8185.0, kHz,High Resolution Data,None,Oscar
+1676,4493,FY-4B,8205.0, kHz,High Resolution Data,None,Oscar
+1677,4494,FY-4B,1681.0, kHz,High Resolution Data,None,Oscar
+1678,4495,FY-4B,2057.0, kHz,Selected data and information,None,Oscar
+1679,4496,FY-4B,1697.0, kHz,Selected data and information,None,Oscar
+1680,4507,GEO-KOMPSAT-2A,8300000.0, kHz,GK2A Payload data,None,Oscar
+1681,4508,GEO-KOMPSAT-2A,1692.14, kHz,GK2A LRIT,None,Oscar
+1682,4509,GEO-KOMPSAT-2A,1695.4, kHz,GK2A HRIT,None,Oscar
+1683,4510,GEO-KOMPSAT-2A,8070.0, kHz,GK2A UHRIT,None,Oscar
+1684,1029,GOES-10,1676,5000 kHz,Raw data,None,Oscar
+1685,1030,GOES-10,2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1686,1031,GOES-10,1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1687,1032,GOES-10,2033,50 kHz,Selected data,None,Oscar
+1688,1033,GOES-10,1691,50 kHz,Selected data,None,Oscar
+1689,1034,GOES-10,2033,660 kHz,Selected data,None,Oscar
+1690,1035,GOES-10,1691,660 kHz,Selected data,None,Oscar
+1691,1036,GOES-10,1681.478,200 kHz,Multiuse Data Link,None,Oscar
+1692,1037,GOES-10,2034.8875,125 kHz,DCP interrogation,None,Oscar
+1693,1038,GOES-10,2034.9,125 kHz,DCP interrogation,None,Oscar
+1694,1039,GOES-10,2034.9125,125 kHz,DCP interrogation,None,Oscar
+1695,1040,GOES-10,468.8125,200 kHz,DCP interrogation,None,Oscar
+1696,1041,GOES-10,468.825,200 kHz,DCP interrogation,None,Oscar
+1697,1042,GOES-10,468.8375,200 kHz,DCP interrogation,None,Oscar
+1698,1059,GOES-10 (S-America),1676,5000 kHz,Raw data,None,Oscar
+1699,1060,GOES-10 (S-America),2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1700,1061,GOES-10 (S-America),1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1701,1062,GOES-10 (S-America),2033,50 kHz,Selected data,None,Oscar
+1702,1063,GOES-10 (S-America),1691,50 kHz,Selected data,None,Oscar
+1703,1064,GOES-10 (S-America),2033,660 kHz,Selected data,None,Oscar
+1704,1065,GOES-10 (S-America),1691,660 kHz,Selected data,None,Oscar
+1705,1066,GOES-10 (S-America),1681.478,200 kHz,Multiuse Data Link,None,Oscar
+1706,1067,GOES-10 (S-America),2034.8875,125 kHz,DCP interrogation,None,Oscar
+1707,1068,GOES-10 (S-America),2034.9,125 kHz,DCP interrogation,None,Oscar
+1708,1069,GOES-10 (S-America),2034.9125,125 kHz,DCP interrogation,None,Oscar
+1709,1070,GOES-10 (S-America),468.8125,200 kHz,DCP interrogation,None,Oscar
+1710,1071,GOES-10 (S-America),468.825,200 kHz,DCP interrogation,None,Oscar
+1711,1072,GOES-10 (S-America),468.8375,200 kHz,DCP interrogation,None,Oscar
+1712,1089,GOES-11,1676,5000 kHz,Raw data,None,Oscar
+1713,1090,GOES-11,2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1714,1091,GOES-11,1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1715,1092,GOES-11,2033,50 kHz,Ceased October 2005,None,Oscar
+1716,1093,GOES-11,1691,50 kHz,Ceased October 2005,None,Oscar
+1717,1094,GOES-11,2033,660 kHz,Selected data,None,Oscar
+1718,1095,GOES-11,1691,660 kHz,Selected data,None,Oscar
+1719,1096,GOES-11,1681.478,200 kHz,Multiuse Data Link,None,Oscar
+1720,1097,GOES-11,2034.8875,125 kHz,DCP interrogation,None,Oscar
+1721,1098,GOES-11,2034.9,125 kHz,DCP interrogation,None,Oscar
+1722,1099,GOES-11,2034.9125,125 kHz,DCP interrogation,None,Oscar
+1723,1100,GOES-11,468.8125,200 kHz,DCP interrogation,None,Oscar
+1724,1101,GOES-11,468.825,200 kHz,DCP interrogation,None,Oscar
+1725,1102,GOES-11,468.8375,200 kHz,DCP interrogation,None,Oscar
+1726,1119,GOES-12,1676,5000 kHz,Raw data,None,Oscar
+1727,1120,GOES-12,2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1728,1121,GOES-12,1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1729,1122,GOES-12,2033,50 kHz,Ceased October 2005,None,Oscar
+1730,1123,GOES-12,1691,50 kHz,Ceased October 2005,None,Oscar
+1731,1124,GOES-12,2033,660 kHz,Selected data,None,Oscar
+1732,1125,GOES-12,1691,660 kHz,Selected data,None,Oscar
+1733,1126,GOES-12,1681.478,200 kHz,Multiuse Data Link,None,Oscar
+1734,1127,GOES-12,2034.8875,125 kHz,DCP interrogation,None,Oscar
+1735,1128,GOES-12,2034.9,125 kHz,DCP interrogation,None,Oscar
+1736,1129,GOES-12,2034.9125,125 kHz,DCP interrogation,None,Oscar
+1737,1130,GOES-12,468.8125,200 kHz,DCP interrogation,None,Oscar
+1738,1131,GOES-12,468.825,200 kHz,DCP interrogation,None,Oscar
+1739,1132,GOES-12,468.8375,200 kHz,DCP interrogation,None,Oscar
+1740,1149,GOES-12 (S-America),1676,5000 kHz,Raw data,None,Oscar
+1741,1150,GOES-12 (S-America),2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1742,1151,GOES-12 (S-America),1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1743,1154,GOES-12 (S-America),2033,660 kHz,Selected data,None,Oscar
+1744,1155,GOES-12 (S-America),1691,660 kHz,Selected data,None,Oscar
+1745,1156,GOES-12 (S-America),1681.478,200 kHz,Multiuse Data Link,None,Oscar
+1746,1157,GOES-12 (S-America),2034.8875,125 kHz,DCP interrogation,None,Oscar
+1747,1158,GOES-12 (S-America),2034.9,125 kHz,DCP interrogation,None,Oscar
+1748,1159,GOES-12 (S-America),2034.9125,125 kHz,DCP interrogation,None,Oscar
+1749,1160,GOES-12 (S-America),468.8125,200 kHz,DCP interrogation,None,Oscar
+1750,1161,GOES-12 (S-America),468.825,200 kHz,DCP interrogation,None,Oscar
+1751,1162,GOES-12 (S-America),468.8375,200 kHz,DCP interrogation,None,Oscar
+1752,790,GOES-13,1676,5000 kHz,Raw data,None,Oscar
+1753,791,GOES-13,1676,5000 kHz,Raw data,None,Oscar
+1754,792,GOES-13,2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1755,793,GOES-13,2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1756,794,GOES-13,1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1757,795,GOES-13,1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1758,798,GOES-13,2033,660 kHz,Selected data,None,Oscar
+1759,799,GOES-13,1691,660 kHz,Selected data,None,Oscar
+1760,800,GOES-13,1681.478,200 kHz,Multiuse Data Link,None,Oscar
+1761,801,GOES-13,1681.478,400 kHz,Multiuse Data Link,None,Oscar
+1762,802,GOES-13,2034.8875,10 kHz,DCP interrogation,None,Oscar
+1763,803,GOES-13,2034.9,10 kHz,DCP interrogation,None,Oscar
+1764,804,GOES-13,2034.9125,10 kHz,DCP interrogation,None,Oscar
+1765,805,GOES-13,468.8125,10 kHz,DCP interrogation,None,Oscar
+1766,806,GOES-13,468.825,10 kHz,DCP interrogation,None,Oscar
+1767,807,GOES-13,468.8375,10 kHz,DCP interrogation,None,Oscar
+1768,832,GOES-14,1676,5000 kHz,Raw data,None,Oscar
+1769,833,GOES-14,1676,5000 kHz,Raw data,None,Oscar
+1770,834,GOES-14,2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1771,835,GOES-14,2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1772,836,GOES-14,1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1773,837,GOES-14,1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1774,840,GOES-14,2033,660 kHz,Selected data,None,Oscar
+1775,841,GOES-14,1691,660 kHz,Selected data,None,Oscar
+1776,842,GOES-14,1681.478,200 kHz,Multiuse Data Link,None,Oscar
+1777,843,GOES-14,1681.478,400 kHz,Multiuse Data Link,None,Oscar
+1778,844,GOES-14,2034.8875,10 kHz,DCP interrogation,None,Oscar
+1779,845,GOES-14,2034.9,10 kHz,DCP interrogation,None,Oscar
+1780,846,GOES-14,2034.9125,10 kHz,DCP interrogation,None,Oscar
+1781,847,GOES-14,468.8125,10 kHz,DCP interrogation,None,Oscar
+1782,848,GOES-14,468.825,10 kHz,DCP interrogation,None,Oscar
+1783,849,GOES-14,468.8375,10 kHz,DCP interrogation,None,Oscar
+1784,748,GOES-15,1676,5000 kHz,Raw data,None,Oscar
+1785,749,GOES-15,1676,5000 kHz,Raw data,None,Oscar
+1786,750,GOES-15,2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1787,751,GOES-15,2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1788,752,GOES-15,1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1789,753,GOES-15,1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1790,756,GOES-15,2033,660 kHz,Selected data,None,Oscar
+1791,757,GOES-15,1691,660 kHz,Selected data,None,Oscar
+1792,758,GOES-15,1681.478,200 kHz,Multiuse Data Link,None,Oscar
+1793,759,GOES-15,1681.478,400 kHz,Multiuse Data Link,None,Oscar
+1794,760,GOES-15,2034.8875,10 kHz,DCP interrogation,None,Oscar
+1795,761,GOES-15,2034.9,10 kHz,DCP interrogation,None,Oscar
+1796,762,GOES-15,2034.9125,10 kHz,DCP interrogation,None,Oscar
+1797,763,GOES-15,468.8125,10 kHz,DCP interrogation,None,Oscar
+1798,764,GOES-15,468.825,10 kHz,DCP interrogation,None,Oscar
+1799,765,GOES-15,468.8375,10 kHz,DCP interrogation,None,Oscar
+1800,916,GOES-16,8220,120000 kHz,Raw data,None,Oscar
+1801,918,GOES-16,7216.6,10900 kHz,Processed images/soundings,None,Oscar
+1802,924,GOES-16,7216.6,9790 kHz,Processed images/soundings,None,Oscar
+1803,925,GOES-16,1686.6,10900 kHz,Processed images/soundings,None,Oscar
+1804,926,GOES-16,1686.6,9790 kHz,Processed images/soundings,None,Oscar
+1805,927,GOES-16,2027.1,1206 kHz,Selected data and information,None,Oscar
+1806,929,GOES-16,1694.1,1210 kHz,Selected data and information,None,Oscar
+1807,1950,GOES-17,8220,120000 kHz,Raw data,None,Oscar
+1808,1952,GOES-17,7216.6,10900 kHz,Processed images/soundings,None,Oscar
+1809,1953,GOES-17,7216.6,9790 kHz,Processed images/soundings,None,Oscar
+1810,1954,GOES-17,1686.6,10900 kHz,Processed images/soundings,None,Oscar
+1811,1955,GOES-17,1686.6,9790 kHz,Processed images/soundings,None,Oscar
+1812,1956,GOES-17,2027.1,1206 kHz,Selected data and information,None,Oscar
+1813,1958,GOES-17,1694.1,1210 kHz,Selected data and information,None,Oscar
+1814,1981,GOES-18,8220,120000 kHz,Raw data,None,Oscar
+1815,1983,GOES-18,7216.6,10900 kHz,Processed images/soundings,None,Oscar
+1816,1984,GOES-18,7216.6,9790 kHz,Processed images/soundings,None,Oscar
+1817,1985,GOES-18,1686.6,10900 kHz,Processed images/soundings,None,Oscar
+1818,1986,GOES-18,1686.6,9790 kHz,Processed images/soundings,None,Oscar
+1819,1987,GOES-18,2027.1,1206 kHz,Selected data and information,None,Oscar
+1820,1989,GOES-18,1694.1,1210 kHz,Selected data and information,None,Oscar
+1821,874,GOES-8,1676,5000 kHz,Raw data,None,Oscar
+1822,876,GOES-8,2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1823,878,GOES-8,1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1824,880,GOES-8,2033,50 kHz,Selected data,None,Oscar
+1825,881,GOES-8,1691,50 kHz,Selected data,None,Oscar
+1826,882,GOES-8,2033,660 kHz,Selected data,None,Oscar
+1827,883,GOES-8,1691,660 kHz,Selected data,None,Oscar
+1828,884,GOES-8,1681.478,200 kHz,Multiuse Data Link,None,Oscar
+1829,886,GOES-8,2034.8875,125 kHz,DCP interrogation,None,Oscar
+1830,887,GOES-8,2034.9,125 kHz,DCP interrogation,None,Oscar
+1831,888,GOES-8,2034.9125,125 kHz,DCP interrogation,None,Oscar
+1832,889,GOES-8,468.8125,200 kHz,DCP interrogation,None,Oscar
+1833,890,GOES-8,468.825,200 kHz,DCP interrogation,None,Oscar
+1834,891,GOES-8,468.8375,200 kHz,DCP interrogation,None,Oscar
+1835,969,GOES-9,1676,5000 kHz,Raw data,None,Oscar
+1836,970,GOES-9,2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1837,971,GOES-9,1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1838,972,GOES-9,2033,50 kHz,Selected data,None,Oscar
+1839,973,GOES-9,1691,50 kHz,Selected data,None,Oscar
+1840,974,GOES-9,2033,660 kHz,Selected data,None,Oscar
+1841,975,GOES-9,1691,660 kHz,Selected data,None,Oscar
+1842,976,GOES-9,1681.478,200 kHz,Multiuse Data Link,None,Oscar
+1843,977,GOES-9,2034.8875,125 kHz,DCP interrogation,None,Oscar
+1844,978,GOES-9,2034.9,125 kHz,DCP interrogation,None,Oscar
+1845,979,GOES-9,2034.9125,125 kHz,DCP interrogation,None,Oscar
+1846,980,GOES-9,468.8125,200 kHz,DCP interrogation,None,Oscar
+1847,981,GOES-9,468.825,200 kHz,DCP interrogation,None,Oscar
+1848,982,GOES-9,468.8375,200 kHz,DCP interrogation,None,Oscar
+1849,999,GOES-9 (GMS backup),1676,5000 kHz,Raw data,None,Oscar
+1850,1000,GOES-9 (GMS backup),2027.7,4000 kHz,Processed images/soundings,None,Oscar
+1851,1001,GOES-9 (GMS backup),1685.7,4000 kHz,Processed images/soundings,None,Oscar
+1852,1002,GOES-9 (GMS backup),2033,50 kHz,Selected data,None,Oscar
+1853,1003,GOES-9 (GMS backup),1691,50 kHz,Selected data,None,Oscar
+1854,1004,GOES-9 (GMS backup),2033,660 kHz,Selected data,None,Oscar
+1855,1005,GOES-9 (GMS backup),1691,660 kHz,Selected data,None,Oscar
+1856,1006,GOES-9 (GMS backup),1681.478,200 kHz,Multiuse Data Link,None,Oscar
+1857,1007,GOES-9 (GMS backup),2034.8875,125 kHz,DCP interrogation,None,Oscar
+1858,1008,GOES-9 (GMS backup),2034.9,125 kHz,DCP interrogation,None,Oscar
+1859,1009,GOES-9 (GMS backup),2034.9125,125 kHz,DCP interrogation,None,Oscar
+1860,1010,GOES-9 (GMS backup),468.8125,200 kHz,DCP interrogation,None,Oscar
+1861,1011,GOES-9 (GMS backup),468.825,200 kHz,DCP interrogation,None,Oscar
+1862,1012,GOES-9 (GMS backup),468.8375,200 kHz,DCP interrogation,None,Oscar
+1863,2012,GOES-U,8220,120000 kHz,Raw data,None,Oscar
+1864,2014,GOES-U,7216.6,10900 kHz,Processed images/soundings,None,Oscar
+1865,2015,GOES-U,7216.6,9790 kHz,Processed images/soundings,None,Oscar
+1866,2016,GOES-U,1686.6,10900 kHz,Processed images/soundings,None,Oscar
+1867,2017,GOES-U,1686.6,9790 kHz,Processed images/soundings,None,Oscar
+1868,2018,GOES-U,2027.1,1206 kHz,Selected data and information,None,Oscar
+1869,2020,GOES-U,1694.1,1210 kHz,Selected data and information,None,Oscar
+1870,276,Himawari-6 (MTSAT-1R),1677,10000 kHz,Raw data,None,Oscar
+1871,277,Himawari-6 (MTSAT-1R),2029.1,6000 kHz,High resolution data. Service terminated in Dec 2015,None,Oscar
+1872,278,Himawari-6 (MTSAT-1R),1687.1,6000 kHz,High resolution data. Service terminated in Dec 2015.,None,Oscar
+1873,279,Himawari-6 (MTSAT-1R),2029.1,2000 kHz,High resolution data - This service was terminated in March 2008,None,Oscar
+1874,280,Himawari-6 (MTSAT-1R),1687.1,2000 kHz,High resolution data - This service was terminated in March 2008,None,Oscar
+1875,281,Himawari-6 (MTSAT-1R),2033,250 kHz,Selected data. Service terminated in Dec 2015.,None,Oscar
+1876,282,Himawari-6 (MTSAT-1R),1691,250 kHz,Selected data.  Service terminated in Dec 2015.,None,Oscar
+1877,400,Himawari-6 (MTSAT-1R),2033,260 kHz,Weather facsimile - This service was terminated in March 2008,None,Oscar
+1878,401,Himawari-6 (MTSAT-1R),1691,260 kHz,Weather facsimile - This service was terminated in March 2008,None,Oscar
+1879,402,Himawari-6 (MTSAT-1R),2034.933,6 kHz,DCP interrogation,None,Oscar
+1880,403,Himawari-6 (MTSAT-1R),2034.925,6 kHz,DCP interrogation,None,Oscar
+1881,404,Himawari-6 (MTSAT-1R),2034.974,6 kHz,DCP interrogation,None,Oscar
+1882,408,Himawari-6 (MTSAT-1R),402.2,2 kHz,DCP reports,None,Oscar
+1883,409,Himawari-6 (MTSAT-1R),402.2,4 kHz,DCP reports,None,Oscar
+1884,410,Himawari-6 (MTSAT-1R),402.2,6 kHz,DCP reports,None,Oscar
+1885,411,Himawari-6 (MTSAT-1R),1694.5,2 kHz,DCP report relay,None,Oscar
+1886,412,Himawari-6 (MTSAT-1R),1694.5,4 kHz,DCP report relay,None,Oscar
+1887,413,Himawari-6 (MTSAT-1R),1694.5,6 kHz,DCP report relay,None,Oscar
+1888,451,Himawari-7 (MTSAT-2),1677,10000 kHz,Raw data,None,Oscar
+1889,452,Himawari-7 (MTSAT-2),2029.1,6000 kHz,High resolution data,None,Oscar
+1890,453,Himawari-7 (MTSAT-2),1687.1,6000 kHz,High resolution data,None,Oscar
+1891,456,Himawari-7 (MTSAT-2),2033,250 kHz,Selected data,None,Oscar
+1892,457,Himawari-7 (MTSAT-2),1691,250 kHz,Selected data,None,Oscar
+1893,460,Himawari-7 (MTSAT-2),2034.933,6 kHz,DCP interrogation,None,Oscar
+1894,461,Himawari-7 (MTSAT-2),2034.925,6 kHz,DCP interrogation,None,Oscar
+1895,462,Himawari-7 (MTSAT-2),2034.974,6 kHz,DCP interrogation,None,Oscar
+1896,466,Himawari-7 (MTSAT-2),402.2,2 kHz,DCP reports,None,Oscar
+1897,467,Himawari-7 (MTSAT-2),402.2,4 kHz,DCP reports,None,Oscar
+1898,468,Himawari-7 (MTSAT-2),402.2,6 kHz,DCP reports,None,Oscar
+1899,469,Himawari-7 (MTSAT-2),1694.5,2 kHz,DCP report relay,None,Oscar
+1900,470,Himawari-7 (MTSAT-2),1694.5,4 kHz,DCP report relay,None,Oscar
+1901,471,Himawari-7 (MTSAT-2),1694.5,6 kHz,DCP report relay,None,Oscar
+1902,418,Himawari-8,18284.6,110000 kHz,Raw data,None,Oscar
+1903,419,Himawari-8,18284.6,110000 kHz,Raw data,None,Oscar
+1904,420,Himawari-8,402.2,2 kHz,DCP reports,None,Oscar
+1905,421,Himawari-8,402.2,4 kHz,DCP reports,None,Oscar
+1906,422,Himawari-8,402.2,6 kHz,DCP reports,None,Oscar
+1907,423,Himawari-8,18399.5,2 kHz,DCP report relay,None,Oscar
+1908,424,Himawari-8,18399.5,4 kHz,DCP report relay,None,Oscar
+1909,425,Himawari-8,18399.5,6 kHz,DCP report relay,None,Oscar
+1910,2046,Himawari-9,18284.6,110000 kHz,Raw data,None,Oscar
+1911,2047,Himawari-9,18284.6,110000 kHz,Raw data,None,Oscar
+1912,2048,Himawari-9,402.2,2 kHz,DCP reports,None,Oscar
+1913,2049,Himawari-9,402.2,4 kHz,DCP reports,None,Oscar
+1914,2050,Himawari-9,402.2,6 kHz,DCP reports,None,Oscar
+1915,2051,Himawari-9,18399.5,2 kHz,DCP report relay,None,Oscar
+1916,2052,Himawari-9,18399.5,4 kHz,DCP report relay,None,Oscar
+1917,2053,Himawari-9,18399.5,6 kHz,DCP report relay,None,Oscar
+1918,327,INSAT-3A,4501.5,500 kHz,VHRR raw data,None,Oscar
+1919,328,INSAT-3A,4508.93,500 kHz,CCD raw data,None,Oscar
+1920,329,INSAT-3A,402.75,180 kHz,DCP reports,None,Oscar
+1921,330,INSAT-3A,4504.2,180 kHz,DCP relay,None,Oscar
+1922,331,INSAT-3C,2599.23,200 kHz,Meteorological Data Distribution including data originated from INSAT-3A,None,Oscar
+1923,332,INSAT-3C,2559.23,200 kHz,Cyclone Warning Dissemination System for selected INSAT-3A data activated in the cyclone season,None,Oscar
+1924,1724,INSAT-3D,4781,9600 kHz,IMAGER raw data,None,Oscar
+1925,1725,INSAT-3D,4798,96 kHz,SOUNDER raw data,None,Oscar
+1926,1726,INSAT-3D,402.75,180 kHz,DCP reports,None,Oscar
+1927,1727,INSAT-3D,4506.05,180 kHz,DCP relay,None,Oscar
+1928,1730,INSAT-3DR,4781,9600 kHz,IMAGER raw data,None,Oscar
+1929,1731,INSAT-3DR,4798,96 kHz,SOUNDER raw data,None,Oscar
+1930,1732,INSAT-3DR,402.75,180 kHz,DCP reports,None,Oscar
+1931,1733,INSAT-3DR,4506.05,180 kHz,DCP relay,None,Oscar
+1932,1737,INSAT-3DS,4781,9600 kHz,IMAGER raw data,None,Oscar
+1933,1738,INSAT-3DS,4798,96 kHz,SOUNDER raw data,None,Oscar
+1934,1739,INSAT-3DS,402.75,180 kHz,DCP reports,None,Oscar
+1935,1740,INSAT-3DS,4506.05,180 kHz,DCP relay,None,Oscar
+1936,68,JASON-2,5300,320000 kHz,FM Pulse Radar. Telemetry and Altimeter real-time data,None,Oscar
+1937,393,JASON-2,5300,100000 kHz,FM Pulse Radar. Telemetry and Altimeter real-time data,None,Oscar
+1938,1937,JASON-2,13575,320000 kHz,FM Pulse Radar. Telemetry and Altimeter real-time data,None,Oscar
+1939,1940,JASON-2,2268.465,839 kHz,Telemetry and Altimeter stored data,None,Oscar
+1940,1943,JASON-3,5300,320000 kHz,FM Pulse Radar. Telemetry and Altimeter real-time data,None,Oscar
+1941,1944,JASON-3,5300,100000 kHz,FM Pulse Radar. Telemetry and Altimeter real-time data,None,Oscar
+1942,1945,JASON-3,13575,320000 kHz,FM Pulse Radar. Telemetry and Altimeter real-time data,None,Oscar
+1943,1946,JASON-3,2215.92,2000 kHz,Telemetry and Altimeter stored data,None,Oscar
+1944,1899,JPSS-3,26703.4,300000 kHz,Stored Mission Data (info data rate),None,Oscar
+1945,1900,JPSS-3,26703.4,150000 kHz,Stored Mission Data (info data rate),None,Oscar
+1946,1901,JPSS-3,7812,50000 kHz,Real-time High Rate Data,None,Oscar
+1947,1912,JPSS-4,26703.4,300000 kHz,Stored Mission Data (info data rate),None,Oscar
+1948,1913,JPSS-4,26703.4,150000 kHz,Stored Mission Data (info data rate),None,Oscar
+1949,1914,JPSS-4,7812,50000 kHz,Real-time High Rate Data,None,Oscar
+1950,333,Kalpana-1,4503.5,500 kHz,VHRR raw data,None,Oscar
+1951,387,Kalpana-1,402.75,180 kHz,DCP reports,None,Oscar
+1952,1736,Kalpana-1,4506.05,180 kHz,DCP relay,None,Oscar
+1953,361,Meteor-M N1,8128,30700 kHz,Stored data,None,Oscar
+1954,362,Meteor-M N1,8320,30700 kHz,Stored data,None,Oscar
+1955,363,Meteor-M N1,8128,123000 kHz,Stored data,None,Oscar
+1956,364,Meteor-M N1,8320,123000 kHz,Stored data,None,Oscar
+1957,365,Meteor-M N1,1700,3000 kHz,High resolution data + DCP reports,None,Oscar
+1958,366,Meteor-M N1,1705,3000 kHz,High resolution data + DCP reports,None,Oscar
+1959,1345,Meteor-M N1,137.1,150 kHz,Selected data,None,Oscar
+1960,1346,Meteor-M N1,137.9,150 kHz,Selected data,None,Oscar
+1961,1347,Meteor-M N1,137.9125,150 kHz,Selected data,None,Oscar
+1962,1348,Meteor-M N1,402.2,5 kHz,Regional and International DCP reports,None,Oscar
+1963,1350,Meteor-M N1,401.95,5 kHz,Regional DCP reports,None,Oscar
+1964,1494,Meteor-M N2,8128,30700 kHz,Stored data,None,Oscar
+1965,1495,Meteor-M N2,8320,30700 kHz,Stored data,None,Oscar
+1966,1496,Meteor-M N2,8128,123000 kHz,Stored data,None,Oscar
+1967,1497,Meteor-M N2,8320,123000 kHz,Stored data,None,Oscar
+1968,1498,Meteor-M N2,1700,3000 kHz,High resolution data + DCP reports,None,Oscar
+1969,1499,Meteor-M N2,1705,3000 kHz,High resolution data + DCP reports,None,Oscar
+1970,1502,Meteor-M N2,137.1,150 kHz,Selected data,None,Oscar
+1971,1503,Meteor-M N2,137.9,150 kHz,Selected data,None,Oscar
+1972,1504,Meteor-M N2,137.9125,150 kHz,Selected data,None,Oscar
+1973,1505,Meteor-M N2,402.2,5 kHz,Regional and International DCP reports,None,Oscar
+1974,1507,Meteor-M N2,401.95,5 kHz,Regional DCP reports,None,Oscar
+1975,1513,Meteor-M N2-1,8128,30700 kHz,Stored data,None,Oscar
+1976,1514,Meteor-M N2-1,8320,30700 kHz,Stored data,None,Oscar
+1977,1515,Meteor-M N2-1,8128,123000 kHz,Stored data,None,Oscar
+1978,1516,Meteor-M N2-1,8320,123000 kHz,Stored data,None,Oscar
+1979,1517,Meteor-M N2-1,1700,3000 kHz,High resolution data + DCP reports,None,Oscar
+1980,1518,Meteor-M N2-1,1705,3000 kHz,High resolution data + DCP reports,None,Oscar
+1981,1521,Meteor-M N2-1,137.1,150 kHz,Selected data,None,Oscar
+1982,1522,Meteor-M N2-1,137.9,150 kHz,Selected data,None,Oscar
+1983,1523,Meteor-M N2-1,137.9125,150 kHz,Selected data,None,Oscar
+1984,1524,Meteor-M N2-1,402.2,5 kHz,Regional and International DCP reports,None,Oscar
+1985,1526,Meteor-M N2-1,401.95,5 kHz,Regional DCP reports,None,Oscar
+1986,1532,Meteor-M N2-2,8128,30700 kHz,Stored data,None,Oscar
+1987,1533,Meteor-M N2-2,8320,30700 kHz,Stored data,None,Oscar
+1988,1534,Meteor-M N2-2,8128,123000 kHz,Stored data,None,Oscar
+1989,1535,Meteor-M N2-2,8320,123000 kHz,Stored data,None,Oscar
+1990,1536,Meteor-M N2-2,1700,3000 kHz,High resolution data + DCP reports,None,Oscar
+1991,1537,Meteor-M N2-2,1705,3000 kHz,High resolution data + DCP reports,None,Oscar
+1992,1540,Meteor-M N2-2,137.1,150 kHz,Selected data,None,Oscar
+1993,1541,Meteor-M N2-2,137.9,150 kHz,Selected data,None,Oscar
+1994,1542,Meteor-M N2-2,137.9125,150 kHz,Selected data,None,Oscar
+1995,1543,Meteor-M N2-2,402.2,5 kHz,Regional and International DCP reports,None,Oscar
+1996,1545,Meteor-M N2-2,401.95,5 kHz,Regional DCP reports,None,Oscar
+1997,1800,Meteor-M N2-3,8128,30700 kHz,Stored data,None,Oscar
+1998,1801,Meteor-M N2-3,8320,30700 kHz,Stored data,None,Oscar
+1999,1802,Meteor-M N2-3,8128,123000 kHz,Stored data,None,Oscar
+2000,1803,Meteor-M N2-3,8320,123000 kHz,Stored data,None,Oscar
+2001,1804,Meteor-M N2-3,1700,3000 kHz,High resolution data + DCP reports,None,Oscar
+2002,1805,Meteor-M N2-3,1705,3000 kHz,High resolution data + DCP reports,None,Oscar
+2003,1808,Meteor-M N2-3,137.1,150 kHz,Selected data,None,Oscar
+2004,1809,Meteor-M N2-3,137.9,150 kHz,Selected data,None,Oscar
+2005,1810,Meteor-M N2-3,137.9125,150 kHz,Selected data,None,Oscar
+2006,1811,Meteor-M N2-3,402.2,5 kHz,Regional and International DCP reports,None,Oscar
+2007,1812,Meteor-M N2-3,401.95,5 kHz,Regional DCP reports,None,Oscar
+2008,1815,Meteor-M N2-4,8128,30700 kHz,Stored data,None,Oscar
+2009,1816,Meteor-M N2-4,8320,30700 kHz,Stored data,None,Oscar
+2010,1817,Meteor-M N2-4,8128,123000 kHz,Stored data,None,Oscar
+2011,1818,Meteor-M N2-4,8320,123000 kHz,Stored data,None,Oscar
+2012,1819,Meteor-M N2-4,1700,3000 kHz,High resolution data + DCP reports,None,Oscar
+2013,1820,Meteor-M N2-4,1705,3000 kHz,High resolution data + DCP reports,None,Oscar
+2014,1823,Meteor-M N2-4,137.1,150 kHz,Selected data,None,Oscar
+2015,1824,Meteor-M N2-4,137.9,150 kHz,Selected data,None,Oscar
+2016,1825,Meteor-M N2-4,137.9125,150 kHz,Selected data,None,Oscar
+2017,1826,Meteor-M N2-4,402.2,5 kHz,Regional and International DCP reports,None,Oscar
+2018,1827,Meteor-M N2-4,401.95,5 kHz,Regional DCP reports,None,Oscar
+2019,1830,Meteor-M N2-5,8128,30700 kHz,Stored data,None,Oscar
+2020,1831,Meteor-M N2-5,8320,30700 kHz,Stored data,None,Oscar
+2021,1832,Meteor-M N2-5,8128,123000 kHz,Stored data,None,Oscar
+2022,1833,Meteor-M N2-5,8320,123000 kHz,Stored data,None,Oscar
+2023,1834,Meteor-M N2-5,1700,3000 kHz,High resolution data + DCP reports,None,Oscar
+2024,1835,Meteor-M N2-5,1705,3000 kHz,High resolution data + DCP reports,None,Oscar
+2025,1838,Meteor-M N2-5,137.1,150 kHz,Selected data,None,Oscar
+2026,1839,Meteor-M N2-5,137.9,150 kHz,Selected data,None,Oscar
+2027,1840,Meteor-M N2-5,137.9125,150 kHz,Selected data,None,Oscar
+2028,1841,Meteor-M N2-5,402.2,5 kHz,Regional and International DCP reports,None,Oscar
+2029,1842,Meteor-M N2-5,401.95,5 kHz,Regional DCP reports,None,Oscar
+2030,3633,Meteor-M N2-6,8128,30700 kHz,Stored data,None,Oscar
+2031,3634,Meteor-M N2-6,8320,30700 kHz,Stored data,None,Oscar
+2032,3635,Meteor-M N2-6,8128,123000 kHz,Stored data,None,Oscar
+2033,3636,Meteor-M N2-6,8320,123000 kHz,Stored data,None,Oscar
+2034,3637,Meteor-M N2-6,1700,3000 kHz,High resolution data + DCP reports,None,Oscar
+2035,3638,Meteor-M N2-6,1705,3000 kHz,High resolution data + DCP reports,None,Oscar
+2036,3641,Meteor-M N2-6,137.1,150 kHz,Selected data,None,Oscar
+2037,3642,Meteor-M N2-6,137.9,150 kHz,Selected data,None,Oscar
+2038,3643,Meteor-M N2-6,137.9125,150 kHz,Selected data,None,Oscar
+2039,3644,Meteor-M N2-6,402.2,5 kHz,Regional and International DCP reports,None,Oscar
+2040,3645,Meteor-M N2-6,401.95,5 kHz,Regional DCP reports,None,Oscar
+2041,632,Meteosat-10,1686.83,5400 kHz,Raw data,None,Oscar
+2042,633,Meteosat-10,2105.65,2000 kHz,High resolution data - not operational,None,Oscar
+2043,634,Meteosat-10,1695.15,2000 kHz,High resolution data - not operational,None,Oscar
+2044,635,Meteosat-10,2101.5,660 kHz,Selected data,None,Oscar
+2045,636,Meteosat-10,1691,660 kHz,Selected data,None,Oscar
+2046,637,Meteosat-10,402.05,3 kHz,"International DCP reports, 33 channels",None,Oscar
+2047,638,Meteosat-10,402.27,1.5 kHz,"Regional DCP reports, 223 channels",None,Oscar
+2048,639,Meteosat-10,1675.281,750 kHz,DCP report relay,None,Oscar
+2049,647,Meteosat-11,1686.83,5400 kHz,Raw data,None,Oscar
+2050,648,Meteosat-11,2105.65,2000 kHz,High resolution data - not planned to be used,None,Oscar
+2051,649,Meteosat-11,1695.15,2000 kHz,High resolution data - not planned to be used,None,Oscar
+2052,650,Meteosat-11,2101.5,660 kHz,Selected data,None,Oscar
+2053,651,Meteosat-11,1691,660 kHz,Selected data,None,Oscar
+2054,652,Meteosat-11,402.05,3 kHz,"International DCP reports, 33 channels",None,Oscar
+2055,653,Meteosat-11,402.27,1.5 kHz,"Regional DCP reports, 223 channels",None,Oscar
+2056,654,Meteosat-11,1675.281,750 kHz,DCP report relay,None,Oscar
+2057,602,Meteosat-4,1686.83,1333.2 kHz,Raw data,None,Oscar
+2058,603,Meteosat-4,2105,660 kHz,High resolution data,None,Oscar
+2059,604,Meteosat-4,1694.5,660 kHz,High resolution data,None,Oscar
+2060,605,Meteosat-4,2101.5,30 kHz,Selected data,None,Oscar
+2061,606,Meteosat-4,1691,30 kHz,Selected data,None,Oscar
+2062,607,Meteosat-4,402.05,3 kHz,"International DCP reports, 33 channels",None,Oscar
+2063,608,Meteosat-4,402.15,1.5 kHz,"Regional DCP reports, 33 channels",None,Oscar
+2064,609,Meteosat-4,1675.281,200 kHz,DCP report relay,None,Oscar
+2065,610,Meteosat-4,1695.74,120 kHz,Information,None,Oscar
+2066,587,Meteosat-5,1686.83,1333.2 kHz,Raw data,None,Oscar
+2067,588,Meteosat-5,2105,660 kHz,High resolution data,None,Oscar
+2068,589,Meteosat-5,1694.5,660 kHz,High resolution data,None,Oscar
+2069,590,Meteosat-5,2101.5,30 kHz,Selected data,None,Oscar
+2070,591,Meteosat-5,1691,30 kHz,Selected data,None,Oscar
+2071,592,Meteosat-5,402.05,3 kHz,"International DCP reports, 33 channels",None,Oscar
+2072,593,Meteosat-5,402.15,1.5 kHz,"Regional DCP reports, 33 channels",None,Oscar
+2073,594,Meteosat-5,1675.281,200 kHz,DCP report relay,None,Oscar
+2074,595,Meteosat-5,1695.74,120 kHz,Information,None,Oscar
+2075,572,Meteosat-5 (IODC),1686.83,1333.2 kHz,Raw data,None,Oscar
+2076,573,Meteosat-5 (IODC),2105,660 kHz,High resolution data,None,Oscar
+2077,574,Meteosat-5 (IODC),1694.5,660 kHz,High resolution data,None,Oscar
+2078,575,Meteosat-5 (IODC),2101.5,30 kHz,Selected data,None,Oscar
+2079,576,Meteosat-5 (IODC),1691,30 kHz,Selected data,None,Oscar
+2080,577,Meteosat-5 (IODC),402.05,3 kHz,"International DCP reports, 33 channels",None,Oscar
+2081,578,Meteosat-5 (IODC),402.15,1.5 kHz,"Regional DCP reports, 33 channels",None,Oscar
+2082,579,Meteosat-5 (IODC),1675.28,200 kHz,DCP report relay,None,Oscar
+2083,557,Meteosat-6,1686.83,1333.2 kHz,Raw data,None,Oscar
+2084,558,Meteosat-6,2105,660 kHz,High resolution data,None,Oscar
+2085,559,Meteosat-6,1694.5,660 kHz,High resolution data,None,Oscar
+2086,560,Meteosat-6,2101.5,30 kHz,Selected data,None,Oscar
+2087,561,Meteosat-6,1691,30 kHz,Selected data,None,Oscar
+2088,562,Meteosat-6,402.05,3 kHz,"International DCP reports, 33 channels",None,Oscar
+2089,563,Meteosat-6,402.15,1.5 kHz,"Regional DCP reports, 33 channels",None,Oscar
+2090,564,Meteosat-6,1675.281,200 kHz,DCP report relay,None,Oscar
+2091,565,Meteosat-6,1695.74,120 kHz,Information,None,Oscar
+2092,542,Meteosat-6 (IODC),1686.83,1333.2 kHz,Raw data,None,Oscar
+2093,543,Meteosat-6 (IODC),2105,660 kHz,High resolution data,None,Oscar
+2094,544,Meteosat-6 (IODC),1694.5,660 kHz,High resolution data,None,Oscar
+2095,545,Meteosat-6 (IODC),2101.5,30 kHz,Selected data,None,Oscar
+2096,546,Meteosat-6 (IODC),1691,30 kHz,Selected data,None,Oscar
+2097,547,Meteosat-6 (IODC),402.05,3 kHz,"International DCP reports, 33 channels",None,Oscar
+2098,548,Meteosat-6 (IODC),402.15,1.5 kHz,"Regional DCP reports, 33 channels",None,Oscar
+2099,549,Meteosat-6 (IODC),1675.281,200 kHz,DCP report relay,None,Oscar
+2100,140,Meteosat-7,1686.83,1333.2 kHz,Raw data,None,Oscar
+2101,222,Meteosat-7,2105,660 kHz,High resolution data,None,Oscar
+2102,223,Meteosat-7,1694.5,660 kHz,High resolution data,None,Oscar
+2103,224,Meteosat-7,2101.5,30 kHz,Selected data,None,Oscar
+2104,225,Meteosat-7,1691,30 kHz,Selected data,None,Oscar
+2105,440,Meteosat-7,402.05,3 kHz,"International DCP reports, 33 channels",None,Oscar
+2106,441,Meteosat-7,402.15,1.5 kHz,"Regional DCP reports, 33 channels",None,Oscar
+2107,442,Meteosat-7,1675.281,200 kHz,DCP report relay,None,Oscar
+2108,443,Meteosat-7,1695.74,120 kHz,Information,None,Oscar
+2109,527,Meteosat-7 (IODC),1686.83,1333.2 kHz,Raw data,None,Oscar
+2110,528,Meteosat-7 (IODC),2105,660 kHz,High resolution data,None,Oscar
+2111,529,Meteosat-7 (IODC),1694.5,660 kHz,High resolution data,None,Oscar
+2112,530,Meteosat-7 (IODC),2101.5,30 kHz,Selected data,None,Oscar
+2113,531,Meteosat-7 (IODC),1691,30 kHz,Selected data,None,Oscar
+2114,532,Meteosat-7 (IODC),402.05,3 kHz,"International DCP reports, 33 channels",None,Oscar
+2115,533,Meteosat-7 (IODC),402.15,1.5 kHz,"Regional DCP reports, 33 channels",None,Oscar
+2116,534,Meteosat-7 (IODC),1675.281,200 kHz,DCP report relay,None,Oscar
+2117,535,Meteosat-7 (IODC),1695.74,120 kHz,Information,None,Oscar
+2118,15,Meteosat-8,1686.83,5400 kHz,Raw data,None,Oscar
+2119,22,Meteosat-8,2105.65,2000 kHz,High resolution data - not in use,None,Oscar
+2120,23,Meteosat-8,1695.15,2000 kHz,High resolution data - not in use,None,Oscar
+2121,24,Meteosat-8,2101.5,660 kHz,Selected data - not in use,None,Oscar
+2122,25,Meteosat-8,1691,660 kHz,Selected data - not in use,None,Oscar
+2123,26,Meteosat-8,402.05,3 kHz,"International DCP reports, 33 channels",None,Oscar
+2124,434,Meteosat-8,402.27,1.5 kHz,"Regional DCP reports, 223 channels",None,Oscar
+2125,435,Meteosat-8,1675.281,750 kHz,DCP report relay,None,Oscar
+2126,2059,Meteosat-8 (IODC),1686.83,5400 kHz,Raw data,None,Oscar
+2127,2060,Meteosat-8 (IODC),2105.65,2000 kHz,High resolution data - not in use,None,Oscar
+2128,2061,Meteosat-8 (IODC),1695.15,2000 kHz,High resolution data - not in use,None,Oscar
+2129,2062,Meteosat-8 (IODC),2101.5,660 kHz,Selected data - not in use,None,Oscar
+2130,2063,Meteosat-8 (IODC),1691,660 kHz,Selected data - not in use,None,Oscar
+2131,2064,Meteosat-8 (IODC),402.05,3 kHz,"International DCP reports, 33 channels",None,Oscar
+2132,2065,Meteosat-8 (IODC),402.27,1.5 kHz,"Regional DCP reports, 223 channels",None,Oscar
+2133,2066,Meteosat-8 (IODC),1675.281,750 kHz,DCP report relay,None,Oscar
+2134,617,Meteosat-9,1686.83,5400 kHz,Raw data,None,Oscar
+2135,618,Meteosat-9,2105.65,2000 kHz,High resolution data - not in use,None,Oscar
+2136,619,Meteosat-9,1695.15,2000 kHz,High resolution data - not in use,None,Oscar
+2137,620,Meteosat-9,2101.5,660 kHz,Selected data,None,Oscar
+2138,621,Meteosat-9,1691,660 kHz,Selected data,None,Oscar
+2139,622,Meteosat-9,402.05,3 kHz,"International DCP reports, 33 channels",None,Oscar
+2140,623,Meteosat-9,402.27,1.5 kHz,"Regional DCP reports, 223 channels",None,Oscar
+2141,624,Meteosat-9,1675.281,750 kHz,DCP report relay,None,Oscar
+2142,4057,Meteosat-9 (IODC),1686.83,5400 kHz,Raw data,None,Oscar
+2143,4058,Meteosat-9 (IODC),2105.65,2000 kHz,High resolution data - not in use,None,Oscar
+2144,4059,Meteosat-9 (IODC),1695.15,2000 kHz,High resolution data - not in use,None,Oscar
+2145,4060,Meteosat-9 (IODC),2101.5,660 kHz,Selected data,None,Oscar
+2146,4061,Meteosat-9 (IODC),1691,660 kHz,Selected data,None,Oscar
+2147,4062,Meteosat-9 (IODC),402.05,3 kHz,"International DCP reports, 33 channels",None,Oscar
+2148,4063,Meteosat-9 (IODC),402.27,1.5 kHz,"Regional DCP reports, 223 channels",None,Oscar
+2149,4064,Meteosat-9 (IODC),1675.281,750 kHz,DCP report relay,None,Oscar
+2150,52,Metop-A,7800,63000 kHz,Raw data,None,Oscar
+2151,60,Metop-A,1701.3,4500 kHz,High resolution data - not in use,None,Oscar
+2152,61,Metop-A,1707,4500 kHz,High resolution data - used part time,None,Oscar
+2153,62,Metop-A,137.1,150 kHz,Selected data - not in use,None,Oscar
+2154,63,Metop-A,137.9125,150 kHz,"Selected data - backup, not in use",None,Oscar
+2155,428,Metop-A,401.585,10 kHz,DCP reports,None,Oscar
+2156,429,Metop-A,465.9875,1 kHz,DCP configuration control,None,Oscar
+2157,497,Metop-B,7800,63000 kHz,Raw data,None,Oscar
+2158,498,Metop-B,1701.3,4500 kHz,High resolution data,None,Oscar
+2159,499,Metop-B,1707,4500 kHz,High resolution data - backup,None,Oscar
+2160,500,Metop-B,137.1,150 kHz,Selected data,None,Oscar
+2161,501,Metop-B,137.9125,150 kHz,Selected data - backup,None,Oscar
+2162,502,Metop-B,401.595,10 kHz,DCP reports,None,Oscar
+2163,503,Metop-B,465.9875,1 kHz,DCP configuration control,None,Oscar
+2164,737,Metop-C,7800,63000 kHz,Raw data,None,Oscar
+2165,738,Metop-C,1701.3,4500 kHz,High resolution data - not in use,None,Oscar
+2166,739,Metop-C,1707,4500 kHz,High resolution data - used part time,None,Oscar
+2167,740,Metop-C,137.1,150 kHz,Selected data - not in use,None,Oscar
+2168,741,Metop-C,137.9125,150 kHz,"Selected data - backup, not in use",None,Oscar
+2169,742,Metop-C,401.585,10 kHz,DCP reports,None,Oscar
+2170,743,Metop-C,465.9875,1 kHz,DCP configuration control,None,Oscar
+2171,3962,Metop-SG-A1,7825,150000 kHz,Direct Data Broadcast,None,Oscar
+2172,3963,Metop-SG-A1,26295,366000 kHz,"Stored Mission Data, Channel 1",None,Oscar
+2173,3964,Metop-SG-A1,26700,366000 kHz,"Stored Mission Data, Channel 2",None,Oscar
+2174,3965,Metop-SG-A1,401.345,80 kHz,Argos DCS ,None,Oscar
+2175,3966,Metop-SG-A1,465.9875,20 kHz,Argos DCS return link,None,Oscar
+2176,3971,Metop-SG-A2,7825,150000 kHz,Direct Data Broadcast,None,Oscar
+2177,3972,Metop-SG-A2,26295,366000 kHz,"Stored Mission Data, Channel 1
+
+",None,Oscar
+2178,3973,Metop-SG-A2,26700,366000 kHz,"Stored Mission Data, Channel 2
+
+",None,Oscar
+2179,3974,Metop-SG-A2,401.345,80 kHz,"Argos DCS
+
+",None,Oscar
+2180,3975,Metop-SG-A2,465.9875,20 kHz,"Argos DCS return link
+
+",None,Oscar
+2181,3980,Metop-SG-A3,7825,150000 kHz,Direct Data Broadcast,None,Oscar
+2182,3981,Metop-SG-A3,26295,366000 kHz,"Stored Mission Data, Channel 1",None,Oscar
+2183,3982,Metop-SG-A3,26700,366000 kHz,"Stored Mission Data, Channel 2",None,Oscar
+2184,3983,Metop-SG-A3,401.345,80 kHz,Argos DCS,None,Oscar
+2185,3984,Metop-SG-A3,465.9875,20 kHz,Argos DCS return link,None,Oscar
+2186,3989,Metop-SG-B1,7825,150000 kHz,Direct Data Broadcast,None,Oscar
+2187,3990,Metop-SG-B1,26700,366000 kHz,Stored Mission Data,None,Oscar
+2188,3991,Metop-SG-B1,401.345,80 kHz,Argos DCS ,None,Oscar
+2189,3992,Metop-SG-B1,465.9875,20 kHz,Argos DCS return link,None,Oscar
+2190,3997,Metop-SG-B2,7825,150000 kHz,Direct Data Broadcast,None,Oscar
+2191,3998,Metop-SG-B2,26700,366000 kHz,Stored Mission Data,None,Oscar
+2192,3999,Metop-SG-B2,401.345,80 kHz,Argos DCS,None,Oscar
+2193,4000,Metop-SG-B2,465.9875,20 kHz,Argos DCS return link,None,Oscar
+2194,4005,Metop-SG-B3,7825,150000 kHz,Direct Data Broadcast,None,Oscar
+2195,4006,Metop-SG-B3,26700,366000 kHz,Stored Mission Data,None,Oscar
+2196,4007,Metop-SG-B3,401.345,80 kHz,Argos DCS,None,Oscar
+2197,4008,Metop-SG-B3,465.9875,20 kHz,Argos DCS return link,None,Oscar
+2198,43,MTG-I1,26360,287000 kHz,Mission Data Acquisition,None,Oscar
+2199,44,MTG-I1,402.275,3 kHz,Data Collection Platform transmissions,None,Oscar
+2200,45,MTG-I1,402.275,1.5 kHz,Data Collection Platform transmissions,None,Oscar
+2201,662,MTG-I2,26360,287000 kHz,Mission Data Acquisition,None,Oscar
+2202,663,MTG-I2,402.275,3 kHz,Data Collection Platform transmissions,None,Oscar
+2203,664,MTG-I2,402.275,1.5 kHz,Data Collection Platform transmissions,None,Oscar
+2204,677,MTG-I3,26360,287000 kHz,Mission Data Acquisition,None,Oscar
+2205,678,MTG-I3,402.275,3 kHz,Data Collection Platform transmissions,None,Oscar
+2206,679,MTG-I3,402.275,1.5 kHz,Data Collection Platform transmissions,None,Oscar
+2207,692,MTG-I4,26360,287000 kHz,Mission Data Acquisition,None,Oscar
+2208,693,MTG-I4,402.275,3 kHz,Data Collection Platform transmissions,None,Oscar
+2209,694,MTG-I4,402.275,1.5 kHz,Data Collection Platform transmissions,None,Oscar
+2210,707,MTG-S1,26760,452000 kHz,Mission Data Acquisition,None,Oscar
+2211,722,MTG-S2,26760,452000 kHz,Mission Data Acquisition,None,Oscar
+2212,249,NOAA-15,2247.5,4000 kHz,Global and Local data (GAC and LAC),None,Oscar
+2213,251,NOAA-15,1702.5,4000 kHz,Full information data,None,Oscar
+2214,252,NOAA-15,1698,4000 kHz,Full information data,None,Oscar
+2215,253,NOAA-15,1707,4000 kHz,Full information data,None,Oscar
+2216,254,NOAA-15,137.5,38 kHz,Reduced resolution images,None,Oscar
+2217,958,NOAA-15,137.62,38 kHz,Reduced resolution images,None,Oscar
+2218,959,NOAA-15,137.1,38 kHz,Reduced resolution images,None,Oscar
+2219,960,NOAA-15,137.9125,38 kHz,Reduced resolution images,None,Oscar
+2220,961,NOAA-15,137.35,46 kHz,TIP data,None,Oscar
+2221,962,NOAA-15,137.77,46 kHz,TIP data,None,Oscar
+2222,1269,NOAA-16,2247.5,4000 kHz,Global and Local data (GAC and LAC),None,Oscar
+2223,1270,NOAA-16,1702.5,4000 kHz,Full information data,None,Oscar
+2224,1271,NOAA-16,1698,4000 kHz,Full information data,None,Oscar
+2225,1272,NOAA-16,1707,4000 kHz,Full information data,None,Oscar
+2226,1273,NOAA-16,137.35,38 kHz,Reduced resolution images,None,Oscar
+2227,1274,NOAA-16,137.77,38 kHz,Reduced resolution images,None,Oscar
+2228,1275,NOAA-16,137.1,38 kHz,Reduced resolution images,None,Oscar
+2229,1276,NOAA-16,137.9125,38 kHz,Reduced resolution images,None,Oscar
+2230,1277,NOAA-16,137.35,46 kHz,TIP data,None,Oscar
+2231,1278,NOAA-16,137.77,46 kHz,TIP data,None,Oscar
+2232,1285,NOAA-17,2247.5,2000 kHz,Global and Local data (GAC and LAC),None,Oscar
+2233,1286,NOAA-17,1702.5,4000 kHz,Full information data,None,Oscar
+2234,1287,NOAA-17,1698,4000 kHz,Full information data,None,Oscar
+2235,1288,NOAA-17,1707,4000 kHz,Full information data,None,Oscar
+2236,1289,NOAA-17,137.5,38 kHz,Reduced resolution images,None,Oscar
+2237,1290,NOAA-17,137.62,38 kHz,Reduced resolution images,None,Oscar
+2238,1291,NOAA-17,137.1,38 kHz,Reduced resolution images,None,Oscar
+2239,1292,NOAA-17,137.9125,38 kHz,Reduced resolution images,None,Oscar
+2240,1293,NOAA-17,137.35,46 kHz,TIP data,None,Oscar
+2241,1294,NOAA-17,137.77,46 kHz,TIP data,None,Oscar
+2242,1301,NOAA-18,2247.5,4000 kHz,Global and Local data (GAC and LAC),None,Oscar
+2243,1302,NOAA-18,1702.5,4000 kHz,Full information data,None,Oscar
+2244,1303,NOAA-18,1698,4000 kHz,Full information data,None,Oscar
+2245,1304,NOAA-18,1707,4000 kHz,Full information data,None,Oscar
+2246,1305,NOAA-18,137.35,38 kHz,Reduced resolution images,None,Oscar
+2247,1306,NOAA-18,137.77,38 kHz,Reduced resolution images,None,Oscar
+2248,1307,NOAA-18,137.1,38 kHz,Reduced resolution images,None,Oscar
+2249,1308,NOAA-18,137.9125,38 kHz,Reduced resolution images,None,Oscar
+2250,1309,NOAA-18,137.35,46 kHz,TIP data,None,Oscar
+2251,1310,NOAA-18,137.77,46 kHz,TIP data,None,Oscar
+2252,1317,NOAA-19,2247.5,2000 kHz,Global and Local data (GAC and LAC),None,Oscar
+2253,1318,NOAA-19,1702.5,4000 kHz,Full information data,None,Oscar
+2254,1319,NOAA-19,1698,4000 kHz,Full information data,None,Oscar
+2255,1320,NOAA-19,1707,4000 kHz,Full information data,None,Oscar
+2256,1321,NOAA-19,137.35,38 kHz,Reduced resolution images,None,Oscar
+2257,1322,NOAA-19,137.77,38 kHz,Reduced resolution images,None,Oscar
+2258,1323,NOAA-19,137.1,38 kHz,Reduced resolution images,None,Oscar
+2259,1324,NOAA-19,137.9125,38 kHz,Reduced resolution images,None,Oscar
+2260,1325,NOAA-19,137.35,46 kHz,TIP data,None,Oscar
+2261,1326,NOAA-19,137.77,46 kHz,TIP data,None,Oscar
+2262,1382,NOAA-20,26703.4,300000 kHz,Stored Mission Data,None,Oscar
+2263,1385,NOAA-20,7812,30000 kHz,Real-time High Rate Data,None,Oscar
+2264,358,NOAA-21,26703.4,300000 kHz,Stored Mission Data (info data rate),None,Oscar
+2265,359,NOAA-21,26703.4,150000 kHz,Stored Mission Data (info data rate),None,Oscar
+2266,1335,NOAA-21,7812,50000 kHz,Real-time High Rate Data,None,Oscar
+2267,4326,Odin,2208.1629000000003, kHz,Raw data,None,Oscar
+2268,4295,RadarSat-2,8105.0, kHz,Science data downlink channel1 ,None,Oscar
+2269,4296,RadarSat-2,8230.0, kHz,Science data downlink channel2 ,None,Oscar
+2270,2442,RCM-1,8105,100000 kHz,Science data downlink channel 1,None,Oscar
+2271,4300,RCM-1,8230,100000 kHz,Science data downlink channel 2,None,Oscar
+2272,4302,RCM-2,8105,100000 kHz,Science data downlink channel 1,None,Oscar
+2273,4306,RCM-2,8230,100000 kHz,Science data downlink channel 2,None,Oscar
+2274,4308,RCM-3,8105,100000 kHz,Science data downlink channel 1,None,Oscar
+2275,4312,RCM-3,8230,100000 kHz,Science data downlink channel 2,None,Oscar
+2276,4316,SCISAT-1,2232.0, kHz,Shared science data s/c telemetry downlink,None,Oscar
+2277,73,Sentinel-3A,8095,140000 kHz,Raw data downlink,None,Oscar
+2278,74,Sentinel-3A,8260,140000 kHz,Raw data downlink,None,Oscar
+2279,3679,Sentinel-3B,8095,140000 kHz,Raw data downlink,None,Oscar
+2280,3680,Sentinel-3B,8260,140000 kHz,Raw data downlink,None,Oscar
+2281,3687,Sentinel-3C,8095,140000 kHz,Raw data downlink,None,Oscar
+2282,3688,Sentinel-3C,8260,140000 kHz,Raw data downlink,None,Oscar
+2283,3695,Sentinel-3D,8095,140000 kHz,Raw data downlink,None,Oscar
+2284,3696,Sentinel-3D,8260,140000 kHz,Raw data downlink,None,Oscar
+2285,4016,Sentinel-6A,8090,120000 kHz,Data Downlink,None,Oscar
+2286,4025,Sentinel-6B,8090,120000 kHz,Data Downlink,None,Oscar
+2287,1421,SNPP,8212.5,300000 kHz,Stored Mission Data,None,Oscar
+2288,1422,SNPP,7812,30000 kHz,Real-time High Rate Data,None,Oscar
+2289,4173,THEOS-1,8140,120000 kHz,Earth Observation Image Data (PAN/MS),None,Oscar
+2290,4176,THEOS-2 Main,8150,250000 kHz,Earth Observation Image Data (PAN/MS),None,Oscar
+2291,4179,THEOS-2 Small,8200,130000 kHz,Earth Observation RGB Image data,None,Oscar
