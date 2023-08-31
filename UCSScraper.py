@@ -34,7 +34,6 @@ def Scraper():
         alternate_names += [alternate]
 
     myDict = {'Name':[str(x) for x in ucs_dict.pop('Current Official Name of Satellite')], 'Friendly Name':friendly_names, 'Alternate Names':alternate_names,
-            'Official Name':[str(x) for x in ucs_dict.pop('Current Official Name of Satellite')],
             'ID':[str(x) for x in ucs_dict.pop('NORAD Number')], 'Orbit':[str(x) for x in ucs_dict.pop('Class of Orbit')], 'Source':[],
             'Status':[], Description:[], 'Bandwidth/Baud':[]}
 
