@@ -12,13 +12,13 @@ from UCSScraper import Scraper as ucs
 
 
 def ScrapeAll():
-    myDicts = [sns(), rgs(), fccs(), ams()]
+    myDicts = [sns(), rgs(), fccs(), ams(), ucs()]
 
 
 
 
 
-    IDs, names, freqs, bandW, stats, descs, sources = [], [], [], [], [], [], []
+    IDs, names, freqs, bandW, stats, descs, sources, orbits = [], [], [], [], [], [], [], []
     for each in myDicts:
         IDs += each['ID']
         names += each['Name']
@@ -27,13 +27,14 @@ def ScrapeAll():
         stats += each['Status']
         descs += each['Description']
         sources += each['Source']
+        orbits += each['Orbit']
 
 
 
     """
     Here we wish to add orbital class info if available
     """
-    
+
     """
     orbits = ['None' for x in names]
     ucsDict = ucs()
@@ -62,9 +63,10 @@ def ScrapeAll():
     stats = list(np.array(stats)[nameInds])
     descs = list(np.array(descs)[nameInds])
     sources = list(np.array(sources)[nameInds])
+    orbits = list(np.array(orbits)[nameInds])
 
     compDict = {'ID':IDs, 'Name':names, 'Frequency [MHz]':freqs, 'Bandwidth [kHz]/Baud':bandW,
-                'Status':stats, 'Description':descs, 'Source':sources}
+                'Status':stats, 'Description':descs, 'Source':sources, 'Orbit':orbits}
 
 
     clones = []
