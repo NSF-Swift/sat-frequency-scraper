@@ -6,7 +6,7 @@ import numpy as np
 """
 This script returns a dictionary with different keys than the others. That is -
 Friendly Name, Alternate Names, ID, and Orbit Class. The idea is to use this
-script to fill in the Orbit Class column for listed satellites 
+script to fill in the Orbit Class column for listed satellites
 """
 
 def Scraper():
@@ -33,9 +33,16 @@ def Scraper():
         friendly_names += [friendly]
         alternate_names += [alternate]
 
-    myDict = {'Friendly Name':friendly_names, 'Alternate Names':alternate_names,
+    myDict = {'Name':[str(x) for x in ucs_dict.pop('Current Official Name of Satellite')], 'Friendly Name':friendly_names, 'Alternate Names':alternate_names,
             'Official Name':[str(x) for x in ucs_dict.pop('Current Official Name of Satellite')],
-            'ID':[str(x) for x in ucs_dict.pop('NORAD Number')], 'Orbit Class':[str(x) for x in ucs_dict.pop('Class of Orbit')]}
+            'ID':[str(x) for x in ucs_dict.pop('NORAD Number')], 'Orbit':[str(x) for x in ucs_dict.pop('Class of Orbit')], 'Source':[],
+            'Status':[], Description:[], 'Bandwidth/Baud':[]}
+
+    myDict['Frequency'] = myDict['Frequency'] + ['None']
+    myDict['Description'] = myDict['Description'] + ['None']
+    myDict['Status'] = myDict['Status'] + ['None']
+    myDict['Bandwidth/Baud'] = myDict['Bandwidth/Baud'] + ['None']
+    myDict['Source'] = myDict['Source'] + ['UCS']
 
 
     return myDict
