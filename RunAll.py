@@ -9,10 +9,12 @@ from SatNogsScraper import Scraper as sns
 from FccScraper import Scraper as fccs
 from AmsatScraper import Scraper as ams
 from UCSScraper import Scraper as ucs
+from CelesTrakScraper import Scraper as cts
+from SpaceTrackScraper import Scraper as sts
 
 
 def ScrapeAll():
-    myDicts = [sns(), rgs(), fccs(), ams(), ucs()]
+    myDicts = [sns(), rgs(), fccs(), ams(), ucs(), cts(), sts()]
 
 
 
