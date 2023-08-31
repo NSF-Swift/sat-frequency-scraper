@@ -64,6 +64,7 @@ def Scraper():
              'Frequency':[str(x) for x in fcc_dict.pop('Frequency Range')], 'Bandwidth/Baud':[], 'Description':[str(x) for x in fcc_dict.pop('Notes')]}
     myDict['Status'] = ['None' for x in myDict['Name']]
     myDict['ID'] = ['None' for x in myDict['Name']]
+    myDict['Orbit'] = ['None' for x in myDict['Name']]
     myDict['Source'] = ['FCC' for x in myDict['Name']]
 
     #Remove null entries

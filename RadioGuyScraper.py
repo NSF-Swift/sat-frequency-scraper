@@ -23,6 +23,7 @@ def Scraper():
               'Description':[str(x) for x in rg_dict.pop('Comment')],
               'Status':[str(x) for x in rg_dict.pop('Dead/Active')]}
     myDict['ID'] = ['None' for x in myDict['Name']]
+    myDict['Orbit'] = ['None' for x in myDict['Name']]
     myDict['Source'] = ['USRadioGuy' for x in myDict['Name']]
 
     newStat = []

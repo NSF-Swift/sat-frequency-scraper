@@ -76,6 +76,7 @@ def Scraper():
         }
 
     myDict['Status'] = ['None' for x in myDict['Name']]
+    myDict['Orbit'] = ['None' for x in myDict['Name']]
     myDict['Source'] = ['Oscar' for x in myDict['Name']]
 
     # remove units from dictionary
@@ -88,7 +89,7 @@ def Scraper():
             res_ghz.append(each.replace(ghz,'').strip())
         else:
             res_mhz.append(each.replace(mhz,'').strip())
-                            
+
     # turn frenquency ranges into center frequencies
     for index in range(len(res_ghz)):
         each = res_ghz[index]
@@ -96,15 +97,15 @@ def Scraper():
             indFreqs = [float(x.strip()) for x in each.split('-')]
             newF = str(np.average(indFreqs))
             res_ghz[index] = newF
-                                                                                                            
+
     for index in range(len(res_mhz)):
         each = res_mhz[index]
         if ('-' in each):
             indFreqs = [float(x.strip()) for x in each.split('-')]
             newF = str(np.average(indFreqs))
             res_mhz[index] = newF
-    
-    # convert Ghz entries into MHz    
+
+    # convert Ghz entries into MHz
     res_ghz = [str(1000*float(x)) for x in res_ghz]
 
     myDict['Frequency'] = res_ghz + res_mhz

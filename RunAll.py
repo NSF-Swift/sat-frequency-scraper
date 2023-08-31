@@ -33,6 +33,8 @@ def ScrapeAll():
     """
     Here we wish to add orbital class info if available
     """
+    
+    """
     orbits = ['None' for x in names]
     ucsDict = ucs()
 
@@ -45,7 +47,7 @@ def ScrapeAll():
             print("1")
         else:
             print("3")
-
+    """
 
 
     """

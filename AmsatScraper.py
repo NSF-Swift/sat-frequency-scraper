@@ -61,7 +61,7 @@ def Scraper():
 
     myDict = {'ID':[str(x) for x in amsat_dict.pop('Number')], 'Name':[str(x) for x in amsat_dict.pop('Satellite')],
              'Frequency':[str(x) for x in amsat_dict.pop('Downlink')], 'Bandwidth/Baud':[], 'Status':[actDict[str(x)] for x in amsat_dict.pop('Unnamed: 7')],
-             'Description':[str(x) for x in amsat_dict.pop('Mode')], 'Source':[]}
+             'Description':[str(x) for x in amsat_dict.pop('Mode')], 'Source':[], 'Orbit':[]}
 
     #Remove null entries
 
@@ -79,6 +79,7 @@ def Scraper():
     for each in myDict['Name']:
         myDict['Source'] = myDict['Source'] + ['AmSAT']
         myDict['Bandwidth/Baud'] = myDict['Bandwidth/Baud'] + ['BW']
+        myDict['Orbit'] = myDict['Orbit'] + ['None']
         if ((each == 'nan') or (myDict['Frequency'][index] == 'nan')):
             nulls += [index]
         if (myDict['Description'][index].strip() in actDict.keys()):
@@ -94,13 +95,8 @@ def Scraper():
     nulls = (sorted(list(set(nulls)), reverse=True))
 
     for popInd in nulls:
-        myDict['ID'].pop(popInd)
-        myDict['Name'].pop(popInd)
-        myDict['Frequency'].pop(popInd)
-        myDict['Status'].pop(popInd)
-        myDict['Description'].pop(popInd)
-        myDict['Bandwidth/Baud'].pop(popInd)
-        myDict['Source'].pop(popInd)
+        for Key in myDict:
+            myDict[Key].pop(popInd)
 
     freqLen = len(myDict['Frequency'])
 
