@@ -4,19 +4,20 @@ import pandas as pd
 from spacetrack import SpaceTrackClient
 
 def Scraper():
-    
+
     st = SpaceTrackClient(identity="crforrester@berkeley.edu", password="b*4PZCPZj*Q8pN6")
 
     data = st.satcat(object_type="payload", current="Y", decay=None, orderby="norad_cat_id", format="csv")
     spacetrack_df = pd.read_csv(io.StringIO(data))
-    trunc_df = spacetrack_df[["NORAD_CAT_ID", "SATNAME", "COMMENT"]]
+    trunc_df = spacetrack_df[["NORAD_CAT_ID", "SATNAME", "COMMENT", "PERIOD"]]
 
     spacetrack_dict = trunc_df.to_dict("list")
 
     myDict = {
-            "ID":[str(x) for x in spacetrack_dict.pop("NORAD_CAT_ID")], 
-            "Name":[str(x) for x in spacetrack_dict.pop("SATNAME")], 
-            "Description":[str(x) for x in spacetrack_dict.pop("COMMENT")]
+            "ID":[str(x) for x in spacetrack_dict.pop("NORAD_CAT_ID")],
+            "Name":[str(x) for x in spacetrack_dict.pop("SATNAME")],
+            "Description":[str(x) for x in spacetrack_dict.pop("COMMENT")],
+            "Orbit":[str(x) for x in spacetrack_dict.pop("Orbit")]
     }
     myDict["Frequency"] = ["None" for x in myDict["ID"]]
     myDict["Bandwidth/Baud"] = ["None" for x in myDict["ID"]]
