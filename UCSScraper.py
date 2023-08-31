@@ -21,6 +21,7 @@ def Scraper():
 
     friendly_names = []
     alternate_names = []
+    freqs, descs, stats, bw, source = [], [], [], [], []
 
     for indName in names:
         name_list = indName.split("(")
@@ -32,16 +33,16 @@ def Scraper():
 
         friendly_names += [friendly]
         alternate_names += [alternate]
+        freqs += ['None']
+        descs += ['None']
+        stats += ['None']
+        bw += ['None']
+        source += ['UCS']
 
     myDict = {'Name':[str(x) for x in ucs_dict.pop('Current Official Name of Satellite')], 'Friendly Name':friendly_names, 'Alternate Names':alternate_names,
-            'ID':[str(x) for x in ucs_dict.pop('NORAD Number')], 'Orbit':[str(x) for x in ucs_dict.pop('Class of Orbit')], 'Source':[],
-            'Status':[], Description:[], 'Bandwidth/Baud':[]}
+            'ID':[str(x) for x in ucs_dict.pop('NORAD Number')], 'Orbit':[str(x) for x in ucs_dict.pop('Class of Orbit')], 'Source':source,
+            'Status':stats, 'Description':descs, 'Bandwidth/Baud':bw, 'Frequency':freqs}
 
-    myDict['Frequency'] = myDict['Frequency'] + ['None']
-    myDict['Description'] = myDict['Description'] + ['None']
-    myDict['Status'] = myDict['Status'] + ['None']
-    myDict['Bandwidth/Baud'] = myDict['Bandwidth/Baud'] + ['None']
-    myDict['Source'] = myDict['Source'] + ['UCS']
 
 
     return myDict

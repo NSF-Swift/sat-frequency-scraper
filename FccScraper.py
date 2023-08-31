@@ -97,6 +97,7 @@ def Scraper():
                 myDict['Status'] += [myDict['Status'][index]]
                 myDict['Description'] += [myDict['Description'][index]]
                 myDict['Source'] += [myDict['Source'][index]]
+                myDict['Orbit'] += [myDict['Orbit'][index]]
 
 
     nulls = sorted(list(set(nulls)), reverse=True)
