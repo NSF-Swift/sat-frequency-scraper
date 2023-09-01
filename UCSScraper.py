@@ -39,7 +39,11 @@ def Scraper():
         bw += ['None']
         source += ['UCS']
 
-    myDict = {'Name':[str(x) for x in ucs_dict.pop('Current Official Name of Satellite')], 'Friendly Name':friendly_names, 'Alternate Names':alternate_names,
+    #myDict = {'Name':[str(x) for x in ucs_dict.pop('Current Official Name of Satellite')], 'Friendly Name':friendly_names, 'Alternate Names':alternate_names,
+    #        'ID':[str(x) for x in ucs_dict.pop('NORAD Number')], 'Orbit':[str(x) for x in ucs_dict.pop('Class of Orbit')], 'Source':source,
+    #        'Status':stats, 'Description':descs, 'Bandwidth/Baud':bw, 'Frequency':freqs}
+
+    myDict = {'Name':friendly_names, 'Friendly Name':friendly_names, 'Alternate Names':alternate_names,
             'ID':[str(x) for x in ucs_dict.pop('NORAD Number')], 'Orbit':[str(x) for x in ucs_dict.pop('Class of Orbit')], 'Source':source,
             'Status':stats, 'Description':descs, 'Bandwidth/Baud':bw, 'Frequency':freqs}
 
