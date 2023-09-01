@@ -14,7 +14,7 @@ from SpaceTrackScraper import Scraper as sts
 
 
 def ScrapeAll():
-    myDicts = [sns(), rgs(), fccs(), ams(), ucs(), cts(), sts()]
+    myDicts = [sts(), sns(), rgs(), fccs(), ams(), ucs(), cts()]
 
 
 
