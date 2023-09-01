@@ -67,8 +67,7 @@ def ScrapeAll():
     sources = list(np.array(sources)[nameInds])
     orbits = list(np.array(orbits)[nameInds])
 
-    compDict = {'ID':IDs, 'Name':names, 'Frequency [MHz]':freqs, 'Bandwidth [kHz]/Baud':bandW,
-                'Status':stats, 'Description':descs, 'Source':sources, 'Orbit':orbits}
+
 
 
     clones = []
@@ -76,14 +75,28 @@ def ScrapeAll():
     for each in names:
         eachInd = index + 1
         for rest in names[eachInd:]:
-            if (rest == each):
+            if (rest.lower() == each.lower()):
                 if ((freqs[index] == freqs[eachInd]) and (stats[index] == stats[eachInd]) and (descs[index] == descs[eachInd])):
                     clones += [eachInd]
+                elif (freqs[index] == 'None'):
+                    clones += [index]
+                    IDs[eachInd] = IDs[index]
+                    orbits[eachInd] = orbits[index]
+                    sources[eachInd] = sources[eachInd] + ', ' + sources[index]
+                elif (freqs[eachInd] == 'None'):
+                    clones += [eachInd]
+                    IDs[index] = IDs[eachInd]
+                    orbits[index] = orbits[eachInd]
+                    sources[index] = sources[index] + ', ' + sources[eachInd]
+
             eachInd += 1
         index += 1
 
     clones = sorted(list(set(clones)), reverse=True)
 
+
+    compDict = {'ID':IDs, 'Name':names, 'Frequency [MHz]':freqs, 'Bandwidth [kHz]/Baud':bandW,
+                'Status':stats, 'Description':descs, 'Source':sources, 'Orbit':orbits}
 
     for popInd in clones:
         for Key in compDict:
