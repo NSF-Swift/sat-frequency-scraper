@@ -101,6 +101,11 @@ def ScrapeAll():
     for popInd in clones:
         for Key in compDict:
             compDict[Key].pop(popInd)
+
+    for ind in range(len(compDict['Name'])):
+        for Key in compDict:
+            if (str(compDict[Key][ind]) == str(float('nan'))):
+                compDict[Key][ind] = 'None'
         #compDict['ID'].pop(popInd)
         #compDict['Name'].pop(popInd)
         #compDict['Frequency [MHz]'].pop(popInd)
