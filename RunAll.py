@@ -82,12 +82,12 @@ def ScrapeAll():
                     clones += [index]
                     IDs[eachInd] = IDs[index]
                     orbits[eachInd] = orbits[index]
-                    sources[eachInd] = list(set(sources[eachInd] + ', ' + sources[index]))
+                    sources[eachInd] = sources[eachInd] + ', ' + sources[index]
                 elif (freqs[eachInd] == 'None'):
                     clones += [eachInd]
                     IDs[index] = IDs[eachInd]
                     orbits[index] = orbits[eachInd]
-                    sources[index] = list(set(sources[index] + ', ' + sources[eachInd]))
+                    sources[index] = sources[index] + ', ' + sources[eachInd]
 
             eachInd += 1
         index += 1
@@ -103,9 +103,12 @@ def ScrapeAll():
             compDict[Key].pop(popInd)
 
     for ind in range(len(compDict['Name'])):
+        srcList = [x.strip() for x in compDict['Source'][ind].split(',')]
+        compDict['Source'][ind] = ", ".join(str(x) for x in list(set(srcList)))
         for Key in compDict:
             if (str(compDict[Key][ind]) == str(float('nan'))):
                 compDict[Key][ind] = 'None'
+
         #compDict['ID'].pop(popInd)
         #compDict['Name'].pop(popInd)
         #compDict['Frequency [MHz]'].pop(popInd)
