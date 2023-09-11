@@ -82,12 +82,12 @@ def ScrapeAll():
                     clones += [index]
                     IDs[eachInd] = IDs[index]
                     orbits[eachInd] = orbits[index]
-                    sources[eachInd] = sources[eachInd] + ', ' + sources[index]
+                    sources[eachInd] = list(set(sources[eachInd] + ', ' + sources[index]))
                 elif (freqs[eachInd] == 'None'):
                     clones += [eachInd]
                     IDs[index] = IDs[eachInd]
                     orbits[index] = orbits[eachInd]
-                    sources[index] = sources[index] + ', ' + sources[eachInd]
+                    sources[index] = list(set(sources[index] + ', ' + sources[eachInd]))
 
             eachInd += 1
         index += 1
