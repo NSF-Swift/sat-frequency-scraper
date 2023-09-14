@@ -35,12 +35,12 @@ def Scraper():
     driver.implicitly_wait(5)
 
     # close pop up tab
-    driver.find_element(By.XPATH, '/html/body/div[7]/div[1]/button').click()
+    # driver.find_element(By.XPATH, '/html/body/div[7]/div[1]/button').click()
 
     # download OSCAR files
     for i in range(1,4):
-        driver.execute_script(f'toggleBox({i});')
-        driver.find_element(By.XPATH, f'/html/body/div[1]/div[2]/div[{i+1}]/div/form/button').click()
+        driver.find_element(By.XPATH, f"/html/body/div[1]/div[2]/div[{i+1}]/a/h3").click()
+        driver.find_element(By.XPATH, f"/html/body/div[1]/div[2]/div[{i+1}]/div[@class='show']/form/button").click()
         time.sleep(2)
 
     # close driver session
