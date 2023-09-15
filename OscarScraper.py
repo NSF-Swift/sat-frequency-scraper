@@ -35,7 +35,7 @@ def Scraper():
     driver.implicitly_wait(5)
 
     # close pop up tab
-    driver.find_element(By.XPATH, '/html/body/div[7]/div[1]/button').click()
+    #driver.find_element(By.XPATH, '/html/body/div[7]/div[1]/button').click()
 
     # download OSCAR files
     for i in range(1,4):
