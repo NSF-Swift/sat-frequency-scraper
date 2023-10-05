@@ -11,10 +11,11 @@ from AmsatScraper import Scraper as ams
 from UCSScraper import Scraper as ucs
 from CelesTrakScraper import Scraper as cts
 from SpaceTrackScraper import Scraper as sts
+from OscarScraper import Scraper as oscs
 
 
 def ScrapeAll():
-    myDicts = [sts(), sns(), rgs(), fccs(), ams(), ucs(), cts()]
+    myDicts = [sts(), sns(), rgs(), fccs(), ams(), ucs(), cts(), oscs()]
 
 
 

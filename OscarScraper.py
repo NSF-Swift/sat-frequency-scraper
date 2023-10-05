@@ -83,6 +83,7 @@ def Scraper():
     res_ghz = []
     res_mhz = []
     for each in myDict['Frequency']:
+
         ghz = "GHz"
         mhz = "MHz"
         if each.endswith(ghz):
@@ -109,6 +110,15 @@ def Scraper():
     res_ghz = [str(1000*float(x)) for x in res_ghz]
 
     myDict['Frequency'] = res_ghz + res_mhz
+
+    newBW = []
+    for bw in myDict['Bandwidth/Baud']:
+        if (any(x.isdigit() for x in bw) == False):
+            newBW += ['None']
+            #print("NONE _ ", bw)
+        else:
+            newBW += [bw]
+    myDict['Bandwidth/Baud'] = newBW
 
     # delete downloaded files
     for i in range(len(oscarXL)):
