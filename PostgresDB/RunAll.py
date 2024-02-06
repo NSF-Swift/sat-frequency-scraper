@@ -141,12 +141,12 @@ def ScrapeAll():
 
 if __name__ == "__main__":
     print("Creating engine")
-    engine = create_engine('postgresql://bstover:postgres@localhost/satfreqdb')
+    engine = create_engine('postgresql://bstover:nrdz-db123@localhost/satfreqdb')
     myDict = ScrapeAll()
     sqlDict = {'id':myDict['ID'], 'name':myDict['Name'], 'frequency':myDict['Frequency [MHz]'], 'bandwidth':myDict['Bandwidth [kHz]/Baud'],
                 'status':myDict['Status'], 'description':myDict['Description'], 'source':myDict['Source'], 'orbit':myDict['Orbit']}
     myFrame = pd.DataFrame.from_dict(sqlDict)
 
     #compDict = ScrapeAll()
-    myFrame.to_sql('satfreqdb', engine)
+    myFrame.to_sql('satfreqdb', engine, if_exists='replace')
     #myFrame.to_csv('SatList.csv', index=True)
