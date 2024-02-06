@@ -2,10 +2,16 @@ import mechanicalsoup
 import requests
 import pandas as pd
 import numpy as np
+import os
+import sys
+import progressbar
+
+parent_directory = os.path.abspath('..')
+sys.path.append(parent_directory)
 
 ### Import Scrapers
 from RadioGuyScraper import Scraper as rgs
-from SatNogsScraper import Scraper as sns
+#from SatNogsScraper import Scraper as sns
 from FccScraper import Scraper as fccs
 from AmsatScraper import Scraper as ams
 from UCSScraper import Scraper as ucs
@@ -15,12 +21,14 @@ from OscarScraper import Scraper as oscs
 
 
 def ScrapeAll():
-    myDicts = [sts(), sns(), rgs(), fccs(), ams(), ucs(), cts(), oscs()]
+    #myDicts = [sts(), sns(), rgs(), fccs(), ams(), ucs(), cts(), oscs()]
+    #Without Satnogs for now:
+    myDicts = [sts(), rgs(), fccs(), ams(), ucs(), cts(), oscs()]
 
 
 
 
-
+    print("Dictionaries collected")
     IDs, names, freqs, bandW, stats, descs, sources, orbits = [], [], [], [], [], [], [], []
     for each in myDicts:
         IDs += each['ID']
@@ -32,7 +40,7 @@ def ScrapeAll():
         sources += each['Source']
         orbits += each['Orbit']
 
-
+    print("Mega Dictionary created")
 
     """
     Here we wish to add orbital class info if available
@@ -70,11 +78,17 @@ def ScrapeAll():
 
 
 
-
+    print("Finding cloned entries")
     clones = []
     index = 0
+
+    widgets = ['Loading: ', progressbar.Bar('|')]
+
+    bar = progressbar.ProgressBar(maxval=(len(names) - 1), widgets=widgets).start()
     for each in names:
         eachInd = index + 1
+        bar.update(index)
+        #print(index)
         for rest in names[eachInd:]:
             if (rest.lower() == each.lower()):
                 if ((freqs[index] == freqs[eachInd]) and (stats[index] == stats[eachInd]) and (descs[index] == descs[eachInd])):
@@ -94,7 +108,7 @@ def ScrapeAll():
         index += 1
 
     clones = sorted(list(set(clones)), reverse=True)
-
+    print("Clones found")
 
     compDict = {'ID':IDs, 'Name':names, 'Frequency [MHz]':freqs, 'Bandwidth [kHz]/Baud':bandW,
                 'Status':stats, 'Description':descs, 'Source':sources, 'Orbit':orbits}
@@ -102,6 +116,7 @@ def ScrapeAll():
     for popInd in clones:
         for Key in compDict:
             compDict[Key].pop(popInd)
+    print("Clones removed")
 
     for ind in range(len(compDict['Name'])):
         srcList = [x.strip() for x in compDict['Source'][ind].split(',')]
@@ -109,6 +124,7 @@ def ScrapeAll():
         for Key in compDict:
             if (str(compDict[Key][ind]) == str(float('nan'))):
                 compDict[Key][ind] = 'None'
+    print("Joining entries")
 
         #compDict['ID'].pop(popInd)
         #compDict['Name'].pop(popInd)
@@ -124,4 +140,6 @@ def ScrapeAll():
 
 if __name__ == "__main__":
     myFrame = pd.DataFrame.from_dict(ScrapeAll())
+    #compDict = ScrapeAll()
+
     myFrame.to_csv('SatList.csv', index=True)
