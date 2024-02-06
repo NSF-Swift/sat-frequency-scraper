@@ -141,7 +141,7 @@ def ScrapeAll():
 
 if __name__ == "__main__":
     print("Creating engine")
-    engine = create_engine('postgresql://bstover:Khan!!!@localhost/satfreqdb')
+    engine = create_engine('postgresql://bstover:postgres@localhost/satfreqdb')
     myDict = ScrapeAll()
     sqlDict = {'id':myDict['ID'], 'name':myDict['Name'], 'frequency':myDict['Frequency [MHz]'], 'bandwidth':myDict['Bandwidth [kHz]/Baud'],
                 'status':myDict['Status'], 'description':myDict['Description'], 'source':myDict['Source'], 'orbit':myDict['Orbit']}
