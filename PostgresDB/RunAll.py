@@ -148,5 +148,5 @@ if __name__ == "__main__":
     myFrame = pd.DataFrame.from_dict(sqlDict)
 
     #compDict = ScrapeAll()
-
-    myFrame.to_csv('SatList.csv', index=True)
+    myFrame.to_sql('satfreqdb', engine)
+    #myFrame.to_csv('SatList.csv', index=True)
