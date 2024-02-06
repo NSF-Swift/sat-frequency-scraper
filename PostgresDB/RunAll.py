@@ -5,6 +5,7 @@ import numpy as np
 import os
 import sys
 import progressbar
+from sqlalchemy import create_engine
 
 parent_directory = os.path.abspath('..')
 sys.path.append(parent_directory)
@@ -139,7 +140,13 @@ def ScrapeAll():
     return compDict
 
 if __name__ == "__main__":
-    myFrame = pd.DataFrame.from_dict(ScrapeAll())
+    print("Creating engine")
+    engine = create_engine('postgresql://bstover:Khan!!!@localhost/satfreqdb')
+    myDict = ScrapeAll()
+    sqlDict = {'id':myDict['ID'], 'name':myDict['Name'], 'frequency':myDict['Frequency [MHz]'], 'bandwidth':myDict['Bandwidth [kHz]/Baud'],
+                'status':myDict['Status'], 'description':myDict['Description'], 'source':myDict['Source'], 'orbit':myDict['Orbit']}
+    myFrame = pd.DataFrame.from_dict(sqlDict)
+
     #compDict = ScrapeAll()
 
     myFrame.to_csv('SatList.csv', index=True)
