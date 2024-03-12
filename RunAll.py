@@ -1,4 +1,4 @@
-iport mechanicalsoup
+import mechanicalsoup
 import requests
 import pandas as pd
 import numpy as np
@@ -15,11 +15,19 @@ from OscarScraper import Scraper as oscs
 
 
 def ScrapeAll():
-    myDicts = [sts(), sns(), rgs(), fccs(), ams(), ucs(), cts(), oscs()]
+    myFuncs = [sts, sns, rgs, fccs, ams, ucs, cts, oscs]
+    #myDicts = [sts(), sns(), rgs(), fccs(), ams(), ucs(), cts(), oscs()]
+    #myDicts = [sts(), rgs(), fccs(), ams(), ucs(), cts(), oscs()]
 
+    myDicts = []
 
+    for indFunc in myFuncs:
+        try:
+            thisDict = indFunc()
+            myDicts += [thisDict]
 
-
+        except:
+            print("One or more scrapers failed, continuing with others")
 
     IDs, names, freqs, bandW, stats, descs, sources, orbits = [], [], [], [], [], [], [], []
     for each in myDicts:
