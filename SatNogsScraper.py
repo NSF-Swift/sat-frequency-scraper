@@ -16,8 +16,8 @@ def Scraper():
     for each in myRes[1:]:
         if (each.contents[1] == rowTag):
             strID = str(each.contents[5].contents[1].contents[0]).strip()
-            strName = strID[strID.index('-') + 1:].strip()
-            strNum = strID[:strID.index('-')].strip()
+            strName = strID[strID.index(' ') + 1:].strip()
+            strNum = strID[:strID.index(' ')].strip()
             strFreq = str(each.contents[11].contents[0])
             try:
                 strFreq = str(float(strFreq)/1000000)
