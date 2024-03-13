@@ -2,6 +2,7 @@ import mechanicalsoup
 import requests
 import pandas as pd
 import numpy as np
+import sys
 
 ### Import Scrapers
 from RadioGuyScraper import Scraper as rgs
@@ -131,5 +132,36 @@ def ScrapeAll():
     return compDict
 
 if __name__ == "__main__":
-    myFrame = pd.DataFrame.from_dict(ScrapeAll())
-    myFrame.to_csv('SatList.csv', index=True)
+    flags = sys.argv
+    #print(flags)
+    if (len(flags) == 1):
+        myDict = ScrapeAll()
+        myFrame = pd.DataFrame.from_dict(myDict)
+        myFrame.to_csv('SatList.csv', index=True)
+    else:
+        arguments = flags[1]
+        try:
+            argList = arguments.split("=")
+            if (argList[0] == "--export"):
+                if (argList[1] == "csv"):
+                    myDict = ScrapeAll()
+                    myFrame = pd.DataFrame.from_dict(myDict)
+                    myFrame.to_csv('SatList.csv', index=True)
+                elif (argList[1] == "sql"):
+                    print("Creating engine")
+                    try:
+                        engine = create_engine('postgresql://bstover:nrdz-db123@localhost/satfreqdb')
+                    except Exception as error:
+                        print(error)
+                        sys.exit()
+                    myDict = ScrapeAll()
+                    sqlDict = {'id':myDict['ID'], 'name':myDict['Name'], 'frequency':myDict['Frequency [MHz]'], 'bandwidth':myDict['Bandwidth [kHz]/Baud'],
+                                'status':myDict['Status'], 'description':myDict['Description'], 'source':myDict['Source'], 'orbit':myDict['Orbit']}
+                    myFrame = pd.DataFrame.from_dict(sqlDict)
+                    myFrame.to_sql('satfreqdb', engine, if_exists='replace')
+                else:
+                    print("Invalid input: " + arguments)
+            else:
+                print("Invalid input: " + arguments)
+        except Exception as error:
+            print("Invalid input: " + arguments)
